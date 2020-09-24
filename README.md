@@ -2,7 +2,7 @@
 
 Welcome to Programming for 3D (P3D), a module run at the [University of Sussex](https://www.sussex.ac.uk/).
 
-This module supports the university's [Staff and student charter and guiding principles](/docs/staffStudentCharter.pdf).
+This module supports the university's [staff and student charter and guiding principles](/docs/staffStudentCharter.pdf).
 
 ## Table of Contents
 
