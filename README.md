@@ -2,6 +2,8 @@
 
 Welcome to Programming for 3D (P3D), a module run at the [University of Sussex](https://www.sussex.ac.uk/).
 
+This module supports the university's [Staff and student charter and guiding principles](/docs/staffStudentCharter.pdf).
+
 ## Table of Contents
 
 - [Dependencies](#dependencies)
@@ -24,8 +26,8 @@ Links to P3D lab sessions will appear here.
 
 ## Maintainer
 
-[Steve Huckle](https://glowkeeper.github.io/).
+[Dr Steve Huckle](https://glowkeeper.github.io/).
 
 ## License
 
-[MIT License](LICENSE)
+[MIT License](LICENSE).
