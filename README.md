@@ -14,7 +14,7 @@ This module supports the university's [staff and student charter and guiding pri
 P3D has some dependencies.
 
 - You should have an account on [GitHub](https://github.com/) and you should create a private repository for your P3D work (as that is where you'll post lab exercises and coursework). If not all of that makes sense now, don't worry - it will after [Week 1, Session 1](/docs/labs/week1Session1.md) when you will create that repository and add the [Module Convenor](#maintainer) as a collaborator (so they can support you throughout the module).
-- You will require a C++ [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment). Examples are [Visual Studio](https://visualstudio.microsoft.com/) and [Atom](https://atom.io/), but if you already use an alternative IDE, you are free to use that.
+- You will require a C++ [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment). Examples are [Visual Studio](https://visualstudio.microsoft.com/) and [Atom](https://atom.io/), but if you already use another IDE, you are free to use that. Alternatively, you could use an online C++ compiler via your browser - [repl.it](https://repl.it/languages/cpp) even allows you to link to your GitHub repositories.
 - You will need the latest long term support release of [Unity](https://unity3d.com/unity/qa/lts-releases). At the time of writing, that is [Unity 2019 LTS](https://unity.com/releases/2019-lts).
 
 ## Labs
