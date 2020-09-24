@@ -19,8 +19,8 @@ P3D has some dependencies.
 
 Links to P3D lab sessions will appear here.
 
-+ [Week 1, Session 1](/docs/week1Session1.md)
-+ [Week 1, Session 2](/docs/week1Session2.md)
++ [Week 1, Session 1](/docs/labs/week1Session1.md)
++ [Week 1, Session 2](/docs/labs/week1Session2.md)
 
 ## Maintainer
 
