@@ -17,7 +17,7 @@ P3D has some dependencies.
 
 ## Labs
 
-Links to lab sessions will appear here.
+Links to P3D lab sessions will appear here.
 
 ## Maintainer
 
