@@ -23,7 +23,7 @@ If you already have a favourite IDE and you can compile and run C++ programs and
 # ./imageCreator > image.ppm
 ```
 
-If the commands above do not make any sense now, then please do not worry - they will after the [Module Convenor](https://github.com/glowkeeper/P3D#maintainer) has demonstrated them at the start of the next [lab session](./week1Session2.md). They will use the online C++ IDE [repl.it](https://repl.it/languages/cpp), and the recommendation is that, if you do not have a favourite IDE, you use that To do so, please go to [repl.it](https://repl.it/languages/cpp) and create an account there (you will need an account to integrate your GitHub repositories).
+If the commands above do not make any sense now, then please do not worry - they will after the [Module Convenor](https://github.com/glowkeeper/P3D#maintainer) has demonstrated them at the start of the next [lab session](./week1Session2.md). They will use the online C++ IDE [repl.it](https://repl.it/languages/cpp), and the recommendation is that, if you do not have a favourite IDE, you use that. To do so, please go to [repl.it](https://repl.it/languages/cpp) and create an account there (you will need an account to integrate your GitHub repositories).
 
 ### Unity
 
