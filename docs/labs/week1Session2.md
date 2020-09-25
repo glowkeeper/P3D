@@ -4,19 +4,19 @@ This lab focusses on programmatically creating a circle, using C++. It introduce
 
 ## Overview
 
-[Ray tracing](https://www.khanacademy.org/computing/pixar/rendering/rendering1/v/rendering-1) is a graphics rendering technique for lighting objects. Essentially, ray tracing is an algorithm that traces the path of light and simulates the way that the light interacts with objects in a virtual world[^1].
+[Ray tracing](https://www.khanacademy.org/computing/pixar/rendering/rendering1/v/rendering-1) is a graphics rendering technique for lighting objects. It is an algorithm that traces the path of light and simulates the way that the light interacts with objects in a virtual world.
 
-Ray tracing is a staple in films - indeed, in the [reading material](#reading-material), below, you will see a link to the excellent [Pixar in a Box](https://www.khanacademy.org/computing/pixar) on [Khan Academy's](https://www.khanacademy.org/), which takes a behind-the-scenes look at how [Pixar](https://www.pixar.com/) artists do their jobs. The _Rendering 101_ suite of videos give a great overview of rendering and ray tracing, so please take the time to give them a watch.
+Ray tracing is a staple in films - indeed, in the [reading material](#reading-material), below, you will see a link to the excellent [Pixar in a Box](https://www.khanacademy.org/computing/pixar) on [Khan Academy](https://www.khanacademy.org/), which takes a behind-the-scenes look at how [Pixar](https://www.pixar.com/) artists do their jobs. The [Rendering 101](https://www.khanacademy.org/computing/pixar/rendering/rendering1/a/start-here-rendering) suite of videos there give an overview of rendering and ray tracing.
 
 ## Creating a Simple Object
 
-Implicit in that explanation of ray tracing, above, was the idea that we need an object with which light can interact.  Below, we will use C++ to create that object. All the code you create comes via the fantastic [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), so you can read more about what you're doing and why there. 
+Implicit in that explanation of ray tracing, above, was the idea that we need an object with which light can interact.  Below, we will use C++ to create that object. All the code you create comes via the fantastic [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), so you can read more about what you're doing and why there.
 
 You are going to create a program that outputs a [portable pixmap format](https://en.wikipedia.org/wiki/Netpbm#File_formats) (PPM) graphic. PPM is a text format for describing the [RGB](https://en.wikipedia.org/wiki/RGB_color_model) properties of a graphic.
 
 ### Outputting a Simple Graphic
 
-You are going to get a quick win by creating a program that outputs a simple graphic:
+First, create a program that outputs a simple graphic:
 
 ```
 #include <iostream>
@@ -60,9 +60,9 @@ If you open `image.ppm` via your file browser, you should see your first RGB-ins
 
 ### Vectors
 
-You are not required to have any prior maths to complete this module. However, below, you will create a C++ class that implements some of the vector maths needed to visualise an object, such as dot products and vector addition. If you are interested in that maths, or have some mathematical background, there is a link to that maths in the section on further [reading material](#reading-material).
+You are not required to have any prior maths to complete this module. However, below, you will create a C++ class, `vec3.h`, which implements some of the vector maths needed to visualise an object. If you are interested in that maths, or have some mathematical background, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail. Additionally, the _Reading List_, on Canvas, includes a reference to _Essential mathematics for games and interactive applications: a programmer's guide_, which is available in the library.
 
-Create the following `vec3.h` file:
+Create `vec3.h`:
 
 ```
 #ifndef VEC3_H
@@ -171,7 +171,7 @@ return v / v.length();
 
 ### Colour
 
-Later on, you will need a utility function that changes a single pixel's colour:
+Later on, you will also need a utility function that changes a single pixel's colour:
 
 ```
 #ifndef COLOR_H
@@ -361,7 +361,4 @@ Congratulations! You have created your first ray-traced image! It is somewhat ru
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 + [Rendering 101](https://www.khanacademy.org/computing/pixar/rendering/rendering1/a/start-here-rendering)
 + [Introduction to Animation](https://www.khanacademy.org/computing/pixar/animate/ball/a/start-here-animation)
-
-# References
-
-[^1]: https://www.techradar.com/uk/news/ray-tracing
++ [What is ray tracing? The games, the graphics cards and everything else you need to know](https://www.techradar.com/uk/news/ray-tracing)
