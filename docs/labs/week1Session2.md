@@ -201,7 +201,7 @@ A ray tracing algorithm computes what colour is seen at a 3D position along a li
 2. Determine which objects the ray intersects
 3. Compute a colour for that object at that intersection point
 
-The file `ray.h`, shown below, uses _linear interpolation_ to calculate a position along a line (there is more about linear interpolation in the _Introduction to Animation_ [Pixar in a Box](https://www.khanacademy.org/computing/pixar) suite of videos, which are linked to in the_[reading material](#reading-material) section):
+The file `ray.h`, shown below, uses _linear interpolation_ to calculate a position along a line (there is more about linear interpolation in the _Introduction to Animation_ [Pixar in a Box](https://www.khanacademy.org/computing/pixar) suite of videos, which are linked to in the [reading material](#reading-material) section):
 
 ```
 #ifndef RAY_H
@@ -284,7 +284,7 @@ int main() {
 
 #### Creating a Ray-traced Circle
 
-Finally, you are in a position to create an object that the ray, _r_, intersects.
+Finally, you are in a position to create an object that rays, _r_, intersect.
 
 Use the `vec3` and `ray` classes to hard code a sphere in `main.cpp`, simply by colouring red any pixel that hits a small sphere we place at −1 on the z-axis:
 
