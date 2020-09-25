@@ -195,7 +195,7 @@ Save that file as `color.h`.
 
 ### Ray Tracing
 
-A ray tracing algorithm compute what colour is seen at a 3D position along a line (or ray). Hence, the basic steps to create a ray tracer are:
+A ray tracing algorithm computes what colour is seen at a 3D position along a line (or ray). Hence, the basic steps to create a ray tracer are:
 
 1. Calculate the ray from the eye to the pixel
 2. Determine which objects the ray intersects
@@ -231,7 +231,7 @@ class ray {
 #endif
 ```
 
-You will also need to create a _virtual viewport_ through which to pass rays for the image scene. The viewport's aspect ratio should be the same as the image you are rendering. Below, you'll use a viewport that is two units in height, and the distance between the projection plane and the projection point (the _focal length_) is set to one unit. The camera for viewing the scene will use a [right-handed coordinate system](https://en.wikipedia.org/wiki/Right-hand_rule), where the y-axis goes up, the x-axis goes to the right and the negative z-axis goes into the screen. The camera will be centred at (0,0,0).
+You will also need to create a _virtual viewport_ through which to pass rays for the image scene. The viewport's aspect ratio should be the same as the image you are rendering. Below, you'll use a viewport that is two units in height, and the distance between the projection plane and the projection point (the _focal length_) is set to one unit. The camera for viewing the scene will use a [right-handed coordinate system](https://en.wikipedia.org/wiki/Right-hand_rule), where the y-axis goes up, the x-axis goes to the right and the negative z-axis goes into the screen. The camera will be centred at (0,0,0). Again, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail about the maths being used.
 
 Amend `main.cpp` so that the ray _r_ approximates to the centre of the rendered pixels:
 
@@ -284,7 +284,9 @@ int main() {
 
 #### Creating a Ray-traced Circle
 
-Finally, you are in a position to create an object that the rays intersect. Use the `vec3` and `ray` classes to hard code a sphere in `main.cpp`, simply by colouring red any pixel that hits a small sphere we place at −1 on the z-axis:
+Finally, you are in a position to create an object that the ray, _r_, intersects.
+
+Use the `vec3` and `ray` classes to hard code a sphere in `main.cpp`, simply by colouring red any pixel that hits a small sphere we place at −1 on the z-axis:
 
 ```
 #include "color.h"
@@ -352,7 +354,7 @@ Now compile and run the program:
 
 If you open `circle.ppm` via your file browser, you should see your first RGB-inspired graphic, like so:
 
-![](circle.png)
+![](./images/circle.png)
 
 Congratulations! You have created your first ray-traced image! It is somewhat rudimentary, though - in the [next lab](./week2Session1.md), you will begin turning the object into a sphere.
 
