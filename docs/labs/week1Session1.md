@@ -4,7 +4,7 @@ This lab focusses on setting up your environment. It lays the foundations for th
 
 ## Overview
 
-This session requires you to setup a [GitHub](https://github.com/) account, create a C++ [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) and install  [Unity](https://unity3d.com/unity/qa/lts-releases).
+This session requires you to setup a [GitHub](https://github.com/) account and install both a C++ [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) and [Unity](https://unity3d.com/unity/qa/lts-releases).
 
 ### GitHub
 
@@ -14,7 +14,7 @@ If you have not used GitHub before, then there is a [Panopto recording](https://
 
 ### C++ IDE
 
-A C++ IDE will allow you to complete the first two weeks of the module, which _may_ form part of your final assessment.
+A C++ IDE will allow you to complete the first two weeks of the module, which creates the technical foundations for much of the work that follows. Additionally, the material introduced in weeks one and two _may_ form part of your final assessment.
 
 If you already have a favourite IDE and you can compile and run C++ programs and redirect their output to a file, then you are good to go - the expectation is that you will write a C++ program, then do something like this:
 
@@ -23,7 +23,9 @@ If you already have a favourite IDE and you can compile and run C++ programs and
 # ./imageCreator > image.ppm
 ```
 
-If the commands above do not make any sense now, then please do not worry - they will after the [Module Convenor](https://github.com/glowkeeper/P3D#maintainer) has demonstrated them at the start of the next [lab session](./week1Session2.md). They will use the online C++ IDE [repl.it](https://repl.it/languages/cpp), and the recommendation is that, if you do not have a favourite IDE, you use that. To do so, please go to [repl.it](https://repl.it/languages/cpp) and create an account there (you will need an account to integrate your GitHub repositories).
+If the commands above do not make any sense now, then please do not worry - they will make more sense after the [Module Convenor](https://github.com/glowkeeper/P3D#maintainer) has demonstrated them at the start of the next [lab session](./week1Session2.md).
+
+The [Module Convenor](https://github.com/glowkeeper/P3D#maintainer) will use the online C++ IDE [repl.it](https://repl.it/languages/cpp), and the recommendation is that, if you do not have a favourite IDE, you should use that, too. To do so, please go to [repl.it](https://repl.it/languages/cpp) and create an account there (you will need an account on [repl.it](https://repl.it/languages/cpp) to integrate your GitHub repositories).
 
 ### Unity
 
