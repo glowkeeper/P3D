@@ -191,11 +191,17 @@ void write_color(std::ostream &out, color pixel_color) {
 #endif
 ```
 
-Save that file as `color.h`
+Save that file as `color.h`.
 
 ### Ray Tracing
 
-A ray tracing algorithm compute what colour is seen at a 3D position along a line - a ray. The file `ray.h`, shown below, uses _linear interpolation_ to calculate a position along that line (there is more about linear interpolation in the _Introduction to Animation_ [Pixar in a Box](https://www.khanacademy.org/computing/pixar) suite of videos, which are linked to in the_[reading material](#reading-material) section):
+A ray tracing algorithm compute what colour is seen at a 3D position along a line (or ray). Hence, the basic steps to create a ray tracer are:
+
+1. Calculate the ray from the eye to the pixel
+2. Determine which objects the ray intersects
+3. Compute a colour for that object at that intersection point
+
+The file `ray.h`, shown below, uses _linear interpolation_ to calculate a position along a line (there is more about linear interpolation in the _Introduction to Animation_ [Pixar in a Box](https://www.khanacademy.org/computing/pixar) suite of videos, which are linked to in the_[reading material](#reading-material) section):
 
 ```
 #ifndef RAY_H
@@ -225,15 +231,9 @@ class ray {
 #endif
 ```
 
-The class `ray`, above, allows you to create a ray tracer. The basic steps needed for that are:
+You will also need to create a _virtual viewport_ through which to pass rays for the image scene. The viewport's aspect ratio should be the same as the image you are rendering. Below, you'll use a viewport that is two units in height, and the distance between the projection plane and the projection point (the _focal length_) is set to one unit. The camera for viewing the scene will use a [right-handed coordinate system](https://en.wikipedia.org/wiki/Right-hand_rule), where the y-axis goes up, the x-axis goes to the right and the negative z-axis goes into the screen. The camera will be centred at (0,0,0).
 
-1. Calculate the ray from the eye to the pixel
-2. Determine which objects the ray intersects
-3. Compute a colour for that object at that intersection point
-
-You will need to create a _virtual viewport_ through which to pass rays for the image scene. The viewport's aspect ratio should be the same as the image you are rendering. Below, you'll use a viewport that is two units in height, and the distance between the projection plane and the projection point (the _focal length_) is set to one unit. The camera for viewing the scene will use a [right-handed coordinate system](https://en.wikipedia.org/wiki/Right-hand_rule), where the y-axis goes up, the x-axis goes to the right and the negative z-axis goes into the screen. The camera will be centred at (0,0,0).
-
-Below, amend `main.cpp` so that the ray _r_ approximates to the centre of the pixels:
+Amend `main.cpp` so that the ray _r_ approximates to the centre of the rendered pixels:
 
 ```
 #include "color.h"
@@ -282,9 +282,9 @@ int main() {
 }
 ```
 
-### Creating a Ray-traced Circle
+#### Creating a Ray-traced Circle
 
-You can use the `vec3` and `ray` classes to hard code a sphere in `main.cpp`, simply by colouring red any pixel that hits a small sphere we place at −1 on the z-axis:
+Finally, you are in a position to create an object that the rays intersect. Use the `vec3` and `ray` classes to hard code a sphere in `main.cpp`, simply by colouring red any pixel that hits a small sphere we place at −1 on the z-axis:
 
 ```
 #include "color.h"
