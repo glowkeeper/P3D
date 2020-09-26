@@ -358,7 +358,7 @@ Create `camera.h`, which contains a class for managing a virtual camera that wil
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include "rtweekend.h"
+#include "helpers.h"
 
 class camera {
     public:
