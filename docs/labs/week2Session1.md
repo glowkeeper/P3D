@@ -18,7 +18,7 @@ For a sphere, the [outward normal](https://raytracing.github.io/books/RayTracing
 
 ![](./images/sphereNormal.jpg)
 
-The amended `hit_sphere` and `ray_color` functions of `main.cpp`, below, uses the outward normal and visualises all normals via a colour map.
+The amended `hit_sphere` and `ray_color` functions of `main.cpp`, below, use the outward normal. They also visualise all normals via a colour map.
 
 ```
 #include "color.h"
@@ -94,7 +94,7 @@ Congratulations - you have programmatically created your first sphere!
 
 ### Hittable Spheres
 
-However, rather than hard-coding a `hit_sphere` function in `main.cpp`, a much better design would be to create a `hittable` abstract class in `hittable.h`, which contains a `hit` function that takes in a ray, _r_. That way, any object can be hittable, not just a sphere.
+However, rather than hard-coding a `hit_sphere` function in `main.cpp`, a much better design is to create a `hittable` abstract class in `hittable.h`, which contains a `hit` function that takes in a ray, _r_. That way, any object can be hittable, not just a sphere.
 
 ```
 #ifndef HITTABLE_H
@@ -348,7 +348,7 @@ That code should generate the following image:
 
 ## Anti-aliasing
 
-When you take a picture with a real camera, there are usually no jagged edges because [the edge pixels blend the foreground with the background](https://raytracing.github.io/books/RayTracingInOneWeekend.html#antialiasing). Typically, anti-aliasing algorithms achieve the same effect by averaging the colours of the boundary pixels.
+When you take a picture with a real camera, there are usually no jagged edges because [the edge pixels blend the foreground with the background](https://raytracing.github.io/books/RayTracingInOneWeekend.html#antialiasing). Typically, anti-aliasing algorithms achieve the same effect by averaging the colours of the boundary pixels. That is the approach used below.
 
 ### Camera
 
@@ -387,7 +387,7 @@ class camera {
 #endif
 ```
 
-Also change the `write_color` function defined in `color.h` during the [previous lab](./week1Session2.md), so that it handles multi-sampled colour computations by averaging the colours of rays. That is necessary because a given pixel has several samples and rays are sent through each of those samples. The function described below uses the clamp function, defined in `helpers.h`, above, to ensure the colour produced stays within range.
+Also change the `write_color` function defined in `color.h` during the [previous lab](./week1Session2.md), so that it achieves anti-aliasing by averaging the colours of rays. It does so by handling multi-sampled colour computations by recognising that a given pixel has several samples and rays are sent through each of those samples. The function described below uses the clamp function, defined in `helpers.h`, above, to ensure the colour produced stays within range.
 
 ```
 #ifndef COLOR_H
