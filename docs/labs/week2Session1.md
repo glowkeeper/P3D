@@ -10,7 +10,7 @@ This lab builds on the [previous lab](./week1Session2.md) by turning the circle 
 
 [Anti-aliasing](https://helpx.adobe.com/photoshop/key-concepts/aliasing-anti-aliasing.html) of digital images is the smoothing of the jagged edges that are the result of high-contrast borders between pixels.
 
-Hence, in terms of this lab, you will use surface normals to shade the circle produced in [Week 1, Session 1](./week1Session2.md), and anti-aliasing to smooth its rough edges.
+Hence, in terms of this lab, you will build on the [previous lab](./week1Session2.md) by using surface normals to shade the circle and anti-aliasing to smooth its edges.
 
 ## Surface Normals
 
@@ -21,6 +21,12 @@ For a sphere, the [outward normal](https://raytracing.github.io/books/RayTracing
 The amended `hit_sphere` and `ray_color` functions of `main.cpp`, below, uses the outward normal and visualises all normals via a colour map.
 
 ```
+#include "color.h"
+#include "ray.h"
+#include "vec3.h"
+
+#include <iostream>
+
 double hit_sphere(const point3& center, double radius, const ray& r) {
     vec3 oc = r.origin() - center;
     auto a = r.direction().length_squared();
@@ -44,6 +50,39 @@ color ray_color(const ray& r) {
     vec3 unit_direction = unit_vector(r.direction());
     t = 0.5*(unit_direction.y() + 1.0);
     return (1.0-t)*color(1.0, 1.0, 1.0) + t*color(0.5, 0.7, 1.0);
+}
+
+int main() {
+
+    // Image
+    const auto aspect_ratio = 16.0 / 9.0;
+    const int image_width = 400;
+    const int image_height = static_cast<int>(image_width / aspect_ratio);
+
+    // Camera
+
+    auto viewport_height = 2.0;
+    auto viewport_width = aspect_ratio * viewport_height;
+    auto focal_length = 1.0;
+
+    auto origin = point3(0, 0, 0);
+    auto horizontal = vec3(viewport_width, 0, 0);
+    auto vertical = vec3(0, viewport_height, 0);
+    auto lower_left_corner = origin - horizontal/2 - vertical/2 - vec3(0, 0, focal_length);
+
+    // Render
+
+    std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
+
+    for (int j = image_height-1; j >= 0; --j) {
+        for (int i = 0; i < image_width; ++i) {
+            auto u = double(i) / (image_width-1);
+            auto v = double(j) / (image_height-1);
+            ray r(origin, lower_left_corner + u*horizontal + v*vertical - origin);
+            color pixel_color = ray_color(r);
+            write_color(std::cout, pixel_color);
+        }
+    }
 }
 ```
 
@@ -137,7 +176,7 @@ bool sphere::hit(const ray& r, double t_min, double t_max, hit_record& rec) cons
 #endif
 ```
 
-To complete this section, create a class in `hittable_list.h` that maintains a list of hittable objects.
+To complete this section, create a class in `hittable_list.h` that maintains a list of hittable objects, which might come in useful later should you decide to render more than a single sphere.
 
 ```
 #ifndef HITTABLE_LIST_H
@@ -313,7 +352,7 @@ When you take a picture with a real camera, there are usually no jagged edges be
 
 ### Camera
 
-Now create `camera.h`, which contains a class for managing a virtual camera that will be useful for scene sampling, later. It will use the axis-aligned camera previously defined in `main.cpp`.
+Create `camera.h`, which contains a class for managing a virtual camera that will be useful for scene sampling, later. It will use the axis-aligned camera previously defined in `main.cpp`.
 
 ```
 #ifndef CAMERA_H
