@@ -122,7 +122,7 @@ class hittable {
 #endif
 ```
 
-Even though we could use the hittable class for any object, this lab remains focused on spheres, so now create a `sphere` class in `sphere.h`, which is `hittable` because it implements hittable's `hit` function so that it can determine the surface face. That is important for objects that are rendered differently on each side; for example, a glass ball has an inside and an outside. [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail.
+Even though we could use the hittable class for any object, this lab remains focused on spheres, so now create a `sphere` class in `sphere.h`, which is `hittable` because it implements hittable's `hit` function. That can determine the surface face, which is important for objects that are rendered differently on each side; for example, a glass ball has an inside and an outside - [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail.
 
 ```
 #ifndef SPHERE_H
