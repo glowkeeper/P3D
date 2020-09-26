@@ -176,7 +176,7 @@ bool sphere::hit(const ray& r, double t_min, double t_max, hit_record& rec) cons
 #endif
 ```
 
-To complete this section, create a class in `hittable_list.h` that maintains a list of hittable objects, which might come in useful later should you decide to render more than a single sphere.
+To complete this section, create a class in `hittable_list.h` that maintains a list of hittable objects.
 
 ```
 #ifndef HITTABLE_LIST_H
