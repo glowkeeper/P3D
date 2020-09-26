@@ -226,7 +226,7 @@ bool hittable_list::hit(const ray& r, double t_min, double t_max, hit_record& re
 
 ### Useful Constants and Utility Functions
 
-Below, `helpers.h` contains some useful constants and helper utilities that your code can use later.
+Below, `helpers.h` contains some useful constants and helper utilities that you will use later.
 
 ```
 #ifndef HELPERS_H
@@ -387,7 +387,7 @@ class camera {
 #endif
 ```
 
-Also change the `write_color` function defined in `color.h` in the [previous lab](./week1Session2.md).
+Also change the `write_color` function defined in `color.h` during the [previous lab](./week1Session2.md), so that it handles multi-sampled colour computations by averaging the colours of rays because a given pixel has several samples and rays are sent through each of those samples. It uses the clamp function, defined in `helpers.h`, above, to ensure the colour produced stays within range.
 
 ```
 #ifndef COLOR_H
