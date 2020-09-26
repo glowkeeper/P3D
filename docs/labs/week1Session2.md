@@ -60,11 +60,11 @@ If you open `image.ppm` via your file browser, you should see your first RGB-ins
 
 ### Vectors
 
-A vector is a geometric object that is represented by a ray with a magnitude and a direction. Graphically, they are usually shown as an arrow connecting an initial point A with a terminal point B.
+A vector is a geometric object that is represented by a ray with [magnitude and direction](https://mathinsight.org/image/vector).
 
 ![](./images/vector.png)
 
-You are not required to have any prior maths to complete this module. However, below, you will create a C++ class `vec3.h` that implements some of the vector maths (such as the dot product and vector addition), which is needed to visualise a ray traced object. If you are interested in that maths, or have some mathematical background, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail. Additionally, the _Reading List_, on Canvas, includes a reference to _Essential mathematics for games and interactive applications: a programmer's guide_, which is available in the library.
+You are not required to have any prior maths to complete this module. However, below, you will create a C++ class `vec3.h` that implements some of the vector maths which is needed to visualise a ray traced object. If you are interested in that maths, or have some mathematical background, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail. Additionally, the _Reading List_, on Canvas, includes a reference to _Essential mathematics for games and interactive applications: a programmer's guide_, which is available in the library.
 
 ```
 #ifndef VEC3_H
