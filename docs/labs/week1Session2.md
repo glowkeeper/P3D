@@ -284,6 +284,8 @@ int main() {
 }
 ```
 
+The `ray_color` function, above, uses _linear interpolation_ to blend the colours from white (0) through to blue (1).
+
 #### Creating a Ray-traced Circle
 
 Finally, you are in a position to create an object that rays, _r_, intersect.
