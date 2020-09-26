@@ -476,7 +476,7 @@ int main() {
 }
 ```
 
-You should now see an anti-aliased sphere, featuring significantly smoothed edges.
+That should produce an anti-aliased sphere, featuring significantly smoothed edges.
 
 ![](./images/antiAliasedSphere.png)
 
