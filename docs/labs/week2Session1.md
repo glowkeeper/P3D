@@ -348,7 +348,7 @@ That code should generate the following image:
 
 ## Anti-aliasing
 
-When you take a picture with a real camera, there are usually no jagged edges because [the edge pixels blend the foreground with the background](https://raytracing.github.io/books/RayTracingInOneWeekend.html#antialiasing). Typically, anti-aliasing algorithms achieve the same effect by averaging the colours of the boundary pixels. That is the approach used below.
+When you take a picture with a real camera, there are usually no jagged edges because [the edge pixels blend the foreground with the background](https://raytracing.github.io/books/RayTracingInOneWeekend.html#antialiasing). Anti-aliasing algorithms might achieve a similar effect by averaging the colours of the boundary pixels; indeed, that is the approach used below. However, there are more advanced approaches - if you are interested in those, the [reading material](#reading-material) section contains a link to [Basic Antialiasing in RSL](https://renderman.pixar.com/resources/RenderMan_20/basicAntialiasing.html) in the user manual of [Pixar Studios'](https://www.pixar.com/) [Renderman](https://renderman.pixar.com/) product.
 
 ### Camera
 
@@ -483,3 +483,4 @@ That should produce an anti-aliased sphere, featuring significantly smoothed edg
 # Reading Material
 
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
++ [Basic Antialiasing in RSL](https://renderman.pixar.com/resources/RenderMan_20/basicAntialiasing.html)
