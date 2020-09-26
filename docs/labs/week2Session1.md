@@ -387,7 +387,7 @@ class camera {
 #endif
 ```
 
-Also change the `write_color` function defined in `color.h` during the [previous lab](./week1Session2.md), so that it handles multi-sampled colour computations by averaging the colours of rays because a given pixel has several samples and rays are sent through each of those samples. It uses the clamp function, defined in `helpers.h`, above, to ensure the colour produced stays within range.
+Also change the `write_color` function defined in `color.h` during the [previous lab](./week1Session2.md), so that it handles multi-sampled colour computations by averaging the colours of rays. That is necessary because a given pixel has several samples and rays are sent through each of those samples. The function described below uses the clamp function, defined in `helpers.h`, above, to ensure the colour produced stays within range.
 
 ```
 #ifndef COLOR_H
