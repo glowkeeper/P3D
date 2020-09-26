@@ -51,7 +51,7 @@ That should generate the following image:
 
 ![](./images/generatedNormalSphere.png)
 
-Congratulations - you have just programmatically created your first sphere!
+Congratulations - you have programmatically created your first sphere!
 
 ### Hittable Spheres
 
@@ -303,11 +303,13 @@ int main() {
 }
 ```
 
+That code should generate the following image:
+
 ![](./images/sphereWithSurfaceNormal.png)
 
 ## Anti-aliasing
 
-When you take a picture with a real camera, there are usually no jagged edges because the edge pixels blend the foreground with the background. Typically, [anti-aliasing algorithms](https://raytracing.github.io/books/RayTracingInOneWeekend.html#antialiasing) achieve the same effect by averaging the colours of the boundary pixels.
+When you take a picture with a real camera, there are usually no jagged edges because [the edge pixels blend the foreground with the background](https://raytracing.github.io/books/RayTracingInOneWeekend.html#antialiasing). Typically, anti-aliasing algorithms achieve the same effect by averaging the colours of the boundary pixels.
 
 ### Camera
 
@@ -346,7 +348,7 @@ class camera {
 #endif
 ```
 
-Also change `color.h` from [Week 1, Session 2](./week1Session2.md).
+Also change the `write_color` function defined in `color.h` in the [previous lab](./week1Session2.md).
 
 ```
 #ifndef COLOR_H
@@ -437,7 +439,7 @@ int main() {
 
 You should now see an anti-aliased sphere, featuring significantly smoothed edges.
 
-![](antiAliasedSphere.png)
+![](./images/antiAliasedSphere.png)
 
 # Reading Material
 
