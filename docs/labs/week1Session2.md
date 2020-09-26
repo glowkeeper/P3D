@@ -197,7 +197,7 @@ Save that file as `color.h`.
 
 ### Ray Tracing
 
-A ray tracing algorithm computes what colour is seen at a 3D position along a line (or ray). Hence, the basic steps to create a ray tracer are:
+A ray tracing algorithm computes what colour is seen at a 3D position along a line. Hence, the basic steps to create a ray tracer are:
 
 1. Calculate the ray from the eye to the pixel
 2. Determine which objects the ray intersects
