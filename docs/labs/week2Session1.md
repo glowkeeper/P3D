@@ -14,11 +14,11 @@ Hence, in terms of this lab, you will use surface normals to shade the circle pr
 
 ## Surface Normals
 
-For a sphere, the [outward normal] is in the direction of the intersection point, minus the centre.
+For a sphere, the [outward normal](https://raytracing.github.io/books/RayTracingInOneWeekend.html#surfacenormalsandmultipleobjects/shadingwithsurfacenormals) is in the direction of the intersection point, minus the centre.
 
 ![](./images/sphereNormal.jpg)
 
-Below, you will add the outward normal and visualise all normals with a colour map. Do so by amending the `hit_sphere` and `ray_color` functions of `main.cpp`.
+The amended `hit_sphere` and `ray_color` functions of `main.cpp`, below, uses the outward normal and visualises all normals via a colour map.
 
 ```
 double hit_sphere(const point3& center, double radius, const ray& r) {
@@ -55,7 +55,7 @@ Congratulations - you have just programmatically created your first sphere!
 
 ### Hittable Spheres
 
-Create a `hittable` abstract class, `hittable.h`, which contains a `hit` function that takes in a ray, _r_.
+However, rather than hard-coding a `hit_sphere` function in `main.cpp`, a much better design would be to create a `hittable` abstract class in `hittable.h`, which contains a `hit` function that takes in a ray, _r_. That way, any object can be hittable, not just a sphere.
 
 ```
 #ifndef HITTABLE_H
@@ -83,7 +83,7 @@ class hittable {
 #endif
 ```
 
-Now you can create a `sphere` class in `sphere.h`, which is `hittable`. It implements hittable's `hit` function so that it can determine the surface face. That is important for objects that are rendered differently on each side; for example, a glass ball has an inside and an outside. [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail.
+Even though we could use the hittable class for any object, this lab remains focused on spheres, so now create a `sphere` class in `sphere.h`, which is `hittable` because it implements hittable's `hit` function so that it can determine the surface face. That is important for objects that are rendered differently on each side; for example, a glass ball has an inside and an outside. [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail.
 
 ```
 #ifndef SPHERE_H
