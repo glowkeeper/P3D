@@ -148,7 +148,7 @@ vec3 random_unit_vector() {
 #endif
 ```
 
-Also update the `ray_colour` function in `main.cpp` from [Week 2, Session 1](./week2Session1.md). Notice that `ray_color` is now _recursive_ and that it uses `max_depth` to limit how many recursive calls made. That ensures that the function will always return because if the ray fails to hit a surface after fifty tries, the function ends and returns the colour white.
+Also update the `ray_colour` function in `main.cpp` from [Week 2, Session 1](./week2Session1.md). Notice that `ray_color` is now _recursive_ and that it uses `max_depth` to limit how many recursive calls are made. That ensures that the function will always return because if the ray fails to hit a surface after fifty tries, the function ends and returns the colour white.
 
 ```
 #include "helpers.h"
@@ -221,7 +221,7 @@ Compile and run the program:
 # g++ -o imageCreator main.cpp && ./imageCreator > image.ppm
 ```
 
-You should not have your first diffuse sphere:
+You should not have your first diffuse material sphere:
 
 ![](./images/diffuseSphere.png)
 
@@ -266,7 +266,7 @@ Compile and run the program:
 # g++ -o imageCreator main.cpp && ./imageCreator > image.ppm
 ```
 
-You should see a gamma corrected sphere that is significantly lighter.
+You should see a gamma corrected diffuse material sphere that is significantly lighter than the image generated above.
 
 ![](./images/gammaCorrectedSphere.png)
 
@@ -274,7 +274,7 @@ You should see a gamma corrected sphere that is significantly lighter.
 
 The algorithms you have used to generate  diffuse materials above have tried to approximate the ideal of [Lambertian reflectance](https://en.wikipedia.org/wiki/Lambertian_reflectance), which defines a diffusely reflecting surface where the perceived brightness of the surface is the same regardless of the observer's angle of view (unfinished wood exhibits Lambertian reflectance).
 
-For example, the rejection algorithm, described above, produces random points in the unit sphere that are offset along the surface normal. That produced a probability function that favoured rays whose directions were close to the normal. The outcome was that light which arrived at shallow angles and which spreads over a larger area contributed less to the final colour. However, [true Lambertian reflection](https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials/truelambertianreflection) maintains a uniform distribution for high probability rays that are scattered close to the normal. hence, true Lambertian reflection is achieved by normalising points inside a diffuse material.
+For example, the rejection algorithm, described above, produces random points in the unit sphere that are offset along the surface normal. That produced a probability function that favoured rays whose directions were close to the normal. The outcome was that light which arrived at shallow angles and which spreads over a larger area contributed less to the final colour. However, [true Lambertian reflection](https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials/truelambertianreflection) maintains a uniform distribution for high probability rays that are scattered close to the normal. Hence, true Lambertian reflection is achieved by normalising points inside a diffuse material.
 
 Above, when you modified `vec3.h`, you also imported the function `random_unit_vector`, which you can use as a replacement for the function `random_in_unit_sphere` within `ray_color` in `main.cpp`, thereby achieving the desired normalisation.
 
@@ -355,10 +355,10 @@ You should now have a diffuse sphere with true Lambertian reflection:
 
 ## Summary
 
-You have now completed the C++ labs, which have described some of the technicalities of rendering 3D objects. The remainder of the labs use [Unity](https://unity3d.com/unity/qa/lts-releases), where you will apply some of that knowledge.
+You have now completed the C++ labs, which have offered an introduction to some of the raytracing techniques for rendering 3D objects. The remainder of the labs use [Unity](https://unity3d.com/unity/qa/lts-releases), where you will apply some of that knowledge.
 
 ## Reading Materials
 
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
-+ [Materials - Diffuse, Reflection, Transparency](ttps://www.suplugins.com/podium/help/materials-drt.php)
++ [Materials - Diffuse, Reflection, Transparency](https://www.suplugins.com/podium/help/materials-drt.php)
 + [Ray Tracing - Diffuse Materials](https://viclw17.github.io/2018/07/20/raytracing-diffuse-materials/)
