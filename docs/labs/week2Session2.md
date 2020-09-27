@@ -355,7 +355,7 @@ You should now have a diffuse sphere with true Lambertian reflection:
 
 ## Summary
 
-You have now completed the C++ labs, which have offered an introduction to some of the raytracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail.
+You have now completed the C++ labs, which have offered an introduction to some of the raytracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) goes further and provides much more detail, including some of the maths.
 
 The remainder of the labs use [Unity](https://unity3d.com/unity/qa/lts-releases), where you will apply some of that knowledge.
 
