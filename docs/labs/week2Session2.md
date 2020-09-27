@@ -8,15 +8,15 @@ Light is invisible to us until it hits an object, when some of its energy is abs
 
 ![](./images/mattSpheres.jpg)
 
-A diffuse surface [reflects light in random directions](https://viclw17.github.io/2018/07/20/raytracing-diffuse-materials/). Diffuse reflection is when light is reflected from a surface and scattered at many angles (as opposed to specular reflection, when light is reflected from a surface at just one angle).
+A diffuse surface [reflects light in random directions](https://viclw17.github.io/2018/07/20/raytracing-diffuse-materials/). Thus, diffuse reflection is when light is reflected from a surface and scattered at many angles (as opposed to specular reflection, when light is reflected at just one angle).
 
 ![](./images/randomReflection.png)
 
-Algorithms for diffuse materials try to approximate the ideal of [Lambertian reflectance](https://en.wikipedia.org/wiki/Lambertian_reflectance), which defines a diffusely reflecting surface where the perceived brightness of the surface is the same regardless of the observer's angle of view (unfinished wood exhibits Lambertian reflectance). The [reading material](#reading-material) section contains some links giving more detail about diffuse materials.
+The [reading material](#reading-material) section contains some links giving more detail about diffuse materials.
 
 ## Simulating Diffuse Materials with Raytracing
 
-The first algorithm you will use tor generate a diffuse material considers two unit radius spheres that are tangent to the point _P_ of a surface ([a unit sphere](https://en.wikipedia.org/wiki/Unit_sphere) is a sphere whose surfaces are of distance 1 from a fixed central point). These two spheres have a centre of 1) _P + n_ and 2) _P - n_ (where _n_ is the normal to the surface) - sphere 1) is the outside surface, and sphere 2) is inside. Select the unit radius sphere that is on the same side as the ray origin and its tangent surface. Then pick a random point _S_ inside that sphere and send a ray from the hit point _P_ to the random point _S_. To generate that random point, a _rejection algorithm_ is used, which rejects all points generated inside a random point within a cube until it finds a point on the inside of the tangent sphere.
+The first algorithm you will use to generate a diffuse material considers two unit radius spheres that are tangent to the point _P_ of a surface ([a unit sphere](https://en.wikipedia.org/wiki/Unit_sphere) is a sphere whose surfaces are of distance 1 from a fixed central point). These two spheres have a centre of 1) _P + n_ and 2) _P - n_ (where _n_ is the normal to the surface) - sphere 1) is the outside surface, and sphere 2) is inside. Select the unit radius sphere that is on the same side as the ray origin and its tangent surface. Then pick a random point _S_ inside that sphere and send a ray from the hit point _P_ to the random point _S_. To generate that random point, a _rejection algorithm_ is used, which rejects all points generated inside a random point within a cube until it finds a point on the inside of the tangent sphere.
 
 To implement that algorithm, modify `vec3.h` from [Week 1, Session 2](./week1Session2):
 
@@ -272,9 +272,11 @@ You should see a gamma corrected sphere that is significantly lighter.
 
 ### Lambertian Reflection
 
-The rejection algorithm, above, produces random points in the unit sphere that are offset along the surface normal. The effect is a probability function that favours rays whose directions are close to the normal. The outcome is that light which arrives at shallow angles and which spreads over a larger area contributes less to the final colour. However, [true Lambertian reflection](https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials/truelambertianreflection) maintains a uniform distribution for high probability rays that are scattered close to the normal.
+The algorithms you have used to generate  diffuse materials above have tried to approximate the ideal of [Lambertian reflectance](https://en.wikipedia.org/wiki/Lambertian_reflectance), which defines a diffusely reflecting surface where the perceived brightness of the surface is the same regardless of the observer's angle of view (unfinished wood exhibits Lambertian reflectance).
 
-True Lambertian reflection is achieved by normalising points inside a diffuse material. Above, when you modified `vec3.h`, you also imported the function `random_unit_vector`, which you can use as a replacement for the function `random_in_unit_sphere` within `ray_color` in `main.cpp`, thereby achieving the desired normalisation.
+For example, the rejection algorithm, described above, produces random points in the unit sphere that are offset along the surface normal. That produced a probability function that favoured rays whose directions were close to the normal. The outcome was that light which arrived at shallow angles and which spreads over a larger area contributed less to the final colour. However, [true Lambertian reflection](https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials/truelambertianreflection) maintains a uniform distribution for high probability rays that are scattered close to the normal. hence, true Lambertian reflection is achieved by normalising points inside a diffuse material.
+
+Above, when you modified `vec3.h`, you also imported the function `random_unit_vector`, which you can use as a replacement for the function `random_in_unit_sphere` within `ray_color` in `main.cpp`, thereby achieving the desired normalisation.
 
 ```
 #include "helpers.h"
