@@ -86,6 +86,12 @@ int main() {
 }
 ```
 
+Compile and run the program:
+
+```
+# g++ -o imageCreator main.cpp && ./imageCreator > image.ppm
+```
+
 That should generate the following image:
 
 ![](./images/generatedNormalSphere.png)
@@ -342,6 +348,12 @@ int main() {
 }
 ```
 
+Compile and run the program:
+
+```
+# g++ -o imageCreator main.cpp && ./imageCreator > image.ppm
+```
+
 That code should generate the following image:
 
 ![](./images/sphereWithSurfaceNormal.png)
@@ -476,11 +488,17 @@ int main() {
 }
 ```
 
+Now compile and run the program:
+
+```
+# g++ -o imageCreator main.cpp && ./imageCreator > image.ppm
+```
+
 That should produce an anti-aliased sphere, featuring significantly smoothed edges.
 
 ![](./images/antiAliasedSphere.png)
 
-# Reading Material
+## Reading Material
 
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 + [Basic Antialiasing in RSL](https://renderman.pixar.com/resources/RenderMan_20/basicAntialiasing.html)
