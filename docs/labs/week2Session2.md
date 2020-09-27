@@ -14,7 +14,7 @@ A diffuse surface [reflects light in random directions](https://viclw17.github.i
 
 The [reading material](#reading-material) section contains some links giving more detail about diffuse materials.
 
-## Simulating Diffuse Materials with Raytracing
+## Simulating Diffuse Materials with Ray Tracing
 
 The first algorithm you will use to generate a diffuse material considers two unit radius spheres that are tangent to the point _P_ of a surface ([a unit sphere](https://en.wikipedia.org/wiki/Unit_sphere) is a sphere whose surfaces are of distance 1 from a fixed central point). These two spheres have a centre of 1) _P + n_ and 2) _P - n_ (where _n_ is the normal to the surface) - sphere 1) is the outside surface, and sphere 2) is inside. Select the unit radius sphere that is on the same side as the ray origin and its tangent surface. Then pick a random point _S_ inside that sphere and send a ray from the hit point _P_ to the random point _S_. To generate that random point, a _rejection algorithm_ is used, which rejects all points generated inside a random point within a cube until it finds a point on the inside of the tangent sphere.
 
@@ -355,7 +355,7 @@ You should now have a diffuse sphere with true Lambertian reflection:
 
 ## Summary
 
-You have now completed the C++ labs, which have offered an introduction to some of the raytracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) goes further and provides much more detail, including some of the maths.
+You have now completed the C++ labs, which have offered an introduction to some of the ray tracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) provides much more detail (including some of the maths). For example, it shows you how to use C++ to generate other materials and describes a much more advanced camera.
 
 The remainder of the labs use [Unity](https://unity3d.com/unity/qa/lts-releases), where you will apply some of that knowledge.
 
