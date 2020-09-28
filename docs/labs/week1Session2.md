@@ -60,11 +60,11 @@ If you open `image.ppm` via your file browser, you should see your first RGB-ins
 
 ### Vectors
 
-A vector is a geometric object that is represented by a ray with [magnitude and direction](https://mathinsight.org/image/vector).
+You are not required to have any prior maths to complete this module. However, below, you will create a C++ class, `vec3.h`, which implements some of the vector maths needed to visualise an object.
 
-![](./images/vector.png)
+However, if you are interested in that maths, or have some mathematical background, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail, and in the [reading material](#reading-material) section, there is a link to a lecture from a previous year of P3D, which gives an overview of vector operations. Additionally, the _Reading List_, on Canvas, includes a reference to _Essential mathematics for games and interactive applications: a programmer's guide_, which is available in the library.
 
-You are not required to have any prior maths to complete this module. However, below, you will create a C++ class `vec3.h` that implements some of the vector maths which is needed to visualise a ray traced object. If you are interested in that maths, or have some mathematical background, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail. Additionally, the _Reading List_, on Canvas, includes a reference to _Essential mathematics for games and interactive applications: a programmer's guide_, which is available in the library.
+Create `vec3.h`:
 
 ```
 #ifndef VEC3_H
@@ -197,7 +197,7 @@ Save that file as `color.h`.
 
 ### Ray Tracing
 
-A ray tracing algorithm computes what colour is seen at a 3D position along a line. Hence, the basic steps to create a ray tracer are:
+A ray tracing algorithm computes what colour is seen at a 3D position along a line (or ray). Hence, the basic steps to create a ray tracer are:
 
 1. Calculate the ray from the eye to the pixel
 2. Determine which objects the ray intersects
@@ -284,8 +284,6 @@ int main() {
 }
 ```
 
-The `ray_color` function, above, uses _linear interpolation_ to blend the colours from white (0) through to blue (1).
-
 #### Creating a Ray-traced Circle
 
 Finally, you are in a position to create an object that rays, _r_, intersect.
@@ -365,6 +363,7 @@ Congratulations! You have created your first ray-traced image! Even though you'v
 ## Reading Material
 
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
++ [Vectors](../vectors.pdf)
 + [Rendering 101](https://www.khanacademy.org/computing/pixar/rendering/rendering1/a/start-here-rendering)
 + [Introduction to Animation](https://www.khanacademy.org/computing/pixar/animate/ball/a/start-here-animation)
 + [What is ray tracing? The games, the graphics cards and everything else you need to know](https://www.techradar.com/uk/news/ray-tracing)
