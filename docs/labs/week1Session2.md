@@ -294,9 +294,9 @@ If you open `blueToWhite.ppm` via your file browser, you should see a blue to wh
 
 ![](./images/blueToWhite.png)
 
-#### Creating a Ray-traced Circle
+#### Creating a Ray Traced Circle
 
-Finally, you are in a position to create an object that rays, _r_, intersect. You will place that object on the blue to white gradient you created above. 
+Finally, you are in a position to create an object that rays, _r_, intersect. You will place that object on the blue to white gradient you created above.
 
 Use the `vec3` and `ray` classes to hard code a sphere in `main.cpp`, simply by colouring red any pixel that hits a small sphere we place at −1 on the z-axis:
 
