@@ -368,7 +368,7 @@ If you open `circle.ppm` via your file browser, you should see your first RGB-in
 
 ![](./images/circle.png)
 
-Congratulations! You have created your first ray-traced image! Even though you've covered a lot of material here, your image is somewhat rudimentary - don't worry - in the [next lab](./week2Session1.md), you will begin turning the object into a much better-looking 3D sphere.
+Congratulations! You have created your first ray traced image! Even though you've covered a lot of material here, your image is somewhat rudimentary - don't worry - in the [next lab](./week2Session1.md), you will begin turning the object into a much better-looking 3D sphere.
 
 ## Reading Material
 
