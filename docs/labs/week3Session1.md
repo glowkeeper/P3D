@@ -8,4 +8,4 @@ This lab introduces you to graphics and lighting in [Unity](https://unity.com/).
 
 ## Reading Material
 
-+ [Introduction to Lighting and Rendering](https://learn.unity.com/tutorial/introduction-to-lighting-and-rendering)
++ [Introduction to Lighting and Rendering](https://learn.unity.com/tutorial/introduction-to-lighting-and-rendering-2019-3)
