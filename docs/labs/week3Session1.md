@@ -46,6 +46,8 @@ You are now going to light up your scene by adding a _Point Light_ - go to _Game
 
 _Figure 4: A simple room with added materials_
 
+Now try adding some spotlights to your scene, too.
+
 Save your scene and save your project. You will add to this in the next lab.
 
 ## Reading Material
