@@ -6,6 +6,6 @@ This lab introduces you to graphics and meshes, materials, shaders and textures 
 
 ...
 
-## Reading Material
+## Useful Links
 
 + [Shader](https://en.wikipedia.org/wiki/Shader)
