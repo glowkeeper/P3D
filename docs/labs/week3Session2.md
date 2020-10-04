@@ -30,9 +30,9 @@ _Figure 2: Room with a Box_
 
 You are going to put a lamp on the stand. Find the _Old_USSR_Lamp_ in _All Prefabs_, and add it to the room in your scene. Scale the lamp to 8 times its original size across all three axis and move it onto the stand. Rotate it sixty degrees on the y axis so it is pointing towards the bottom front righthand corner.
 
-Next, you are going to make that lamp shine by adding a _sphere_ that emits colour. Create a _GameObject_, _3D Object_, _Sphere_, rename it _bulb_ then move it so it is front of the light bulb of the lamp. Scale it so it covers the bulb as exactly as possible. Now create a new material, rename it _Bulb_, and add it to the sphere. Set the colour of the _Base Map_ and enable _Emission_ on the material. Set that to a colour of your choosing.
+Next, you are going to make that lamp shine by adding a _sphere_ that emits colour. Create a _GameObject_, _3D Object_, _Sphere_, rename it _bulb_ then move it so it is in front of the light bulb of the lamp. Scale it so it covers the bulb as exactly as possible. Now create a new material, rename it _Bulb_, and add it to the sphere. Set the colour of the _Base Map_ and enable _Emission_ on the material. Set that to a colour of your choosing.
 
-Now _Add Component_ to the _Main Camera_, search for the _Volume_ script, and add that. Add a _New_ profile to the volume, and as prompted, _Add Override_, _Post processing_, _Bloom_. Change the settings of the bloom until your lamp is shining as you wish. The bloom will affect your ceiling light, too, so you may wish to topne down the intnsity of that. The effect should be similar to Figure 3.
+Now _Add Component_ to the _Main Camera_, search for the _Volume_ script, and add that. Add a _New_ profile to the volume, and as prompted, _Add Override_, _Post processing_, _Bloom_. Change the settings of the bloom until your lamp is shining as you wish. The bloom will affect your ceiling light, too, so you may wish to tone down the intensity of that. The effect should be similar to Figure 3.
 
 ![](./images/lampWithBloom.png)
 
