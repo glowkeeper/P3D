@@ -6,7 +6,7 @@ This lab introduces you to graphics and meshes, materials, shaders and textures 
 
 Rendering in Unity relies on a close relationship between meshes, materials, shaders and textures.
 
-+ Meshes are a graphics primitive that define the shape of an object.
++ [Meshes](https://docs.unity3d.com/Manual/AnatomyofaMesh.html) are a graphics primitive that define the shape of an object.
 + Materials define the properties of a surface of an object. They include references to textures and specifiy how those textures are tiled and coloured.
 + Shaders are small scripts that contain the algorithms for calculating the colour of each pixel.
 + Textures are [bitmap](https://en.wikipedia.org/wiki/Bitmap) images that represent different aspects of a Material's surface.
@@ -27,7 +27,7 @@ You are going to add the _containers_diffuse_ material to the walls of the room.
 
 ![](./images/shippingContainer.png)
 
-_Figure 1: Adding materials to the walls of the simple room_
+_Figure 1: Adding materials and textures to the walls of the simple room_
 
 Next, you are going to add a box, which will become a lampstand. Go to _All Prefabs_ in the _Project_ tab, find a _Box_, and add it to the room in your scene. Rename it _Stand_. Figure 2 shows the box scaled to 1.5 times its original size across all three axes, moved to the back lefthand corner of the room and given the same material as the walls.
 
@@ -56,4 +56,5 @@ Save your scene and save your project. You will add to this in the lab.
 ## Useful Links
 
 + [Meshes, Materials, Shaders and Textures](https://docs.unity3d.com/Manual/Shaders.html)
++ [Anatomy of a Mesh](https://docs.unity3d.com/Manual/AnatomyofaMesh.html)
 + [Shader](https://en.wikipedia.org/wiki/Shader)
