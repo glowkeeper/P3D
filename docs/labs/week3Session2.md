@@ -9,9 +9,9 @@ Rendering in Unity relies on a close relationship between meshes, materials, sha
 + [Meshes](https://docs.unity3d.com/Manual/AnatomyofaMesh.html) are a graphics primitive that define the shape of an object.
 + Materials define the properties of a surface of an object. They include references to textures and specifiy how those textures are tiled and coloured.
 + Shaders are small scripts that contain the algorithms for calculating the colour of each pixel.
-+ [Textures](https://docs.unity3d.com/Manual/Textures.html) are [bitmap](https://en.wikipedia.org/wiki/Bitmap) images that the fine detail of a material's surface; think of them as images that are printed on a rubber sheet and stretched and pinned onto a mesh.
++ [Textures](https://docs.unity3d.com/Manual/Textures.html) are [bitmap](https://en.wikipedia.org/wiki/Bitmap) images that define the fine detail of a material's surface; think of them as images that are printed on a rubber sheet and stretched and pinned onto a mesh.
 
-Each material specifies which shader to use, and that determines the options available. Furthermore, the shader expects one or more texture variables, each of which can be assigned different texture assets. Unity's standard shader is often the best choice as it is highly customisable, capable of rendering many types of surface. However, there may be occasions where a custom written shader may be appropriate; examples could be if you are creating liquids or some highly-specialised artistic special effects.
+Each material specifies which shader to use, and that determines the options available. The shader expects one or more texture variables, each of which can be assigned different texture assets. Unity's [standard shader](https://docs.unity3d.com/Manual/shader-StandardShader.html) is often the best choice as it is highly customisable and capable of rendering many types of surface. However, there may be occasions where a [custom written shader](https://docs.unity3d.com/Manual/ShadersOverview.html) may be appropriate; examples could be if you are creating liquids or some highly-specialised artistic special effects.
 
 ## Adding Materials
 
