@@ -16,7 +16,7 @@ Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html) an
 
 You will need some more assets, so go to the [unity asset store](https://assetstore.unity.com/), and add [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315), [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400), as well as Unity's [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351).  Now download and import them into your project. Before you can use the imported assets, you must update them to use URP; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
 
-You are going to add the _containers_diffuse_ material to the walls of the room. Select that in _All Materials_ in the _Project_ tab, and in the _Inspector_ window, set the _Base Map_ of the _Surface Inputs_ to _containers_normals_. Figure 1, below, shows how your results might look.
+You are going to add the _containers_diffuse_ material to the walls of the room. Select that in _All Materials_ in the _Project_ tab, and in the _Inspector_ window, set the _Base Map_ of the _Surface Inputs_ to the texture _containers_normals_. Figure 1, below, shows how your results might look.
 
 ![](./images/shippingContainer.png)
 
