@@ -24,7 +24,7 @@ Below, you will create a simple scene that introduces some of the lighting capab
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), create a new project and choose the Universal Render Pipeline (URP) template (naming the project however you choose).
 
-The loaded URP sample scene is an opportunity to play with Unity's lighting systems. Figure 2 shows the rotational tool being used to change the direction of lighting and change how it affects the workshop's shadows.
+The loaded URP sample scene is an opportunity to play with Unity's lighting systems. Figure 2 shows the rotational tool being used to change the direction of lighting. When you do the same, notice how it affects the workshop's shadows.
 
 ![](./images/sampleScene.png)
 
