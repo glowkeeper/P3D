@@ -32,7 +32,7 @@ _Figure 2: Lighting the sample scene_
 
 However, you are not going to use the sample scene; instead, you are going to create your own, so click on _File_, _New Scene_. You are going to model a room with no windows, so first set up the project to support that. Go to _Window_, _Rendering_, _Lighting Settings_, set _Skybox Material_ to _None_. Also, set _Lighting Mode_ to _Baked Indirect_ and turn on _Auto Generate_. At this point, you may also wish to set the Main Camera's _Background Type_ to a _Solid Colour_ and turn it black, so your room stands out in the Game tab. Later on in the module, you will use _Post Processing_ rendering, so take the opportunity to turn that on, too.
 
-Now use five copies of _GameObject_, _3D Object_, _Plane_, which you should transform to create a simple room similar to that shown in Figure 3. Also, create an empty _GameObject_, move the five planes into that and make it _static_ so Unity can pre-compute some of the properties of your room.
+Now create five copies of _GameObject_, _3D Object_, _Plane_, which you should transform to model a simple room similar to that shown in Figure 3. Also, create an empty _GameObject_, move the five planes into that, rename it to _Room_ and make it _static_ so Unity can pre-compute some of the properties of your room. You may also wish to rename your five planes appropriately, too.
 
 ![](./images/simpleRoom.png)
 
