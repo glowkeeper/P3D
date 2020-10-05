@@ -12,7 +12,7 @@ A diffuse surface [reflects light in random directions](https://viclw17.github.i
 
 ![](./images/randomReflection.png)
 
-The [reading material](#reading-material) section contains some links giving more detail about diffuse materials.
+The [useful links](#useful-links) section contains some links giving more detail about diffuse materials.
 
 ## Simulating Diffuse Materials with Ray Tracing
 
@@ -227,7 +227,7 @@ You should now have your first diffuse material sphere:
 
 ### Gamma Correction
 
-The sphere generated above is dark because it has not been [gamma corrected](https://en.wikipedia.org/wiki/Gamma_correction). Gamma correction is a process by which the [bits](https://en.wikipedia.org/wiki/Bit) that make up an image are transformed to take advantage of how we perceive light and colour. Human perception of brightness approximates a power function with greater sensitivity to relative differences between darker tones than the differences between lighter tones. The [reading material](#reading-material) section contains a link to a lecture from a previous year of P3D, which gives an overview of light and colour.
+The sphere generated above is dark because it has not been [gamma corrected](https://en.wikipedia.org/wiki/Gamma_correction). Gamma correction is a process by which the [bits](https://en.wikipedia.org/wiki/Bit) that make up an image are transformed to take advantage of how we perceive light and colour. Human perception of brightness approximates a power function with greater sensitivity to relative differences between darker tones than the differences between lighter tones. The [useful links](#useful-links) section contains a link to a lecture from a previous year of P3D, which gives an overview of light and colour.
 
 Modify `color.h` so that its `write_color` function uses a simple _gamma 2_ algorithm that approximates our perception of light by taking the square root of the generated colour (raising each colour to the power of a 1/2).
 
@@ -355,11 +355,11 @@ You should now have a diffuse sphere with true Lambertian reflection:
 
 ## Summary
 
-You have now completed the C++ labs, which have offered an introduction to some of the ray tracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) provides more detail (including some of the maths). For example, it shows you how to use C++ to generate other materials and describes a much more advanced camera. Additionally, the [reading material](#reading-material) section contains a link to a lecture from a previous year of P3D, which gives an overview of more advanced ray tracing techniques.
+You have now completed the C++ labs, which have offered an introduction to some of the ray tracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) provides more detail (including some of the maths). For example, it shows you how to use C++ to generate other materials and describes a much more advanced camera. Additionally, the [useful links](#useful-links) section contains a link to a lecture from a previous year of P3D, which gives an overview of more advanced ray tracing techniques.
 
 The remainder of the module uses [Unity](https://unity3d.com/unity/qa/lts-releases), where you will apply some of the knowledge gained during these labs.
 
-## Reading Materials
+## Useful Links
 
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 + [Advanced Ray Tracing](../advancedRayTracing.pdf)

@@ -6,7 +6,7 @@ This lab focusses on programmatically creating a circle, using C++. It introduce
 
 A ray is a line segment with a definite direction. [Ray tracing](https://www.khanacademy.org/computing/pixar/rendering/rendering1/v/rendering-1) is a graphics rendering technique for lighting objects. It is an algorithm that traces the path of light and simulates the way that the light interacts with objects in a virtual world.
 
-Ray tracing is a staple in films - indeed, in the [reading material](#reading-material), below, you will see a link to the excellent [Pixar in a Box](https://www.khanacademy.org/computing/pixar) on [Khan Academy](https://www.khanacademy.org/), which takes a behind-the-scenes look at how [Pixar](https://www.pixar.com/) artists do their jobs. The [Rendering 101](https://www.khanacademy.org/computing/pixar/rendering/rendering1/a/start-here-rendering) suite of videos there give an overview of rendering and ray tracing.
+Ray tracing is a staple in films - indeed, in the [useful links](#useful-links) section, below, you will see a link to the excellent [Pixar in a Box](https://www.khanacademy.org/computing/pixar) on [Khan Academy](https://www.khanacademy.org/), which takes a behind-the-scenes look at how [Pixar](https://www.pixar.com/) artists do their jobs. The [Rendering 101](https://www.khanacademy.org/computing/pixar/rendering/rendering1/a/start-here-rendering) suite of videos there give an overview of rendering and ray tracing.
 
 ## Creating a Simple Object
 
@@ -62,7 +62,7 @@ If you open `image.ppm` via your file browser, you should see your first RGB-ins
 
 You are not required to have any prior maths to complete this module. However, below, you will create a C++ class, `vec3.h`, which implements some of the vector maths needed to visualise an object.
 
-However, if you are interested in that maths, or have some mathematical background, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail, and in the [reading material](#reading-material) section, there is a link to a lecture from a previous year of P3D, which gives an overview of vector operations. Additionally, the _Reading List_, on Canvas, includes a reference to _Essential mathematics for games and interactive applications: a programmer's guide_, which is available in the library.
+However, if you are interested in that maths, or have some mathematical background, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail, and in the [useful links](#useful-links) section, there is a link to a lecture from a previous year of P3D, which gives an overview of vector operations. Additionally, the _Reading List_, on Canvas, includes a reference to _Essential mathematics for games and interactive applications: a programmer's guide_, which is available in the library.
 
 Create `vec3.h`:
 
@@ -203,7 +203,7 @@ A ray tracing algorithm computes what colour is seen at a 3D position along a li
 2. Determine which objects the ray intersects
 3. Compute a colour for that object at that intersection point
 
-The file `ray.h`, shown below, uses _linear interpolation_ to calculate a position along a line (there is more about linear interpolation in the _Introduction to Animation_ [Pixar in a Box](https://www.khanacademy.org/computing/pixar) suite of videos, which are linked to in the [reading material](#reading-material) section):
+The file `ray.h`, shown below, uses _linear interpolation_ to calculate a position along a line (there is more about linear interpolation in the _Introduction to Animation_ [Pixar in a Box](https://www.khanacademy.org/computing/pixar) suite of videos, which are linked to in the [useful links](#useful-links) section):
 
 ```
 #ifndef RAY_H
@@ -370,7 +370,7 @@ If you open `circle.ppm` via your file browser, you should see your first RGB-in
 
 Congratulations! You have created your first ray traced image! Even though you've covered a lot of material here, your image is somewhat rudimentary - don't worry - in the [next lab](./week2Session1.md), you will begin turning the object into a much better-looking 3D sphere.
 
-## Reading Material
+## Useful Links
 
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 + [Vectors](../vectors.pdf)
