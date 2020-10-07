@@ -45,7 +45,11 @@ Now _Add Component_ to the _Main Camera_, search for the _Volume_ script and add
 
 _Figure 3: Lamp with Bloom_
 
-Finally, create another  _GameObject_, _Light_, _Point Light_ that you will use to make sure the bulb is shining within the old USSR lamp. So move it until it looks as though the old USSR lamp is emitting more light and play around with the settings until you find a colour and intensity that you like. Your lamp should look similar to that shown in Figure 4.
+Create another  _GameObject_, _Light_, _Point Light_ that you will use to make sure the bulb is shining within the old USSR lamp. So move it until it looks as though the old USSR lamp is emitting more light and play around with the settings until you find a colour and intensity that you like.
+
+Finally, add a [_Reflection Probe_](https://docs.unity3d.com/Manual/class-ReflectionProbe.html) and transform it so it matches the size and shape of your room; it will subtly affect the reflective materials in the room so they look more natural.
+
+Your lamp should look similar to that shown in Figure 4.
 
 ![](./images/lampWithLight.png)
 
