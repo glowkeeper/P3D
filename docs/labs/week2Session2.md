@@ -1,4 +1,4 @@
-# Lab for Week 2, Session 1 - Diffuse Materials
+# Lab for Week 2, Session 2 - Diffuse Materials
 
 This lab builds on the [previous lab](./week2Session1.md) by adding a material to the sphere.
 
@@ -236,7 +236,7 @@ Modify `color.h` so that its `write_color` function uses a simple _gamma 2_ algo
 #define COLOR_H
 
 #include "vec3.h"
-#unbclude "helpers.h"
+#include "helpers.h"
 
 #include <iostream>
 
