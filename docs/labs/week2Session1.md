@@ -406,7 +406,7 @@ Also change the `write_color` function defined in `color.h` during the [previous
 #define COLOR_H
 
 #include "vec3.h"
-#unbclude "helpers.h"
+#include "helpers.h"
 
 #include <iostream>
 
