@@ -353,6 +353,8 @@ You should now have a diffuse sphere with true Lambertian reflection:
 
 ![](./images/lambertianSphere.png)
 
+[Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) goes on to describe how to add [metal](https://raytracing.github.io/books/RayTracingInOneWeekend.html#metal) to your sphere - that is left as an exercise for you to work on in your own time.
+
 ## Summary
 
 You have now completed the C++ labs, which have offered an introduction to some of the ray tracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) provides more detail (including some of the maths). For example, it shows you how to use C++ to generate other materials and describes a much more advanced camera. Additionally, the [useful links](#useful-links) section contains a link to a lecture from a previous year of P3D, which gives an overview of more advanced ray tracing techniques.
