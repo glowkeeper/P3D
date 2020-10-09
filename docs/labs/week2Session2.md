@@ -221,7 +221,7 @@ Compile and run the program:
 # g++ -o imageCreator main.cpp && ./imageCreator > image.ppm
 ```
 
-You should now have your first diffuse material sphere:
+You should now have your first diffuse materials:
 
 ![](./images/diffuseSphere.png)
 
