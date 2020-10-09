@@ -357,7 +357,7 @@ You should now have a diffuse sphere with true Lambertian reflection:
 
 ## Summary
 
-You have now completed the C++ labs, which have offered an introduction to some of the ray tracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) provides more detail (including some of the maths). For example, it shows you how to use C++ to generate other materials and describes a much more advanced camera. Additionally, the [useful links](#useful-links) section contains a link to a lecture from a previous year of P3D, which gives an overview of more advanced ray tracing techniques.
+You have now completed the C++ labs, which have offered an introduction to some of the ray tracing techniques for rendering 3D objects. There is much more to the subject, and for those interested, [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) provides more detail (including some of the maths). For example, it shows you how to use C++ to generate a much more advanced camera. Additionally, the [useful links](#useful-links) section contains a link to a lecture from a previous year of P3D, which gives an overview of more advanced ray tracing techniques.
 
 The remainder of the module uses [Unity](https://unity3d.com/unity/qa/lts-releases), where you will apply some of the knowledge gained during these labs.
 
