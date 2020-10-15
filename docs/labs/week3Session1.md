@@ -22,7 +22,7 @@ Below, you will create a simple scene that introduces some of the lighting capab
 
 ### A Simple Room
 
-Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), create a new project and choose the Universal Render Pipeline (URP) template (naming the project however you choose).
+Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), create a new project and put it under the source directory of your P3D GitHub repository and choose the Universal Render Pipeline (URP) template (naming the project however you choose).
 
 The loaded URP sample scene is an opportunity to play with Unity's lighting systems. Figure 2 shows the rotational tool being used to change the direction of lighting. When you do the same, notice how it affects the workshop's shadows.
 
@@ -49,6 +49,8 @@ Currently, the lamp does not emit any light, so you are going to change that by 
 _Figure 4: A simple room with added materials_
 
 Save your scene and save your project. You will add to this in the [next lab](./week3Session2.md).
+
+Finally, you should check your work into your GitHub repository. First, grab Unity's [gitignore settings](https://github.com/github/gitignore/blob/master/Unity.gitignore) - copy its contents, call it `.gitignore`, and put it in the directory `Location/ProjectName`, which you just chose for you new Unity project. If you've done this correctly, when you commit your work to `git`, you will commit a few hundred files and not a few thousand. Go ahead and do that commit now, and then push your work up to Github.
 
 ## Useful Links
 
