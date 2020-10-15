@@ -50,7 +50,7 @@ _Figure 4: A simple room with added materials_
 
 Save your scene and save your project. You will add to this in the [next lab](./week3Session2.md).
 
-Finally, you should check your work into your GitHub repository. First, grab Unity's [gitignore settings](https://github.com/github/gitignore/blob/master/Unity.gitignore) - copy its contents, call it `.gitignore`, and put it in the directory `Location/ProjectName`, which you just chose for you new Unity project. If you've done this correctly, when you commit your work to `git`, you will commit a few hundred files and not a few thousand. Go ahead and do that commit now, and then push your work up to Github.
+Finally, you should check your work into your GitHub repository. First, copy Unity's [gitignore settings](https://github.com/github/gitignore/blob/master/Unity.gitignore) and save them to a file called `.gitignore`, which you should put in the directory that you chose for you new Unity project (`Location/ProjectName`). If you've done that correctly, when you commit your work to `git`, you will commit a few hundred files and not a few thousand. If that's so, go ahead and do that commit now, and then push your work up to GitHub.
 
 ## Useful Links
 
