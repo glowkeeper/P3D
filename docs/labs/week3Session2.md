@@ -29,7 +29,7 @@ You are going to add the _containers_diffuse_ material to the walls of the room.
 
 _Figure 1: Adding materials and textures to the walls of the simple room_
 
-Next, you are going to add a box, which will become a lampstand. Create a _GameObject_, _3D Object_, _Cube_ and add the same _containers_diffuse_ material to it as you did the walls, above. Rename it _Stand_. Figure 2 shows the box scaled to 2.5 times its original size across all three axes, moved to the back lefthand corner of the room and given the same material as the walls.
+Next, you are going to add a box, which will become a lampstand. Create a _GameObject_, _3D Object_, _Cube_ and add the same _containers_diffuse_ material to it as you did the walls, above. Rename it _Stand_. Figure 2 shows the box scaled to 2.5 times its original size across all three axes and moved to the back lefthand corner of the room.
 
 ![](./images/shippingContainerBox.png)
 
