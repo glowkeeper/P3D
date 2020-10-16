@@ -49,7 +49,7 @@ Create another  _GameObject_, _Light_, _Point Light_ that you will use to make s
 
 Finally, add a [_Reflection Probe_](https://docs.unity3d.com/Manual/class-ReflectionProbe.html) and transform it so it matches the size and shape of your room; it will subtly affect the reflective materials in the room so they look more natural.
 
-Your lamp should look similar to that shown in Figure 4.
+Your lamp should look similar to that shown in Figure 4. If it does not, ensure you have _Post Processing_ selected on your _Main Camera_.
 
 ![](./images/lampWithLight.png)
 
