@@ -15,9 +15,9 @@ Each material specifies which shader to use, and that determines the options ava
 
 ## Adding Materials
 
-Below, you will add character to the simple room created the [last lab](./week3Session1.md) by adding some materials and textures to the walls. You will also add a lamp to the scene.
+Below, you will add some character to the simple room created during the [last lab](./week3Session1.md) by adding some materials and textures to the walls. You will also add a lamp to the scene.
 
-### Embellishing the Simple Room
+### Adding to the Simple Room
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html) and open the project you created in the [last lab](./week3Session1.md).
 
