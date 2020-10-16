@@ -55,7 +55,7 @@ Your lamp should look similar to that shown in Figure 4. If it does not, ensure 
 
 _Figure 4: Lamp with a Point Light_
 
-Save your scene and save your project. You will add to this in the lab.
+Save your scene and save your project. You will add to this in the next lab.
 
 ## Useful Links
 
