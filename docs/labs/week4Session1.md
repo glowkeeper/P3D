@@ -22,44 +22,46 @@ _Triggers_ function similarly to _colliders_. However, when _triggers_ interact 
 
 ## Some Simple Physics
 
-Below, you will introduce some balls into the room you created in the [last lab](week3Session2.md) to demonstrate some of the physics capabilities of Unity.
+Below, you will introduce some wheels into the room you created in the [last lab](week3Session2.md) to demonstrate some of the physics capabilities of Unity.
 
-### Balls
+### Wheels
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html) and open the project you created in the [last lab](./week3Session2.md).
 
-You are going to add a ball, as in figure 3. Create a _GameObject_, _3D Object_, _Sphere_, rename it to _Ball_, then move it, so it is to the side of the lamp on the stand but nearer the ceiling than the floor. Change the _Mesh_ to _RollerBall_. Change the material to _RollerBallWhite_. If you wish, change the colour, too.
+You are going to add a wheel, as in figure 3. Create a _GameObject_, _3D Object_, _Sphere_, rename it to _Wheel_, then move it, so it is to the side of the lamp on the stand but nearer the ceiling than the floor. Change the _Mesh_ to _WheelWheel_. Change the material to _WheelWheel_. If you wish, change the colour, too.
 
-![](./images/rollerBall.png)
+![](./images/wheel.png)
 
-_Figure 3: The ball_
+_Figure 3: The wheel_
 
-Now you are going to make the ball drop to the floor. Select it in the _Hieracrchy_. Then, in the _Inspector_ tab, select _Add Component_ and add a _Rigidbody_. Now press _Play_, and watch the ball fall to the floor, as in Figure 4.
+Now you are going to make the wheel drop to the floor. Select it in the _Hieracrchy_. In the _Inspector_ tab, set the _Radius_ of the _Sphere Collider_ to 1. Then, select _Add Component_ and add a _Rigidbody_. Now press _Play_, and watch the wheel fall to the floor, as in Figure 4.
 
-![](./images/rollerBallFallen.png)
+![](./images/wheelFallen.png)
 
-_Figure 3: The fallen ball_
+_Figure 3: The fallen wheel_
 
-Stop playback, so the ball returns to its original position. You are going to make it bounce. To do so, you need to add a _Physics Materials_ to the ball. First, create a new folder to hold your _Physics Materials_, and once in that folder, _Create_, _Physic Material_ and call it _Ball_. Change its _Bounciness_ to 1 and both its _Friction_ parameters to 0.3. Then drag it onto your Ball in the _Hierarchy_. Now press _Play_, and watch the ball bounce off the floor.
+Stop playback, so the wheel returns to its original position. You are going to make it bounce. To do so, you need to add a _Physics Materials_ to the wheel. First, create a new folder to hold your _Physics Materials_, and once in that folder, _Create_, _Physic Material_ and call it _Wheel_. Change its _Bounciness_ to 1 and both its _Friction_ parameters to 0.3. Then drag it onto your Wheel in the _Hierarchy_. Now press _Play_, and watch the wheel bounce off the floor.
 
-Next, you are going to add multiple balls into the scene, to see how they react. Copy your original ball three times, and name the duplicates appropriately. Then, move the balls, so they form two columns and two rows, such as that in Figure 5.
+Next, you are going to add multiple wheels into the scene, to see how they react. Copy your original wheel three times, and name the duplicates appropriately. Then, move the wheels, so they form two columns and two rows, such as that in Figure 4.
 
-![](./images/multiBalls.png)
+![](./images/multiWheels.png)
 
-_Figure 5: Multiple balls_
+_Figure 4: Multiple wheels_
 
-Press _Play_, and watch what happens. Notice that the balls do not behave very realistically when they hit the walls. Now add a _Rigidbody_ to the walls, floor and ceiling, and watch what happens when you hit _Play_. Fix that, by selecting _Is Kinematic_. That means gravity will not affect the walls because they will remain unaffected by the physics engine. Finally, go to the _Physics Materials_ folder, _Create_, _Physic Material_ and call it _Container_. Change both its _Friction_ parameters to 0.05, then drag it to the _Material_ for the _Mesh Collider_ of each of your walls, floor and ceiling, as in Figure 6.
+Press _Play_, and watch what happens. You can change the behaviour of the wheels when they hit the walls and floor by adding a _Rigidbody_ to them. Do that, and Figure 5 shows what happens when you hit _Play_.
 
-![](./images/isKinematic.png)
+![](./images/wallsGravity.png)
 
-_Figure 6: Kinematic_
+_Figure 5: The walls with Gravity_
 
- Now press _Play_, and watch the behaviour of the balls. It is quite realistic, but can you do better? That is left as an exercise. Play around with some of the settings of the _RigidBody_ and _Physics Material_ parameters to see how they affect behaviour. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
+Fix that, by selecting _Is Kinematic_. That means gravity will not affect the walls because they will remain unaffected by the physics engine. Finally, go to the _Physics Materials_ folder, _Create_, _Physic Material_ and call it _Container_. Change both its _Friction_ parameters to 0.05, then drag it to the _Material_ for the _Mesh Collider_ of each of your walls, floor and ceiling. Now press _Play_, and watch the behaviour of the wheels. It is quite realistic, but can you do better? That is left as an exercise. Play around with some of the settings of the _RigidBody_ and _Physics Material_ parameters to see how they affect behaviour. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
 
-You may have also noticed that, when the balls interact with the lampstand, they do not react appropriately. Follow the same processes as above to fix the problem - that is also left as an exercise.
+You may have also noticed that, when the wheels interact with the lampstand, they do not react appropriately. Follow the same processes as above to fix the problem - that is also left as an exercise.
 
 ## Useful Links
 
 + [Intro' to the Unity Physics Engine](https://learn.unity.com/tutorial/intro-to-the-unity-physics-engine-2019-3)
 + [3D Physics for object-oriented projects](https://docs.unity3d.com/Manual/PhysicsOverview.html)
 + [Unity Physics Fundamentals](https://learn.unity.com/project/unity-physics-fundamentals)
++ [Physics Objects](https://www.youtube.com/watch?v=WTGcs10Sj34)
++ [Ragdoll Physics in Unity](https://www.youtube.com/watch?v=DInV-jHm9rk)
