@@ -42,7 +42,7 @@ Now you are going to make the wheel drop to the floor. Select it in the _Hieracr
 
 _Figure 3: The fallen wheel_
 
-Stop playback, so the wheel returns to its original position. You are going to make it bounce. To do so, you need to add a _Physics Materials_ to the wheel. First, create a new folder to hold your _Physics Materials_, and once in that folder, _Create_, _Physic Material_ and call it _Wheel_. Change its _Bounciness_ to 1 and both its _Friction_ parameters to 0.3. Then drag it onto your Wheel in the _Hierarchy_. Now press _Play_, and watch the wheel bounce off the floor.
+Stop playback, so the wheel returns to its original position. You are going to make it bounce. To do so, you need to add a _Physics Material_ to the wheel. First, create a new folder to hold your _Physics Material_, and once in that folder, _Create_, _Physic Material_ and call it _Wheel_. Change its _Bounciness_ to 1 and both its _Friction_ parameters to 0.3. Then drag it onto your Wheel in the _Hierarchy_. Now press _Play_, and watch the wheel bounce off the floor.
 
 Next, you are going to add multiple wheels into the scene, to see how they react. Copy your original wheel three times, and name the duplicates appropriately. Then, move the wheels, so they form two columns and two rows, such as that in Figure 4.
 
