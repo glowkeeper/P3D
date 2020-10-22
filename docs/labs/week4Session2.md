@@ -109,7 +109,7 @@ When you have finished exploring, stop playback. You still have a fair amount to
 2. Place the _Old_USSR_Lamp_ on the stand.
 3. Add a _Large round lamp_ to the ceiling.
 4. Both lights need lighting with a _Point Light_.
-5. Put four wheels inside the container and add the appropriate physics, so they fall and bounce correctly.
+5. Put wheels inside the container and add the appropriate physics, so they fall and bounce correctly.
 6. You could have some fun with the wheels, and while playing back your game, you could enter the container and 'push' the wheels out of the door.
 
 Those are all left as exercises.
