@@ -24,6 +24,8 @@ _Triggers_ function similarly to _colliders_. However, when _triggers_ interact 
 
 Below, you will introduce some wheels into the room you created in the [last lab](week3Session2.md) to demonstrate some of the physics capabilities of Unity.
 
+First, a quick note on some of the physics you will witness, below. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
+
 ### Wheels
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html) and open the project you created in the [last lab](./week3Session2.md).
@@ -54,11 +56,9 @@ Press _Play_, and watch what happens. You can change the behaviour of the wheels
 
 _Figure 5: The walls with gravity_
 
-Fix that, by selecting _Is Kinematic_. That means gravity will not affect the walls because they will remain unaffected by the physics engine.
+Fix that, by selecting _Is Kinematic_. That means gravity will not act on the walls because they will remain unaffected by the physics engine.
 
-You may have also noticed that, when the wheels interact with the lampstand, they do not react appropriately. Fixing that problem involves the same processes as above - create a _Physics Materials_ and changing its _Friction_ parameters until you achieve the effect you are after - that is left as an exercise.
-
-Finally, a quick note on some of the physics you have witnessed, above. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
+You may have also noticed that, when the wheels interact with the lampstand, they do not react appropriately. Fixing that problem involves the same processes as above - create a _Physics Material_ and change its _Friction_ parameters until you achieve the effect you are after - that is left as an exercise.
 
 ## Useful Links
 
