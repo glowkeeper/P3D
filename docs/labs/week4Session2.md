@@ -6,7 +6,7 @@ This lab uses Unity's [ProBuilder](https://unity3d.com/unity/features/worldbuild
 
 [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder) allows you to build, edit, and texture custom geometry, so that you can prototype and create an in-scene level design. ProBuilder also features a [Scripting API](https://docs.unity3d.com/Packages/com.unity.probuilder@4.2/manual/api.html), which means you can create customised tools via C# scripts (which are going to be introduced in the [next lab](week5Session1.md)).
 
-A [first-person](https://en.wikipedia.org/wiki/First-person_(video_games) controller shows the graphical perspective of the player. The roots of first-person games go back to the 1970s, with the release of [Spasim](https://en.wikipedia.org/wiki/Spasim) and [Maze War](https://en.wikipedia.org/wiki/Maze_War), and nowadays, there are many genres of game that give first-person perspectives; racing games and [flight simulators](https://en.wikipedia.org/wiki/Amateur_flight_simulation#Flight_simulators) are two notable examples.  However, it is the first-person shooters, popularised by games such as [Doom](https://en.wikipedia.org/wiki/Doom_(franchise) and [Call of Duty](https://en.wikipedia.org/wiki/Call_of_Duty), for which the first-person perspective is perhaps best known.
+A [first-person](https://en.wikipedia.org/wiki/First-person_(video_games)) controller shows the graphical perspective of the player. The roots of first-person games go back to the 1970s, with the release of [Spasim](https://en.wikipedia.org/wiki/Spasim) and [Maze War](https://en.wikipedia.org/wiki/Maze_War), and nowadays, there are many genres of game that give first-person perspectives; racing games and [flight simulators](https://en.wikipedia.org/wiki/Amateur_flight_simulation#Flight_simulators) are two notable examples.  However, it is the first-person shooters, popularised by games such as [Doom](https://en.wikipedia.org/wiki/Doom_(franchise)) and [Call of Duty](https://en.wikipedia.org/wiki/Call_of_Duty), for which the first-person perspective is perhaps best known.
 
 ## Recreating the Simple Room
 
@@ -20,7 +20,7 @@ Either delete the _Example Assets_ from the scene _Hierarchy_ or create a new sc
 
 You will need some more assets from the labs of [Week 3, Session 1](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session1.md) and [Week 3, Session 2](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session2.md), so go to the [unity asset store](https://assetstore.unity.com/), and import Unity's [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351), [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315), [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400) and [PBR LAMPS PACK](https://assetstore.unity.com/packages/3d/props/interior/free-pbr-lamps-70181) into your project.
 
-If you get the error, `Assets/Standard Assets/Utility/SimpleActivatorMenu.cs(11,16): error CS0619: 'GUIText' is obsolete: 'GUIText has been removed. Use UI.Text instead.'` and you are new to Unity, then this is your first look at Unity's scripting engine because you will need to fix _SimpleActivatorMenu.cs_ before proceeding. Double click on the error and `SimpleActivatorMenu.cs` should open in whichever _External Script Editor_ you have set (find out via _Unity_, _Preferences_, _External Tools_ - Unity comes installed with a version of _Visual Studio_, so it will likely be that). You need to add the line, `using UnityEngine.UI;`, and instead of `public GUIText camSwitchButton;`, it should say, `public Text camSwitchButton;`:
+If you get the error, `Assets/Standard Assets/Utility/SimpleActivatorMenu.cs(11,16): error CS0619: 'GUIText' is obsolete: 'GUIText has been removed. Use UI.Text instead'`, and you are new to Unity, then this is your first look at Unity's scripting engine because you will need to fix _SimpleActivatorMenu.cs_ before proceeding. Double click on the error and `SimpleActivatorMenu.cs` should open in whichever _External Script Editor_ you have set (find out via _Unity_, _Preferences_, _External Tools_ - Unity comes installed with a version of _Visual Studio_, so it will likely be that). You need to add the line, `using UnityEngine.UI;`, and instead of `public GUIText camSwitchButton;`, it should say, `public Text camSwitchButton;`:
 
 ```
 using System;
@@ -112,7 +112,7 @@ When you have finished exploring, stop playback. You still have a fair amount to
 5. Put four balls inside the container and add the appropriate physics, so they fall and bounce correctly.
 6. You could have some fun with the balls, and while playing back your game, you could enter the container and 'kick' the balls out of the door.
 
-Those are all left as exercises. 
+Those are all left as exercises.
 
 ## Useful Links
 
