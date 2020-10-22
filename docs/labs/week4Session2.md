@@ -71,7 +71,7 @@ Before you can use the imported assets, ensure they can use the Universal Render
 
 To enable ProBuilder, go to _Window_, _Package Manager_. Search for _ProBuilder_ and install it. Now go to _Tools_, _ProBuilder_ and select _ProBuilder_ window. You have several options for displaying the ProBuilder tools window - play around and find whichever option suits you best.
 
-This time, you are going to create something that looks a little more like a shipping container, so press the key _alt_ and make a _New Shape_ from the ProBuilder window. Select a _Cube_, set the _x_, _y_ and _z_ coordinates to be 3, 3 and 6, respectively (making the cube three metres by three metres by six metres) and hit _Build_. Later on, you are going to put a door on the container, so select the _Face Selection_, highlight the front face of the object, and press delete. Rename the cube _Inside_ (this will be the inside of the container), and with the object highlighted, select _Flip Normals_. Next, you are going to apply a container material, so again, with the container object highlighted, select ProBuilder's _Material Editor_, add _containers_diffuse_ to _Quick Material_ and _Apply_. Then open up the shader in the _Inspector_ window and set the _Base Map_ of the _Surface Inputs_ to the texture _containers_normals_. Finally, create an empty _GameObject_, name it _Container_ and make _Inside_ a child of that.
+This time, you are going to create something that looks a little more like a shipping container, so make a _New Shape_ from the ProBuilder window. Select a _Cube_ and scale the _x_, _y_ and _z_ coordinates to be 3, 3 and 6, respectively (making the cube three metres by three metres by six metres) and hit _Build_. Later on, you are going to put a door on the container, so select the _Face Selection_, highlight the front face of the object, and press delete. Rename the cube _Inside_ (this will be the inside of the container), and with the object highlighted, select _Flip Normals_. Next, you are going to apply a container material, so again, with the container object highlighted, select ProBuilder's _Material Editor_, add _containers_diffuse_ to _Quick Material_ and _Apply_. Then open up the shader in the _Inspector_ window and set the _Base Map_ of the _Surface Inputs_ to the texture _containers_normals_. Finally, create an empty _GameObject_, name it _Container_ and make _Inside_ a child of that.
 
 If your _Game_ tab looks something similar to Figure 1, then congratulations, you have successfully created your first ProBuilder object.
 
@@ -87,7 +87,7 @@ You are now going to add a first-person character to the scene. In _Assets_, _St
 
 You may notice that the walls of your container are transparent from the outside. That is normal behaviour - it's called [culling](https://docs.unity3d.com/Manual/SL-CullAndDepth.html); Unity does not render polygons facing away from the viewer (and, above, you flipped the normals of the container). You are going to 'fix' that by modelling the inside and outside of the container. First, stop playback of your game, then duplicate _Inside_, rename the duplicated object _Outside_, then _Flip Normals_.  Now, when you press _Play_, you should be able to walk around a correctly rendered shipping container.
 
-Next, you are going to put some stairs next to the container so you can walk up to its roof. Press the key, _alt_, and create a _New Shape_ from the ProBuilder window. Select a _Stair_ with 6 steps, a height of 3 metres and a depth of 6. Hit _Build_, then _Transform_ the stairs so they look like Figure 2 - facing forward and to the left of the container.
+Next, you are going to put some stairs next to the container so you can walk up to its roof. Create a _New Shape_ from the ProBuilder window. Select a _Stair_ with 6 steps, a height of 3 metres and a depth of 6. Hit _Build_, then _Transform_ the stairs so they look like Figure 2 - facing forward and to the left of the container. Put some materials and textures on your stairs.
 
 ![](./images/shippingContainerStairs.png)
 
@@ -95,7 +95,7 @@ _Figure 2: Shipping container stairs_
 
 Now, when you press _Play_, you should be able to use the keys, _w_ and _j_ to walk up the stairs. Walk off the roof of the container, and you should fall to the ground.
 
-Stop playback, as you are now going to put a door wall on the front of the container. Press the key, _alt_, and create a _New Shape_ from the ProBuilder window. Select a _Door_, with a width and height of 3 metres, and a door height and leg width of 0.5 metres. Hit _Build_, then _Transform_ the door so it is on the front of the container. Set the material and texture, so it matches those of the _Inside_ and _Outside_ walls. Finally, make the door a child of your container. Figure 3 shows how it might look.
+Stop playback, as you are now going to put a door wall on the front of the container. Create a _New Shape_ from the ProBuilder window. Select a _Door_, with a width and height of 3 metres, and a door height and leg width of 0.5 metres. Hit _Build_, then _Transform_ the door so it is on the front of the container. Set the material and texture, so it matches those of the _Inside_ and _Outside_ walls. Finally, make the door a child of your container. Figure 3 shows how it might look.
 
 ![](./images/shippingContainerDoor.png)
 
