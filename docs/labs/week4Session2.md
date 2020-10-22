@@ -75,7 +75,7 @@ This time, you are going to create something that looks a little more like a shi
 
 If your _Game_ tab looks something similar to Figure 1, then congratulations, you have successfully created your first ProBuilder object.
 
-![](./images/shippingContainer.png)
+![](./images/shippingContainerPro.png)
 
 _Figure 1: A shipping _containers_diffuse_
 
