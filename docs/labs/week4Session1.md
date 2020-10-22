@@ -48,15 +48,17 @@ Next, you are going to add multiple wheels into the scene, to see how they react
 
 _Figure 4: Multiple wheels_
 
-Press _Play_, and watch what happens. You can change the behaviour of the wheels when they hit the walls and floor by adding a _Rigidbody_ to them. Do that, and Figure 5 shows what happens when you hit _Play_.
+Press _Play_, and watch what happens. You can change the behaviour of the wheels when they hit the walls and floor by adding a _Rigidbody_ to them. Do that, and Figure 5 shows what happens when you hit _Play_ - the container walls begin falling away.
 
 ![](./images/wallsGravity.png)
 
 _Figure 5: The walls with gravity_
 
-Fix that, by selecting _Is Kinematic_. That means gravity will not affect the walls because they will remain unaffected by the physics engine. Finally, go to the _Physics Materials_ folder, _Create_, _Physic Material_ and call it _Container_. Change both its _Friction_ parameters to 0.05, then drag it to the _Material_ for the _Mesh Collider_ of each of your walls, floor and ceiling. Now press _Play_, and watch the behaviour of the wheels. It is quite realistic, but can you do better? That is left as an exercise. Play around with some of the settings of the _RigidBody_ and _Physics Material_ parameters to see how they affect behaviour. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
+Fix that, by selecting _Is Kinematic_. That means gravity will not affect the walls because they will remain unaffected by the physics engine.
 
-You may have also noticed that, when the wheels interact with the lampstand, they do not react appropriately. Follow the same processes as above to fix the problem - that is also left as an exercise.
+You may have also noticed that, when the wheels interact with the lampstand, they do not react appropriately. Fixing that problem involves the same processes as above - create a _Physics Materials_ and changing its _Friction_ parameters until you achieve the effect you are after - that is left as an exercise.
+
+Finally, a quick note on some of the physics you have witnessed, above. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
 
 ## Useful Links
 
