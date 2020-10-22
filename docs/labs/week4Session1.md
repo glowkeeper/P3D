@@ -30,7 +30,7 @@ First, a quick note on some of the physics you will witness, below. Gravity has 
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html) and open the project you created in the [last lab](./week3Session2.md).
 
-You will need some more assets, so go to the [unity asset store](https://assetstore.unity.com/), and add [Ball Pack](https://assetstore.unity.com/packages/3d/props/ball-pack-446).
+You will need some more assets, so go to the [unity asset store](https://assetstore.unity.com/) and add [Ball Pack](https://assetstore.unity.com/packages/3d/props/ball-pack-446).
 
 You are going to add a wheel, as in figure 3. Create a _GameObject_, _3D Object_, _Sphere_, rename it to _Wheel_, then move it, so it is to the side of the lamp on the stand but nearer the ceiling than the floor. Change the _Mesh_ to _WheelBall_. Change the material to _WheelBall_. If you wish, change the colour, too.
 
