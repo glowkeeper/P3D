@@ -60,7 +60,7 @@ _Figure 5: The walls with gravity_
 
 Fix that, by selecting _Is Kinematic_. That means gravity will not act on the walls because they will remain unaffected by the physics engine.
 
-You may have also noticed that, when the wheels interact with the lampstand, they do not react realistically. Fixing that problem involves the same processes as above - create a _Physics Material_ and change its _Friction_ parameters until you achieve the effect you are after - that is left as an exercise.
+You may have also noticed that, when the wheels collide with the lampstand, they do not react realistically. Fixing that problem involves the same processes as above - create a _Physics Material_ and change its _Friction_ parameters until you achieve the effect you are after - that is left as an exercise.
 
 ## Useful Links
 
