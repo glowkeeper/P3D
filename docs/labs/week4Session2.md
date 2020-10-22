@@ -4,13 +4,13 @@ This lab uses Unity's [ProBuilder](https://unity3d.com/unity/features/worldbuild
 
 ## Overview
 
-[ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder) allows you to build, edit, and texture custom geometry, so that you can prototype and create an in-scene level design. ProBuilder also features a [Scripting API](https://docs.unity3d.com/Packages/com.unity.probuilder@4.2/manual/api.html), which means you can create customised tools via C# scripts (which are going to be introduced in the [next lab](week5Session1.md)).
+[ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder) allows you to build, edit, and texture custom geometry, so that you can prototype and create an in-scene level design. ProBuilder also features a [Scripting API](https://docs.unity3d.com/Packages/com.unity.probuilder@4.2/manual/api.html), which means you can create customised tools via C# scripts.
 
-A [first-person](https://en.wikipedia.org/wiki/First-person_(video_games)) controller shows the graphical perspective of the player. The roots of first-person games go back to the 1970s, with the release of [Spasim](https://en.wikipedia.org/wiki/Spasim) and [Maze War](https://en.wikipedia.org/wiki/Maze_War), and nowadays, there are many genres of game that give first-person perspectives; racing games and [flight simulators](https://en.wikipedia.org/wiki/Amateur_flight_simulation#Flight_simulators) are two notable examples.  However, it is the first-person shooters, popularised by games such as [Doom](https://en.wikipedia.org/wiki/Doom_(franchise)) and [Call of Duty](https://en.wikipedia.org/wiki/Call_of_Duty), for which the first-person perspective is perhaps best known.
+A [first-person](https://en.wikipedia.org/wiki/First-person_(video_games)) controller shows the graphical perspective of the player. The roots of first-person games go back to the 1970s, with the release of [Spasim](https://en.wikipedia.org/wiki/Spasim) and [Maze War](https://en.wikipedia.org/wiki/Maze_War), and nowadays, there are many genres of game that give first-person perspectives; racing games and [flight simulators](https://en.wikipedia.org/wiki/Amateur_flight_simulation#Flight_simulators) are two notable examples.  However, it is through first-person shooter games, such as [Doom](https://en.wikipedia.org/wiki/Doom_(franchise)) and [Call of Duty](https://en.wikipedia.org/wiki/Call_of_Duty), for which the perspective is perhaps best known.
 
 ## Recreating the Simple Room
 
-Below, you will recreate the simple room you first built in [Week 3, Session 1](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session1.md), but this time using ProBuilder. You will also add other features, such as stairs and an outside scene that allows a first-person controller to explore.
+Below, you will recreate the simple room you first built in [Week 3, Session 1](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session1.md), but this time using ProBuilder. You will also add other features, such as stairs and an outside scene, which a first-person controller can explore.
 
 ### ProBuilder
 
