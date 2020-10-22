@@ -18,7 +18,7 @@ Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), c
 
 Either delete the _Example Assets_ from the scene _Hierarchy_ or create a new scene by selecting _File_, _New Scene_. You can use similar lighting settings to those used in [Week 3, Session 1](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session1.md), but leave the default _Skybox Material_ (since this will be an outdoor scene, too). Additionally, do not worry too much about the settings of the main camera, as you are going to delete that later (you will use the first-person camera, instead).
 
-You will need some more assets from the labs of [Week 3, Session 1](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session1.md) and [Week 3, Session 2](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session2.md), so go to the [unity asset store](https://assetstore.unity.com/), and import Unity's [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351), [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315), [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400) and [PBR LAMPS PACK](https://assetstore.unity.com/packages/3d/props/interior/free-pbr-lamps-70181) into your project.
+You will need some more assets from the labs of [Week 3, Session 1](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session1.md), [Week 3, Session 2](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session2.md) and [Week 4, Session 1](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week4Session1.md), so go to the [unity asset store](https://assetstore.unity.com/) and import Unity's [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351), [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315), [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400) and [PBR LAMPS PACK](https://assetstore.unity.com/packages/3d/props/interior/free-pbr-lamps-70181) into your project.
 
 If you get the error, `Assets/Standard Assets/Utility/SimpleActivatorMenu.cs(11,16): error CS0619: 'GUIText' is obsolete: 'GUIText has been removed. Use UI.Text instead'`, and you are new to Unity, then this is your first look at Unity's scripting engine because you will need to fix _SimpleActivatorMenu.cs_ before proceeding. Double click on the error and `SimpleActivatorMenu.cs` should open in whichever _External Script Editor_ you have set (find out via _Unity_, _Preferences_, _External Tools_ - Unity comes installed with a version of _Visual Studio_, so it will likely be that). You need to add the line, `using UnityEngine.UI;`, and instead of `public GUIText camSwitchButton;`, it should say, `public Text camSwitchButton;`:
 
@@ -109,8 +109,8 @@ When you have finished exploring, stop playback. You still have a fair amount to
 2. Place the _Old_USSR_Lamp_ on the stand.
 3. Add a _Large round lamp_ to the ceiling.
 4. Both lights need lighting with a _Point Light_.
-5. Put four balls inside the container and add the appropriate physics, so they fall and bounce correctly.
-6. You could have some fun with the balls, and while playing back your game, you could enter the container and 'kick' the balls out of the door.
+5. Put four wheels inside the container and add the appropriate physics, so they fall and bounce correctly.
+6. You could have some fun with the wheels, and while playing back your game, you could enter the container and 'push' the wheels out of the door.
 
 Those are all left as exercises.
 
