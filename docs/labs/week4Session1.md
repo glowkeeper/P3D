@@ -24,7 +24,7 @@ _Triggers_ function similarly to _colliders_. However, when _triggers_ interact 
 
 Below, you will introduce some wheels into the room you created in the [last lab](week3Session2.md) to demonstrate some of the physics capabilities of Unity.
 
-First, a quick note on some of the physics you will witness, below. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
+First, a quick note on some of the physics you will witness, below. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
 
 ### Wheels
 
