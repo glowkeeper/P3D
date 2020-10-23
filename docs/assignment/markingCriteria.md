@@ -29,8 +29,8 @@ Below describes the marking criteria for each element of the [assignment](./assi
 
 Below gives a broad example of the mark scheme to be applied to all the deliverable elements outlined above. For example, if you receive 16 marks for your _Basic Scene_, then you have been judged to meet the 50 - 59% scale.
 
-| Scale | General Criteria to be Satisfied|
-|-------|-----------------|
+| Scale | General Criteria to be Satisfied |
+|-------|----------------------------------|
 | 90 - 100 | Original thinking, excellent presentation and mastery of advanced methods |
 | 80 - 89 | Excellent presentation and a mastery of a wide-range of methods |
 | 70 - 79 | Very good presentation and employs critical analysis to demonstrate a range of methods and techniques |
