@@ -40,7 +40,7 @@ Record a short video (maximum two-minutes), which shows you exploring the scene 
 Write a report that documents the work you have done. It should be no longer than two-thousand words but can be much shorter, as long as it includes the following:
 
 1. An introduction that outlines the essential elements of your scene. It should include some aspect of project planning, too.
-2. A properly referenced section of no longer than a thousand words that show an understanding of some technical element introduced in the second week of the course. This section should include how you used that element in your Unity scene. For example, you could write about surface normals and how you applied them.
+2. A properly referenced section of no longer than five-hundred words that show an understanding of some technical element introduced in the first and second weeks of the course. This section should include how you used that element in your Unity scene. For example, you could write about surface normals and how you applied them.
 3. A  snippet of a script you used in your scene, alongside an explanation of that script.
 4. A short description of an animation you used in your scene.
 5. A summary of the Unity scene you created. This section is an opportunity to critique what you've done.
