@@ -48,3 +48,5 @@ Write a report that documents the work you have done. It should be no longer tha
 7. A link to your GitHub repository
 8. References to any assets you used
 9. Report References
+
+You may use the [report template](./reportTemplate.md) to get you started.
