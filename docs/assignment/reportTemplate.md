@@ -34,4 +34,15 @@ Below is a suggested template for your report.
 ## References
 
 ...
----
+
+### GitHub
+
+...
+
+### Asset References
+
+...
+
+### Report References
+
+...
