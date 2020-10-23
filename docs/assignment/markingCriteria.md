@@ -31,7 +31,7 @@ There are 100 marks available - 60 for the application, and 40 for the report.
 
 Below gives a broad example of the mark scheme to be applied to all the deliverable elements outlined above, as well as the final total mark. For example, if you receive 16 marks for your _Basic Scene_, then you have been judged to meet the 50 - 59% scale.
 
-| Scale | General Criteria to be Satisfied |
+| Scale | Criteria Satisfied |
 |-------|----------------------------------|
 | 90 - 100 | Original thinking, excellent presentation and mastery of advanced methods |
 | 80 - 89 | Excellent presentation and a mastery of a wide-range of methods |
