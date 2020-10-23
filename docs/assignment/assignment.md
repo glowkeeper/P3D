@@ -4,9 +4,9 @@ Below describes the assignment for Programming for 3D.
 
 ## Overview  
 
-You must produce an original Unity 3D scene. At the very minimum, your scene should include the concepts introduced in the module labs. However, you will get extra marks for incorporating some advanced techniques, thus demonstrating a research element to your work.
+You must produce an original Unity 3D scene. At the very minimum, your scene should include the concepts introduced in the module labs. However, you will get extra marks for incorporating some advanced techniques, thus demonstrating a research element to your work. You will also get extra marks if your scene creates a lasting impression by introducing elements such as, for example, surprise or emotion.
 
-Your Unity scene must be uploaded to GitHub. You must commit and push your scene up to the _master_ branch of your GitHub repository _before_ the hand-in date and ensure that the repository remains available throughout the marking period.
+You must commit and push your scene up to the _master_ branch of your GitHub repository _before_ the hand-in date and ensure that the repository remains available throughout the marking period.
 
 You should submit, via [Canvas](https://canvas.sussex.ac.uk/courses/13036), a single zip file containing a [video](#record-a-video) of your scene and an accompanying [report](#write-a-report).
 
@@ -24,7 +24,7 @@ Your scene should demonstrate the concepts introduced throughout the module:
 + Animation
 + Scripting
 
-You are free to use any free or open-source resources you find, but you must reference them properly in your [report](#write-a-report). An excellent place to start would be the free assets on the [Unity store](https://assetstore.unity.com/), which you've used throughout the labs.
+You are free to use any free or open-source resources you find, but you must reference them properly in your [report](#write-a-report). An excellent place to start would be the free assets on the [Unity store](https://assetstore.unity.com/), which you've used throughout the labs. You are also free to use your own models, such as those produced by [Maya](https://www.autodesk.co.uk/products/maya/overview) or [Blender](https://www.blender.org/), but you will receive no extra marks for having done so.
 
 ## Record a Video
 
@@ -40,7 +40,7 @@ Record a short video (maximum two-minutes), which shows you exploring the scene 
 Write a report that documents the work you have done. It should be no longer than two-thousand words but can be much shorter, as long as it includes the following:
 
 1. An introduction that outlines the essential elements of your scene. It should include some aspect of project planning, too.
-2. A properly referenced section of no longer than five-hundred words that show an understanding of some technical element introduced in the first and second weeks of the course. This section should include how you used that element in your Unity scene. For example, you could write about surface normals and how you applied them.
+2. A properly referenced section of no longer than five-hundred words, which shows an understanding of some technical element introduced in the first and second weeks of the course. This section should include how you used that element in your Unity scene. For example, you could write about surface normals and how you applied them.
 3. A  snippet of a script you used in your scene, alongside an explanation of that script.
 4. A short description of an animation you used in your scene.
 5. A summary of the Unity scene you created. This section is an opportunity to critique what you've done.
