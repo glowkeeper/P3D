@@ -2,6 +2,8 @@
 
 Below describes the marking criteria for each element of the [assignment](./assignment.md) for Programming for 3D.
 
+There are 100 marks available - 60 for the application, and 40 for the report.
+
 ## Application
 
 | Deliverable Elements | Marks Available | What Makes a Good Score? |
@@ -27,7 +29,7 @@ Below describes the marking criteria for each element of the [assignment](./assi
 
 ## General Marking Criteria
 
-Below gives a broad example of the mark scheme to be applied to all the deliverable elements outlined above. For example, if you receive 16 marks for your _Basic Scene_, then you have been judged to meet the 50 - 59% scale.
+Below gives a broad example of the mark scheme to be applied to all the deliverable elements outlined above, as well as the final total mark. For example, if you receive 16 marks for your _Basic Scene_, then you have been judged to meet the 50 - 59% scale.
 
 | Scale | General Criteria to be Satisfied |
 |-------|----------------------------------|
