@@ -199,7 +199,8 @@ _Figure 3: The finished game_
 
 ## Useful Links
 
-+ [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
++ [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html) 
++ [LEARN UNITY](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
 + [Scripting API](https://docs.unity3d.com/ScriptReference/)
 + [Unity Learn - Scripting](https://learn.unity.com/search?k=%5B%22q%3AScripting%22%5D)
 + [Adding User Input](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
