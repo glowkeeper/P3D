@@ -4,8 +4,6 @@ This lab focuses on Unity [animations](https://docs.unity3d.com/Manual/Animation
 
 ## Overview
 
-Unity enables you to create simple animations using a standard set of tools.
-
 You can animate _GameObjects_ in Unity using traditional keyframe animation techniques. [Keyframes](https://en.wikipedia.org/wiki/Key_frame) are points on a timeline that contain data about the GameObject animation, such as its Transform data. Essentially _keyframes_ indicate a change that produces an animation, so that, when it plays, Unity is able to interpolate the data from one keyframe to the next and animate the object.
 
 ## Make a Plant Grow
@@ -98,7 +96,7 @@ Press _Play_. Now, when you walk near to the flower and press _G_, your flower w
 
 _Figure 4: Flower in bloom_
 
-You can play around with the timings of the transitions to make the flower grow and wither at a different speed. Those are left as exercises. 
+You can play around with the timings of the transitions to make the flower grow and wither at a different speed. Those are left as exercises.
 
 ## Useful Links
 
