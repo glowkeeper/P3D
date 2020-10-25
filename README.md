@@ -31,6 +31,8 @@ Links to P3D lab sessions are below.
 + [Week 3, Session 2](/docs/labs/week3Session2.md)
 + [Week 4, Session 1](/docs/labs/week4Session1.md)
 + [Week 4, Session 2](/docs/labs/week4Session2.md)
++ [Week 5, Session 1](/docs/labs/week5Session1.md)
++ [Week 5, Session 2](/docs/labs/week5Session2.md)
 
 ## Maintainer
 
