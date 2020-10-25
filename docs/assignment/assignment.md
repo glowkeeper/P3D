@@ -14,7 +14,7 @@ You should submit, via [Canvas](https://canvas.sussex.ac.uk/courses/13036), a si
 
 ## The Coursework
 
-Create a two-story building that includes a front door that a first-person controller opens and closes. You should place within the scene some variations of the objects modelled in the labs, such as lamps and wheels, but you can create other items, too. Once inside your building, you should spawn an object in front of your first-person controller. You should be able to pick up that object and take it up to the second floor so that you can throw it back down the stairs so that the item demonstrates all the proper physics.
+Create a two-story building that includes a front door that a first-person controller opens and closes. You should place within the scene some variations of the objects modelled in the labs, such as lamps and ceiling lights, but you can create other items, too. Once inside your building, you should spawn an object in front of your first-person controller. You should be able to pick up that object and take it up to the second floor so that you can throw it back down the stairs so that the item demonstrates all the proper physics.
 
 Your scene should demonstrate the concepts introduced throughout the module:
 
