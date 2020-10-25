@@ -10,9 +10,9 @@ You must commit and push your scene up to the _master_ branch of your GitHub rep
 
 You should submit, via [Canvas](https://canvas.sussex.ac.uk/courses/13036), a single zip file containing a [video](#record-a-video) of your scene and an accompanying [report](#write-a-report).
 
-Please take note of the [marking criteria](./markingCriteria.md) for the coursework that is described below.
+Please take note of the [marking criteria](./markingCriteria.md) for the assignment that is described below.
 
-## The Coursework
+## The Assignment
 
 Create a two-story building that includes a front door that a first-person controller opens and closes. You should place within the scene some variations of the objects modelled in the labs, such as lamps and ceiling lights, but you can create other items, too. Once inside your building, you should spawn an object in front of your first-person controller. You should be able to pick up that object and take it up to the second floor so that you can throw it back down the stairs so that the item demonstrates all the proper physics.
 
