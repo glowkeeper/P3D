@@ -4,17 +4,19 @@ Below describes the assignment for Programming for 3D.
 
 ## Overview  
 
-You must produce an original Unity 3D scene. At the very minimum, your scene should include the concepts introduced in the module labs. However, you will get extra marks for incorporating some advanced techniques, thus demonstrating a research element to your work. You will also get marks if your scene creates a lasting impression by introducing features such as surprise or emotion.
+You must produce an original Unity 3D scene. At the very minimum, your scene should include the concepts introduced in the module labs.
 
 You must commit and push your scene up to the _master_ branch of your GitHub repository _before_ the hand-in date and ensure that the repository remains available throughout the marking period.
 
 You should submit, via [Canvas](https://canvas.sussex.ac.uk/courses/13036), a single zip file containing a [video](#record-a-video) of your scene and an accompanying [report](#write-a-report).
 
-**Hint**: take note of the [marking criteria](./markingCriteria.md).
+Please take note of the [marking criteria](./markingCriteria.md) for the coursework that is described below.
 
 ## The Coursework
 
 Create a two-story building that includes a front door that a first-person controller opens and closes. You should place within the scene some variations of the objects modelled in the labs, such as lamps and ceiling lights, but you can create other items, too. Once inside your building, you should spawn an object in front of your first-person controller. You should be able to pick up that object and take it up to the second floor so that you can throw it back down the stairs so that the item demonstrates all the proper physics.
+
+### The Application
 
 Your scene should demonstrate the concepts introduced throughout the module:
 
@@ -24,9 +26,11 @@ Your scene should demonstrate the concepts introduced throughout the module:
 + Animation
 + Scripting
 
+However, you will get extra marks for incorporating some advanced techniques beyond that covered in the labs, thus demonstrating a research element to your work. You will also get marks if your scene creates a lasting impression by introducing features such as surprise or emotion.
+
 You are free to use any free or open-source resources you find, but you must reference them properly in your [report](#write-a-report). An excellent place to start would be the free assets on the [Unity store](https://assetstore.unity.com/), which you've used throughout the labs. You are also free to use your own models, such as those produced by [Maya](https://www.autodesk.co.uk/products/maya/overview) or [Blender](https://www.blender.org/), but you will receive no extra marks for having done so.
 
-### Record a Video
+### The Video
 
 Record a short video (maximum two-minutes), which shows you exploring the scene you have created with your first-person controller. However, it must include the following:
 
@@ -35,7 +39,7 @@ Record a short video (maximum two-minutes), which shows you exploring the scene 
 3. Pick up the item and take it up to the second floor
 4. Throw it back down the stairs
 
-### Write a Report
+### The Report
 
 Write a report that documents the work you have done. It should be no longer than two-thousand words but can be much shorter, as long as it includes the following:
 
