@@ -26,7 +26,7 @@ Your scene should demonstrate the concepts introduced throughout the module:
 
 You are free to use any free or open-source resources you find, but you must reference them properly in your [report](#write-a-report). An excellent place to start would be the free assets on the [Unity store](https://assetstore.unity.com/), which you've used throughout the labs. You are also free to use your own models, such as those produced by [Maya](https://www.autodesk.co.uk/products/maya/overview) or [Blender](https://www.blender.org/), but you will receive no extra marks for having done so.
 
-## Record a Video
+### Record a Video
 
 Record a short video (maximum two-minutes), which shows you exploring the scene you have created with your first-person controller. However, it must include the following:
 
@@ -35,7 +35,7 @@ Record a short video (maximum two-minutes), which shows you exploring the scene 
 3. Pick up the item and take it up to the second floor
 4. Throw it back down the stairs
 
-## Write a Report
+### Write a Report
 
 Write a report that documents the work you have done. It should be no longer than two-thousand words but can be much shorter, as long as it includes the following:
 
