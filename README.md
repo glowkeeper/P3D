@@ -34,6 +34,10 @@ Links to P3D lab sessions are below.
 + [Week 5, Session 1](/docs/labs/week5Session1.md)
 + [Week 5, Session 2](/docs/labs/week5Session2.md)
 
+## Assignment
+
++ [Module Assignment](/docs/assignment/assignment.md). Please note the [Marking Criteria](/docs/markingCriteria.md), and do make use of the [Report Template](/docs/reportTemplate.md)
+
 ## Maintainer
 
 [Dr Steve Huckle](https://glowkeeper.github.io/).
