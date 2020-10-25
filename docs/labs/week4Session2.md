@@ -10,7 +10,7 @@ A [first-person](https://en.wikipedia.org/wiki/First-person_(video_games)) contr
 
 ## Recreating the Simple Room
 
-Below, you will recreate the simple room you first built in [Week 3, Session 1](https://github.com/glowkeeper/P3D/blob/week3/docs/labs/week3Session1.md), but this time using ProBuilder. You will also add other features, such as stairs and an outside scene, which a first-person controller can explore.
+Below, you will recreate the simple room you first built in [Week 3, Session 1](./week3Session1.md), but this time using ProBuilder. You will also add other features, such as stairs and an outside scene, which a first-person controller can explore.
 
 ### ProBuilder
 
