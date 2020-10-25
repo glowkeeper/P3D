@@ -40,7 +40,7 @@ Below is the assignment.
 
 + [Module Assignment](/docs/assignment/assignment.md)
 
-Please note the [Marking Criteria](/docs/markingCriteria.md), and do make use of the [Report Template](/docs/reportTemplate.md)
+Please note the [Marking Criteria](/docs/markingCriteria.md), and do make use of the [Report Template](/docs/reportTemplate.md).
 
 ## Maintainer
 
