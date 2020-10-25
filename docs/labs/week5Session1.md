@@ -35,16 +35,92 @@ _MonoBehaviour_ defines other behaviour, too - the one you will likely see most 
 
 ## A Simple Game
 
-Below, you will create a simple game out of the shipping container you created in [Week 4, Session 2](./week4Session2.md), using [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder).
+Below, you will create a simple game using the shipping container you created in [Week 4, Session 2](./week4Session2.md), using [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder).
+
+The game you create will spawn a number of balls in the scene - it will be your job to collect the balls as quickly as you can.
 
 ### Introduction to Scripting
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), and open the project you created in the [last lab](week4Session2.md).
 
+You are going to create the objects and containers to which you will attach scripts. First, create a bouncing ball using the same process as you did when creating the wheel in [Week 4, Session 1](./week4Session1.md); i.e. create a sphere with a material and texture, then attach to that a _RigidBody_ and a _Physics Material_. You need to make the ball a [Prefab](https://docs.unity3d.com/Manual/Prefabs.html), so that you can reuse its properties across all the balls you are going to spawn in the game. To do so, in the _Project_ tab, create a folder called _Prefabs_ and drag you ball into that. Scale the ball prefab to a size you prefer. You don't actually want this ball appearing in the game (later, in a script, you will activate all the balls you create), so set the _Ball_ as _inactive_ in the Inspector window.
 
+Next, add a spawn point to the centre of the shipping container from where clones of the ball you created above will materialise once the game starts. To do that, create an empty _GameObject_ and rename it _SpawnPoint_. Similar to Figure 1, below, add an _icon_ to that spawn point (so you can see it in the _Scene_) and transform it so it's at the centre of the container.
 
+![](./images/spawnPoint.png)
 
-SpawnManager:
+_Figure 1: Spawn point_
+
+Next, create an empty _GameObject_ and call it _SpawnManager_ - you will attach to that a script for managing the creation of the balls needed for the game. In the _Scripts_ folder, create a _C# Script_ called _SpawnObjects_. It should look like this:
+
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SpawnObjects : MonoBehaviour
+{
+    [SerializeField] private GameObject mObject;
+    [SerializeField] private Transform spawnPoint;
+    [SerializeField] private int maxObjects;
+
+    private int numObjects;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (numObjects < maxObjects)
+        {
+            SpawnObject(numObjects);
+            numObjects++;
+        }  
+
+    }
+
+    void SpawnObject(int num)
+    {
+        GameObject mObjectClone = Instantiate(mObject, spawnPoint.position, Quaternion.identity) as GameObject;
+        mObjectClone.SetActive(true);
+    }
+}
+```
+
+Drag the script onto the _SpawnManager_, then drag the _Ball_  into the script's _M Object_ field and the _Spawn Point_ into its _Spawn Point_ field. Set the _Max Objects_ field to 10. Press _Play_ - if your _Game_ tab looks something similar to Figure 2, below, then congratulations! You have created your first script!
+
+![](./images/scriptedScene.png)
+
+_Figure 2: The scripted scene_
+
+Now you are going to write a script that destroys the balls, so create a _C# Script_ called _Destroyer_, and make it look like this:
+
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Destroyer : MonoBehaviour
+{
+    [SerializeField] private string otherTag;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == otherTag )
+        {
+            Destroy(other.gameObject);
+        }
+    }
+}
+```
+
+Drag the _Destroyer_ script onto the _FPSController_ and set its _Other Tag_ field to "Ball". Add the very same tag "Ball" to the _Ball_ prefab and add a _Sphere Collider_ to that, selecting its _Is Trigger_ field and setting the _Radius_ to 1.  Press _Play_, and now you should be able to walk around the scene destroying the balls.
+
+Finally, you are going to gamify the scene. Modify the _C# Script_ _SpawnObjects_ and make it look like this:
 
 ```
 using System.Collections;
@@ -69,7 +145,9 @@ public class SpawnObjects : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mObjects = new List<GameObject>();
+        mObjects = new List<GameObject>();        
+        scoreText.text = scorePreText;
+        timeText.text = timePreText;
     }
 
     // Update is called once per frame
@@ -111,26 +189,11 @@ public class SpawnObjects : MonoBehaviour
 }
 ```
 
-Destroyer:
+There are two _UI_, _Text_ elements needed to make it all work - one for outputting the number of balls you've destroyed, and another to output the total time once you've destroyed every ball. Create _UI_, _Text_, set its _Font Size_ to 48 and rename it _Score Text_. Create another _UI_, _Text_ and set its _Font Size_ to 48. Rename that to _Time Text_. Position them in the top left hand corner of the _Screen Space - Overlay_. Drag the _Score Text_ UI element into the _Score Text_ field of the _Spawn Objects_ script, and the _Time Text_ UI element into the _Time Text_ field. Now press _Play_ and see if you can beat the time displayed in Figure 3, below!
 
-```
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+![](./images/fiveSeconds.png)
 
-public class Destroyer : MonoBehaviour
-{
-    [SerializeField] private string otherTag;
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.tag == otherTag )
-        {
-            Destroy(other.gameObject);
-        }
-    }
-}
-```
+_Figure 3: The finished game_
 
 ## Useful Links
 
