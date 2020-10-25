@@ -20,11 +20,12 @@ Create a two-story building that includes a front door that a first-person contr
 
 Your scene should demonstrate the concepts introduced throughout the module:
 
-+ Lighting
-+ Materials and Textures
-+ Physics
-+ Animation
-+ Scripting
++ [Lighting](../labs/week3Session1.md)
++ [Materials and Textures](../labs/week3Session2.md)
++ [3D Physics](../labs/week4Session1.md)
++ [First-person controllers](../labs/week4Session2.md)
++ [Animation](../labs/week5Session1.md)
++ [Scripting](../labs/week5Session2.md)
 
 However, you will get extra marks for incorporating some advanced techniques beyond that covered in the labs, thus demonstrating a research element to your work. You will also get marks if your scene creates a lasting impression by introducing features such as surprise or emotion.
 
