@@ -6,10 +6,6 @@ This lab introduces [Unity Scripting](https://docs.unity3d.com/Manual/ScriptingS
 
 Scripting is an essential ingredient to Unity applications because it enables your scenes to respond to user input and to arrange for events to happen when they should. Scripts can do many other things, besides; for example, you can create graphical effects, control physical gameplay behaviour or even customise the Unity editor itself.
 
-## Basic Scripting
-
-Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), and open the project you created in the [last lab](week4Session2.md).
-
 Below is the basic script created by Unity whenever you _Create_, _C# Script_. It demonstrates a couple of important features.
 
 ```
@@ -36,6 +32,17 @@ public class NewBehaviourScript : MonoBehaviour
 [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) is an object-oriented language featuring classes that you instantiate as objects (as and when required). The class _NewBehaviourScript_, above, inherits from Unity's [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html), which is a base class from which every Unity script inherits its functionality. _NewBehaviourScript_ overrides the _MonoBehaviour_ methods _Start_ and _Update_ - _Start_ is called when the object is first created (and before the first [frame](https://www.cprogramming.com/tutorial/animation/frames_and_layers.html) update), and _Update_ is called once every frame render.
 
 _MonoBehaviour_ defines other behaviour, too - the one you will likely see most frequently is _FixedUpdate_, which is called by the physics system at a rate independant from the main game frame rate. For example, imagine the physics engine is running at fifty calls per second, and the frame rate is running at twenty-five frames per second (FPS), then _FixedUpdate_ will be called twice per frame. For that reason, it is bad practice to put physics calculations in _Update_ - they should go in _FixedUpdate_, instead. Equally, user input should go in _Update_, and not _FixedUpdate_. Unity defaults to a _Time_, _Fixed Timestep_ of 0.02, which translates to _FixedUpdate_ getting called fifty times a second, and a _VFX_, _Fixed Timestep_ of 0.001666667, which translates to 60 FPS.
+
+## A Simple Game
+
+Below, you will create a simple game out of the shipping container you created in [Week 4, Session 2](./week4Session2.md), using [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder).
+
+### Introduction to Scripting
+
+Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), and open the project you created in the [last lab](week4Session2.md).
+
+
+
 
 SpawnManager:
 
