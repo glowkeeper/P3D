@@ -98,6 +98,8 @@ Press _Play_. Now, when you walk near to the flower and press _G_, your flower w
 
 _Figure 4: Flower in bloom_
 
+You can play around with the timings of the transitions to make the flower grow and wither at a different speed. Those are left as exercises. 
+
 ## Useful Links
 
 + [Animations](https://docs.unity3d.com/Manual/AnimationSection.html)
