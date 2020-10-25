@@ -191,7 +191,7 @@ public class SpawnObjects : MonoBehaviour
 }
 ```
 
-There are two _UI_, _Text_ elements needed to make it all work - one for outputting the number of balls you've destroyed, and another to output the total time once you've destroyed every ball. Create _UI_, _Text_, set its _Font Size_ to 48 and rename it _Score Text_. Create another _UI_, _Text_ and set its _Font Size_ to 48. Rename that to _Time Text_. Position them in the top left hand corner of the _Screen Space - Overlay_. Drag the _Score Text_ UI element into the _Score Text_ field of the _Spawn Objects_ script, and the _Time Text_ UI element into the _Time Text_ field. Now press _Play_ and see if you can beat the time displayed in Figure 3, below!
+There are two _UI_, _Text_ elements needed to make it all work - one for outputting the number of balls you've destroyed, and another to output the total time, once you've destroyed every ball. Create _UI_, _Text_, set its _Font Size_ to 48 and rename it _Score Text_. Create another _UI_, _Text_ and set its _Font Size_ to 48. Rename that _Time Text_. Position them in the top left hand corner of the _Screen Space - Overlay_, one underneath the other. Drag the _Score Text_ UI element into the _Score Text_ field of the _Spawn Objects_ script, and the _Time Text_ UI element into the _Time Text_ field. Now press _Play_ and see if you can beat the time displayed in Figure 3, below!
 
 ![](./images/fiveSeconds.png)
 
