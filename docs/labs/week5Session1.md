@@ -31,21 +31,23 @@ public class NewBehaviourScript : MonoBehaviour
 
 [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) is an object-oriented language featuring classes that you instantiate as objects (as and when required). The class _NewBehaviourScript_, above, inherits from Unity's [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html), which is a base class from which every Unity script inherits its functionality. _NewBehaviourScript_ overrides the _MonoBehaviour_ methods _Start_ and _Update_ - _Start_ is called when the object is first created (and before the first [frame](https://www.cprogramming.com/tutorial/animation/frames_and_layers.html) update), and _Update_ is called once every frame render.
 
-_MonoBehaviour_ defines other behaviour, too - the one you will likely see most frequently is _FixedUpdate_, which is called by the physics system at a rate independant from the main game frame rate. For example, imagine the physics engine is running at fifty calls per second, and the frame rate is running at twenty-five frames per second (FPS), then _FixedUpdate_ will be called twice per frame. For that reason, it is bad practice to put physics calculations in _Update_ - they should go in _FixedUpdate_, instead. Equally, user input should go in _Update_, and not _FixedUpdate_. Unity defaults to a _Time_, _Fixed Timestep_ of 0.02, which translates to _FixedUpdate_ getting called fifty times a second, and a _VFX_, _Fixed Timestep_ of 0.001666667, which translates to 60 FPS.
+_MonoBehaviour_ defines other behaviour, too - the one you will likely see most frequently is _FixedUpdate_, which is called by the physics system at a rate independant from the main game frame rate. For example, imagine the physics engine is running at fifty calls per second, and the frame rate is running at twenty-five frames per second (FPS) - then _FixedUpdate_ will be called twice per frame. For that reason, it is bad practice to put physics calculations in _Update_ - they should go in _FixedUpdate_, instead. Equally, user input should go in _Update_, and not _FixedUpdate_.
+
+Unity defaults to a _Time_, _Fixed Timestep_ of 0.02, which translates to _FixedUpdate_ getting called fifty times a second, and a _VFX_, _Fixed Timestep_ of 0.001666667, which translates to 60 FPS.
 
 ## A Simple Game
 
 Below, you will create a simple game using the shipping container you created in [Week 4, Session 2](./week4Session2.md), using [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder).
 
-The game you create will spawn a number of balls in the scene - it will be your job to collect the balls as quickly as you can.
+The game you create will spawn a number of balls in the scene - it will be your job to destroy the balls as quickly as you can.
 
 ### Introduction to Scripting
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), and open the project you created in the [last lab](week4Session2.md).
 
-You are going to create the objects and containers to which you will attach scripts. First, create a bouncing ball using the same process as you did when creating the wheel in [Week 4, Session 1](./week4Session1.md); i.e. create a sphere with a material and texture, then attach to that a _RigidBody_ and a _Physics Material_. You need to make the ball a [Prefab](https://docs.unity3d.com/Manual/Prefabs.html), so that you can reuse its properties across all the balls you are going to spawn in the game. To do so, in the _Project_ tab, create a folder called _Prefabs_ and drag you ball into that. Scale the ball prefab to a size you prefer. You don't actually want this ball appearing in the game (later, in a script, you will activate all the balls you create), so set the _Ball_ as _inactive_ in the Inspector window.
+First, create a bouncing ball using the same process as you did when creating the wheel in [Week 4, Session 1](./week4Session1.md); i.e. create a sphere with a material and texture, then attach to that a _RigidBody_ and a _Physics Material_. You need to make the ball a [Prefab](https://docs.unity3d.com/Manual/Prefabs.html), so that you can reuse its properties across all the balls you are going to spawn in the game. To do so, in the _Project_ tab, create a folder called _Prefabs_ and drag you ball into that. Scale the ball prefab to a size you prefer. You don't actually want this ball appearing in the game (later, in a script, you will _SetActive_ all the balls you create), so set the _Ball_ as _inactive_ in the Inspector window.
 
-Next, add a spawn point to the centre of the shipping container from where clones of the ball you created above will materialise once the game starts. To do that, create an empty _GameObject_ and rename it _SpawnPoint_. Similar to Figure 1, below, add an _icon_ to that spawn point (so you can see it in the _Scene_) and transform it so it's at the centre of the container.
+Next, you will create a spawn point at the centre of the shipping container; once the game starts, that is where clones of the ball you created above will appear. Create an empty _GameObject_, and rename it _SpawnPoint_. Similar to Figure 1, below, add an _icon_ to that spawn point (so you can see it in the _Scene_) and transform it so it's at the centre of the container.
 
 ![](./images/spawnPoint.png)
 
