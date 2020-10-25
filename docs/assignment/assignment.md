@@ -24,8 +24,8 @@ Your scene should demonstrate the concepts introduced throughout the module:
 + [Materials and Textures](../labs/week3Session2.md)
 + [3D Physics](../labs/week4Session1.md)
 + [First-person controllers](../labs/week4Session2.md)
-+ [Animation](../labs/week5Session1.md)
-+ [Scripting](../labs/week5Session2.md)
++ [Scripting](../labs/week5Session1.md)
++ [Animation](../labs/week5Session2.md)
 
 However, you will get extra marks for incorporating some advanced techniques beyond that covered in the labs, thus demonstrating a research element to your work. You will also get marks if your scene creates a lasting impression by introducing features such as surprise or emotion.
 
@@ -45,7 +45,7 @@ Record a short video (maximum two-minutes), which shows you exploring the scene 
 Write a report that documents the work you have done. It should be no longer than two-thousand words but can be much shorter, as long as it includes the following:
 
 1. An introduction that outlines the essential elements of your scene. It should include some aspect of project planning, too
-2. A properly referenced section of no longer than five-hundred words, which shows an understanding of some technical element introduced in the first and second weeks of the course. This section should include how you used that element in your Unity scene. For example, you could write about surface normals and how you applied them
+2. A properly referenced section of no longer than five-hundred words, which shows an understanding of some technical element introduced in [Week 1, Session 2](../labs/week1Session2.md), [Week 2, Session 1](../labs/week2Session1.md) and [Week 2, Session 2](../labs/week2Session2.md). This section should include how you used that element in your Unity scene. For example, you could write about surface normals and how you applied them
 3. A  snippet of a script you used in your scene, alongside an explanation of that script and how it was used in the scene.
 4. A short description of an animation you used in your scene
 5. A summary of the Unity scene you created. This section is an opportunity to critique what you've done
