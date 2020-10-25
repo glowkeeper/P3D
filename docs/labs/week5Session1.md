@@ -47,7 +47,7 @@ Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), a
 
 First, create a bouncing ball using the same process as you did when creating the wheel in [Week 4, Session 1](./week4Session1.md); i.e. create a sphere with a material and texture, then attach to that a _RigidBody_ and a _Physics Material_. You need to make the ball a [Prefab](https://docs.unity3d.com/Manual/Prefabs.html), so that you can reuse its properties across all the balls you are going to spawn in the game. To do so, in the _Project_ tab, create a folder called _Prefabs_ and drag you ball into that. Scale the ball prefab to a size you prefer. You don't actually want this ball appearing in the game (later, in a script, you will _SetActive_ all the balls you create), so set the _Ball_ as _inactive_ in the Inspector window.
 
-Next, you will create a spawn point at the centre of the shipping container; once the game starts, that is where clones of the ball you created above will appear. Create an empty _GameObject_, and rename it _SpawnPoint_. Similar to Figure 1, below, add an _icon_ to that spawn point (so you can see it in the _Scene_) and transform it so it's at the centre of the container.
+Next, you will create a spawn point at the centre of the shipping container; once the game starts, that is where the balls will appear. Create an empty _GameObject_, and rename it _SpawnPoint_. Similar to Figure 1, below, add an _icon_ to that spawn point (so you can see it in the _Scene_) and transform it so it's at the centre of the container.
 
 ![](./images/spawnPoint.png)
 
@@ -93,7 +93,7 @@ public class SpawnObjects : MonoBehaviour
 }
 ```
 
-Drag the script onto the _SpawnManager_, then drag the _Ball_  into the script's _M Object_ field and the _Spawn Point_ into its _Spawn Point_ field. Set the _Max Objects_ field to 10. Press _Play_ - if your _Game_ tab looks something similar to Figure 2, below, then congratulations! You have created your first script!
+Drag the script onto the _SpawnManager_, then drag the _Ball_  into the script's _M Object_ field and the _Spawn Point_ into its _Spawn Point_ field. Set the _Max Objects_ field to 10. Press _Play_ - if your _Game_ tab looks something similar to Figure 2, below, then congratulations! You have created a scripted game!
 
 ![](./images/scriptedScene.png)
 
