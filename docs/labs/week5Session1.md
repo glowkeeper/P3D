@@ -197,9 +197,11 @@ There are two _UI_, _Text_ elements needed to make it all work - one for outputt
 
 _Figure 3: The finished game_
 
+There is, of course, plenty that could be done to improve the game - if you're so inclined, that is left as an exercise.  
+
 ## Useful Links
 
-+ [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html) 
++ [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
 + [LEARN UNITY](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
 + [Scripting API](https://docs.unity3d.com/ScriptReference/)
 + [Unity Learn - Scripting](https://learn.unity.com/search?k=%5B%22q%3AScripting%22%5D)
