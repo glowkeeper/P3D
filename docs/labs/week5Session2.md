@@ -10,7 +10,7 @@ You can animate _GameObjects_ in Unity using traditional keyframe animation tech
 
 ## Make a Plant Grow
 
-Below, you are going to make a plant grow (and wither) using a key press.
+Below, you are going to make a flower grow. This is a special flower that only blooms for you - it will only grow when you are near and when you tell it to. And when you leave, it whithers away.
 
 ### The Animation
 
@@ -18,19 +18,33 @@ Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), a
 
 First, you will need another asset, so go to the [Unity asset store](https://assetstore.unity.com/) and import [Lowpoly Flowers](https://assetstore.unity.com/packages/3d/vegetation/plants/lowpoly-flowers-47083).  Before you can use the imported asset, you must update it to use URP; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
 
-Create an empty _GameObject_, and name it _Flower_, then drag one of the _Lowpoly Flowers_ into that. This step means that any animation you create on the _Lowpoly Flower_ will be animated relative to the position of the _Flower GameObject_ and not the scene itself. Position the _Flower_ parent so that it is front of the door, then scale the _Lowpoly Flower_ so it is 10 across all three axis, and postion it so it is standing on the floor. 
+Create an empty _GameObject_, and name it _Flower_, then drag one of the _Lowpoly Flowers_ into that. This step means that any animation you create on the _Lowpoly Flower_ will be animated relative to the position of the _Flower GameObject_ and not the scene itself. Position the _Flower_ parent so that it is front of the door, then scale the _Lowpoly Flower_ so it is 10 across all three axis, and postion it so it is standing on the floor, as it is in Figure 1, below.
 
-Animation window,
+![](./images/flower.png)
+
+_Figure 1: The Flower_
+
+Now we're going to animate the flower using two animations - one for when it is hibernating, waiting for you to come nearby, and the other is for when you tell it to grow.
+
+First, create an _Animations_ folder in the _Project_ tab. Now, _Window_, _Animation_, and dock the tab wheresoever you wish. Select the _Lowpoly Flower_ in the _Hierarchy_ and click on _Create_ in the _Animation_ window. Select the _Animations_ folder you created above and call the animation _Hibernation_. With the animation timeline at 0, press _Record_, then move the flower so it is below ground. Stop recording. Move the animation timeline forward half-a-second and press _Record_ once more. Move the flower's position ever-so-slightly, but ensure it remains below ground. Now _Create New Clip_, call it _Flourish_, and with the animation timeline at 0, press _Record_. Again move the flower so it is below ground. Move the animation timeline forward  two seconds and press _Record_ once more. This time, move the flower's postion so it is above ground. Find the _Flourish_ animation in the _Project_ tab, and in the _Inspector_ tab, unset _Loop Time_ - you want the flower to stay in bloom until you leave.
+
+Select the _Lowpoly Flower_ in the _Hierarchy_, and from the _Inspector_ tab, open up the _Animator Controller_. In the controller's _Parameters_, add two Triggers, "Grow" and "Hibernate". Now add a transition from _Hibernation_ to _Flourish_, and visa-versa. Highlight the transition from _Hibernation_ to _Flourish_ and add the "Grow" _condition_. Highlight the transition from _Flourish_ to _Hibernation_ and add the "Die" _condition_. Figure 2 shows what your _Animator Controller_ should look like.
+
+![](./images/animationController.png)
+
+_Figure 2: Animation controller_
+
+Finally, you need a script to make the flower bloom and hibernate, so create a _C# Script_ called _Grower_, and make it look like this:
 
 ```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Grow : MonoBehaviour
+public class Grower : MonoBehaviour
 {
     [SerializeField] private string playerTag;
-    [SerializeField] private string dieTrigger;
+    [SerializeField] private string hibernateTrigger;
     [SerializeField] private string growTrigger;
 
     private Animator animator;
@@ -66,11 +80,23 @@ public class Grow : MonoBehaviour
         if (other.tag == playerTag)
         {
             inTrigger = false;
-            animator.SetTrigger(dieTrigger);
+            animator.SetTrigger(hibernateTrigger);
         }
     }
 }
 ```
+
+Drag the _Grower_ script onto the _Flower_ parent in the hierarchy. Set the _Player_ field to "Player", the _Hibernate_ field to "Hibernate" and the _Grow_ field to "Grow". Ensure your _FPSController_ has the "Player" tag set. Finally, add a Box Collider_, set _Is Trigger_ and position and size the collider so it looks similar to Figure 3, below.
+
+![](./images/boxCollider.png)
+
+_Figure 3: Box collider_
+
+Press _Play_. Now, when you walk near to the flower and press _G_, your flower will grow and bloom, as in Figure 4. And when you walk away, it will wither away, waiting for you to come near, again.
+
+![](./images/flowerInBloom.png)
+
+_Figure 4: Flower in bloom_
 
 ## Useful Links
 
