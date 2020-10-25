@@ -31,6 +31,10 @@ Below is a suggested template for your report.
 
 ...
 
+## Appendix
+
+...
+
 ## References
 
 ...

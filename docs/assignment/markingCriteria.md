@@ -21,9 +21,10 @@ There are 100 marks available - 60 for the application, and 40 for the report.
 | Planning | 2 | Clear evidence that you have planned the development of your scene |
 | Course Material | 10 | A thorough and properly-referenced explanation of one core element from the module (e.g. ray tracing) |
 | Script | 6 | A description of a well-written script that implements a core-feature of your scene |
-| Animation | 6 | A well-documented animation that demonstrates a core-feature of your scene |
+| Animation | 4 | A well-documented animation that demonstrates a core-feature of your scene |
 | Summary | 5 | A nicely written summary of your work |
 | Future Work | 5 | A nicely written section describing how your scene could progress |
+| Appendix | 2 | A listing of all your scripts, properly referenced |
 | Repository | 1 | A link to your GitHub repository |
 | References | 2 | A properly referenced report, including references to any assets you used to create your unity scene |
 

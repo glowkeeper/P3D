@@ -30,9 +30,9 @@ You are free to use any free or open-source resources you find, but you must ref
 
 Record a short video (maximum two-minutes), which shows you exploring the scene you have created with your first-person controller. However, it must include the following:
 
-1. Enter your building by opening the front door
-2. Pick up an object (a wheel or a ball is an excellent choice)
-3. Walk up to the second floor with that object
+1. Enter your building by opening the front door. Close the door behind you
+2. Spawn an object in front you (a wheel or a ball is an excellent choice)
+3. Pick up the object and take it up to the second floor with you
 4. Throw it back down the stairs, so the item demonstrates all the proper physics
 
 ## Write a Report
@@ -44,7 +44,8 @@ Write a report that documents the work you have done. It should be no longer tha
 3. A  snippet of a script you used in your scene, alongside an explanation of that script
 4. A short description of an animation you used in your scene
 5. A summary of the Unity scene you created. This section is an opportunity to critique what you've done
-6. Future work. A short description of how your scene could progress beyond this coursework  
+6. Future work. A short description of how your scene could progress beyond this coursework
+7. Appendix. Your scripts 
 7. A link to your GitHub repository
 8. References to any assets you used
 9. Report References
