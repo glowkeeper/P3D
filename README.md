@@ -10,6 +10,7 @@ This module supports the university's [staff and student charter and guiding pri
 
 - [Dependencies](#dependencies)
 - [Labs](#labs)
+- [Assignment](#assignment)
 
 ## Dependencies
 
