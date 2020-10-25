@@ -4,7 +4,7 @@ Below describes the assignment for Programming for 3D.
 
 ## Overview  
 
-You must produce an original Unity 3D scene. At the very minimum, your scene should include the concepts introduced in the module labs. However, you will get extra marks for incorporating some advanced techniques, thus demonstrating a research element to your work. You will also get extra marks if your scene creates a lasting impression by introducing elements such as, for example, surprise or emotion.
+You must produce an original Unity 3D scene. At the very minimum, your scene should include the concepts introduced in the module labs. However, you will get extra marks for incorporating some advanced techniques, thus demonstrating a research element to your work. You will also get marks if your scene creates a lasting impression by introducing features such as surprise or emotion.
 
 You must commit and push your scene up to the _master_ branch of your GitHub repository _before_ the hand-in date and ensure that the repository remains available throughout the marking period.
 
@@ -14,7 +14,7 @@ You should submit, via [Canvas](https://canvas.sussex.ac.uk/courses/13036), a si
 
 ## The Coursework
 
-Create a two-story building that includes a front door that a first-person controller opens. You must place within the scene some variations of the objects modelled in the labs, such as lamps and wheels, but you can create other items, too.
+Create a two-story building that includes a front door that a first-person controller opens and closes. You should place within the scene some variations of the objects modelled in the labs, such as lamps and wheels, but you can create other items, too. Once inside your building, you should spawn an object in front of your first-person controller. You should be able to pick up that object and take it up to the second floor so that you can throw it back down the stairs so that the item demonstrates all the proper physics.
 
 Your scene should demonstrate the concepts introduced throughout the module:
 
@@ -32,8 +32,8 @@ Record a short video (maximum two-minutes), which shows you exploring the scene 
 
 1. Enter your building by opening the front door. Close the door behind you
 2. Spawn an object in front you (a wheel or a ball is an excellent choice)
-3. Pick up the object and take it up to the second floor with you
-4. Throw it back down the stairs, so the item demonstrates all the proper physics
+3. Pick up the item and take it up to the second floor
+4. Throw it back down the stairs
 
 ## Write a Report
 
@@ -45,7 +45,7 @@ Write a report that documents the work you have done. It should be no longer tha
 4. A short description of an animation you used in your scene
 5. A summary of the Unity scene you created. This section is an opportunity to critique what you've done
 6. Future work. A short description of how your scene could progress beyond this coursework
-7. Appendix. Your scripts 
+7. Appendix. Your scripts
 7. A link to your GitHub repository
 8. References to any assets you used
 9. Report References
