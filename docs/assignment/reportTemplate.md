@@ -9,7 +9,7 @@ My scene features an industrial landscape...
 
 ### Project Plan
 
-![](./images/basicProjectPlan.md)
+![](./images/basicProjectPlan.png)
 
 ## Technical Element
 
