@@ -42,7 +42,7 @@ public class Destroyer : MonoBehaviour
 
 Figure 1, below, shows an animation controller for describing the growth of some alien spores I use to add an _other-worldly_ atmosphere to my scene.
 
-![](./animationController.png)
+![](./images/animationController.png)
 
 _Figure 1: Spore animation_
 
