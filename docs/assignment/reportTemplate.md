@@ -166,4 +166,4 @@ Application directory: https://github.com/glowkeeper/P3D/src/assignment
 
 ### Report References
 
-Peter Shirley, 2020, Ray Tracing in One Weekend, Diffuse Materials. Available at: https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials
+Peter Shirley, 2020, Ray Tracing in One Weekend, Diffuse Materials. Available at https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials, Accessed October, 2020.
