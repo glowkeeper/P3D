@@ -79,13 +79,13 @@ public class SpawnObjects : MonoBehaviour
     {
         if (numObjects < maxObjects)
         {
-            SpawnObject(numObjects);
+            SpawnObject();
             numObjects++;
         }  
 
     }
 
-    void SpawnObject(int num)
+    void SpawnObject()
     {
         GameObject mObjectClone = Instantiate(mObject, spawnPoint.position, Quaternion.identity) as GameObject;
         mObjectClone.SetActive(true);
@@ -157,7 +157,7 @@ public class SpawnObjects : MonoBehaviour
     {
         if (numObjects < maxObjects)
         {
-            SpawnObject(numObjects);
+            SpawnObject();
             numObjects++;
         } else
         {
@@ -181,7 +181,7 @@ public class SpawnObjects : MonoBehaviour
 
     }
 
-    void SpawnObject(int num)
+    void SpawnObject()
     {
         GameObject mObjectClone = Instantiate(mObject, spawnPoint.position, Quaternion.identity) as GameObject;
         mObjectClone.SetActive(true);
