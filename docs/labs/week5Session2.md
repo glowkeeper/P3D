@@ -4,7 +4,7 @@ This lab focuses on Unity [animations](https://docs.unity3d.com/Manual/Animation
 
 ## Overview
 
-You can animate _GameObjects_ in Unity using traditional [Keyframe](https://en.wikipedia.org/wiki/Key_frame) animation techniques. Keyframes are points on a timeline that contain data about the animation, such as a _GameObjects_ position or scale. Essentially _keyframes_ indicate a change that produces an animation, so that, when it plays, Unity is able to interpolate the data from one keyframe to the next, thus animating the object.
+You can animate _GameObjects_ in Unity using traditional [keyframe](https://en.wikipedia.org/wiki/Key_frame) animation techniques. Keyframes are points on a timeline that contain data about a _GameObject's_ position or scale. Essentially _keyframes_ indicate a change that produces an animation, so that, when it plays, Unity is able to interpolate the data from one keyframe to the next, thus animating the object.
 
 ## Make a Plant Grow
 
@@ -16,7 +16,7 @@ Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), a
 
 First, you will need another asset, so go to the [Unity asset store](https://assetstore.unity.com/) and import [Lowpoly Flowers](https://assetstore.unity.com/packages/3d/vegetation/plants/lowpoly-flowers-47083).  Before you can use the imported asset, you must update it to use URP; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
 
-Create an empty _GameObject_, and name it _Flower_, then drag one of the _Lowpoly Flowers_ into that. This step means that any animation you create on the _Lowpoly Flower_ will be animated relative to the position of the _Flower GameObject_ and not the scene itself. Position the _Flower_ parent so that it is front of the door, then scale the _Lowpoly Flower_ so it is 10 across all three axis, and postion it so it is standing on the floor, as it is in Figure 1, below.
+Create an empty _GameObject_, and name it _Flower_, then drag one of the _Lowpoly Flowers_ into that. This step means that any animation you create on the _Lowpoly Flower_ will be animated relative to the position of the _Flower GameObject_ and not the scene itself. Position the _Flower_ parent so that it is front of the door, then scale it so it is 10 across all three axis, and position it so the flower is standing on the floor, as it is in Figure 1, below.
 
 ![](./images/flower.png)
 
@@ -86,7 +86,7 @@ public class Grower : MonoBehaviour
 }
 ```
 
-Drag the _Grower_ script onto the _Flower_ parent in the hierarchy. Set the _Player_ field to "Player", the _Hibernate_ field to "Hibernate" and the _Grow_ field to "Grow". Ensure your _FPSController_ has the "Player" tag set. Finally, add a _Box Collider_, set _Is Trigger_ and position and size the collider so it looks similar to Figure 3, below.
+Drag the _Grower_ script onto the _Flower_ parent in the hierarchy. Set the _Player_ field to "Player", the _Hibernate_ field to "Hibernate" and the _Grow_ field to "Grow". Ensure your _FPSController_ has the "Player" tag set. Finally, add a _Box Collider_ to the _Flower GameObject_, set _Is Trigger_ and position and size the collider so it looks similar to Figure 3, below.
 
 ![](./images/boxCollider.png)
 
