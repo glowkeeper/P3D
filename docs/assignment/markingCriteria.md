@@ -10,7 +10,7 @@ There are 100 marks available - 60 for the application, and 40 for the report.
 |----------------------|-----------------|--------------------------|
 | Basic Scene | 30 | The scene covers all the material introduced in the labs, namely lighting, materials and textures, physics, animation and scripting |
 | A Research Element | 10 | The application demonstrates some element of research by implementing an advanced feature beyond that shown in the labs |
-| Wow Factor | 10 | The scene creates a lasting impression. That might be by, for example, creating a scene that emits some emotive aspect or through some surprise element. Use this as a chance to express yourself |
+| Wow Factor | 10 | The scene creates a lasting impression. That might be by creating a scene that emits some emotive aspect or a surprise element. Use this as a chance to express yourself |
 | Video | 10 | A video, which should be no longer than two minutes, which demonstrates the core deliverables of your scene |
 
 ## Report
@@ -26,7 +26,7 @@ There are 100 marks available - 60 for the application, and 40 for the report.
 | Future Work | 5 | A nicely written section describing how your scene could progress |
 | Appendix | 2 | A listing of all your scripts, properly referenced |
 | Repository | 1 | A link to your GitHub repository |
-| References | 2 | A properly referenced report, including references to any assets you used to create your unity scene |
+| References | 2 | A properly referenced report, including references to any scripts and assets you used to create your unity scene |
 
 ## General Marking Criteria
 

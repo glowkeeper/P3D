@@ -164,6 +164,10 @@ Application directory: https://github.com/glowkeeper/P3D/src/assignment
 + [PBR LAMPS PACK](https://assetstore.unity.com/packages/3d/props/interior/free-pbr-lamps-70181)
 + [Ball Pack](https://assetstore.unity.com/packages/3d/props/ball-pack-446)
 
+### Script References
+
+...references to any scripts you've created.
+
 ### Report References
 
 Peter Shirley, 2020, Ray Tracing in One Weekend, Diffuse Materials. Available at https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials, Accessed October, 2020.
