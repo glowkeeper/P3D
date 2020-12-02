@@ -9,7 +9,11 @@ Building on the shipping container theme from the labs, my scene will feature tw
 + Outside building envelope - 5m wide, 6m high x 10m long.
 + Stairs - 2m wide x 3m high x 10m long. The steps will be a metre wide, except the top and bottom steps, which will each be two metres wide.
 
-The first floor will be stacked two metres forward of the ground floor so that it creates an overhang. The stairs will rise to the left of the ground floor so that the top and bottom steps push beyond the ground floor by two metres each. The outside building envelope will encompass each of the front wall, ground and first floor rooms, as well as the stairs.
+The first floor will be stacked two metres forward of the ground floor so that it creates an overhang. The stairs will rise to the left of the ground floor so that the top and bottom steps push beyond the ground floor by two metres each. The outside building envelope will encompass each of the front wall, ground and first floor rooms, as well as the stairs. Figure 1 shows the completed building without its outer-envelope.
+
+![](./images/building.png)
+
+_Figure 1: My building_
 
 The scene will feature three scripts:
 
@@ -27,19 +31,19 @@ Below shows the planning of my project.
 
 ![](./images/initial.png)
 
-_Figure 1: Initial plan_
+_Figure 2: Initial plan_
 
 #### Animating and Scripting
 
 ![](./images/animation.png)
 
-_Figure 2: Animating and scripting_
+_Figure 3: Animating and scripting_
 
 #### Completing the Scene
 
 ![](./images/complete.png)
 
-_Figure 3: Finished project_
+_Figure 4: Finished project_
 
 ## Technical Element
 
@@ -55,11 +59,11 @@ script goes here
 
 ## Animation
 
-Figure 1, below, shows an animation controller for opening and closing the door.
+Figure 5, below, shows an animation controller for opening and closing the door.
 
 ![](./images/animationController.png)
 
-_Figure 4: Door animation_
+_Figure 5: Door animation_
 
 ## Summary
 
@@ -67,11 +71,11 @@ My scene demonstrates all the essential elements introduced throughout the labs,
 
 However, it is not without issues. Z-fighting (which is also called duplicate geometry, coplanar meshes, stitching or shimmering), is a phenomenon that can occur when rendering 3D graphics (Polycount wiki, 2020).  The effect is an on-screen flickering. Z-fighting is so-called because it is a problem associated with values held in a z-buffer (also known as a depth buffer), which is a data structure that determines whether a pixel is visible in a scene (Computer Hope, 2020). Z-fighting occurs when pixels have almost identical z-buffer values, whereby it is random which of those similar pixels gets rendered.
 
-Figure 5, below, shows my scene exhibiting z-fighting - the result is that Unity is unable to decide whether it should render the shipping container floor or the ground upon which the container sits.
+Figure 6, below, shows my scene exhibiting z-fighting - the result is that Unity is unable to decide whether it should render the shipping container floor or the ground upon which the container sits.
 
 ![](./images/zFighting.png)
 
-_Figure 5: Z-fighting_
+_Figure 6: Z-fighting_
 
 There are several ways of fixing z-fighting, such as increasing the precision of the z-buffer or increasing the near clipping plane and decreasing the far clipping plane of the camera (Unity3d Tips, 2020). However, the most straightforward fix is to move objects so that they no longer clash. In the figure above, the camera should have rendered the ground floor of the building (not the terrain of the world), so the problem might have been solved by moving the building a fraction. However, that was problematic because the world terrain was not entirely flat.
 
