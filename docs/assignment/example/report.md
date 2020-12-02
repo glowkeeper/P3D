@@ -47,7 +47,7 @@ I used diffuse materials (Shirley, 2020) to attempt to recreate a post-industria
 
 ## Script
 
-The _PickUp.cs_ script below is attached to the first-person controller. It will pickup and drop the ball. Both the transform _pick up place_ and the name of that _pick up place_ are _serialised private_ fields; that way, they **are not** exposed to other game objects but **are** exposed in the inspector window. That means the _PickUp.cs_ script is configurable should I choose to pick up objects other than a ball in my scene.
+The _PickUp.cs_ script below is attached to the first-person controller. It will pick up and drop the ball. Both the transform _pick up place_ and the name of that _pick up place_ are _serialised private_ fields; that way, they **are not** exposed to other game objects, but **are** exposed in the inspector window. That means the _PickUp.cs_ script is configurable should I choose to pick up objects other than a ball in my scene.
 
 ```
 script goes here
@@ -63,11 +63,25 @@ _Figure 4: Door animation_
 
 ## Summary
 
-My scene demonstrates all the essential elements introduced throughout the labs, such as lighting, materials and textures, 3D physics, first-person controllers, scripting and animation. It also incorporates some particle effects when...
+My scene demonstrates all the essential elements introduced throughout the labs, such as lighting, materials and textures, 3D physics, first-person controllers, scripting and animation.
+
+However, it is not without issues. Z-fighting (which is also called duplicate geometry, coplanar meshes, stitching or shimmering), is a phenomenon that can occur when rendering 3D graphics (Polycount wiki, 2020).  The effect is an on-screen flickering. Z-fighting is so-called because it is a problem associated with values held in a z-buffer (also known as a depth buffer), which is a data structure that determines how far primitives are from a camera. The z-buffer helps determine whether a pixel is visible in a scene (Computer Hope, 2020). Z-fighting occurs when pixels have almost identical z-buffer values, whereby the pixel rendered is random.
+
+Figure 5, below, shows my scene exhibiting z-fighting - the result is that Unity is unable to decide whether it should render the shipping container floor or the ground upon which it sits.
+
+![](./images/zFighting.png)
+
+_Figure 5: Z-fighting_
+
+There are several ways of fixing z-fighting, such as increasing the precision of the z-buffer. However, the most straightforward fix is to move objects so that they no longer clash. In the figure above, the camera should have rendered the ground floor of the building (not the terrain of the world), so the problem might have been solved by moving the building a fraction. Should I have had more time, that is what I would have attempted first.
+
+Another problem was that there are occasions when the FPC appears to walk through the walls of my building. That is _probably_ an issue with the size of Unity colliders, but again, time did not allow further investigation.
 
 ## Future Work
 
-I see more scenes, describing more worlds featuring...
+Should I have had more time, I would have liked to have developed a coherent aesthetic for my scene. I like science fiction, and I might have attempted a kind of 'Blade Runner' look for my scene. Perhaps I could have achieved that by setting a nighttime view and using neon lighting. Then I could have placed my shipping container amongst many other such containers, thus building a type of 'containerised' dystopian world.
+
+It would have been fun to gamify my scene, too. For example - building on the theme of the coursework, I could add a timing element to picking up the ball and throwing it down the stairs. How quickly can you get to the top of the stairs with the ball and throw it back down, so it hits the bottom step? Or how fast can you do that 10, 20, 30 times or more (that could be a configurable option in a script)?
 
 ## Appendix
 
@@ -115,4 +129,6 @@ Application directory: https://github.com/glowkeeper/P3D/src/assignment
 
 ### Report References
 
-Peter Shirley, 2020, Ray Tracing in One Weekend, Diffuse Materials. Available at https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials, Accessed October, 2020.
+Computer Hope, Z-buffer, Available at https://www.computerhope.com/jargon/z/zbuffering.htm, Accessed November 2020
+Polycount wiki, Z-fighting, Available at http://wiki.polycount.com/wiki/Z-Fighting), Accessed November 2020
+Peter Shirley, 2020, Ray Tracing in One Weekend, Diffuse Materials. Available at https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials, Accessed October 2020.
