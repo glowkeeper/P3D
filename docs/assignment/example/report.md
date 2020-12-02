@@ -65,7 +65,7 @@ _Figure 4: Door animation_
 
 My scene demonstrates all the essential elements introduced throughout the labs, such as lighting, materials and textures, 3D physics, first-person controllers, scripting and animation.
 
-However, it is not without issues. Z-fighting (which is also called duplicate geometry, coplanar meshes, stitching or shimmering), is a phenomenon that can occur when rendering 3D graphics (Polycount wiki, 2020).  The effect is an on-screen flickering. Z-fighting is so-called because it is a problem associated with values held in a z-buffer (also known as a depth buffer), which is a data structure that determines whether a pixel is visible in a scene (Computer Hope, 2020). Z-fighting occurs when pixels have almost identical z-buffer values, whereby it is random which of those identical pixels gets rendered.
+However, it is not without issues. Z-fighting (which is also called duplicate geometry, coplanar meshes, stitching or shimmering), is a phenomenon that can occur when rendering 3D graphics (Polycount wiki, 2020).  The effect is an on-screen flickering. Z-fighting is so-called because it is a problem associated with values held in a z-buffer (also known as a depth buffer), which is a data structure that determines whether a pixel is visible in a scene (Computer Hope, 2020). Z-fighting occurs when pixels have almost identical z-buffer values, whereby it is random which of those similar pixels gets rendered.
 
 Figure 5, below, shows my scene exhibiting z-fighting - the result is that Unity is unable to decide whether it should render the shipping container floor or the ground upon which the container sits.
 
@@ -73,9 +73,13 @@ Figure 5, below, shows my scene exhibiting z-fighting - the result is that Unity
 
 _Figure 5: Z-fighting_
 
-There are several ways of fixing z-fighting, such as increasing the precision of the z-buffer or increasing the near clipping plane and decreasing the far clipping plane of the camera (Unity3d Tips, 2020). However, the most straightforward fix is to move objects so that they no longer clash. In the figure above, the camera should have rendered the ground floor of the building (not the terrain of the world), so the problem might have been solved by moving the building a fraction. Should I have had more time, that is what I would have attempted first.
+There are several ways of fixing z-fighting, such as increasing the precision of the z-buffer or increasing the near clipping plane and decreasing the far clipping plane of the camera (Unity3d Tips, 2020). However, the most straightforward fix is to move objects so that they no longer clash. In the figure above, the camera should have rendered the ground floor of the building (not the terrain of the world), so the problem might have been solved by moving the building a fraction. However, that was problematic because the world terrain was not entirely flat.
 
-Another problem was that there are occasions when the FPC appears to walk through the walls of my building. That is _probably_ an issue with the size of Unity colliders, but again, time did not allow further investigation.
+Another problem was that there are occasions when the FPC appears to walk through the walls of my building. That is _probably_ an issue with the size of Unity colliders, so a possible fix might have been to modify the size of those.
+
+Finally, there were lighting issues. For example, ambient light leaks through building corners, and point lights bleed through walls. I might have addressed that by investigating Unity's light mapping and scene baking, or by looking at the intensity, range and render mode of each of my point lights.
+
+Given more time, I would have attempted to fix all of the issues described above.
 
 ## Future Work
 
