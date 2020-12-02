@@ -85,7 +85,7 @@ Given more time, I would have attempted to fix all of the issues described above
 
 I would have liked to have developed a coherent aesthetic for my scene, so future work might mean evolving that. I like science fiction, and I could attempt a kind of 'Blade Runner' look. Perhaps I could set a nighttime view and use neon lighting. Then I could place my shipping container amongst many other such containers, thus building a type of 'containerised' dystopian world.
 
-It would be fun to gamify my scene, too. For example - building on the theme of the coursework, I could add a timing element when picking up the ball and throwing it down the stairs. For example, how quickly can you get to the top of the stairs with the ball and throw it back down stairs, so it hits the bottom step? Or how fast can you do that 10, 20, 30 times or more (that could be a configurable option in a script)?
+It would be fun to gamify my scene, too. Building on the theme of the coursework, I could add a timing element when picking up the ball and throwing it down the stairs. For example, how quickly can you get to the top of the stairs with the ball and throw it back down stairs, so it hits the bottom step? Or how fast can you do that 10, 20, 30 times or more (that could be a configurable option in a script)?
 
 ## Appendix
 
