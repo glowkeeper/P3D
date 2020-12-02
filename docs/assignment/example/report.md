@@ -73,7 +73,7 @@ Figure 5, below, shows my scene exhibiting z-fighting - the result is that Unity
 
 _Figure 5: Z-fighting_
 
-There are several ways of fixing z-fighting, such as increasing the precision of the z-buffer. However, the most straightforward fix is to move objects so that they no longer clash. In the figure above, the camera should have rendered the ground floor of the building (not the terrain of the world), so the problem might have been solved by moving the building a fraction. Should I have had more time, that is what I would have attempted first.
+There are several ways of fixing z-fighting, such as increasing the precision of the z-buffer or increasing the near clipping plane and decreasing the far clipping plane of the camera (Unity3d Tips, 2020). However, the most straightforward fix is to move objects so that they no longer clash. In the figure above, the camera should have rendered the ground floor of the building (not the terrain of the world), so the problem might have been solved by moving the building a fraction. Should I have had more time, that is what I would have attempted first.
 
 Another problem was that there are occasions when the FPC appears to walk through the walls of my building. That is _probably_ an issue with the size of Unity colliders, but again, time did not allow further investigation.
 
@@ -129,6 +129,7 @@ Application directory: https://github.com/glowkeeper/P3D/src/assignment
 
 ### Report References
 
-Computer Hope, Z-buffer, Available at https://www.computerhope.com/jargon/z/zbuffering.htm, Accessed November 2020
-Polycount wiki, Z-fighting, Available at http://wiki.polycount.com/wiki/Z-Fighting), Accessed November 2020
-Peter Shirley, 2020, Ray Tracing in One Weekend, Diffuse Materials. Available at https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials, Accessed October 2020.
++ Unity3d Tips, How To Fix Unity Z-Fighting With Multiple Solutions, Available at https://www.unity3dtips.com/unity-z-fighting-solutions/, Accessed November 2020
++ Computer Hope, Z-buffer, Available at https://www.computerhope.com/jargon/z/zbuffering.htm, Accessed November 2020
++ Polycount wiki, Z-fighting, Available at http://wiki.polycount.com/wiki/Z-Fighting), Accessed November 2020
++ Peter Shirley, 2020, Ray Tracing in One Weekend, Diffuse Materials. Available at https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials, Accessed October 2020.
