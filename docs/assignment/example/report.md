@@ -65,7 +65,7 @@ _Figure 4: Door animation_
 
 My scene demonstrates all the essential elements introduced throughout the labs, such as lighting, materials and textures, 3D physics, first-person controllers, scripting and animation.
 
-However, it is not without issues. Z-fighting (which is also called duplicate geometry, coplanar meshes, stitching or shimmering), is a phenomenon that can occur when rendering 3D graphics (Polycount wiki, 2020).  The effect is an on-screen flickering. Z-fighting is so-called because it is a problem associated with values held in a z-buffer (also known as a depth buffer), which is a data structure that determines how far primitives are from a camera. The z-buffer helps determine whether a pixel is visible in a scene (Computer Hope, 2020). Z-fighting occurs when pixels have almost identical z-buffer values, whereby the pixel rendered is random.
+However, it is not without issues. Z-fighting (which is also called duplicate geometry, coplanar meshes, stitching or shimmering), is a phenomenon that can occur when rendering 3D graphics (Polycount wiki, 2020).  The effect is an on-screen flickering. Z-fighting is so-called because it is a problem associated with values held in a z-buffer (also known as a depth buffer), which is a data structure that determines whether a pixel is visible in a scene (Computer Hope, 2020). Z-fighting occurs when pixels have almost identical z-buffer values, whereby it is random which of those identical pixels gets rendered.
 
 Figure 5, below, shows my scene exhibiting z-fighting - the result is that Unity is unable to decide whether it should render the shipping container floor or the ground upon which it sits.
 
