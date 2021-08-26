@@ -1,6 +1,6 @@
 # Lab for Week 1, Session 1 - Setting Up Your Environment
 
-This lab sets up your environment so you can complete the rest of the module. It also encourages you to do some background reading.
+This lab sets up your environment so you can complete the rest of the module. Once you have that set up, you should do some background reading.
 
 ## Overview
 
