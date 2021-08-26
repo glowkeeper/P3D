@@ -1,6 +1,6 @@
 # Lab for Week 1, Session 1 - Setting Up Your Environment
 
-This lab focusses on setting up your environment. It lays the foundations for the rest of the module.
+This lab focusses on setting up your environment so you can complete the rest of the module. 
 
 ## Overview
 
