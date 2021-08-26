@@ -26,15 +26,15 @@ For a sphere, the [outward normal](https://raytracing.github.io/books/RayTracing
 
 The ability to determine the surface face is important for objects that are rendered differently on each side; for example, a glass ball has an inside and an outside - [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) gives more detail.
 
-![](./images/sphereWithSurfaceNormal.png)
-
 ### Anti-aliasing
 
 [Anti-aliasing](https://helpx.adobe.com/photoshop/key-concepts/aliasing-anti-aliasing.html) of digital images is the smoothing of jagged edges that result from high-contrast borders between pixels.
 
-![](./images/antiAliasedSphere.png)
+![](./images/sphereWithSurfaceNormal.png)
 
 When you take a picture with a real camera, there are usually no jagged edges because [the edge pixels blend the foreground with the background](https://raytracing.github.io/books/RayTracingInOneWeekend.html#antialiasing). Anti-aliasing algorithms might achieve a similar effect by averaging the colours of the boundary pixels.
+
+![](./images/antiAliasedSphere.png)
 
 However, there are more advanced approaches - if you are interested in those, the [useful links](#useful-links) section contains a link to the user manual of [Pixar Studios'](https://www.pixar.com/) [Renderman](https://renderman.pixar.com/) product, which describes other anti-aliasing techniques. It also contains a link to a thorough examination of anti-aliasing for the [OpenGL API](https://www.opengl.org/).
 
