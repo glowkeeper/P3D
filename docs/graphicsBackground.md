@@ -73,11 +73,11 @@ For example, the rejection algorithm, described above, produces random points in
 ## Useful Links
 
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
++ [Vectors](../vectors.pdf)
 + [Rendering 101](https://www.khanacademy.org/computing/pixar/rendering/rendering1/a/start-here-rendering)
 + [Introduction to Animation](https://www.khanacademy.org/computing/pixar/animate/ball/a/start-here-animation)
 + [What is ray tracing? The games, the graphics cards and everything else you need to know](https://www.techradar.com/uk/news/ray-tracing)
 + [Advanced Ray Tracing](../advancedRayTracing.pdf)
-+ [Vectors](../vectors.pdf)
 + [Basic Antialiasing in RSL](https://renderman.pixar.com/resources/RenderMan_20/basicAntialiasing.html)
 + [Anti Aliasing using OpenGL](https://learnopengl.com/Advanced-OpenGL/Anti-Aliasing)
 + [Light, Colour, Colour Spaces and Images](../lightAndColourPerception.pdf)
