@@ -1,10 +1,12 @@
 # Lab for Week 1, Session 1 - Setting Up Your Environment
 
-This lab sets up your environment so you can complete the rest of the module. Once you have that set up, you should do some background reading.
+The primary aim of this seminar is to get your environment set up so you can complete the rest of the module.
+
+Once you have your environment set up, you should read some background material explaining [3D Graphics](../graphicsBackground.md), since that will help you get a much better understanding of the core concepts that make [Unity](https://unity3d.com/) work.
 
 ## Overview
 
-This session requires you to setup a [GitHub](https://github.com/) account and install [Unity](https://unity3d.com/unity/qa/lts-releases).
+This session requires you to setup a [GitHub](https://github.com/) account, install [Unity](https://unity3d.com/unity/qa/lts-releases) and then do some [background reading](#3d-graphics).
 
 ### GitHub
 
@@ -19,3 +21,5 @@ This module builds on some of your previous experience with Unity, further expos
 ### 3D Graphics
 
 Please read [3D Graphics](../graphicsBackground.md), which introduces some core graphics concepts that will help you throughout the rest of the module.
+
+**The assignment will almost certainly ask you to demonstrate an understanding of some of the material introduced in [3D Graphics](../graphicsBackground.md).**
