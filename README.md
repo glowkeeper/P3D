@@ -1,5 +1,3 @@
-[![Run on Repl.it](https://repl.it/badge/github/glowkeeper/P3D)](https://repl.it/github/glowkeeper/P3D)
-
 # Programming for 3D
 
 Welcome to Programming for 3D (P3D), a module run at the [University of Sussex](https://www.sussex.ac.uk/).
