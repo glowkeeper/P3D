@@ -11,6 +11,9 @@ This module supports the university's [staff and student charter and guiding pri
 - [Dependencies](#dependencies)
 - [Labs](#labs)
 - [Assignment](#assignment)
+- [Background Material](#background-material)
+- [Maintainer](#maintainer)
+- [License](#license)
 
 ## Dependencies
 
@@ -23,11 +26,15 @@ P3D has some dependencies.
 
 Links to P3D lab sessions will appear below.
 
-+ [Week 1, Session 1](/docs/labs/week1Session1.md)
+- [Week 1, Session 1](/docs/labs/week1Session1.md)
 
 ## Assignment
 
-The assignment will appear below, sometime around week 6.
+The assignment will appear below (sometime around week 6).
+
+## Background Material
+
+There is a lot of useful background material in the [docs](./docs/) foler. In particular, you should read and become familiar with the material introduced in [Graphics Background](./docs/graphicsBackground.md).
 
 ## Maintainer
 
