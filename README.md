@@ -34,7 +34,7 @@ The assignment will appear below (sometime around week 6).
 
 ## Background Material
 
-There is a lot of useful background material in the [docs](./docs/) foler. In particular, you should read and become familiar with the material introduced in [Graphics Background](./docs/graphicsBackground.md).
+There is a lot of useful background material in the [docs](./docs/) folder. In particular, you should read and become familiar with the material introduced in [3D Graphics](./docs/graphicsBackground.md).
 
 ## Maintainer
 
