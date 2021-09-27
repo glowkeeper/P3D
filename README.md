@@ -10,6 +10,7 @@ This module supports the university's [staff and student charter and guiding pri
 - [Labs](#labs)
 - [Assignment](#assignment)
 - [Background Material](#background-material)
+- [Module Resources](#module-resources)
 - [Maintainer](#maintainer)
 - [License](#license)
 
@@ -33,6 +34,12 @@ The assignment will appear below (sometime around week 6).
 ## Background Material
 
 There is a lot of useful background material in the [docs](./docs/) folder. In particular, you should read and become familiar with the material introduced in [3D Graphics](./docs/graphicsBackground.md).
+
+## Module Resources
+
+- [P3D on GitHub](https://github.com/glowkeeper/P3D)
+- [P3D on Canvas](https://canvas.sussex.ac.uk/courses/17597)
+- [P3D on Discord](https://discord.gg/tFKeyyyp)
 
 ## Maintainer
 
