@@ -10,11 +10,9 @@ Unity comes with a range of lighting techniques whose aim is to approximate the 
 
 _Figure 1: [Fe](https://www.ea.com/games/fe)_
 
-Unity models direct and indirect light - to get realistic effects, you must combine both. Direct light is emitted from a source, hits a surface, and gets reflected directly into a sensor (such as a virtual camera). Indirect light is all other light; it includes ambient environmental light that comes from the sky, which may have been reflected many times from different surfaces before it reaches a sensor. For more technical information on this subject, please see the [3D Graphics](../graphicsBackground.md) document. And do remember, for your assessment for this module, you will almost certainly have to write about some of the material in that document. Best to learn it now!
+Unity models direct and indirect light - to get realistic effects, you must combine both. Direct light is emitted from a source, hits a surface, and gets reflected directly into a sensor (such as a virtual camera). Indirect light is all other light; it includes ambient environmental light that comes from the sky, which may have been reflected many times from different surfaces before it reaches a sensor (for more technical information on this subject, please see the [3D Graphics](../graphicsBackground.md) document. **And do remember, for your assessment for this module, you will almost certainly have to write about some of the material in that document**. Best to learn it now!).
 
 Unity uses a global illumination (GI) system that is currently supported by two separate systems, 1) Realtime GI and 2) Baked GI. Realtime lighting is calculated at runtime. Baked lighting is light data that is computed in advance and gets _applied_ at runtime (rather than calculated). Ultimately, the difference is a trade-off between runtime performance (realtime lighting) and the time it takes to render your 3D graphics beforehand (baked lighting).
-
-All of Unity's render pipelines support Baked GI. Realtime lighting is going to get removed entirely but remains available in Unity's legacy rendering systems.
 
 ## Lighting a Simple Scene
 
@@ -63,6 +61,8 @@ Save your scene and save your project. You will add to this in the next lab.
 + [SYKOOTV](https://www.youtube.com/user/SykooTV)
 + [Lighting](https://docs.unity3d.com/Manual/LightingOverview.html)
 + [Tutorial - Introduction to Lighting and Rendering](https://learn.unity.com/tutorial/introduction-to-lighting-and-rendering-2019-3)
++ [Realtime Global Illumination](https://docs.unity3d.com/Manual/realtime-gi-using-enlighten.html)
++ [Light Mode - Baked](https://docs.unity3d.com/Manual/LightMode-Baked.html)
 + [Types of Light](https://docs.unity3d.com/Manual/Lighting.html)
 + [Skybox](https://docs.unity3d.com/2020.3/Documentation/Manual/skyboxes.html)
 + [Ambient Occlusion](https://docs.unity3d.com/Manual/LightingBakedAmbientOcclusion.html)
