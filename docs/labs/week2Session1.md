@@ -1,4 +1,4 @@
-# Lab for Week 3, Session 2 - Graphics in Unity - Meshes, Materials, Shaders and Textures  
+# Lab for Week 2, Session 1 - Graphics in Unity - Meshes, Materials, Shaders and Textures  
 
 This lab introduces you to graphics and meshes, materials, shaders and textures in [Unity](https://unity.com/).
 
@@ -23,7 +23,7 @@ Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html) an
 
 You will need some more assets, so go to the [unity asset store](https://assetstore.unity.com/), and add [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315) and [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400). Download and import them into your project. Before you can use the imported assets, you must update them to use URP; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
 
-You are going to add the _containers diffuse_ material to the floor, ceiling and walls of the room. There are a few ways to do this; one way is to select the floor, ceiling and walls of the room in the _Hierarchy_, then set the _containers diffuse_ material in the _Materials_ section of the _Inspector_. Now set the _Base Map_ of the _Surface Inputs_ to the texture _containers normals_. Figure 1, below, shows how your results might look.
+You are going to add the _containers diffuse_ material to the floor, ceiling and walls of the room. There are a few ways to do this; one way is to select the floor, ceiling and walls of the room in the _Hierarchy_, then set the _containers diffuse_ material in the _Materials_ section of the _Inspector_. Now go to the _Shader_ for the material, and set the _Base Map_ of the _Surface Inputs_ to the texture _containers normals_. Figure 1, below, shows how your results might look.
 
 ![](./images/shippingContainer.png)
 
