@@ -49,7 +49,7 @@ You could also create another _Point Light_ for the lap, which you could use to 
 
 Finally, add a [_Reflection Probe_](https://docs.unity3d.com/Manual/class-ReflectionProbe.html) and transform it so it matches the size and shape of your room; play with the settings until it subtly affects the reflective materials of the room, so they look more natural.
 
-If you have followed the directions above, your lamp should look similar to that shown in Figure 4. However, experiment (and post your results in the showcase channel on the [P3D server on Discord](https://discord.gg/tFKeyyyp))!
+If you have followed the directions above, your lamp should look similar to that shown in Figure 4. However, experiment (and post your results in the showcase channel on the [P3D server on Discord](https://discord.gg/PutHQRGkPA))!
 
 ![](./images/lampWithLight.png)
 
