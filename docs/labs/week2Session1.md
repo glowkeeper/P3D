@@ -15,7 +15,7 @@ Each material specifies which shader to use, and that determines the options ava
 
 ## Adding Materials
 
-Below, you will add character to the simple room created during the [last lab](./week1Session2.md) by adding some materials and textures to the walls. You will also add a lamp to the scene.
+Below, you will add character to the simple room created during the [last lab](./week1Session2.md) by adding some materials and textures to the walls. To reinforce and embelish some of the lighting ideas from the last lab, you will also add a lamp to the scene.
 
 ### Embellishing the Simple Room
 
