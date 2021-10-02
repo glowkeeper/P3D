@@ -21,7 +21,7 @@ Below, you will add character to the simple room created during the [last lab](.
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html) and open the project you created in the [last lab](./week1Session2.md).
 
-You will need some more assets, so go to the [unity asset store](https://assetstore.unity.com/), and add [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315) and [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400). Now download and import them into your project. Before you can use the imported assets, you must update them to use URP; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
+You will need some more assets, so go to the [unity asset store](https://assetstore.unity.com/), and add [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315) and [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400). Download and import them into your project. Before you can use the imported assets, you must update them to use URP; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
 
 You are going to add the _containers diffuse_ material to the floor, ceiling and walls of the room. There are a few ways to do this; one way is to select the floor, ceiling and walls of the room in the _Hierarchy_, then set the _containers diffuse_ material in the _Materials_ section of the _Inspector_. Now set the _Base Map_ of the _Surface Inputs_ to the texture _containers normals_. Figure 1, below, shows how your results might look.
 
@@ -35,7 +35,7 @@ Next, you are going to add a box, which we're going to use as a lampstand. Go to
 
 _Figure 2: Room with a Box_
 
-You are going to put a lamp on the stand. Find the _Old_USSR_Lamp_ in _All Prefabs_, and add it to the room in your scene. Scale it to 8 times its original size across all three axes and move it onto the stand. Rotate it sixty degrees on the y-axis, so it is pointing towards the bottom front right-hand corner.
+You are going to put a lamp on the stand. Find the _Old_USSR_Lamp_ in _All Prefabs_, and add it to the room in your scene. Scale it across all three axes and move it onto the stand. Then rotate it sixty degrees on the y-axis, so it is pointing forwards.
 
 Next, you are going to make that lamp shine by adding a _sphere_ that emits colour. Create a _GameObject_, _3D Object_, _Sphere_, rename it _bulb_ then move it, so it is in front of the light bulb of the lamp. Scale it, so it covers the bulb as precisely as possible. Now create a new material, rename it _Bulb_, and add it to the sphere. Set the colour of the _Base Map_ and enable _Emission_ on the material. Set that to a colour of your choosing.
 
@@ -45,9 +45,9 @@ Now _Add Component_ to the _Main Camera_, search for the _Volume_ script and add
 
 _Figure 3: Lamp with Bloom_
 
-You could also create another _Point Light_ for the lap, that you could use to add more effect to the old USSR lamp. If you do so, you should move it until it looks as though the old USSR lamp is emitting more light and play around with the settings until you find a colour and intensity that you like.
+You could also create another _Point Light_ for the lap, which you could use to add more effect to the old USSR lamp. If you do so, you should move it until it looks as though the old USSR lamp is emitting more light and play around with the settings until you find a colour and intensity that you like.
 
-Finally, add a [_Reflection Probe_](https://docs.unity3d.com/Manual/class-ReflectionProbe.html) and transform it so it matches the size and shape of your room; it will subtly affect the reflective materials so they look more natural.
+Finally, add a [_Reflection Probe_](https://docs.unity3d.com/Manual/class-ReflectionProbe.html) and transform it so it matches the size and shape of your room; play with the settings until it subtly affects the reflective materials of the room, so they look more natural.
 
 If you have followed the directions above, your lamp should look similar to that shown in Figure 4. However, experiment (and post your results in the showcase channel on the [P3D server on Discord](https://discord.gg/tFKeyyyp))!
 
