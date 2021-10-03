@@ -46,7 +46,7 @@ _Figure 2: Scene with First Person Controller_
 
 If you walk around the outside of your container, you will notice the walls are transparent due to [culling](https://docs.unity3d.com/Manual/SL-CullAndDepth.html), an affect we saw in an earlier lab whereby Unity does not render polygons facing away from the viewer (and, above, you flipped the normals of the container). You are going to 'fix' that by modelling the inside and outside of the container. First, ensure you have stopped the playback of your game. Now, duplicate _Inside_, rename the duplicated object _Outside_, then _Flip Normals_.  Now, when you press _Play_, you should be able to walk around a correctly rendered shipping container.
 
-Next, you are going to put some stairs next to the container so you can walk up to its roof. Create a _New Shape_ from the ProBuilder window. Select a _Stair_ with 6 steps, a height of 3 metres and a depth of 6. Hit _Build_, then _Transform_ the stairs so they look like Figure 2 - facing forward and to the left of the container.
+Next, you are going to put some stairs next to the container so you can walk up to its roof. Create a _New Shape_ from the ProBuilder window. Select a _Stair_ with 6 steps, a height of 3 metres and a depth of 6. Hit _Build_, then _Transform_ the stairs so they look like Figure 3 - facing forward and to the left of the container.
 
 ![](./images/shippingContainerStairs.png)
 
