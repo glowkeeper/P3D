@@ -36,11 +36,58 @@ You are going to add a ball, as in figure 3. Create a _GameObject_, _3D Object_,
 
 _Figure 3: The ball_
 
-Now you are going to make the ball drop to the floor. Select it in the _Hierarchy_. Then, in the _Inspector_ tab, select _Add Component_ and add a _Rigidbody_. Now press _Play_. At this point, you _may_ have a compiler error highlighted in the console concerning the obsolete `GUIText` in the file _Assets/Utility/SimpleActivatorMenu.cs_. If so, open that file, add the line `using UnityEngine.UI`, and change the `GUIText` to `Text`. Save the file and that error should disappear. Now when you press play, the ball will fall to the floor, as in Figure 4.
+Now you are going to make the ball drop to the floor. Select it in the _Hierarchy_. Then, in the _Inspector_ tab, select _Add Component_ and add a _Rigidbody_. Now press _Play_. 
+
+At this point, you _may_ have a compiler error highlighted in the console concerning the obsolete `GUIText` in the file _Assets/Utility/SimpleActivatorMenu.cs_. If you are new to Unity, then this is your first chance to have a look at Unity's scripting engine because you will need to fix _SimpleActivatorMenu.cs_ before proceeding. Double click on the error and SimpleActivatorMenu.cs should open in whichever _External Script_ Editor you have set (find out via _Unity_, _Preferences_, _External Tools_). You need to add the line, `using UnityEngine.UI;`, and instead of `public GUIText camSwitchButton;`, it should say, `public Text camSwitchButton;`. The file should look like so:
+
+```csharp
+using System;
+using UnityEngine;
+using UnityEngine.UI;
+
+#pragma warning disable 618
+namespace UnityStandardAssets.Utility
+{
+    public class SimpleActivatorMenu : MonoBehaviour
+    {
+        // An incredibly simple menu which, when given references
+        // to gameobjects in the scene
+        public Text camSwitchButton;
+        public GameObject[] objects;
+
+
+        private int m_CurrentActiveObject;
+
+
+        private void OnEnable()
+        {
+            // active object starts from first in array
+            m_CurrentActiveObject = 0;
+            camSwitchButton.text = objects[m_CurrentActiveObject].name;
+        }
+
+
+        public void NextCamera()
+        {
+            int nextactiveobject = m_CurrentActiveObject + 1 >= objects.Length ? 0 : m_CurrentActiveObject + 1;
+
+            for (int i = 0; i < objects.Length; i++)
+            {
+                objects[i].SetActive(i == nextactiveobject);
+            }
+
+            m_CurrentActiveObject = nextactiveobject;
+            camSwitchButton.text = objects[m_CurrentActiveObject].name;
+        }
+    }
+}
+```
+
+Save the file and that error should disappear in the console. Now when you press play, the ball will fall to the floor, as in Figure 4.
 
 ![](./images/rollerBallFallen.png)
 
-_Figure 3: The fallen ball_
+_Figure 4: The fallen ball_
 
 Stop playback, so the ball returns to its original position. You are going to make it bounce. To do so, you need to add a _Physics Materials_ to the ball. First, create a new folder to hold your _Physics Materials_, and once in that folder, _Create_, _Physic Material_ and call it _Ball_. Change its _Bounciness_ to 1 and both its _Friction_ parameters to 0.3. Then drag it onto your Ball in the _Hierarchy_. Now press _Play_, and watch the ball bounce off the floor.
 
