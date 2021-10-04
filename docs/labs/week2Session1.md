@@ -45,7 +45,7 @@ Now _Add Component_ to the _Main Camera_, search for the _Volume_ script and add
 
 _Figure 3: Lamp with Bloom_
 
-You could also create another _Point Light_ for the lap, which you could use to add more effect to the old USSR lamp. If you do so, you should move it until it looks as though the old USSR lamp is emitting more light and play around with the settings until you find a colour and intensity that you like.
+You could also create another _Point Light_ that you could use to add more effect to the old USSR lamp. If you do so, you should move it until it looks as though the old USSR lamp is emitting more light and play around with the settings until you find a colour and intensity that you like.
 
 Finally, add a [_Reflection Probe_](https://docs.unity3d.com/Manual/class-ReflectionProbe.html) and transform it so it matches the size and shape of your room; play with the settings until it subtly affects the reflective materials of the room, so they look more natural.
 
