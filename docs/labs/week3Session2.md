@@ -49,7 +49,7 @@ The game you create will spawn a number of balls in the scene - it will be your 
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), and open the project you created in the [last lab](week4Session2.md).
 
-First, create a bouncing ball using the same process as you did when creating the wheel in [Week 4, Session 1](./week4Session1.md); i.e. create a sphere with a material and texture, then attach to that a _RigidBody_ and a _Physics Material_. You need to make the ball a [Prefab](https://docs.unity3d.com/Manual/Prefabs.html), so that you can reuse its properties across all the balls you are going to spawn in the game. To do so, in the _Project_ tab, create a folder called _Prefabs_ and drag you ball into that. Scale the ball prefab to a size you prefer. You don't actually want this ball appearing in the game (later, in a script, you will _SetActive_ all the balls you create), so set the _Ball_ as _inactive_ in the Inspector window.
+First, create a bouncing ball using the same processes you used when creating the balls in previous sessions; i.e. create a sphere with a material and texture, then attach to that a _RigidBody_ and a _Physics Material_. You need to make the ball a [Prefab](https://docs.unity3d.com/Manual/Prefabs.html), so that you can reuse its properties across all the balls you are going to spawn in the game. To do so, in the _Project_ tab, create a folder called _Prefabs_ and drag you ball into that. Scale the ball prefab to a size you prefer. You don't actually want this ball appearing in the game (later, in a script, you will _SetActive_ all the balls you create), so set the _Ball_ as _inactive_ in the Inspector window.
 
 Next, you will create a spawn point at the centre of the shipping container; once the game starts, that is where the balls will appear. Create an empty _GameObject_, and rename it _SpawnPoint_. Similar to Figure 2, below, add an _icon_ to that spawn point (so you can see it in the _Scene_) and transform it so it's at the centre of the container.
 
@@ -59,7 +59,7 @@ _Figure 2: Spawn point_
 
 Next, create an empty _GameObject_ and call it _SpawnManager_ - you will attach to that a script for managing the creation of the balls needed for the game. In the _Scripts_ folder, create a _C# Script_ called _SpawnObjects_. It should look like this:
 
-```
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -105,7 +105,7 @@ _Figure 3: The scripted scene_
 
 Now you are going to write a script that destroys the balls, so create a _C# Script_ called _Destroyer_, and make it look like this:
 
-```
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -128,7 +128,7 @@ Drag the _Destroyer_ script onto the _FPSController_ and set its _Other Tag_ fie
 
 Finally, you are going to gamify the scene. Modify the _C# Script_ _SpawnObjects_ and make it look like this:
 
-```
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
