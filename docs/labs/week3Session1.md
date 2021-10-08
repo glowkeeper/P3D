@@ -14,15 +14,15 @@ Below, you will recreate the simple room you first built in [Week 1, Session 2](
 
 ### ProBuilder
 
-Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), create a new project and choose the Universal Render Pipeline (URP) template (naming the project however you choose).
+Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), create a new project and choose the High Definition Render Pipeline (HDRP) template (naming the project however you choose).
 
-Create a new scene by selecting _File_, _New Scene_. You can use similar lighting settings to those used in [Week 1, Session 2](./week1Session2.md), but leave the default _Skybox Material_ (since this will be an outdoor scene, too). Additionally, do not worry too much about the settings of the main camera, as you are going to delete that later (you will use the first-person camera, instead).
+Create a new scene by selecting _File_, _New Scene_. You can use similar lighting settings to those used in [Week 1, Session 2](./week1Session2.md), but leave the default _Skybox Material_ (since this will be an outdoor scene, too). Additionally, do not worry too much about the settings of the main camera - later, we are going to use a first-person controller that employs a camera that tracks the main camera, and most of the settings we can change there, instead.
 
 You will need some of the assets you have already added to your [asset store](https://assetstore.unity.com/): [Starter Assets - First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525), [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315), [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400) and [Free PBR Lamps](https://assetstore.unity.com/packages/3d/props/interior/free-pbr-lamps-70181) so download and import those into your project.
 
 While you're in the _Package Manager_, load the _Unity Registry_, search for _ProBuilder_ and install it. Now go to _Tools_, _ProBuilder_ and select _ProBuilder_ window. You have several options for displaying the ProBuilder tools window - play around and find whichever option suits you best.
 
-Before you can use the imported assets, ensure they can use the Universal Render Pipeline; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
+Before you can use the imported assets, ensure they can use the High Definition Render Pipeline; so go to _Edit_, _Render Pipeline_, _HD Render Pipeline_, _Upgrade from Builtin Pipeline_, _Upgrade Project Materials..._.
 
 To enable ProBuilder, go to _Window_, _Package Manager_. Search for _ProBuilder_ and install it. Now go to _Tools_, _ProBuilder_ and select _ProBuilder_ window. You have several options for displaying the ProBuilder tools window - play around and find whichever option suits you best.
 
@@ -38,7 +38,7 @@ You are going to create the ground upon which the container sits. You could foll
 
 Save your scene.
 
-You are now going to add a first-person controller to the scene. The simplest method to do that is via _Tools_, _Starter Assets_, _Reset First Person Controller_.  Hopefully, your scene looks similar to Figure 2. Now, when you press _play_, you should be able to look and move around your scene using the mouse and the keys _w_, _a_, _s_, _d_ and _spacebar_.
+You are now going to add a first-person controller to the scene. The simplest method to do that is via _Tools_, _Starter Assets_, _Reset First Person Controller_.  Hopefully, your scene looks similar to Figure 2. Now, when you press _play_, you should be able to look and move around your scene using the mouse and the arrow keys (or _w_, _a_, _s_, _d_) and _spacebar_.
 
 ![](./images/fpcScene.png)
 
@@ -52,7 +52,7 @@ Next, you are going to put some stairs next to the container so you can walk up 
 
 _Figure 3: Shipping container stairs_
 
-Now, when you press _Play_, you should be able to use the keys, _w_ and _spacebar_ to walk up the stairs. Walk off the roof of the container, and you should fall to the ground.
+Now, when you press _Play_, you should be able to walk up the stairs and then walk off the roof of the container and fall to the ground.
 
 Stop playback, as you are now going to put a door wall on the front of the container. Create a _New Shape_ from the ProBuilder window. Select a _Door_, with a width and height of 3 metres, a door height and leg width of 0.5 metres and a depth of 0.1 metres. Hit _Build_, then _Transform_ the door so it is on the front of the container. Set the material and texture, so it matches those of the _Inside_ and _Outside_ walls. Finally, make the door a child of your container. Figure 4 shows how it might look.
 
