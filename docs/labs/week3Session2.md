@@ -207,8 +207,7 @@ There is, of course, plenty that could be done to improve the game - if you're s
 ## Useful Links
 
 + [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
-+ [LEARN UNITY](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
 + [Scripting API](https://docs.unity3d.com/ScriptReference/)
 + [Unity Learn - Scripting](https://learn.unity.com/search?k=%5B%22q%3AScripting%22%5D)
-+ [Adding User Input](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
++ [LEARN UNITY](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
 + [Unity Debugging C# Scripts with Visual Studio](https://www.youtube.com/watch?v=d0815qbx3BA&list=PLboXykqtm8dxhCV5SVn0N76jrdCo5HV2a) (**Note**: Unity's pre-installed version of Visual Studio includes the Unity tools)
