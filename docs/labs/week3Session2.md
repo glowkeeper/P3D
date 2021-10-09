@@ -33,7 +33,7 @@ public class NewBehaviourScript : MonoBehaviour
 
 _MonoBehaviour_ defines other behaviour, too - the one you will likely see most frequently is _FixedUpdate_, which is called by the physics system at a rate independant from the main game frame rate. For example, imagine the physics engine is running at fifty calls per second, and the frame rate is running at twenty-five frames per second (FPS) - then _FixedUpdate_ will be called twice per frame. For that reason, it is bad practice to put physics calculations in _Update_ - they should go in _FixedUpdate_, instead. Equally, user input should go in _Update_, and not _FixedUpdate_. Figure 1, below. shows a flowchart for MonoBehaviour.
 
-![](./images/monobehaviourFlowChart.svg)
+![](./images/monobehaviourFlowchart.svg)
 
 _Figure 1: MonoBehaviour Flow Chart_
 
