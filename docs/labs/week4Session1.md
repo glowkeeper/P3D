@@ -36,7 +36,7 @@ _Figure 2: Animation controller_
 
 Finally, you need a script to make the flower bloom and hibernate, so create a _C# Script_ called _Grower_, and make it look like this:
 
-```
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -92,7 +92,7 @@ Drag the _Grower_ script onto the _Flower_ parent in the hierarchy. Set the _Pla
 
 _Figure 3: Box collider_
 
-Press _Play_. Now, when you walk near the flower and press _G_ on your keypad, your flower will grow and bloom, as in Figure 4. And when you walk away, it will wither away, waiting for you to come near, again.
+Press _Play_. Now, when you walk near the flower and press _G_ on your keypad, your flower will grow and bloom, as in Figure 4. And when you walk away, it will wither away, inconsolable because you've left.
 
 ![](./images/flowerInBloom.png)
 
