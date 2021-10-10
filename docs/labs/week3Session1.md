@@ -82,3 +82,4 @@ Those are all left as exercises.
 + [Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.1/manual/Installation.html)
 + [Unity Legacy to High Definition Render Pipeline conversion tutorial](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@6.7/manual/Upgrading-To-HDRP.html#ManualConversion)
 + [Z-Fighting](https://www.unity3dtips.com/unity-z-fighting-solutions/)
++ [Volumes](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@13.0/manual/Volumes.html)
