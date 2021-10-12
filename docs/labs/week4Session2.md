@@ -87,7 +87,7 @@ Below, you will add a simple attenuated 3D sound to a radio so that its volume i
 
 ### Playing the Radio
 
-First, you will need another asset, so go to the [Unity asset store](https://assetstore.unity.com/) and import [HQ PBR Old Retro Radio](https://assetstore.unity.com/packages/3d/props/hq-pbr-old-retro-radio-free-180303) (as always, ensure to update it to use the _High Definition Render Pipeline (HDRP); so go to _Edit_, _Render Pipeline_, _HD Render Pipeline_, _Upgrade from Builtin Pipeline_, _Upgrade Project Materials..._).
+First, you will need another asset, so go to the [Unity asset store](https://assetstore.unity.com/) and import [HQ PBR Old Retro Radio](https://assetstore.unity.com/packages/3d/props/hq-pbr-old-retro-radio-free-180303) (as always, ensure to update it to use the _HDRP_; so go to _Edit_, _Render Pipeline_, _HD Render Pipeline_, _Upgrade from Builtin Pipeline_, _Upgrade Project Materials..._).
 
 The retro radio is listed as _PHOSdigital_ under the _Assets_ directory in the _Project_ directory; go there, open the _HQ PBR Radio Free_ directory, then drag the radio _Prefab_ into the hierarchy. Scale the radio by 5 across all axis and position it, so it is on the ground, next to the container, as in Figure 2.
 
