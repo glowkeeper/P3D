@@ -4,9 +4,9 @@ This lab serves as an introduction to Unity [audio](https://docs.unity3d.com/Man
 
 ## Overview
 
-Sound plays an important role in the real world, and so it also has an important role in any 3D application or video game, since it helps create tension, add emotion and immerse the user/player into the virtual space that you create for them. To put it simply, the virutal worlds you create would be incomplete without appropriate sound effects.
+Sound plays an essential role in the real world, and so it also has a vital role for any 3D application or video game since it helps create tension, add emotion and immerse the user/player into the virtual space that you create for them. To put it simply, the virtual worlds you make would be incomplete without appropriate sound effects.
 
-Unity uses Audio Sources, attached to _GameObjects_, to emit sound. Those sounds are then picked up by an Audio Listener attached to another object, which is often the main camera.
+Unity uses _Audio Sources_, attached to _GameObjects_, to emit sound. An audio listener attached to another object (often the main camera) then picks up those sounds.
 
 ## Add Footsteps
 
@@ -39,7 +39,7 @@ Next, in the script's `Start` method, you should assign the _AudioSource_ to its
 audioSource = GetComponent<AudioSource>();
 ```
 
-Now, in the script's `Move` method, you should call the method we're going to use to actually play the footstep sounds. 
+Now, in the script's `Move` method, you should call the method you're going to use to play the footstep sounds.
 
 ```csharp
 PlayFootStepAudio();
@@ -71,7 +71,7 @@ private void PlayFootStepAudio()
 }
 ```
 
-Before we can use the script in the game, we need to assign an _AudioSource_ to the _PlayerCapsule_ in the _Hierarchy_, and assign footstep audio clips to the `footstepSounds` array that we exposed to the _Inspector_. If you go the the [P3D GitHub repository](https://github.com/glowkeeper/P3D), you will find 4 footstep sound files in the directory _assets/audio_. Download those, then in the _Project_ tab, _Create_, _Folder_, call it _audio_, and put the downloaded footstep sounds in there. Now, in the _First Person Controller_ in the _Inspector_, set Footstep Sounds to 4, and then drag each of your footstep clips into each of the 4 available fields, as in Figure 1, below.
+Before you can use the script in the game, you need to assign an _AudioSource_ to the _PlayerCapsule_ in the _Hierarchy_, and assign footstep audio clips to the `footstepSounds` array that you exposed to the _Inspector_. If you go the the [P3D GitHub repository](https://github.com/glowkeeper/P3D), you will find 4 footstep sound files in the directory _assets/audio_. Download those, then in the _Project_ tab, _Create_, _Folder_, call it _audio_, and put the downloaded footstep sounds in there. Now, in the _First Person Controller_ in the _Inspector_, set Footstep Sounds to 4, and then drag each of your footstep clips into each of the 4 available fields, as in Figure 1, below.
 
 ![](./images/audioClips.png)
 
@@ -83,29 +83,29 @@ There are two added exercises. First, make your footstep audio code more robust 
 
 ## 3D Spatial Sound
 
-Below, you will add a simple attenuated 3D sound to a radio, so that its volume increases and decreases as your FPC gets closer or moves further away.
+Below, you will add a simple attenuated 3D sound to a radio so that its volume increases and decreases as your FPC gets closer or moves further away.
 
-### A Radio Playing
+### Playing the Radio
 
-First, you will need another asset, so go to the [Unity asset store](https://assetstore.unity.com/) and import [HQ PBR Old Retro Radio](https://assetstore.unity.com/packages/3d/props/hq-pbr-old-retro-radio-free-180303). As always, ensure to update it to use the _High Definition Render Pipeline (HDRP); so go to _Edit_, _Render Pipeline_, _HD Render Pipeline_, _Upgrade from Builtin Pipeline_, _Upgrade Project Materials..._.
+First, you will need another asset, so go to the [Unity asset store](https://assetstore.unity.com/) and import [HQ PBR Old Retro Radio](https://assetstore.unity.com/packages/3d/props/hq-pbr-old-retro-radio-free-180303) (as always, ensure to update it to use the _High Definition Render Pipeline (HDRP); so go to _Edit_, _Render Pipeline_, _HD Render Pipeline_, _Upgrade from Builtin Pipeline_, _Upgrade Project Materials..._).
 
-The retro radio is listed as _PHOSdigital_ under the _Assets_ directory in the _Project_ directory, go there, open the _HQ PBR Radio Free_ directory, then drag the radio _Prefab_ into the hierarchy. Scale the radio by 5 across all axis and position it so its on the ground, next to the container, as in Figure 2.
+The retro radio is listed as _PHOSdigital_ under the _Assets_ directory in the _Project_ directory; go there, open the _HQ PBR Radio Free_ directory, then drag the radio _Prefab_ into the hierarchy. Scale the radio by 5 across all axis and position it, so it is on the ground, next to the container, as in Figure 2.
 
 ![](./images/radio.png)
 
-_Figure 2: Postioning the radio_
+_Figure 2: Positioning the radio_
 
-You will also need the audio that the radio is going to play. If you go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), you will find an _mp3_ that is a looped drum beat produced by the iconic [Roland TR-808](https://en.wikipedia.org/wiki/Roland_TR-808), a drum machine that has had a [huge influence on music](https://mixdownmag.com.au/features/columns/the-history-of-the-roland-tr-808-in-eight-iconic-tracks/). Add that _mp3_ to the _assets/audio_ directory you created above.
+You will also need the audio that the radio is going to play. Go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D). You will find an _mp3_ that is a looped drum beat produced by the iconic [Roland TR-808](https://en.wikipedia.org/wiki/Roland_TR-808), a drum machine that has had a [huge influence on music](https://mixdownmag.com.au/features/columns/the-history-of-the-roland-tr-808-in-eight-iconic-tracks/). Add that _mp3_ to the _assets/audio_ directory you created above.
 
-No add an _AudioSource to the radio, and drag the 808 _mp3_ into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_. You should hear the looped 808 track playing on the radio.
+No add an _AudioSource to the radio and drag the 808 _mp3_ into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_. You should hear the looped 808 track playing on the radio.
 
-However, the 808 track maintains the same volume no matter the distance your FPC is from the radio. You can do better. To do so, first, in the radio's _AudioSource_, set the _Spatial Blend_ field to _1_ - that enables the _AudioClip_ to take on 3D properties. Now, in the _3D Sound Settings_, set the Max Distance to 20, and at the 20 point on the x-axis of the graph, ensure the volume of the sound is set to zero, as in Figure 3.
+However, the 808 track maintains the same volume no matter the FPC's distance from the radio. You can do better. To do so, first, in the radio's _AudioSource_, set the _Spatial Blend_ field to _1_ - that enables the _AudioClip_ to take on 3D properties. Now, in the _3D Sound Settings_, set the Max Distance to 20, and at the 20 point on the x-axis of the graph, ensure the sound volume is set to zero, as in Figure 3.
 
 ![](./images/radio3D.png)
 
 _Figure 3: Radio 3D_
 
-When you approach and walk away from the radio now, the volume should increase and decrease. Experiment with the 3D settings to see their affect.  
+When you approach and walk away from the radio now, the volume should increase and decrease. Experiment with the 3D settings to see their effect.  
 
 ## Useful Links
 
