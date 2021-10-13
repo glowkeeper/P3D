@@ -4,7 +4,7 @@ This lab serves as an introduction to Unity [Visual Effects Graphs](https://unit
 
 ## Overview
 
-You can create many exciting effects using Unity's visual effect (VFX) graphs. In this lab, we are going to build a smoky fire.
+You can create many exciting effects using Unity's visual effect (VFX) graphs. In this lab, you are going to use a VFX graph to create a particle system that emulates a smoking fire.
 
 ## Fire
 
