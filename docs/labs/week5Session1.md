@@ -4,11 +4,13 @@ This lab serves as an introduction to Unity [Visual Effects Graphs](https://unit
 
 ## Overview
 
-You can create many exciting effects using Unity's visual effect (VFX) graphs. In this lab, you are going to use a VFX graph to create a particle system that emulates a smoking fire.
+You can create many exciting effects using Unity's visual effect (VFX) graphs. In this lab, you are going to use a VFX graph that utilises a particle system to create smoking fires.
 
-## Fire
+## Fire! Fire!
 
-First, in the _Projects_ window, _Create_, _Visual Effects_, _Visual Effects Graph_, and name it _Smoke_. In the _Hierarchy_ window, _Create Empty_, and call that _Fire_. Now drag your _Smoke_ VFX graph into that.  
+First, in the _Projects_ window, _Create_, _Visual Effects_, _Visual Effects Graph_, and name it _Smoke_. In the _Hierarchy_ window, _Create Empty_, and call that _Fire_. Now drag your _Smoke VFX Graph_ into that.  
+
+Now double click the _Smoke VFX Graph_ to open its VFX Graph window - similar to other windows in Unity, you may dock that wheresoever you please.
 
 ## 3D Spatial Sound
 
