@@ -97,7 +97,7 @@ _Figure 2: Positioning the radio_
 
 You will also need the audio that the radio is going to play. Go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D). You will find an _mp3_ that is a looped drum beat produced by the iconic [Roland TR-808](https://en.wikipedia.org/wiki/Roland_TR-808), a drum machine that has had a [huge influence on music](https://mixdownmag.com.au/features/columns/the-history-of-the-roland-tr-808-in-eight-iconic-tracks/). Add that _mp3_ to the _assets/audio_ directory you created above.
 
-No add an _AudioSource_ to the radio and drag the 808 _mp3_ into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_. You should hear the looped 808 track playing on the radio.
+Now add an _AudioSource_ to the radio and drag the 808 _mp3_ into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_. You should hear the looped 808 track playing on the radio.
 
 However, the 808 track maintains the same volume no matter the FPC's distance from the radio. You can do better. To do so, first, in the radio's _AudioSource_, set the _Spatial Blend_ field to _1_ - that enables the _AudioClip_ to take on 3D properties. Now, in the _3D Sound Settings_, set the Max Distance to 20, and at the 20 point on the x-axis of the graph, ensure the sound volume is set to zero, as in Figure 3.
 
