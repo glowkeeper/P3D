@@ -67,7 +67,7 @@ When you have finished exploring, stop playback. You still have a fair amount to
 3. Add a _Large round lamp_ to the ceiling.
 4. Both lights need lighting with a _Point Light_.
 5. Put four balls inside the container and add the appropriate physics, so they fall and bounce correctly.
-6. You could have some fun with the balls, and while playing back your game, you could enter the container and 'kick' the balls out of the door.
+6. You could have some fun with the balls, and while playing back your game, you could enter the container and 'kick' the balls out of the door. Or something ;)
 
 Those are all left as exercises.
 
