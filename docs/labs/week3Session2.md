@@ -101,40 +101,6 @@ public class SpawnObjects : MonoBehaviour
 Drag the script onto the _SpawnManager_, then drag the _Ball_  into the script's _M Object_ field and the _Spawn Point_ into its _Spawn Point_ field. Set the _Max Objects_ field to 10. Press _Play_ - if your _Game_ tab looks something similar to Figure 3, below, then congratulations! You have created a scripted game!
 
 ![](./images/scriptedScene.png)using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SpawnObjects : MonoBehaviour
-{
-    [SerializeField] private GameObject mObject;
-    [SerializeField] private Transform spawnPoint;
-    [SerializeField] private int maxObjects;
-
-    private int numObjects;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (numObjects < maxObjects)
-        {
-            SpawnObject(numObjects);
-            numObjects++;
-        }  
-
-    }
-
-    void SpawnObject(int num)
-    {
-        GameObject mObjectClone = Instantiate(mObject, spawnPoint.position, Quaternion.identity) as GameObject;
-        mObjectClone.SetActive(true);
-    }
-}
 
 _Figure 3: The scripted scene_
 
