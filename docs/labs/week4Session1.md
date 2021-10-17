@@ -86,7 +86,7 @@ public class Grower : MonoBehaviour
 }
 ```
 
-Drag the _Grower_ script onto the _Lowpoly Flower_ in the hierarchy. Set the _Player_ field to "Player", the _Hibernate_ field to "Hibernate" and the _Grow_ field to "Grow". Ensure your _PlayerCapsule_ (FPSController) has the "Player" tag set. Finally, add a _Box Collider_ to the _Lowpoly Flower_, set _Is Trigger_ and position and size the collider so it looks similar to Figure 3, below.
+Drag the _Grower_ script onto the _Lowpoly Flower_ in the hierarchy and set its _Player_ field to "Player", the _Hibernate_ field to "Hibernate" and the _Grow_ field to "Grow" in the _Inspector_. Ensure your _PlayerCapsule_ (FPSController) has the "Player" tag set. Finally, add a _Box Collider_ to the _Lowpoly Flower_, set _Is Trigger_ and position and size the collider so it looks similar to Figure 3, below.
 
 ![](./images/boxCollider.png)
 
