@@ -14,7 +14,7 @@ Below, you are going to make a flower grow. This is a special flower that only b
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), and open the project from the last lab.
 
-First, you will need another asset, so go to the [Unity asset store](https://assetstore.unity.com/) and import [Lowpoly Flowers](https://assetstore.unity.com/packages/3d/vegetation/plants/lowpoly-flowers-47083).  Before you can use the imported asset, you must update it to use the _High Definition Render Pipeline (HDRP); so go to _Edit_, _Render Pipeline_, _HD Render Pipeline_, _Upgrade from Builtin Pipeline_, _Upgrade Project Materials..._.
+First, you will need another asset, so go to the [Unity asset store](https://assetstore.unity.com/) and import [Lowpoly Flowers](https://assetstore.unity.com/packages/3d/vegetation/plants/lowpoly-flowers-47083).  Before you can use the imported asset, you must update it to use the _High Definition Render Pipeline (HDRP)_; so go to _Edit_, _Render Pipeline_, _HD Render Pipeline_, _Upgrade from Builtin Pipeline_, _Upgrade Project Materials..._.
 
 Create an empty _GameObject_, and name it _Flower_, then drag one of the _Lowpoly Flowers_ into that. This step means that any animation you create on the _Lowpoly Flower_ will be animated relative to the position of the _Flower GameObject_ and not the scene itself. Position the _Lowpoly Flower_ so that it is front of the door, then scale it so it is 10 across all three axis, as it is in Figure 1, below.
 
@@ -92,7 +92,7 @@ Drag the _Grower_ script onto the _Lowpoly Flower_ in the hierarchy. Set the _Pl
 
 _Figure 3: Box collider_
 
-When you press _Play_, you may get the error, _InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings._ That is because you switched to Unity's new _Input System_ when you imported the [Starter Assets - First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525). To fix that, go to _Edit_, _Project Settings_, _Player_ and switch _Active Input Handling_ to _Both_.
+When you press _Play_, you may get the error, _InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings._ That is because you switched to Unity's new _Input System_ when you imported the [Starter Assets - First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525), yet, in the script above, you're using the legacy input system when calling `Input.GetKeyDown`. The simplest way to fix that in this instance is to go to _Edit_, _Project Settings_, _Player_ and switch _Active Input Handling_ to _Both_.
 
 _Play_ should work properly now, so when you walk near the flower and press _G_ on your keypad, your flower will grow and bloom, as in Figure 4. And when you walk away, it will wither away, inconsolable because you've left.
 
