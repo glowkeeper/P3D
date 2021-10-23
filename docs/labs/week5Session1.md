@@ -42,6 +42,8 @@ Finally, you should add something to house the fire. Figure 2, below, shows the 
 
 ![](./images/fireInTheHole.png)
 
+_Figure 2: Fire in the Hole (Pot)!_
+
 The added exercise here is to play around with _all_ of the settings to see their effect!  
 
 ## 3D Spatial Sound
