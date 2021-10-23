@@ -1,16 +1,42 @@
 # Lab for Week 5, Session 1 - Particle Systems Using Visual Effects Graphs
 
-This lab serves as an introduction to Unity [Visual Effects Graphs](https://unity.com/visual-effect-graph).
+This lab serves as an introduction to particle systems in Unity [Visual Effects Graphs](https://unity.com/visual-effect-graph).
 
 ## Overview
 
-You can create many exciting effects using Unity's visual effect (VFX) graphs. In this lab, you are going to use a VFX graph that utilises a particle system to create smoking fires.
+Particle systems are a combination of small images that form a more complex nebulous simulation. They are most often used to create effects such as liquids, fire, fireworks, smoke and weather.
 
-## Fire! Fire!
+You can create particle systems in Unity in several ways. Still, visual effect (VFX) graphs are the most intuitively customisable way because they allow you to author visual effects using Node-based visual logic.
 
-First, in the _Projects_ window, _Create_, _Visual Effects_, _Visual Effects Graph_, and name it _Smoke_. In the _Hierarchy_ window, _Create Empty_, and call that _Fire_. Now drag your _Smoke VFX Graph_ into that.  
+In this lab, you will use a VFX graph to create a fire.
 
-Now double click the _Smoke VFX Graph_ to open its VFX Graph window - similar to other windows in Unity, you may dock that wheresoever you please.
+## Fire in the Hole!
+
+A word of warning before you start - never play with fire _outside_ of Unity :)
+
+First, in the _Projects_ window, _Create_, _Folder_ and call it _VFX_. Later, you are also going to need a fire [texture](https://docs.unity3d.com/Manual/Textures.html), so _Create_, _Folder_ and call that _Textures_, then go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), find the _sparksFlipbook_ texture in the _assets/textures_ directory, and drag it into your _Textures_ folder. [Flipbooks](https://vfxdoc.readthedocs.io/en/latest/textures/flipbooks/) describe rows and columns of different image states in a single texture sheet. The _sparksFlipbook_ is a 3 x 3 texture sheet. Finally, you will need some audio for the fire, so _Create_, _Folder_ and call that _Audio_. Then go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), find the _fileInTheHole_ audio asset and drag that into your _Audio_ folder.
+
+Now create the VFX graph. Go to that folder, and now _Create_, _Visual Effects_, _Visual Effects Graph_, and name it _Fire_. In the _Hierarchy_ window, _Create Empty_, and call that _Smoke_ and drag your _Smoke VFX Graph_ into that. Double click the _Smoke VFX Graph_ to open its VFX Graph window - similar to other windows in Unity, you may dock that wheresoever you please.
+
+Delete the _Output Particle Quad_ node, and instead, connect an _Output Particle Quad Lit_ node to your _Update Particle_ node. Next, change the _UV Mode_ to _Flipbook Blend_, the Flipbook size to 3 x 3, and set the Main Texture to the _sparksFlipbook_ texture you imported earlier. Finally, you will need to add a _Point Light_ that will become the fire itself, so _Create_, _Light_, _Point Light_, rename it _Fire_, and set its lumens to _600000_ in the inspector.
+
+You need to add some blocks to your _Output Particle Quad Lit_ node. First, add an _Orient: Face Camera Position_ block (the default settings are acceptable). Secondly, add a _Set Size Over Life_ block and set the graph, so the particles begin life at full size and end half size. Now add _Set Color Over Lifetime_ and _Multiply Color_ blocks. Next, create a _Color_ property, call it _Fire Colour_ and ensure _Expose_ is set. Then drag the _Fire Colour_ property onto the VFX Graph. Connect it to the _Multiply Color_ block, and in the inspector for the VFX graph, change the colour to some shade of red. Hopefully, you have something that looks similar to Figure 1 below:
+
+![](./images/firstFire.png)
+
+_Figure 1: Fire!_
+
+That already looks pretty good! The rest of the lab concentrates on making the fire look _even better_.
+
+First, let's concentrate on the _Initialize Particle_ node. Increase the capacity from _32_ to anything up to _128_. For this fire, the default settings for _Set Velocity Random_ and _Set Lifetime Random_ already work pretty well, but you should experiment by changing each value one by one and seeing the effect. Next, add a new _Set Angle Random_ block to the  _Initialize Particle_ node and set the _Channel_ to _Z_, _A_ to 0 and _B_ to _360_. You should see individual particles rising with random rotation.
+
+Next, we should add some physics to the particles by applying some forces in the _Update_ node.  Add a _Turbulence (Force)_ block to that, set the _Noise Type_ to _Cellular_, the _Intensity_ to 0.5 and move the _Octaves_ and _Roughness_ sliders all the way to the right.  Also, add a _Linear Drag_ force, set the _Use Particle Size_ field, and set the size to _0.2_ - the larger your particles, the more they are affected by drag forces, which gives a realistic effect.
+
+Finally, you should add something to house the fire. Figure 2, below, shows the fire in a pot (it is the _Pot 01_ _Prefab_ from the _SampleSceneAssets_, scaled to 2 on the x and z-axis).
+
+![](./images/fireInThePot.png)
+
+The added exercise here is to play around with _all_ of the settings to see their effect!  
 
 ## 3D Spatial Sound
 
@@ -18,13 +44,15 @@ Below, you will add a simple attenuated 3D sound to the fire so that its volume 
 
 ### Adding Some Sound to the Fire
 
-You will need the audio that makes the fire crackle and pop. Go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), where you will find a _wav_ with _fire-in-the-stove_ in the title. Add that _wav_ to your _assets/audio_ (you may need to create that, if you did not do so in an earlier lab).
+You will need the audio that makes the fire crackle and pop. Go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), where you will find a _wav_ called _fireInTheHole_. Add that _wav_ to your _Audio_ folder.
 
-No add an _AudioSource_ to the fire and drag the _wav_ into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_. You should hear the fire begin to crackle and pop.
+Now add an _AudioSource_ to the fire and drag the _wav_ into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_, and you should hear the fire begin to crackle and pop.
 
-Similarly for the radio in the previous lab, no matter the FPC's distance from the fire, the sound will maintain the same volume. To change that, in the fire's _AudioSource_, set the _Spatial Blend_ field to _1_ - that enables the _AudioClip_ to take on 3D properties. Now, in the _3D Sound Settings_, set the Max Distance to 10, and at the 10 point on the x-axis of the graph, ensure the sound volume is set to zero. Now, when you approach and walk away from the fire, the volume should increase and decrease. Experiment with the 3D settings to see their effect.  
+As for the radio in the previous lab, no matter the FPC's distance from the fire, the sound will maintain the same volume. To change that, in the fire's _AudioSource_, set the _Spatial Blend_ field to _1_ - that enables the _AudioClip_ to take on 3D properties. Now, in the _3D Sound Settings_, set the Max Distance to 20, and at the 20 point on the graph's x-axis, ensure the sound volume is zero. Also, set the maximum volume at 5 metres (you don't want to get too close to the fire to hear it). So now, when you approach and walk away from the fire, the volume should increase and decrease. 
 
 ## Useful Links
 
 + [Visual Effects Graphs](https://unity.com/visual-effect-graph)
++ [Output Lit](https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@10.2/manual/Context-OutputLitSettings.html)
++ [Turbulence](https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@10.2/manual/Block-Turbulence.html)
 + [freesound](https://freesound.org/)
