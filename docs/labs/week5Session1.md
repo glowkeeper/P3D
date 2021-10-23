@@ -46,7 +46,7 @@ _Figure 2: Fire in the Hole (Pot)!_
 
 The added exercise here is to play around with _all_ of the settings to see their effect!  
 
-## 3D Spatial Sound
+## Crackle and Pop
 
 Below, you will add a simple attenuated 3D sound to the fire so that its volume increases and decreases as your FPC gets closer or moves further away.
 
