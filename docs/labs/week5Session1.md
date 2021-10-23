@@ -14,9 +14,9 @@ In this lab, you will use a VFX graph to create a fire.
 
 A word of warning before you start - never play with fire _outside_ of Unity :)
 
-You _must_ use High Definition Render Pipeline (HDRP) for this lab. If you are already using that, then you may use one of the scenes from previous labs when creating the fire below. Otherwise, the create a new project and choose the High Definition Render Pipeline (HDRP) template (naming the project however you choose).
+You _must_ use the High Definition Render Pipeline (HDRP) for this lab. If you are already using that, you may use one of the scenes from previous labs when creating the fire below. Otherwise, create a new project and choose the High Definition Render Pipeline (HDRP) template (naming the project however you choose). You will need to import the [Starter Assets - First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525) (FPC) you have used in previous labs. You will also need to create the ground upon which to place your fire, so your FPC can walk around it.
 
-First, in the _Projects_ window, _Create_, _Folder_ and call it _VFX_. Later, you are also going to need a fire [texture](https://docs.unity3d.com/Manual/Textures.html), so _Create_, _Folder_ and call that _Textures_, then go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), find the _sparksFlipbook_ texture in the _assets/textures_ directory, and drag it into your _Textures_ folder. [Flipbooks](https://vfxdoc.readthedocs.io/en/latest/textures/flipbooks/) are a single texture sheet that describes animated image states in a series of rows and columns. In essence, a flipbook is an efficient way to reference multiple images. The _sparksFlipbook_ is a 3 x 3 texture sheet.
+You can now start creating the fire. First, in the _Projects_ window, _Create_, _Folder_ and call it _VFX_. Later, you are also going to need a fire [texture](https://docs.unity3d.com/Manual/Textures.html), so _Create_, _Folder_ and call that _Textures_, then go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), find the _sparksFlipbook_ texture in the _assets/textures_ directory, and drag it into your _Textures_ folder. [Flipbooks](https://vfxdoc.readthedocs.io/en/latest/textures/flipbooks/) are a single texture sheet that describes animated image states in a series of rows and columns. In essence, a flipbook is an efficient way to reference multiple images. The _sparksFlipbook_ is a 3 x 3 texture sheet.
 
 Later, you will need some audio for the fire, so _Create_, _Folder_ and call that _Audio_. Then go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), find the _fireInTheHole_ audio asset and drag that into your _Audio_ folder.
 
@@ -24,7 +24,7 @@ Now create the VFX graph. Go to that folder, and now _Create_, _Visual Effects_,
 
 Now, double click the _Smoke VFX Graph_ to open its VFX Graph window - similar to other windows in Unity, you may dock that wheresoever you please.
 
-First, delete the _Output Particle Quad_ context, and instead, connect an _Output Particle Quad Lit_ context to your _Update Particle_ (this is what requires HDRP). Next, change the _UV Mode_ to _Flipbook Blend_, the Flipbook size to 3 x 3, and set the Main Texture to the _sparksFlipbook_ texture you imported earlier.
+First, delete the _Output Particle Quad_ context, and instead, connect an _Output Particle Quad Lit_ context to your _Update Particle_ (this is what requires HDRP). Next, change the _UV Mode_ to _Flipbook Blend_, the Flipbook size to 3 x 3, and set the _Base Color Map_ (main texture) to the _sparksFlipbook_ texture you imported earlier.
 
 You need to add some blocks to your _Output Particle Quad Lit_ context. First, add an _Orient: Face Camera Position_ block (the default settings are acceptable) - this adds what is known as a _billboard effect_, which makes the flat 2-dimensional textures look 3-dimensional from any direction. Secondly, add a _Set Size Over Life_ block and set the graph, so the particles begin life at full size and end half size. Now add _Set Color Over Lifetime_ and _Multiply Color_ blocks. Next, create a _Color_ property, call it _Fire Colour_ and ensure _Expose_ is set. Then drag the _Fire Colour_ property onto the VFX Graph. Connect it to the _Multiply Color_ block, and in the inspector for the VFX graph, change the colour to some shade of red. Hopefully, you have something that looks similar to Figure 1 below:
 
@@ -46,7 +46,7 @@ The added exercise here is to play around with _all_ of the settings to see thei
 
 ## 3D Spatial Sound
 
-Below, you will add a simple attenuated 3D sound to the fire so that its volume increases and decreases as your FPC gets closer or moves further away.
+Below, you will add a simple attenuated 3D sound to the fire so that its volume increases and decreases as your first person controller (FPC) gets closer or moves further away.
 
 ### Adding Some Sound to the Fire
 
