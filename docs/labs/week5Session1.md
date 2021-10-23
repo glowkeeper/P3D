@@ -18,7 +18,7 @@ You _must_ use the High Definition Render Pipeline (HDRP) for this lab. If you a
 
 You can now start creating the fire. First, in the _Projects_ window, _Create_, _Folder_ and call it _VFX_. Later, you are also going to need a fire [texture](https://docs.unity3d.com/Manual/Textures.html), so _Create_, _Folder_ and call that _Textures_, then go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), find the _sparksFlipbook_ texture in the _assets/textures_ directory, and drag it into your _Textures_ folder. [Flipbooks](https://vfxdoc.readthedocs.io/en/latest/textures/flipbooks/) are a single texture sheet that describes animated image states in a series of rows and columns. In essence, a flipbook is an efficient way to reference multiple images. The _sparksFlipbook_ is a 3 x 3 texture sheet.
 
-Later, you will need some audio for the fire, so _Create_, _Folder_ and call that _Audio_. Then go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), find the _fireInTheHole_ audio asset and drag that into your _Audio_ folder.
+Later, you will need some audio for the fire to make it crackle and pop, so _Create_, _Folder_ and call that _Audio_. Then go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), find the _fireInTheHole_ audio asset and drag that into your _Audio_ folder.
 
 Now create the VFX graph. Go to that folder, and now _Create_, _Visual Effects_, _Visual Effects Graph_, and name it _Smoke_. In the _Hierarchy_ window, _Create Empty_, and call that _Fire_ and drag your _Smoke VFX Graph_ into that. Finally, you will need to add a _Point Light_ that will become the fire itself, so within the _Fire_ parent _GameObject_, _Create_, _Light_, _Point Light_, rename it _Fire_, and set its lumens to _600000_ in the inspector.
 
@@ -52,7 +52,7 @@ Below, you will add a simple attenuated 3D sound to the fire so that its volume 
 
 You will need the audio that makes the fire crackle and pop. Go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), where you will find a _wav_ called _fireInTheHole_. Add that _wav_ to your _Audio_ folder.
 
-Now add an _AudioSource_ to the fire and drag the _wav_ into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_, and you should hear the fire begin to crackle and pop.
+Add an _AudioSource_ to the fire and drag the _fireInTheHole_ audio file you imported earlier into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_, and you should hear the fire begin to crackle and pop.
 
 As for the radio in the previous lab, no matter the FPC's distance from the fire, the sound will maintain the same volume. To change that, in the fire's _AudioSource_, set the _Spatial Blend_ field to _1_ - that enables the _AudioClip_ to take on 3D properties. Now, in the _3D Sound Settings_, set the Max Distance to 20, and at the 20 point on the graph's x-axis, ensure the sound volume is zero. Also, set the maximum volume at 5 metres (you don't want to get too close to the fire to hear it). So now, when you approach and walk away from the fire, the volume should increase and decrease. 
 
