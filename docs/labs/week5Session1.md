@@ -46,7 +46,7 @@ The added exercise here is to play around with _all_ of the settings to see thei
 
 ## 3D Spatial Sound
 
-Below, you will add a simple attenuated 3D sound to the fire so that its volume increases and decreases as your first person controller (FPC) gets closer or moves further away.
+Below, you will add a simple attenuated 3D sound to the fire so that its volume increases and decreases as your FPC gets closer or moves further away.
 
 ### Adding Some Sound to the Fire
 
