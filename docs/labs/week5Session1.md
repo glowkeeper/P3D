@@ -50,8 +50,6 @@ Below, you will add a simple attenuated 3D sound to the fire so that its volume 
 
 ### Adding Some Sound to the Fire
 
-You will need the audio that makes the fire crackle and pop. Go to the [P3D GitHub repository](https://github.com/glowkeeper/P3D), where you will find a _wav_ called _fireInTheHole_. Add that _wav_ to your _Audio_ folder.
-
 Add an _AudioSource_ to the fire and drag the _fireInTheHole_ audio file you imported earlier into its _AudioClip_ field in the inspector. Ensure it is set to _Play on Awake_ and _Loop_. Press _Play_, and you should hear the fire begin to crackle and pop.
 
 As for the radio in the previous lab, no matter the FPC's distance from the fire, the sound will maintain the same volume. To change that, in the fire's _AudioSource_, set the _Spatial Blend_ field to _1_ - that enables the _AudioClip_ to take on 3D properties. Now, in the _3D Sound Settings_, set the Max Distance to 20, and at the 20 point on the graph's x-axis, ensure the sound volume is zero. Also, set the maximum volume at 5 metres (you don't want to get too close to the fire to hear it). So now, when you approach and walk away from the fire, the volume should increase and decrease. 
