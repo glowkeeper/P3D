@@ -48,7 +48,7 @@ _Figure 1: Spore animation_
 
 ## Summary
 
-My scene demonstrates all the essential elements introduced throughout the labs, such as lighting, materials and textures, 3D physics, first-person controllers, scripting and animation. It also incorporates some particle effects when...
+My scene demonstrates all the essential elements introduced throughout the labs, such as lighting, materials and textures, 3D physics, modelling, scripting, animation, sound and particle systems. It also incuds an ethereal element when...
 
 ## Future Work
 

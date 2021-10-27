@@ -48,8 +48,8 @@ Write a report that documents the work you have done. It should be no longer tha
 
 1. An introduction that outlines the essential elements of your scene. It should include some aspect of project planning, too
 2. A properly referenced section of no longer than five-hundred words, which shows an understanding of some technical element introduced during the first week. This section should include how you used that element in your Unity scene. For example, you could write about surface normals and how you applied them
-3. A  snippet of a script you used in your scene, alongside an explanation of that script and how it was used in the scene.
-4. A short description of an element you used in your scene that makes your scene unique. That could be an animation or some audio.
+3. A  snippet of a script you used in your scene, alongside an explanation of that script and how it was used in the scene
+4. A short description of an element you used in your scene that makes your scene unique. That could be an animation or some audio
 5. A summary of the Unity scene you created. This section is an opportunity to critique what you've done
 6. Future work. A short description of how your scene could progress beyond this coursework
 7. Appendix. Your scripts
