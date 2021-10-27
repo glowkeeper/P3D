@@ -14,7 +14,7 @@ Please take note of the [marking criteria](./markingCriteria.md) for the assignm
 
 ## The Assignment
 
-Create a scene where a first-person controller (FPC) has to enter through a door. Your scene should contain some two-storey building and within that building, you should place some variations of the objects modelled in the labs, but you can create other items, too. Once your FPC has entered the scene, your FPC should close the door behind them and then spawn an object in front of them. You should pick up your spawned object and take it up to a higher level of the second floor of your building so that you can throw it back down the stairs. At the very minimum, your scene should demonstrate all the concepts introduced in the labs, including proper physics. It should also sound compelling.
+Create a scene where a first-person controller (FPC) has to enter through a door. Your scene should contain some two-storey building and within that building, you should place some variations of the objects modelled in the labs, but you can create other items, too. Once your FPC has entered the scene, they should close the door behind them and then spawn an object in front of them. You should pick up your spawned object and take it up to a higher level of the second floor of your building so that you can throw it back down the stairs. At the very minimum, your scene should demonstrate all the concepts introduced in the labs, including proper physics. It should also sound compelling.
 
 ### The Application
 
@@ -23,7 +23,7 @@ Your scene should demonstrate the concepts introduced throughout the module:
 + [Lighting](../labs/week1Session2.md)
 + [Materials and Textures](../labs/week2Session1.md)
 + [3D Physics](../labs/week2Session2.md)
-+ [First-person controllers](../labs/week3Session1.md)
++ [Modelling](../labs/week3Session1.md)
 + [Scripting](../labs/week3Session2.md)
 + [Animation](../labs/week4Session1.md)
 + [Audio](../labs/week4Session2.md)
