@@ -14,7 +14,7 @@ Please take note of the [marking criteria](./markingCriteria.md) for the assignm
 
 ## The Assignment
 
-Create a scene where a first-person controller (FPC) has to enter through a door. Once your FPC has entered the scene, your FPC should close the door behind them and then spawn an object in front of them. Your scene should contain some two-storey building and within that building, you should place some variations of the objects modelled in the labs, but you can create other items, too. You should pick up your spawned object and take it up to a higher level of the second floor of your building so that you can throw it back down the stairs. At the very minimum, your scene should demonstrate all the concepts introduced in the labs, including proper physics. It should also sound compelling.
+Create a scene where a first-person controller (FPC) has to enter through a door. Your scene should contain some two-storey building and within that building, you should place some variations of the objects modelled in the labs, but you can create other items, too. Once your FPC has entered the scene, your FPC should close the door behind them and then spawn an object in front of them. You should pick up your spawned object and take it up to a higher level of the second floor of your building so that you can throw it back down the stairs. At the very minimum, your scene should demonstrate all the concepts introduced in the labs, including proper physics. It should also sound compelling.
 
 ### The Application
 
