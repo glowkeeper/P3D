@@ -39,6 +39,8 @@ Links to P3D lab sessions will appear below.
 
 The assignment will appear below (sometime around the end of week 5, beginning of week 6).
 
+- [Module Assignment](/docs/assignment/assignment.md)
+
 ## Background Material
 
 There is a lot of useful background material in the [docs](./docs/) folder. In particular, you should read and become familiar with the material introduced in [3D Graphics](./docs/graphicsBackground.md).
