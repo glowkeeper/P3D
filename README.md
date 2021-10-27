@@ -37,7 +37,7 @@ Links to P3D lab sessions will appear below.
 
 ## Assignment
 
-The assignment will appear below (sometime around the end of week 5, beginning of week 6).
+The assignment is below. Enjoy!
 
 - [Module Assignment](/docs/assignment/assignment.md)
 
