@@ -18,14 +18,12 @@ This module supports the university's [staff and student charter and guiding pri
 
 P3D has some dependencies.
 
-- You should have an account on [GitHub](https://github.com/) and you should create a private repository for your P3D work (as that is where you'll post lab exercises and coursework). If not all of that makes sense now, don't worry - it will after [Week 1, Session 1](/docs/labs/week1Session1.md) when you will create that repository and add the [Module Convenor](#maintainer) as a collaborator (so they can support you throughout the module).
+- You should have an account on [GitHub](https://github.com/) and you should create a private repository for your P3D work (as that is where you'll post lab exercises and coursework). If not all of that makes sense now, don't worry - it will after the first lab session when you will create that repository and add the [Module Convenor](#maintainer) as a collaborator (so they can support you throughout the module).
 - You will need the latest long term support release of [Unity](https://unity3d.com/unity/qa/lts-releases).
 
 ## Labs
 
 Links to P3D lab sessions will appear below.
-
-- [Week 1, Session 1](/docs/labs/week1Session1.md)
 
 ## Assignment
 
@@ -37,7 +35,7 @@ There is a lot of useful background material in the [docs](./docs/) folder. In p
 
 ## Module Resources
 
-- [P3D on GitHub](https://github.com/glowkeeper/P3D)
+- [P3D on GitHub](https://github.com/glowkeeper/Programmingfor3D)
 - [P3D on Canvas](https://canvas.sussex.ac.uk/courses/17597)
 - [P3D on Discord](https://discord.gg/tFKeyyyp)
 
