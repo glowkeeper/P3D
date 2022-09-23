@@ -12,11 +12,11 @@ This session requires you to setup a [GitHub](https://github.com/) account, inst
 
 You should create a student account on [GitHub](https://github.com/) (if you have not done so already), and create a _private_ repository for your P3D work. Finally, you should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_), so they can support you throughout the module.
 
-If you have not used GitHub before, then there is a [Panopto recording](https://sussex.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=57307baa-f78e-42a8-8e5c-ac40012ddc4a) of a lecture about GitHub that the  [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) gave earlier this year. You also have access to the [lecture slides](../githubPresentation.pdf).
+If you have not used GitHub before, then there is a [Panopto recording](https://sussex.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=57307baa-f78e-42a8-8e5c-ac40012ddc4a) of a lecture about GitHub that the  [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) gave in previous years. You also have access to the [lecture slides](../githubPresentation.pdf).
 
 ### Unity
 
-This module exposes you to an industry-leading platform for creating and operating interactive, 3D content. Many of you will have used Unity already, so you probably do not have to do much here. However, you should ensure you have installed the latest version of [Unity with long term support](https://unity3d.com/unity/qa/lts-releases).
+This module exposes you to an industry-leading platform for creating and operating interactive, 3D content. Many of you will have used Unity already, so you probably do not have to do much here because you will already have Unity installed. However, you should ensure you have installed the latest version of [Unity with long term support](https://unity3d.com/unity/qa/lts-releases).
 
 ### 3D Graphics
 
