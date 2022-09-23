@@ -27,7 +27,7 @@ Please come to both sessions!
 
 The second half of P3D is where you create individual projects for your coursework (unlike for G6078, Game Design and Development, the coursework for P3D is individual).
 
-I will split the class into two groups - The intention is for 1 group to come to Monday's lab, the other, to Friday's. However, _you may come to both_!
+I will split the class into two groups - The intention is for one group to come to Monday's lab, the other, to Friday's. However, _you may come to both_!
 
 - - -
 
@@ -61,4 +61,4 @@ I will give you exposure to _agile_ project management using concepts such as _k
 
 # Lab 1
 
-[Lab 1](https://github.com/glowkeeper/Programmingfor3D/docs/labs/week1Session1.md)
+[Lab 1](https://github.com/glowkeeper/Programmingfor3D/docs/labs/week1Session1)
