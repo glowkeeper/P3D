@@ -61,4 +61,4 @@ I will give you exposure to _agile_ project management using concepts such as _k
 
 # Lab 1
 
-[Lab 1](https://github.com/glowkeeper/Programmingfor3D/docs/labs/week1Session1.md)
+[Lab 1](https://github.com/glowkeeper/Programmingfor3D/blob/main/docs/labs/week1Session1.md)
