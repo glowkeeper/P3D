@@ -39,7 +39,7 @@ There is a lot of useful background material in the [docs](./docs/) folder. In p
 
 - [P3D on GitHub](https://github.com/glowkeeper/Programmingfor3D)
 - [P3D on Canvas](https://canvas.sussex.ac.uk/courses/23340)
-- [P3D on Discord](https://discord.gg/tFKeyyyp)
+- [P3D on Discord](https://discord.com/invite/PutHQRGkPA)
 
 ## Maintainer
 

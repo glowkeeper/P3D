@@ -25,7 +25,7 @@ Please come to both sessions!
 
 # Overview of P3D (cont'd)
 
-The second half of P3D is where you create individual projects for your coursework (unlike for G6078, Game Design and Development, the coursework for P3D is individual).
+The second half of P3D is where you carry out your coursework (unlike for G6078, Game Design and Development, the coursework for P3D is **individual**).
 
 I will split the class into two groups - The intention is for one group to come to Monday's lab, the other, to Friday's. However, _you may come to both_!
 
@@ -57,7 +57,8 @@ I will give you exposure to _agile_ project management using concepts such as _k
 
 + P3D on GitHub (this is where seminar sessions and assessment material will be published): https://github.com/glowkeeper/Programmingfor3D
 + Canvas site: https://canvas.sussex.ac.uk/courses/23340
-+ ...and of course - Unity!: https://unity.com/
++ Discord: https://discord.com/invite/PutHQRGkPA
++ ...and of course - Unity: https://unity.com/
 
 # Lab 1
 
