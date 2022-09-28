@@ -56,9 +56,9 @@ Save your scene and save your project. You will add to this in the next lab.
 
 ## Extended
 
-Play around with the directional light so that the room's shadows appear to be cast by moonlight. Additionally, have a look at some of the _Environment Lighting_ settings for the Lighting - perhaps change the _Source_ to _Gradient_, and see what effect changing the _Sky_, _Equator_ and _Ground_ colours has.
+Play around with the directional light so that the room's shadows appear to be cast by moonlight. Additionally, look at some of the _Environment Lighting_ settings for the Lighting - perhaps change the _Source_ to _Gradient_, and see the effect of changing the _Sky_, _Equator_ and _Ground_ colours.
 
-Furthermore, instead of building your room with simple 3D objects, perhaps use [ProBuilder](https://docs.unity3d.com/Packages/com.unity.probuilder@5.0/manual/index.html), and build something more complex. You could even import a model from [Blender](https://www.blender.org/), or [Cinema4d](https://www.maxon.net/en/cinema-4d), if you have experience of those.
+Furthermore, instead of building your room with simple 3D objects, perhaps use [ProBuilder](https://docs.unity3d.com/Packages/com.unity.probuilder@5.0/manual/index.html), and create something more complex. You could even import a model from [Blender](https://www.blender.org/) or [Cinema4d](https://www.maxon.net/en/cinema-4d) if you have experience with those.
 
 ## Useful Links
 
