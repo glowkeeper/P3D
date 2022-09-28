@@ -44,20 +44,25 @@ You are going to light up your scene. First, we're going to need a lamp asset, s
 
 Currently, the lamp does not emit any light, so you are going to change that by adding a _Point Light_; do so by going to _GameObject_, _Light_, _Point Light_. Move it until it looks as though the lamp is emitting light and play around with the settings until you find a colour and intensity that you like.
 
-Additionally, this is supposed to be an inside scene, so we do not want ambient directional light to have an affect. There are a number of ways to achieve this; first (and probably best), is to just delete it. Or you could switch the directional light's _Mode_ from _Realtime_ to _Baked_, when it appears to obey the geometry much better (since there is no front wall at the moment, you may need to change some parameters to ensure the light is not affecting the room). Figure 4 shows the Game tab with the _Directional Light_ deleted, and the _Point Light_ added to the lamp.
+Lastly, we want to adjust the directional light. Just keep in mind that this is supposed to be an inside scene, so we do not want ambient directional light to have too much of an affect. There are a number of ways to achieve this; first, might be just to delete it; indeed, Figure 4 shows the Game tab with the _Directional Light_ deleted, and the _Point Light_ added to the lamp.
 
 ![](./images/simpleRoomLit.png)
 
 _Figure 4: A simple room with added materials_
 
+However, you may choose to do things differently! For instance, you could switch the directional light's _Mode_ from _Realtime_ to _Baked_, when it appears to obey the geometry much better (since there is no front wall at the moment, you may need to change some parameters to ensure the light is not affecting the room).
+
 Save your scene and save your project. You will add to this in the next lab.
 
 ## Extended
 
+Play around with the directional light so that the room's shadows appear to be cast by moonlight. Additionally, have a look at some of the _Environment Lighting_ settings for the Lighting - perhaps change the _Source_ to _Gradient_, and see what effect changing the _Sky_, _Equator_ and _Ground_ colours has.
 
+Furthermore, instead of building your room with simple 3D objects, perhaps use [ProBuilder](https://docs.unity3d.com/Packages/com.unity.probuilder@5.0/manual/index.html), and build something more complex. You could even import a model from [Blender](https://www.blender.org/), or [Cinema4d](https://www.maxon.net/en/cinema-4d), if you have experience of those.
 
 ## Useful Links
 
++ [Explore the Unity Editor](https://learn.unity.com/tutorial/explore-the-unity-editor-1#)
 + [Unity Tutorials](https://learn.unity.com/tutorials)
 + [Peer Assisted Learning - Unity](https://canvas.sussex.ac.uk/courses/14865/modules)
 + [LEARN UNITY](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
