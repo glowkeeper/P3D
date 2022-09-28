@@ -64,7 +64,6 @@ Furthermore, instead of building your room with simple 3D objects, perhaps use [
 
 + [Explore the Unity Editor](https://learn.unity.com/tutorial/explore-the-unity-editor-1#)
 + [Unity Tutorials](https://learn.unity.com/tutorials)
-+ [Peer Assisted Learning - Unity](https://canvas.sussex.ac.uk/courses/14865/modules)
 + [LEARN UNITY](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
 + [BRACKEYS](https://www.youtube.com/user/Brackeys)
 + [SYKOOTV](https://www.youtube.com/user/SykooTV)
