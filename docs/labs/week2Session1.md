@@ -59,7 +59,7 @@ Save your scene and save your project. You will add to this in the next lab.
 
 ## Extended
 
-Use a [Shader Graph](https://docs.unity3d.com/Packages/com.unity.shadergraph@15.0/manual/index.html), or [write your own shader](https://docs.unity3d.com/Manual/shader-writing.html) to add some custom affects to your scene. Some ideas might be to add an indoor swimming pool or some animated display on one of your walls.
+Use a [Shader Graph](https://docs.unity3d.com/Packages/com.unity.shadergraph@15.0/manual/index.html), or [write your own shader](https://docs.unity3d.com/Manual/shader-writing.html) to add some custom affects to your scene. Some ideas might be to add some water to the scene, somehow, or create some animated display on one of your walls.
 
 ## Useful Links
 
