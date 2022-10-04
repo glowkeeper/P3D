@@ -88,4 +88,4 @@ Also allow a ball to knock over the lamp on the stand - you _may_ need to resort
 + [Drag](https://en.wikipedia.org/wiki/Drag_(physics))
 + [velocity](https://en.wikipedia.org/wiki/Velocity)
 + [Angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)
-+ [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
++ [Friction](https://en.wikipedia.org/wiki/Friction).
