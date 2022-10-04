@@ -86,6 +86,6 @@ Also allow a ball to knock over the lamp on the stand - you _may_ need to resort
 + [Intro' to the Unity Physics Engine](https://learn.unity.com/tutorial/intro-to-the-unity-physics-engine)
 + [The Physics of AI](https://learn.unity.com/project/the-physics-of-ai)
 + [Drag](https://en.wikipedia.org/wiki/Drag_(physics))
-+ [velocity](https://en.wikipedia.org/wiki/Velocity)
++ [Velocity](https://en.wikipedia.org/wiki/Velocity)
 + [Angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)
-+ [Friction](https://en.wikipedia.org/wiki/Friction).
++ [Friction](https://en.wikipedia.org/wiki/Friction)
