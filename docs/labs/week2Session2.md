@@ -28,9 +28,9 @@ Below, you will introduce some balls into the room you created in the [last lab]
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html) and open the project you created in the [last lab](./week3Session2.md).
 
-You will need some more assets, so go to the [unity asset store](https://assetstore.unity.com/), and add [Ball Pack)](https://assetstore.unity.com/packages/3d/props/ball-pack-446). Download and import the asset into your project. Before you can use the imported asset, you must update them to use URP; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
+You will need some more assets, so go to the [unity asset store](https://assetstore.unity.com/), and add [Ball Pack](https://assetstore.unity.com/packages/3d/props/ball-pack-446), then download and import the asset into your project. Before you can use the imported asset, you must update them to use URP; so go to _Edit_, _Render Pipeline_, _Universal Render Pipeline_, _Upgrade Project Materials ..._.
 
-You are going to add a ball, as in figure 3. Create a _GameObject_, _3D Object_, _Sphere_, rename it to _Ball_, then move it, so it is to the side of the lamp on the stand but nearer the ceiling than the floor. Change the _mesh_,  _material_ and _colour_ to something of your choosing; for Figure 3, the _mesh_ was set to _Sphere_, the _material_ was set to _SplitMetalBall_ and the colour was set to _DD1818_.
+You are going to add a ball, as in Figure 3. Create a _GameObject_, _3D Object_, _Sphere_, rename it to _Ball_, then move it so it is to the side of the lamp on the stand but nearer the ceiling than the floor. Change the _mesh_,  _material_ and _colour_ to something of your choosing; for Figure 3, the _mesh_ was set to _Sphere_, the _material_ was set to _SplitMetalBall_ and the colour was set to _DD1818_.
 
 ![](./images/ball.png)
 
@@ -56,9 +56,9 @@ Notice how the balls behave when they hit the walls. See if you can change that 
 
 Now press _Play_, and watch the behaviour of the balls. It should be a little more realistic, but can you do better? That is left as an exercise - try playing with some of the settings of the _RigidBody_ of the _Ball_ _GameObject_ and _Physics Material_ parameters to see how they affect behaviour. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
 
-You may have also noticed the interaction of the balls interact with the lampstand; follow the same processes as above to change that behaviour - that is left as another exercise.
+You may have also noticed how the balls interact with the lampstand - did you think that was realistic? If not, follow the same processes as above to change that behaviour - that is left as another exercise.
 
-However, we still have to worry about the ball's interaction with the lamp. To model that, create a fifth ball and position it over the lamp, as in Figure 6, below.
+Now there's the ball's interaction with the lamp to consider. To model that, create a fifth ball and position it over the lamp, as in Figure 6, below.
 
 ![](./images/ballLamp.png)
 
@@ -66,13 +66,15 @@ _Figure 6: Ball over the lamp_
 
 Press _Play_, and watch what happens. There's work to do!
 
-First, _Add Component_ and add a _Rigidbody_ to the lamp. Now press _Play_ - you'll notice that the lamp falls into the world because it does not have a collider that allows it to interact with the collider on the stand. So fix that by adding a _Sphere Collider_ to the lamp. Unfortunately, now when you press _Play_, the lamp falls off the stand because it's an irregular shape that is obeying physics. The simple fix for that is to tick _Is Kinematic_ in the lamp's _Rigidbody_, which means that the lamp itslef remains unaffected by the physics engine. The result is that the ball bounces off the lamp, but the lamp does not fall off the stand, which is much more like it. Finally, you could change how the ball bounces off the lamp by creating a _Physic Material_ to the lamp. That is also left as an exercise.
+First, _Add Component_ and add a _Rigidbody_ to the lamp. Now press _Play_ - you'll notice that the lamp falls into the world because it does not have a collider that allows it to interact with the collider on the stand. So fix that by adding a _Sphere Collider_ to the lamp. Unfortunately, now when you press _Play_, the lamp falls off the stand because Unity thinks it's an irregular shape that lacks stability. The simple fix for that is to tick _Is Kinematic_ in the lamp's _Rigidbody_, which means that the lamp itslef remains unaffected by the physics engine. The result is that the ball bounces off the lamp, but the lamp does not fall off the stand, which is much more like it. You could also change how the ball bounces off the lamp by creating a _Physic Material_ to the lamp. That is also left as an exercise.
 
-As a final added exercise, ensure _Static_ is disabled for the _Room_ _GameObject_ and add a _Rigidbody_ to the walls, floor and ceiling - watch what happens when you hit _Play_. You could also create fix that by selecting _Is Kinematic_, just as you did for the lamp (you may have noticed that the console warns you to do that, anyway). _Now_ press play - the behaviour should be much more realistic.
+As a final exercise, ensure _Static_ is disabled for the _Room_ _GameObject_ and add a _Rigidbody_ to the walls, floor and ceiling - watch what happens when you hit _Play_. You could also create fix that by selecting _Is Kinematic_, just as you did for the lamp (you may have noticed that the console warns you to do that, anyway). _Now_ press play - the behaviour should be much more realistic.
 
 ## Extended
 
-Make the ball knock over the lamp on the stand - you _may__ need to resort to scripting to achieve this.
+Create a ramp and position the balls at the top of that, then let the balls roll down to the floor instead of dropping them from mid air.
+
+Also allow a ball to knock over the lamp on the stand - you _may__ need to resort to scripting to achieve this (we'll be covering some simple scripting in a later lab).
 
 ## Useful Links
 
