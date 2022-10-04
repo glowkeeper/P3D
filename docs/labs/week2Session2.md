@@ -68,13 +68,13 @@ Press _Play_, and watch what happens. There's work to do!
 
 First, _Add Component_ and add a _Rigidbody_ to the lamp. Now press _Play_ - you'll notice that the lamp falls into the world because it does not have a collider that allows it to interact with the collider on the stand. So fix that by adding a _Sphere Collider_ to the lamp. Unfortunately, now when you press _Play_, the lamp falls off the stand because Unity thinks it's an irregular shape that lacks stability. The simple fix for that is to tick _Is Kinematic_ in the lamp's _Rigidbody_, which means that the lamp itself remains unaffected by the physics engine. The result is that the ball bounces off the lamp, but the lamp does not fall off the stand, which is much more like it. You could also change how the ball bounces off the lamp by creating a _Physic Material_ for the lamp. That is also left as an exercise.
 
-Finally, ensure _Static_ is disabled for the _Room_ _GameObject_ and add a _Rigidbody_ to the walls, floor and ceiling - watch what happens when you hit _Play_. You could also fix that by selecting _Is Kinematic_, just as you did for the lamp (you may have noticed that the console warns you to do that, anyway). _Now_ press play - the behaviour should be much more realistic.
+Finally, add a _Rigidbody_ to the walls, floor and ceiling. Afterwards, enable and disable _Static_ for them and watch what happens when you hit _Play_ with each setting. Once you've discovered that you need _Static_ enabled, you will need to select _Is Kinematic_, just as you did for the lamp. _Now_ press play and the walls, floor and ceiling should behave properly.
 
 ## Extended
 
-Create a ramp and position the balls at the top of that, then let the balls roll down to the floor instead of dropping them from mid air.
+Instead of dropping the balls from mid air, create a ramp and position the balls at the top of that. Then, when you press _Play_, they should roll down to the floor.
 
-Also allow a ball to knock over the lamp on the stand - you _may__ need to resort to scripting to achieve this (we'll be covering some simple scripting in a later lab).
+Also allow a ball to knock over the lamp on the stand - you _may_ need to resort to scripting to achieve this (we'll be covering some simple scripting in a later lab).
 
 ## Useful Links
 
