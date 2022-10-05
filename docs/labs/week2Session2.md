@@ -56,7 +56,7 @@ Notice how the balls behave when they hit the walls. See if you can change that 
 
 Now press _Play_, and watch the behaviour of the balls. It should be a little more realistic, but can you do better? That is left as an exercise - try playing with some of the settings of the _RigidBody_ of the _Ball_ _GameObject_ and _Physics Material_ parameters to see how they affect behaviour. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
 
-You may have also noticed how the balls interact with the lampstand - did you think that was realistic? If not, follow the same processes as above to change that behaviour - that is left as another exercise.
+You may have also noticed how the balls interact with the lampstand - did you think that was realistic? If not, follow the same processes as above to change that behaviour.
 
 Now there's the ball's interaction with the lamp to consider. To model that, create a fifth ball and position it over the lamp, as in Figure 6, below.
 
@@ -66,7 +66,7 @@ _Figure 6: Ball over the lamp_
 
 Press _Play_, and watch what happens. There's work to do!
 
-First, _Add Component_ and add a _Rigidbody_ to the lamp. Now press _Play_ - you'll notice that the lamp falls into the world because it does not have a collider that allows it to interact with the collider on the stand. So fix that by adding a _Sphere Collider_ to the lamp. Unfortunately, now when you press _Play_, the lamp falls off the stand because Unity thinks it's an irregular shape that lacks stability. The simple fix for that is to tick _Is Kinematic_ in the lamp's _Rigidbody_, which means that the lamp itself remains unaffected by the physics engine. The result is that the ball bounces off the lamp, but the lamp does not fall off the stand, which is much more like it. You could also change how the ball bounces off the lamp by creating a _Physic Material_ for the lamp. That is also left as an exercise.
+First, _Add Component_ and add a _Rigidbody_ to the lamp. Now press _Play_ - you'll notice that the lamp falls into the world because it does not have a collider that allows it to interact with the collider on the stand. So fix that by adding a _Collider_ to the lamp. Unfortunately, now when you press _Play_, the lamp falls off the stand because Unity thinks it's an irregular shape that lacks stability. The simple fix for that is to tick _Is Kinematic_ in the lamp's _Rigidbody_, which means that the lamp itself remains unaffected by the physics engine. The result is that the ball bounces off the lamp, but the lamp does not fall off the stand, which is much more like it. You could also change how the ball bounces off the lamp by creating a _Physic Material_ for the lamp. That is also left as an exercise.
 
 Finally, add a _Rigidbody_ to the walls, floor and ceiling. Afterwards, enable and disable _Static_ for them and watch what happens when you hit _Play_ with each setting. Once you've discovered that you need _Static_ enabled, you will need to select _Is Kinematic_, just as you did for the lamp. _Now_ press play and the walls, floor and ceiling should behave properly.
 
@@ -74,7 +74,7 @@ Finally, add a _Rigidbody_ to the walls, floor and ceiling. Afterwards, enable a
 
 Instead of dropping the balls from mid air, create a ramp and position the balls at the top of that. Then, when you press _Play_, they should roll down to the floor.
 
-Also allow a ball to knock over the lamp on the stand - you _may_ need to resort to scripting to achieve this (we'll be covering some simple scripting in a later lab).
+Also make it so that a ball is able to knock over the lamp on the stand - you _may_ need to resort to scripting to achieve this (we'll be covering some simple scripting in a later lab).
 
 ## Useful Links
 
