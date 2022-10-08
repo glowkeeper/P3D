@@ -20,19 +20,19 @@ The sample creates a scene that demonstrates some of the capabilities of HDRP. I
 
 After exploring the sample scene, create a new scene by selecting _File_, _New Scene_ and select _Basic Outdoors (HDRP)_. Open the lighting settings, and in the _Scene_ tab, change the _Lighting Settings Asset_ to _LightingSettings2Medium_, and select _Auto Generate_. In the _Baked Lightmaps_ tab, unset the _Auto Generate_ checkbox and set the _Lighting Data Asset_ to _Lighting Data_ and _Generate Lighting_ - you will need to revisit this page and _Generate Lighting_ whenever you make substantial changes. Do not worry too much about the settings of the main camera in the _Inspector_ - this is intended to be an outdoor scene, so the _Sky_ background type is just fine. Besides, later, you are going to use a first-person controller that employs a [Cinamachine](https://unity.com/unity/features/editor/art-and-design/cinemachine) camera that tracks the main camera, and if you want to change some settings, you should change them there, instead.
 
-You will need some of the assets you have already added to your [asset store](https://assetstore.unity.com/): [Starter Assets - First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525), [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315), [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400) and [Lightbulb](https://assetstore.unity.com/packages/3d/props/interior/lightbulb-218258) so download and import those into your project.
+You will need some of the assets you have already added to your asset store: [Starter Assets - First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525), [Free Shipping Containers](https://assetstore.unity.com/packages/3d/environments/industrial/free-shipping-containers-18315), [Old USSR Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400) and [Lightbulb](https://assetstore.unity.com/packages/3d/props/interior/lightbulb-218258) so download and import those into your project.
 
-While you're in the _Package Manager_, load the _Unity Registry_, search for _3D World Building_ and install it - this will install a number of additional packages, including [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder). Now go to _Tools_, _ProBuilder_ and select _ProBuilder_ window. You have several options for displaying the ProBuilder tools window - play around and find whichever option suits you best.
+While you're in the _Package Manager_, load the _Unity Registry_, search for _3D World Building_ and install it - this will install a number of additional packages, including [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder). Now go to _Tools_, _ProBuilder_ and select _ProBuilder Window_. You have several options for displaying the ProBuilder tools window - play around and find whichever option suits you best.
 
 Before you can use the imported assets, ensure they can use the High Definition Render Pipeline; so go to _Edit_, _Rendering_, _Materials_, _Upgrade HDRP Materials..._ and _Convert All Built-in Materials..._.
 
-This time, you are going to create something that looks even more like a shipping container, so select _New Shape_ from the ProBuilder window. Select a _Cube_ and set the _x_, _y_ and _z_ coordinates to be 3, 3 and 6, respectively (making the cube three metres by three metres by six metres). Now _Shift + Click_ on the scene, and you should have a cube. Centre the cube in the scene via the transform properties in the _Inspector_. Later on, you are going to put a door on the container, so select the _Face Selection_, highlight the front face of the object, and press _backspace_.
+This time, you are going to create something that looks even more like a shipping container, so select _New Shape_ from the ProBuilder window. Select a _Cube_ and set the _x_, _y_ and _z_ coordinates to 3, 3 and 6, respectively (making the cube three metres by three metres by six metres). Now _Shift + Click_ on the scene, and you should have a cube. Centre the cube in the scene via the transform properties in the _Inspector_. Later on, you are going to put a door on the container, so select the _Face Selection_, highlight the front face of the object, and press _backspace_ to delete it.
 
-Next, you are going to apply a container material, so again, with the container object highlighted, select ProBuilder's _Material Editor_, add _containers diffuse_ to _Quick Material_ and _Apply_. The material might still be using the legacer shader, so open up the shader in the _Inspector_ window, and select _HDRP/Lit_. Then set the _Base Map_ of the _Surface Inputs_ to the texture _containers normals_.
+Next, you are going to apply a container material, so with the container object highlighted, select ProBuilder's _Material Editor_, add _containers diffuse_ to _Quick Material_ and _Apply_. The material might still be using the legacer shader, so open up the shader in the _Inspector_ window, and select _HDRP/Lit_. Then set the _Base Map_ of the _Surface Inputs_ to the texture _containers normals_.
 
-You will notice that one side of the surfaces of the _Cube_ are transparent due to [Backface Culling](https://answers.unity.com/questions/1447454/mesh-looks-transperent-on-one-side.html), an affect we saw in an earlier lab whereby Unity does not render polygons facing away from the viewer. You are going to 'fix' that by modelling the inside and outside of the container. First, duplicate the _Cube_ you created above, rename the two objects _Inside_ and _Outside_, then _Flip Normals_ on one of the dublicated cubes (if you do not know what normals are in 3D modelling, then you need to read [3d Graphics](../graphicsBackground.md)). Now Unity will render both sides of the container.
+You will notice that one side of the surfaces of the _Cube_ are transparent due to [Backface Culling](https://answers.unity.com/questions/1447454/mesh-looks-transperent-on-one-side.html), an affect we saw in an earlier lab whereby Unity does not render polygons facing away from the viewer. You are going to 'fix' that by modelling the inside and outside of the container. First, duplicate the _Cube_ you created above, rename the two objects _Inside_ and _Outside_, then _Flip Normals_ on one of the duplicated cubes (if you do not know what normals are, then you need to read [3d Graphics](../graphicsBackground.md)). Now Unity will render both sides of the container.
 
-Now create an empty _GameObject_, name it _Container_ and make _Inside_ and _Outside_ a child of that.
+Next, create an empty _GameObject_, name it _Container_ and make _Inside_ and _Outside_ a child of that.
 
 If your _Game_ tab looks something similar to Figure 1, then congratulations, you have successfully created your first ProBuilder object. Save your scene.
 
@@ -50,7 +50,7 @@ Next, you are going to add a first-person controller to the scene. Do that via _
 
 _Figure 2: Scene with First Person Controller_
 
-Next, you are going to put some stairs next to the container so you can walk up to its roof. Create a _New Shape_ from the ProBuilder window. Select a _Stair_ with 6 steps and _x_, _y_ and _z_ coordinates to be 1, 3 and 6. Now _Shift + Click_ to put the stairs in the scene and _Transform_ them so they look like Figure 3 - facing forward and to the left of the container.
+Next, you are going to put some stairs next to the container so you can walk up to its roof. Create a _New Shape_ from the ProBuilder window. Select a _Stair_ with 6 steps and _x_, _y_ and _z_ coordinates set to 1, 3 and 6. Now _Shift + Click_ to put the stairs in the scene and _Transform_ them so they look like Figure 3 - facing forward and to the left of the container.
 
 ![](./images/shippingContainerStairs.png)
 
@@ -58,7 +58,7 @@ _Figure 3: Shipping container stairs_
 
 Now, when you press _Play_, you should be able to walk up the stairs and then walk off the roof of the container and fall to the ground.
 
-Stop playback, as you are now going to put a door wall on the front of the container. Create a _New Shape_ from the ProBuilder window. Select a _Door_ and set the _x_, _y_ and _z_ coordinates to be 3, 3 and 0.1 with a _Pediment Height_ set to 1 and _Side Width_ set to 0.5. Now _Shift + Click_ to put the stairs in the scene and _Transform_ the door so it is on the front of the container. Set the material and texture, so it matches. Finally, make the door a child of your container. Figure 4 shows how it might look.
+Stop playback, as you are now going to put a door wall on the front of the container. Create a _New Shape_ from the ProBuilder window. Select a _Door_ and set the _x_, _y_ and _z_ coordinates to 3, 3 and 0.1 with both _Pediment Height_ and _Side Width_ set to 0.5. Now _Shift + Click_ to put the stairs in the scene and _Transform_ the door so it is on the front of the container. Set the material and texture, so it matches. Finally, make the door a child of your container. Figure 4 shows how it might look.
 
 ![](./images/shippingContainerDoor.png)
 
@@ -70,7 +70,7 @@ When you have finished exploring, stop playback. You still have a fair amount to
 
 1. You need to put a lampstand in the back lefthand corner of the container (you could use ProBuilder to create a cube for that).
 2. Place the _Old_USSR_Lamp_ on the stand.
-3. Add a _Large round lamp_ to the ceiling.
+3. Add a _Light_ to the ceiling.
 4. Both lights need lighting with a _Point Light_.
 5. Put four balls inside the container and add the appropriate physics, so they fall and bounce correctly.
 6. You could have some fun with the balls, and while playing back your game, you could enter the container and 'kick' the balls out of the door. Or something ;)
@@ -81,7 +81,7 @@ Those are all left as exercises.
 
 Similar to [Week 1, Session 2](./week1Session2.md), extend the modelling by using [ProBuilder](https://docs.unity3d.com/Packages/com.unity.probuilder@5.0/manual/index.html) to create something more complex, and/or by importing models from [Blender](https://www.blender.org/) or [Cinema4d](https://www.maxon.net/en/cinema-4d), if you have experience with those.
 
-Instead of the first person controller, try the [Starter Assets - Third Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526) - figure out how it works by having a look around its settings and examining its scripts and animations. Then swap out the starter assets avatar for another - perhaps one you've made yourself, or something else from the asset store.
+Instead of the first person controller, try the [Starter Assets - Third Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526) - figure out how it works by having a look around its settings and examining its scripts and animations. Then swap out the starter asset's avatar for another - perhaps one you've made yourself, or something else from the asset store.
 
 ## Useful Links
 
