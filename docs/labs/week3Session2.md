@@ -137,17 +137,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SpawnObjects : MonoBehaviour
 {
     [SerializeField] private GameObject mObject;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private int maxObjects;
-    [SerializeField] private Text scoreText;
-    [SerializeField] private Text timeText;
+    [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI timeText;
 
-    private string scorePreText = "Game Score: ";
-    private string timePreText = "Total Time: ";
+    private string scorePreText = "Score: ";
+    private string timePreText = "Time: ";
 
     private List<GameObject> mObjects;
     private int numObjects;
@@ -199,15 +200,17 @@ public class SpawnObjects : MonoBehaviour
 }
 ```
 
-There are two _UI_, _Text_ elements needed to make it all work - one for outputting the number of balls you've destroyed, and another to output the total time, once you've destroyed every ball. First, since you're using Unity's new input system (that was automatically imported when we imported the [First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525) in a previous lab), you need to enable that in Unity's event system; to do so, _Create_, _UI_, _Event System_, then click on _Replace with InputSystemUIInputModule_. Now you can create the text elements that are required. First, _Create_, _UI_, _Text_, set its _Font Size_ to 24 and rename it _Score Text_. Create another _UI_, _Text_ and set its _Font Size_ to 24. Rename that _Time Text_. Ensure the _Render Mode_ of the text element's parent _Canvas_ is set to _Screen Space - Overlay_. Then place the text elements on top of each other in the canvas on the scene and use the _Rect Transform_ in the _Inspector_ to place the elements in the top lefthand corner. Finally, drag the _Score Text_ UI element into the _Score Text_ field of the _Spawn Objects_ script, and the _Time Text_ UI element into the _Time Text_ field. Now press _Play_ and see if you can beat the time displayed in Figure 4, below!
+There are two _UI_, _Text_ elements needed to make it all work - one for outputting the number of balls you've destroyed, and another to output the total time, once you've destroyed every ball. First, since you're using Unity's new input system (that was automatically imported when we imported the [First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525) in a previous lab), you need to enable that in Unity's event system; to do so, _Create_, _UI_, _Event System_, then click on _Replace with InputSystemUIInputModule_.
 
-![](./images/fiveSeconds.png)
+Now you can create the text elements that are required. First, _Create_, _UI_, _Text - TextMeshPro_.  The frst time you use _TextMeshPro_ (TMP), Unity will offer to import to import the TMP Essentials and Examples and Extras packages - import both. Leave the settings in the _Inspector_ as they are (but feel free to experiment - that is left as an exercise). Rename the TMP element _Score Text_. Create another _UI_, _Text - TextMeshPro_ element. Rename that _Time Text_. Ensure the _Render Mode_ of the text element's parent _Canvas_ is set to _Screen Space - Overlay_. Then place the text elements on top of each other in the canvas on the scene and use the _Rect Transform_ in the _Inspector_ to place the elements where you want them. Finally, drag the _Score Text_ UI element into the _Score Text_ field of the _Spawn Objects_ script, and the _Time Text_ UI element into the _Time Text_ field. Now press _Play_ and see if you can beat the time displayed in Figure 4, below!
+
+![](./images/gameScore.png)
 
 _Figure 4: The finished game_
 
 ## Extended
 
-There is, of course, plenty that could be done to improve the game - perhaps you could pick up the balls and putt them _somewhere_, instead of destroying them? Use your imagination (hint: practicing using that might help you with your coursework)!
+There is, of course, plenty that could be done to improve the game - perhaps you could pick up the balls and put them _somewhere_, instead of destroying them? Use your imagination!
 
 ## Useful Links
 
@@ -216,3 +219,4 @@ There is, of course, plenty that could be done to improve the game - perhaps you
 + [Unity Learn - Scripting](https://learn.unity.com/search?k=%5B%22q%3AScripting%22%5D)
 + [LEARN UNITY](https://www.youtube.com/watch?v=pwZpJzpE2lQ)
 + [Unity Debugging C# Scripts with Visual Studio](https://www.youtube.com/watch?v=d0815qbx3BA&list=PLboXykqtm8dxhCV5SVn0N76jrdCo5HV2a) (**Note**: Unity's pre-installed version of Visual Studio includes the Unity tools)
++ [TextMeshPro](https://docs.unity3d.com/Manual/com.unity.textmeshpro.html)
