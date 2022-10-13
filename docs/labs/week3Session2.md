@@ -41,15 +41,15 @@ Unity defaults to a _Time_ _Fixed Timestep_ of 0.02, which translates to _FixedU
 
 ## A Simple Game
 
-Below, you will create a simple game using the shipping container you created in [Week 3, Session 1](./week3Session1.md), using [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder).
+Below, you will create a simple game using the shipping container you created with [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder) in [Week 3, Session 1](./week3Session1.md).
 
-The game you create will spawn a number of balls in the scene - it will be your job to destroy the balls as quickly as you can.
+The game you create will spawn a number of balls in the scene - the object of the game is to destroy the balls as quickly as you can.
 
 ### Introduction to Scripting
 
 Open [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedUnityHub.html), and open the project you created in the last lab.
 
-First, if you did not add the balls as you should have done at the end of the last lab, then you will need to do so now, sp create a bouncing ball using the same processes you used when creating the balls in previous sessions; i.e. create a sphere with a material and texture, then attach to that a _RigidBody_ and a _Physics Material_. You may need to find some ball assets from the [unity asset store](https://assetstore.unity.com/); if so, go there, and search for all free ball assets and add any you like. You will then need to download and import them into your project, using the _Package Manager_.
+First, if you did not add the balls as you should have done at the end of the last lab, then you will need to do so now, so create a bouncing ball using the same processes you used when creating the balls in previous sessions; i.e. create a sphere with a material and texture, then attach to that a _RigidBody_ and a _Physics Material_. You may need to find some ball assets from the [unity asset store](https://assetstore.unity.com/); if so, go there, and search for all free ball assets and add any you like. You will then need to download and import them into your project, using the _Package Manager_.
 You need to make the ball a [Prefab](https://docs.unity3d.com/Manual/Prefabs.html), so that you can reuse its properties across all the balls you are going to spawn in the game. To do so, in the _Project_ tab, create a folder called _Prefabs_ and drag you ball into that. Scale the ball prefab to a size you prefer. You don't actually want this ball appearing in the game (later, in a script, you will _SetActive_ all the balls you create), so set the _Ball_ as _inactive_ in the Inspector window.
 
 Next, you will create a spawn point at the centre of the shipping container; once the game starts, that is where the balls will appear. Create an empty _GameObject_, and rename it _SpawnPoint_. Similar to Figure 2, below, add an _icon_ to that spawn point (so you can see it in the _Scene_) and transform it so it's at the centre of the container.
@@ -98,7 +98,7 @@ public class SpawnObjects : MonoBehaviour
 }
 ```
 
-Drag the script onto the _SpawnManager_, then drag the _Ball_  into the script's _M Object_ field and the _Spawn Point_ into its _Spawn Point_ field. Set the _Max Objects_ field to 10. Press _Play_ - if your _Game_ tab looks something similar to Figure 3, below, then congratulations! You have created a scripted game!
+Drag the script onto the _SpawnManager_, then drag the _Ball_  into the script's _M Object_ field and the _Spawn Point_ into its _Spawn Point_ field. Set the _Max Objects_ field to 10. Press _Play_ - if your _Game_ tab looks something similar to Figure 3, below, then congratulations! You have created a scripted scene!
 
 ![](./images/scriptedScene.png)
 
@@ -202,7 +202,9 @@ public class SpawnObjects : MonoBehaviour
 
 There are two _UI_, _Text_ elements needed to make it all work - one for outputting the number of balls you've destroyed, and another to output the total time, once you've destroyed every ball. First, since you're using Unity's new input system (that was automatically imported when we imported the [First Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-196525) in a previous lab), you need to enable that in Unity's event system; to do so, _Create_, _UI_, _Event System_, then click on _Replace with InputSystemUIInputModule_.
 
-Now you can create the text elements that are required. First, _Create_, _UI_, _Text - TextMeshPro_.  The frst time you use _TextMeshPro_ (TMP), Unity will offer to import to import the TMP Essentials and Examples and Extras packages - import both. Leave the settings in the _Inspector_ as they are (but feel free to experiment - that is left as an exercise). Rename the TMP element _Score Text_. Create another _UI_, _Text - TextMeshPro_ element. Rename that _Time Text_. Ensure the _Render Mode_ of the text element's parent _Canvas_ is set to _Screen Space - Overlay_. Then place the text elements on top of each other in the canvas on the scene and use the _Rect Transform_ in the _Inspector_ to place the elements where you want them. Finally, drag the _Score Text_ UI element into the _Score Text_ field of the _Spawn Objects_ script, and the _Time Text_ UI element into the _Time Text_ field. Now press _Play_ and see if you can beat the time displayed in Figure 4, below!
+Now you can create the text elements that are required. First, _Create_, _UI_, _Text - TextMeshPro_.  The frst time you use _TextMeshPro_ (TMP), Unity will offer to import to import the TMP Essentials and Examples and Extras packages - import both. Leave the settings in the _Inspector_ as they are (but feel free to experiment - that is left as an exercise). Rename the TMP element _Score Text_. Create another _UI_, _Text - TextMeshPro_ element. Rename that _Time Text_. Ensure the _Render Mode_ of the text element's parent _Canvas_ is set to _Screen Space - Overlay_. Then place the text elements on top of each other in the canvas on the scene and use the _Rect Transform_ in the _Inspector_ to place the elements where you want them. Finally, drag the _Score Text_ UI element into the _Score Text_ field of the _Spawn Objects_ script, and the _Time Text_ UI element into the _Time Text_ field. 
+
+Now press _Play_ and see if you can beat the time displayed in Figure 4, below!
 
 ![](./images/gameScore.png)
 
