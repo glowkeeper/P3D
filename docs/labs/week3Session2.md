@@ -119,7 +119,7 @@ public class Destroyer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log('made it here!', other)
+        // Debug.Log("made it here!");
         if(other.gameObject.tag == otherTag )
         {
             Destroy(other.gameObject);
