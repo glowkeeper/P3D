@@ -31,6 +31,7 @@ Links to P3D lab sessions will appear below.
 - [Week 2, Session 2 - Physics](/docs/labs/week2Session2.md)
 - [Week 3, Session 1 - Modelling](/docs/labs/week3Session1.md)
 - [Week 3, Session 2 - Scripting](/docs/labs/week3Session2.md)
+- [Week 4, Session 1 - Animations](/docs/labs/week4Session1.md)
 
 ## Assignment
 
