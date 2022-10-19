@@ -29,7 +29,7 @@ First, you should add the private member variables that make the footsteps work:
 [Min(1.0f)] [SerializeField] private float stepRate = 1.0f;
 
 // Private audio variables
-private float nextStep = 0.0f;
+private float _nextStep = 0.0f;
 private AudioSource _audioSource;
 ```
 
@@ -50,15 +50,15 @@ And now create the `PlayFootStepAudio` method:
 ```csharp
 private void PlayFootStepAudio()
 {
-    // Debug.Log("Next " + nextStep);
-    if (Grounded && _speed > 0.0f && Time.time > nextStep)
+    // Debug.Log("Next " + _nextStep);
+    if (Grounded && _speed > 0.0f && Time.time > _nextStep)
     {
         // Debug.Log("Time " + Time.time);
         float offset = _speed;
         if ( _speed >= stepRate ) {
             offset = (stepRate / _speed);
         } 
-        nextStep = Time.time + offset;
+        _nextStep = Time.time + offset;
         // pick & play a random footstep sound from the array,
         // excluding sound at index 0
         int n = Random.Range(1, footstepSounds.Length);
