@@ -46,8 +46,6 @@ Finally, you should add something to house the fire. Figure 2, below, shows the 
 
 _Figure 2: Fire in the Hole (Pot)!_
 
-The added exercise here is to play around with _all_ of the settings to see their effect!  
-
 ## Crackle and Pop
 
 Below, you will add a simple attenuated 3D sound to the fire so that its volume increases and decreases as your FPC gets closer or moves further away.
@@ -59,6 +57,8 @@ Add an _AudioSource_ to the fire and drag the _fireInTheHole_ audio file you imp
 As for the radio in the previous lab, no matter the FPC's distance from the fire, the sound will maintain the same volume. To change that, in the fire's _AudioSource_, set the _Spatial Blend_ field to _1_ - that enables the _AudioClip_ to take on 3D properties. Now, in the _3D Sound Settings_, set the Max Distance to 20, and at the 20 point on the graph's x-axis, ensure the sound volume is zero. Also, set the maximum volume at 5 metres (you don't want to get too close to the fire to hear it). So now, when you approach and walk away from the fire, the volume should increase and decrease.
 
 ## Extended
+
+Play around with _all_ of the VFX settings to see their effect.
 
 Create a fire in an inside setting, perhaps by modelling a chimney breast or oven (you may be able to use some assets from the [Unity Asst Store](https://assetstore.unity.com/)), and make your fire look realistic, there.
 
