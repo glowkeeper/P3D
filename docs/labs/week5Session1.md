@@ -4,9 +4,9 @@ This lab serves as an introduction to particle systems in Unity [Visual Effects 
 
 ## Overview
 
-Particle systems are combinations of individual particles in the form of textures, material instances and entities, creating a more complex nebulous simulation. They are often used to create effects such as liquids, fire, fireworks, smoke and weather.
+Particle systems create complex nebulous simulated animations through combinations of individual particles in the form of textures, material instances and entities. They are often used to create effects such as liquids, fire, fireworks, smoke and weather.
 
-You can create particle systems in Unity in several ways; visual effect (VFX) graphs are the most intuitive, because they allow you to author visual effects using easily customisable Node-based visual logic.
+You can create particle systems in Unity in several ways; visual effect (VFX) graphs are the most intuitive, because they allow you to author visual effects using easily customisable node-based visual logic (if you are familiar with [Shader Graphs](https://docs.unity3d.com/Packages/com.unity.shadergraph@15.0/manual/index.html), then you already have some exerience of this node-based visual logic).
 
 In this lab, you will use a VFX graph to create a fire.
 
