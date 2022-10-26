@@ -22,7 +22,7 @@ Please take note of the [marking criteria](./markingCriteria.md) for the assignm
 
 ## The Assignment
 
-Create a scene where a third or first-person controller (TFPC) must explore. Your scene should include some two-storey building that your TFPC must enter through a door. Within that building, you should place some variations of the objects modelled in the labs, but you can create other items, too. Once your TFPC has entered the building, they should close the door behind them. They should then spawn an object in front of them, which the TFPC picks upand carries it up to a higher level of the second floor of your building so that you can throw it back down the stairs. At the very minimum, your scene should demonstrate all the concepts introduced in the labs, including proper physics, especially for the spawned item. It should also sound compelling.
+Create a scene that a third or first-person controller (TFPC) must explore. Your scene should include some two-storey building that your TFPC must enter through a door. Within that building, you should place some variations of the objects modelled in the labs, but you can create other items, too. Once your TFPC has entered the building, they should close the door. Next, an object should be spawned in front of the TFPC, which they pick up and carry up to a higher level of the second floor of the building so that they can throw it back down the stairs. At the very minimum, your scene should demonstrate all the concepts introduced in the labs, including proper physics, especially for the thrown spawned item. It should also sound compelling.
 
 ### The Application
 
@@ -45,10 +45,10 @@ You are free to use any free or open-source resources you find, but you must ref
 
 Record a short video (around two-minutes), which shows you exploring the scene you have created with your TFPC. However, it must include the following:
 
-1. A building which your TFPC enters by opening a door. they should close the door, too.
+1. A building which your TFPC enters by opening a door. They should close the door, too
 2. Spawn an object in front of your TFPC
 3. The TFPC should pick up the item and take it up to the second floor of the building within your scene
-4. The TFPC should throw the object back down the stairs
+4. The TFPC should throw the object down to the ground floor
 
 ### The Report
 
