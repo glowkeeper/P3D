@@ -22,7 +22,7 @@ Please take note of the [marking criteria](./markingCriteria.md) for the assignm
 
 ## The Assignment
 
-Create a scene that a third or first-person controller (TFPC) must explore. Your scene should include some two-storey building that your TFPC must enter through a door. Within that building, you should place some variations of the objects modelled in the labs, but you can create other items, too. Once your TFPC has entered the building, they should close the door. Next, an object should be spawned in front of the TFPC, which they pick up and carry up to a higher level of the second floor of the building so that they can throw it back down the stairs. At the very minimum, your scene should demonstrate all the concepts introduced in the labs, including proper physics, especially for the thrown spawned item. It should also sound compelling.
+Create a scene that a third or first-person controller (TFPC) must explore. Your scene should include some two-storey building that your TFPC must enter through a door. Within that building, you should place some variations of the objects modelled in the labs, but you can create other items, too. Once your TFPC has entered the building, they should close the door. Next, an object should be spawned in front of the TFPC, which they pick up and carry up to the second floor of the building so that they can throw it back down to the ground floor. At the very minimum, your scene should demonstrate all the concepts introduced in the labs, including proper physics, especially for the thrown spawned item. It should also sound compelling.
 
 ### The Application
 
