@@ -40,7 +40,7 @@ Now you will set up the Kanban board that you will use to manage the development
 _Figure 2: Kanban board_
 
 3. Now you can add items (such as _Write Introduction_) to the backlog
-4. When you decide (with your Project Manager- the Module Convenor) that you plan on working on the item in the current sprint, you will move that item into the _ToDo_ column. Once you start working on the item, it moves into the _In Progress_ column. Once you feel it's done, move it into the _In Review_ colum - you will review that item in the weekly sprint review that you have with your project manager; if your Project Manager agrees the item is done, it will move into the _Done_ column; otherwise, it will move back into the _Todo_ column. In that sprint review meeting you will also decide on the items that you will work on during the next sprint. This process will continue week-by-week until you have completed your (excellent) coursework
+4. When you decide (with your Project Manager- the Module Convenor) that you plan on working on the item in the current sprint, you will move that item into the _ToDo_ column. Once you start working on the item, it moves into the _In Progress_ column. Once you feel it's done, move it into the _In Review_ colum - you will review that item in the weekly sprint review that you have with your Project Manager; if they agree the item is done, it will move into the _Done_ column; otherwise, it will move back into the _Todo_ column. In that sprint review meeting you will also decide on the items that you will work on during the next sprint. This process will continue week-by-week until you have completed your (excellent) coursework
 
 ## Useful Links
 
