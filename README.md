@@ -37,7 +37,7 @@ Links to P3D lab sessions will appear below.
 
 ## Assignment
 
-The assignment will appear below (sometime around week 6).
+- [Module Assignment](/docs/assignment/assignment.md)
 
 ## Background Material
 
