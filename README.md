@@ -34,6 +34,7 @@ Links to P3D lab sessions will appear below.
 - [Week 4, Session 1 - Animations](/docs/labs/week4Session1.md)
 - [Week 4, Session 2 - Audio](/docs/labs/week4Session2.md)
 - [Week 5, Session 1 - Particle Systems](/docs/labs/week5Session1.md)
+- [Week 5, Session 2 - Version Control and Project Planning](/docs/labs/week5Session1.md)
 
 ## Assignment
 
