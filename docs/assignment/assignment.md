@@ -62,7 +62,7 @@ Write a report that documents the work you have done. It should be no longer tha
 6. A short description of an element you used in your scene that makes it unique
 7. A summary of the Unity scene you created. This section is an opportunity to critique what you've done
 8. Future work. A short description of how your scene could progress beyond this coursework
-9. Appendix. This is where you might include your scripts
+9. Appendix. This is where you might include your scripts and meeting logs
 10. A link to your GitHub repository
 11. References to any assets you used
 12. Report References

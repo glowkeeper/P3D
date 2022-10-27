@@ -30,7 +30,7 @@ There are 100 marks available - 40 for the application, 10 for the video, and 50
 | Unique Element | 6 | A well-documented element that demonstrates a unique feature of your scene |
 | Summary | 6 | A nicely written summary of your work |
 | Future Work | 6 | A nicely written section describing how your scene could progress |
-| Appendix | 2 | A listing of all your scripts, properly referenced |
+| Appendix | 2 | A listing of all your scripts (properly referenced), and meeting logs |
 | Repository | 1 | A link to your GitHub repository |
 | References | 2 | A properly referenced report, including references to any scripts and assets you used to create your unity scene |
 
