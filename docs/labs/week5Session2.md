@@ -6,9 +6,9 @@ This lab sets up version control for your coursework. It also creates a project 
 
 [GitHub](https://github.com/)  is a cloud-based [version control](https://www.atlassian.com/git/tutorials/what-is-version-control) service with [git](https://git-scm.com/) at its core. Version control systems are the means by which developers store, track changes and manage their code over time. They feature mechanisms such as [branching](https://www.atlassian.com/git/tutorials/using-branches) and [merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge), giving developers even more control over the software they build. Branches are a snapshot of any changes made to a codebase, so when a developer wants to add a new feature or fix a bug, they create a new branch that captures the changes. Merging is the way version control systems reunite two branches.
 
-![git branches](./images/gitBranch.svg)
+![git branches](./images/gitBranchingandMerging.png)
 
-_Figure 1: A visualisation of git branching_
+_Figure 1: A visualisation of git branching and merging_
 
 [Agile project management](https://www.atlassian.com/agile/project-management) is a planning method often used to build and maintain software. A full agile project will feature [epics](https://www.atlassian.com/agile/project-management/epics) and [ceremonies](https://www.atlassian.com/agile/scrum/ceremonies) like [standups](https://www.atlassian.com/agile/scrum/standups), [sprint planning](https://www.atlassian.com/agile/scrum/sprint-planning), [sprint reviews](https://www.atlassian.com/agile/scrum/sprint-reviews) (to get stakeholder feedback) and [retrospectives](https://www.atlassian.com/agile/scrum/retrospectives). [Kanban](https://www.atlassian.com/agile/kanban) boards are a means by which agile software teams can use a process of continuous development, through cards and columns, to help visualise the work that needs to be done.
 
