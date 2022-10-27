@@ -45,6 +45,7 @@ _Figure 2: Kanban board_
 ## Useful Links
 
 - [git](https://git-scm.com/)
+- [Using Git with Visual Studio Code (Official Beginner Tutorial)](https://www.youtube.com/watch?v=i_23KUAEtUM)
 - [What is GitHub?](https://kinsta.com/knowledgebase/what-is-github/)
 - [What is Version Control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - [git add](https://github.com/git-guides/git-add)
