@@ -26,23 +26,14 @@ P3D has some dependencies.
 Links to P3D lab sessions will appear below.
 
 - [Week 1, Session 1 - Welcome](/docs/labs/week1Session1.md)
-- [Week 1, Session 2 - Lighting](/docs/labs/week1Session2.md)
-- [Week 2, Session 1 - Materials](/docs/labs/week2Session1.md)
-- [Week 2, Session 2 - Physics](/docs/labs/week2Session2.md)
-- [Week 3, Session 1 - Modelling](/docs/labs/week3Session1.md)
-- [Week 3, Session 2 - Scripting](/docs/labs/week3Session2.md)
-- [Week 4, Session 1 - Animations](/docs/labs/week4Session1.md)
-- [Week 4, Session 2 - Audio](/docs/labs/week4Session2.md)
-- [Week 5, Session 1 - Particle Systems](/docs/labs/week5Session1.md)
-- [Week 5, Session 2 - Version Control and Project Planning](/docs/labs/week5Session2.md)
 
 ## Assignment
 
-- [Module Assignment](/docs/assignment/assignment.md)
+The assignment will be released sometime around Week 6 or Week 7.
 
 ## Background Material
 
-There is a lot of useful background material in the [docs](./docs/) folder. In particular, you should read and become familiar with the material introduced in [3D Graphics](./docs/graphicsBackground.md).
+There is some background material to the module in the [docs](./docs/) folder, including [3D Graphics](./docs/graphicsBackground.md), [advanced ray tracing](./docs/advancedRayTracing.pdf), [light and colour perception](./docs/lightAndColourPerception.pdf) and some useful material about the [maths underpinning a 3D space](./docs/vectors.pdf).
 
 ## Module Resources
 
