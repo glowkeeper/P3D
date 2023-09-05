@@ -4,7 +4,7 @@ This lab's primary aim is to set up your environment so you can complete the res
 
 ## Overview
 
-This session requires you to install [Unity](https://unity3d.com/unity/qa/lts-releases) and set up a [GitHub](https://github.com/) account and GitHub repository for maintaining the work you will do on this module.
+This session requires you to set up a [GitHub](https://github.com/) account and GitHub repository. You will also install [Unity](https://unity3d.com/unity/qa/lts-releases) and create the Unity project that you will use for your work on this module. Finally, you will push that Unity project up to your GitHub repository.
 
 ### Version Control
 
@@ -14,24 +14,26 @@ This session requires you to install [Unity](https://unity3d.com/unity/qa/lts-re
 
 _Figure 1: A visualisation of git branching and merging_
 
-#### GitHub Repository
+#### GitHub
+
+You will be using GitHub extensively throughout the module (or, at least, you should use it extensively, as GitHub is a great place to save your work!). Besides, version control is a crucial software industry tool, so it's a great skill to learn.
 
 If you still need a [GitHub](https://github.com/) account, please create one. It may also be beneficial (although not for this module) to access the [GitHub Student Developer Pack](https://education.github.com/pack), as it gives you free access to lots of resources and tools.
 
-If you have not used GitHub before, then there is a [Panopto recording](https://sussex.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=57307baa-f78e-42a8-8e5c-ac40012ddc4a) of a lecture about GitHub that the  [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) gave in previous years. You can also access the [lecture slides](../githubPresentation.pdf). You will be using GitHub extensively throughout the module (or, at least, you should use it extensively, as GitHub is a great place to save your work!). It's also a core skill to learn since version control is a crucial software industry tool.
+If you have not used GitHub before, then there is a [Panopto recording](https://sussex.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=57307baa-f78e-42a8-8e5c-ac40012ddc4a) of a lecture about GitHub that the  [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) gave some time back. You can also access the [lecture slides](../githubPresentation.pdf).
 
-Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). You should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module. Eventually, you'll publish your coursework there, and the Module Convenor may need access to the repository so they can check your work. Next, you should _clone_ your repository to your local hard drive. Below, you will create a Unity project in that repository and push your work back to GitHub.
+Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). You should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module. Eventually, you'll publish your coursework there, too, and the Module Convenor may need access to the repository so they can check your work. Finally, you should _clone_ your repository to your local hard drive. Below, you will create a Unity project in that repository and push your work back to GitHub.
 
 ### Unity
 
 Please ensure you have installed the latest version of [Unity with long-term support](https://unity3d.com/unity/qa/lts-releases).
 
-### Unity Project
+#### Unity Project
 
-You will now create a Unity project and save that project on GitHub.
+Now, you will create a Unity project and save that project on GitHub.
 
 To do so, open Unity Hub, create a new project and choose the 3D Sample Scene (HDRP), a scene that uses the High Definition Render Pipeline (HDRP) template. Store the project in a directory in your cloned repository - this could be any directory, but a good choice might be _src/yourProjectName_; you can name the project however you choose, but this project will form the basis of the rest of your work on this module, so choose the name wisely!
 
-Now would be an excellent time to push your work back up to GitHub, except you would be pushing the whole Unity project, and many files in there will never change that you can exclude from version control. Hence, **Before you push your work up to GitHub**, you should fetch [P3D's _.gitignore_](https://github.com/glowkeeper/P3D/blob/main/src/unity/.gitignore) and put it in _src/yourProjectName_. You will know if you've done this correctly because you should only have hundreds of files to push up to GitHub, and not thousands; if that's the case (and only if that's the case), you can [add](https://github.com/git-guides/git-add), [commit](https://github.com/git-guides/git-commit) and [push](https://github.com/git-guides/git-push) the changes in your local repository up to GitHub.
+**Before you push your work back up to GitHub**, you should fetch [P3D's _.gitignore_](https://github.com/glowkeeper/P3D/blob/main/src/unity/.gitignore) and put it in _src/yourProjectName_ - this excludes the many files in the Unity project that will never change between machines, so they do not need to go under version control. You will know if you've done this correctly because you should only have hundreds of files to push up to GitHub, and not thousands; if that's the case (and only if that's the case), you can [add](https://github.com/git-guides/git-add), [commit](https://github.com/git-guides/git-commit) and [push](https://github.com/git-guides/git-push) the changes in your local repository up to GitHub.
 
 Congratulations - you are now all set for the rest of the module!
