@@ -2,22 +2,36 @@
 
 This lab's primary aim is to set up your environment so you can complete the rest of the module.
 
-Once you have your environment set up, you should read some background material explaining [3D Graphics](../graphicsBackground.md) since that will help you get a much better understanding of the core concepts that make [Unity](https://unity3d.com/) work.
-
 ## Overview
 
-This session requires you to install [Unity](https://unity3d.com/unity/qa/lts-releases), set up a [GitHub](https://github.com/) account and create a GitHub project for the rest of your work on the module.
+This session requires you to install [Unity](https://unity3d.com/unity/qa/lts-releases) and set up a [GitHub](https://github.com/) account and GitHub repository for maintaining the work you will do on this module.
 
-### GitHub
+### Version Control
 
-You should create a student account on [GitHub](https://github.com/) (if you still need to do so) and create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). Finally, you should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module.
+[GitHub](https://github.com/) is a cloud-based [version control](https://www.atlassian.com/git/tutorials/what-is-version-control) service with [git](https://git-scm.com/) at its core. Version control systems are how developers store, track changes and manage their code over time. They feature mechanisms such as [branching](https://www.atlassian.com/git/tutorials/using-branches) and [merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge), giving developers even more control over the software they build. Branches are a snapshot of any changes made to a codebase, so when a developer wants to add a new feature or fix a bug, they create a new branch that captures the changes. Merging is the way version control systems reunite two branches.
 
-Then, you should create a [GitHub project](https://docs.github.com/en/issues/planning-and-tracking-with-projects) for managing your work on the module. Ultimately, the project board will be a marked content of your coursework - only those created and maintained from **now** have the potential for full marks in the marking criteria for the project component of your coursework.
+![git branches](./images/gitBranchingandMerging.png)
 
-If you have not used GitHub before, then there is a [Panopto recording](https://sussex.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=57307baa-f78e-42a8-8e5c-ac40012ddc4a) of a lecture about GitHub that the  [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) gave in previous years. You can also access the [lecture slides](../githubPresentation.pdf).
+_Figure 1: A visualisation of git branching and merging_
+
+#### GitHub Repository
+
+If you still need a [GitHub](https://github.com/) account, please create one. It may also be beneficial (although not for this module) to access the [GitHub Student Developer Pack](https://education.github.com/pack), as it gives you free access to lots of resources and tools.
+
+If you have not used GitHub before, then there is a [Panopto recording](https://sussex.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=57307baa-f78e-42a8-8e5c-ac40012ddc4a) of a lecture about GitHub that the  [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) gave in previous years. You can also access the [lecture slides](../githubPresentation.pdf). You will be using GitHub extensively throughout the module (or, at least, you should use it extensively, as GitHub is a great place to save your work!). It's also a core skill to learn since version control is a crucial software industry tool.
+
+Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). You should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module. Eventually, you'll publish your coursework there, and the Module Convenor may need access to the repository so they can check your work. Next, you should _clone_ your repository to your local hard drive. Below, you will create a Unity project in that repository and push your work back to GitHub.
 
 ### Unity
 
-The goal of the first six weeks of this module is to get _everyone_ to a reasonable level with an industry-leading platform for creating and operating interactive, 3D content - **Unity**. Please ensure you have installed the latest version of [Unity with long-term support](https://unity3d.com/unity/qa/lts-releases).
+Please ensure you have installed the latest version of [Unity with long-term support](https://unity3d.com/unity/qa/lts-releases).
 
-For some on this module, Unity will be new. Others will have used Unity as part of a group project, but they will not have been the key driver of that project, so the concepts presented here will still be relatively new. Yet others will already have a fair amount of experience - if that's you, you should not treat the first six weeks of this module as a free ride - _it is an opportunity for you to deepen your knowledge_ by working on the _Extended Material_ in the labs.
+### Unity Project
+
+You will now create a Unity project and save that project on GitHub.
+
+To do so, open Unity Hub, create a new project and choose the 3D Sample Scene (HDRP), a scene that uses the High Definition Render Pipeline (HDRP) template. Store the project in a directory in your cloned repository - this could be any directory, but a good choice might be _src/yourProjectName_; you can name the project however you choose, but this project will form the basis of the rest of your work on this module, so choose the name wisely!
+
+Now would be an excellent time to push your work back up to GitHub, except you would be pushing the whole Unity project, and many files in there will never change that you can exclude from version control. Hence, **Before you push your work up to GitHub**, you should fetch [P3D's _.gitignore_](https://github.com/glowkeeper/P3D/blob/main/src/unity/.gitignore) and put it in _src/yourProjectName_. You will know if you've done this correctly because you should only have hundreds of files to push up to GitHub, and not thousands; if that's the case (and only if that's the case), you can [add](https://github.com/git-guides/git-add), [commit](https://github.com/git-guides/git-commit) and [push](https://github.com/git-guides/git-push) the changes in your local repository up to GitHub.
+
+Congratulations - you are now all set for the rest of the module!
