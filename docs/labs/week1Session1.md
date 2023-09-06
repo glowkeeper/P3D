@@ -4,7 +4,7 @@ This lab's primary aim is to set up your environment so you can complete the res
 
 ## Overview
 
-This session requires you to set up a [GitHub](https://github.com/) account and GitHub repository. You will also install [Unity](https://unity3d.com/unity/qa/lts-releases) and create the Unity project that you will use for your work on this module. Finally, you will push that Unity project up to your GitHub repository.
+This session requires you to set up a [GitHub](https://github.com/) account and create a GitHub repository to store the rest of your work on this module. You will also install [Unity](https://unity3d.com/unity/qa/lts-releases) and make the Unity project that you will use for your work on this module. Finally, you will push that Unity project up to your GitHub repository.
 
 ### Version Control
 
