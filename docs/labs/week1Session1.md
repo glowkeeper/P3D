@@ -1,4 +1,4 @@
-# Lab for Week 1, Session 1 - Setting Up Your Environment
+# Lab - Week 1, Session 1 - Installing Unity and Integrating with GitHub
 
 This lab's primary aim is to set up your environment so you can complete the rest of the module.
 
@@ -26,9 +26,9 @@ Once you have a GitHub account, create a _private_ repository for your P3D work 
 
 ### Unity
 
-Please ensure you have installed the latest version of [Unity with long-term support](https://unity3d.com/unity/qa/lts-releases).
+If you are new to Unity, you should apply for a [Unity Student Plan](https://unity.com/products/unity-student). Then, you should install the Unity Hub. Once you have that, use the Hub to install the latest version of [Unity with long-term support](https://unity3d.com/unity/qa/lts-releases); you will need [Visual Studio](https://visualstudio.microsoft.com/) for the scripting part of the course, so if you do not have that installed, you should add Visual Studio as a module when you install Unity.
 
-#### Unity Project
+#### Integrating a Unity Project with GitHub
 
 Now, you will create a Unity project and save that project on GitHub.
 
