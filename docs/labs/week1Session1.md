@@ -34,7 +34,7 @@ Once you have your credentials set up, you should _clone_ your repository to you
 
 ### Unity
 
-If you are new to Unity, you should apply for a [Unity Student Plan](https://unity.com/products/unity-student). Then, you should install the Unity Hub. Once you have that, use the Hub to install the latest version of [Unity with long-term support](https://unity3d.com/unity/qa/lts-releases); you will need [Visual Studio](https://visualstudio.microsoft.com/) for the scripting part of the course, so if you do not have that installed, you should add Visual Studio as a module when you install Unity.
+If you are new to Unity, you should apply for a [Unity Student Plan](https://unity.com/products/unity-student). Then, you should install the Unity Hub. Once you have that, use the Hub to install the [long-term support (LTS) Release 2022.3.9f1](https://unity3d.com/unity/qa/lts-releases) (which is the same version installed on the lab computers). You will need [Visual Studio](https://visualstudio.microsoft.com/) for the scripting part of the course, so if you do not have that installed, you should add Visual Studio as a module when you install Unity. Within Visual Studio, you should install the extension _GitHub Pull Requests and Issues_.
 
 #### Integrating a Unity Project with GitHub
 
