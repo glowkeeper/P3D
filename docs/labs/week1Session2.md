@@ -14,4 +14,6 @@ The lab focuses on:
 
 ## Project Kanban Board
 
-You will set up the Kanban board that you will use to plan your lab sessions, and ultimately, manage the development of your coursework.
+Now you must visit the _Project_ tab on your GitHub repository and set up the Kanban board that you will use to plan your lab sessions, and ultimately, manage the development of your coursework.
+
+[Lab video](https://youtu.be/6ex6QT3LiP4)
