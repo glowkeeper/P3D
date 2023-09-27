@@ -45,3 +45,5 @@ To do so, open Unity Hub, create a new project and choose the 3D Sample Scene (H
 **Before you push your work back up to GitHub**, you should fetch [P3D's _.gitignore_](https://github.com/glowkeeper/P3D/blob/main/src/unity/.gitignore) and put it in _src/yourProjectName_ - this excludes the many files in the Unity project that will never change between machines, so they do not need to go under version control. You will know if you've done this correctly because you should only have hundreds of files to push up to GitHub, and not thousands; if that's the case (and only if that's the case), you can [add](https://github.com/git-guides/git-add), [commit](https://github.com/git-guides/git-commit) and [push](https://github.com/git-guides/git-push) the changes in your local repository up to GitHub.
 
 Congratulations - you are now all set for the rest of the module!
+
+[Lab Video](https://youtu.be/3D1InjqyKrU)
