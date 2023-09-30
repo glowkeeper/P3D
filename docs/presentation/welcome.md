@@ -15,7 +15,7 @@ date:   "September 2023"
 
 # Overview of P3D
 
-+ Intensive introduction to 3D computer programming, using [Unity](https://unity.com/)
++ Intensive introduction to 3D programming, using [Unity](https://unity.com/)
 + Plan the delivery of software focused on the core concepts of a 3D environment
 + Includes a research element in the form of a report similar to that required for your final projects
 
@@ -39,7 +39,7 @@ The first half of P3D is where you work on directed lab sessions.
 
 # Lab Sessions (contd)
 
-Labs in person in CHI114, Monday and Friday, 3 - 5.
+Labs in person in CHI1-015 (Lab 2), Tuesday and Thursday, 11 - 1. However, I will begin each lab with a brief online Zoom session, where I will say hello, release the lab PIN, and answer any questions.
 
 Please come to both sessions!
 
@@ -53,12 +53,11 @@ Shortly before each lab, I will release on the [P3D GitHub repo](https://github.
 
 # Lab Sessions (contd)
 
-+ Set up dependencies
-+ Agile project management
++ Dependencies
++ Agile Project Management
 + Modelling
-+ First-Person Controllers
-+ Lighting
 + Meshes, Materials, Textures and Shaders
++ Lighting
 
 - - -
 
@@ -74,7 +73,7 @@ Shortly before each lab, I will release on the [P3D GitHub repo](https://github.
 
 # Coursework
 
-In the second half of P3D, you carry out your Coursework (unlike for G6078, Game Design and Development, the Coursework for P3D is **individual**). 
+In the second half of P3D, you carry out your Coursework (unlike for G6078, Game Design and Development, the Coursework for P3D is **individual**).
 
 **The Coursework builds on the lab materials**.
 
@@ -90,9 +89,14 @@ I give you a brief for your Coursework; then it runs like a commercial project w
 
 # Coursework (contd)
 
-In other words, your Coursework exposes you to _agile_ project management using concepts such as _kanban boards_ and _sprints_.
+In other words, your Coursework exposes you to _agile_ project management using concepts such as _Kanban boards_ and _Sprints_.
 
 - - -
+
+# Academic Integrity
+
++ [Academic Integrity Expectations](https://www.sussex.ac.uk/skills-hub/referencing-and-academic-integrity#main)
++ [Academic Misconduct Procedures](https://student.sussex.ac.uk/complaints/against-you/misconduct)
 
 # Resources
 
