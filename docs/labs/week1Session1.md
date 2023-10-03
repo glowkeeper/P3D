@@ -3,6 +3,7 @@
 This lab's primary aim is to set up your environment so you can complete the rest of the module.
 
 ![git](./images/git.png)
+
 [_courtesy of xkcd_](https://imgs.xkcd.com/comics/git.png)
 
 ## Overview
