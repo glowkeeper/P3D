@@ -77,7 +77,7 @@ In the second half of P3D, you carry out your Coursework (unlike for G6078, Game
 
 **The Coursework builds on the lab materials**.
 
-You will be split into two groups - The intention is for one group to come to Monday's lab and the other to Friday's. However, _you may come to both_!
+You will be split into two groups - The intention is for one group to come to Tuesday's lab and the other to Thursday's. However, _you may come to both_!
 
 - - -
 
