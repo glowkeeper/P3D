@@ -2,7 +2,7 @@
 
 This lab's primary aim is to set up your environment so you can complete the rest of the module.
 
-![git](/images/git.png)
+![git](./images/git.png)
 
 [xkcd](https://imgs.xkcd.com/comics/git.png)
 
