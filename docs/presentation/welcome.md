@@ -47,7 +47,7 @@ Please come to both sessions!
 
 # Lab Sessions (contd)
 
-Shortly before each lab, I will release on the [P3D GitHub repo](https://github.com/glowkeeper/P3D) a document and a link to a video that describes the work to do.
+Shortly before each lab, I will release on the [P3D GitHub repo](https://github.com/glowkeeper/P3D) a document and a link to a video where I demonstrate my version of the work to be done. _You must use that video for inspiration for your OWN WORK_!
 
 - - -
 
