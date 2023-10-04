@@ -14,6 +14,10 @@ This module supports the university's [staff and student charter and guiding pri
 - [Maintainer](#maintainer)
 - [License](#license)
 
+## Welcome to Programming for 3D
+
+- [Welcome Lecture](https://youtu.be/0iLYNwwZcdU)
+
 ## Dependencies
 
 P3D has some dependencies.
