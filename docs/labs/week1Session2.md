@@ -8,6 +8,10 @@ The lab focuses on:
 + Adding those issues to Kanban columns
 + Finding inspiration for a two-story building that will form the basis of the project (and your coursework)
 
+![project management](./images/what-is-project-management-process-1200x675.png)
+
+[_Project Management Process_](https://getnave.com/blog/project-management-process/)
+
 ## Overview
 
 [Agile project management](https://www.atlassian.com/agile/project-management) is a planning method often used to build and maintain software. A full agile project will feature [epics](https://www.atlassian.com/agile/project-management/epics) and [ceremonies](https://www.atlassian.com/agile/scrum/ceremonies) like [standups](https://www.atlassian.com/agile/scrum/standups), [sprint planning](https://www.atlassian.com/agile/scrum/sprint-planning), [sprint reviews](https://www.atlassian.com/agile/scrum/sprint-reviews) (to get stakeholder feedback) and [retrospectives](https://www.atlassian.com/agile/scrum/retrospectives). [Kanban](https://www.atlassian.com/agile/kanban) boards enable software developers to use a process of continuous development, through cards and columns, to help visualise the work that needs to be done.
