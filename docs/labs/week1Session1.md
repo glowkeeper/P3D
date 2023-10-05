@@ -1,6 +1,11 @@
 # Lab - Week 1, Session 1 - Installing Unity and Integrating with GitHub
 
-This lab's primary aim is to set up your environment so you can complete the rest of the module.
+The lab focuses on:
+
++ Creating a GitHub repository, which you'll use to store your work
++ Cloning that repository to your local hard drive
++ Creating a Unity project in that local repository
++ Pushing your work up to GitHub - something you should continuously do while working on this module
 
 ![git](./images/git.png)
 

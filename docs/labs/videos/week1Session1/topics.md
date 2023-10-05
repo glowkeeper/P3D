@@ -1,4 +1,4 @@
-# Topics
+# Week 1, Session 1
 
 Welcome to the Programming for 3D lab session.
 
