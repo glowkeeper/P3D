@@ -31,6 +31,7 @@ Links to P3D lab sessions will appear below.
 
 - [Week 1, Session 1 - Installing Unity and Integrating with GitHub](/docs/labs/week1Session1.md)
 - [Week 1, Session 2 - Agile Project Management](/docs/labs/week1Session2.md)
+- [Week 2, Session 1 - Modelling](/docs/labs/week2Session1.md)
 
 ## Assignment
 
