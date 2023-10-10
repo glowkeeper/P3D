@@ -14,7 +14,7 @@ Unity comes with a range of lighting techniques whose aim is to approximate the 
 
 ### Direct and Indirect Lighting
 
-Unity models direct and indirect light - to get realistic effects, you must combine both. Direct light is emitted from a source, hits a surface, and gets reflected directly into a sensor (such as a virtual camera). Indirect light is all other light; it includes ambient environmental light that comes from the sky that may have been reflected many times from different surfaces before it reaches a sensor (for more technical information on this subject, please see [3D Graphics](../graphicsBackground.md)
+Unity models direct and indirect light - to get realistic effects, you must combine both. Direct light is emitted from a source, hits a surface, and gets reflected directly into a sensor (such as a virtual camera). Indirect light is all other light; it includes ambient environmental light that comes from the sky that may have been reflected many times from different surfaces before it reaches a sensor (for more technical information on this subject, please see [3D Graphics](../graphicsBackground.md)).
 
 ### Realtime and Baked Lighting
 
