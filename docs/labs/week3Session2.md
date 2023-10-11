@@ -4,9 +4,10 @@ The lab focuses on:
 
 + Rigidbodies
 + Colliders
++ Kinematics
 + Triggers
 
-This lab demonstrates Unity's [built-in 3D Physics](https://docs.unity3d.com/Manual/PhysicsOverview.html), and not the recently-out-of-preview [Data-Oriented Technology Stack (DOTS)](https://unity.com/dots). Besides, DOTS is aimed at larger applications/games; for smaller applications (such as the ones we'll be building in the labs), Unity's built-in 3D physics platform remains the best choice. However, should you be using DOTS already, then you are welcome to use that for your coursework.
+This lab demonstrates Unity's [built-in 3D Physics](https://docs.unity3d.com/Manual/PhysicsOverview.html), and not the recently-out-of-preview [Data-Oriented Technology Stack (DOTS)](https://unity.com/dots). Besides, DOTS is aimed at large, complex applications/games; for smaller applications (such as the ones we'll be building in the labs), Unity's built-in 3D physics platform remains the best choice. However, should you be using DOTS already, then you are welcome to use that for your coursework.
 
 ## Overview
 
@@ -14,11 +15,13 @@ In this setting, 3D physics refers to the properties of objects and how they res
 
 ![](./images/physicsProperties.png)
 
-### Rigidbodies
-
 _Figure 1: Unity's physics properties_
 
-Figure 2 shows that a _RigidBody_ is the main component that enables physical behaviour for a _GameObject_. Since a _Rigidbody_ component is responsible for the movement of the _GameObject_ to which it attached, you shouldn't try to move the _GameObject_ by changing its _Transform_ properties in a script (we'll look at scripting later in the module). Instead, you should [apply forces to push the GameObject](https://docs.unity3d.com/Manual/RigidbodiesOverview.html) and let the physics engine calculate the results.
+### Rigidbodies
+
+Figure 2 shows that a _RigidBody_ is the main component that enables physical behaviour for a _GameObject_. A _RigidBody_ is a term borrowed from the realworld - it is an idealised object that does not deform under the influence of external forces; instead, it maintains its shape and size, making it ideal for analysing mechanical systems in physics and engineering, and also for modelling idealised physical systems in Unity. A unity _RigidBody_ also detects and resolves collisions between colliders (see below).
+
+Since a _Rigidbody_ component is responsible for the movement of the _GameObject_ to which it attached, you shouldn't try to move the _GameObject_ by changing its _Transform_ properties in a script (we'll look at scripting later in the module). Instead, you should [apply forces to push the GameObject](https://docs.unity3d.com/Manual/RigidbodiesOverview.html) and let the physics engine calculate the results.
 
 ![](./images/rigidBody.png)
 
@@ -27,6 +30,10 @@ _Figure 2: RigidBody_
 ### Colliders
 
 _Colliders_ allow Unity to register when two objects interact. They define the [physical collision shape of a _GameObject_](https://docs.unity3d.com/Manual/CollidersOverview.html), such that, a _GameObject_ will react to incoming collisions if it has a _RigidBody_ component that is associated with one or more _Collider_ components. _Colliders_ are invisible and do not need to match the shape of their associated _GameObject_ mesh. The primitive _colliders_, _Box Collider_, _Sphere Collider_ and _Capsule Collider_ are the most straightforward and least processor-intensive.
+
+### Kinematics
+
+When something is _Kinematic_ in Unity, the physics behaviour of its _RigidBody_ component is disabled, so it does not get affected by external forces; a _Kinematic RigidBody_ can still push another _RigidBody_, but it cannot be pushed. Importantly, A _Kinematic RigidBody_ still collides with other rigid bodies - that makes them ideal for platforms and elevators, because you want such things to maintain a path while still having the ability to transport that which they've collided (such as a player controller).
 
 ### Triggers
 
@@ -48,7 +55,7 @@ You are going to add a ball, as in Figure 3. Create a _GameObject_, _3D Object_,
 
 _Figure 3: The ball_
 
-Now you are going to make the ball drop to the floor. Select it in the _Hierarchy_. Then, in the _Inspector_ tab, select _Add Component_ and add a _Rigidbody_. Now press _Play_. The ball will have fallen to the floor, as in Figure 4. 
+Now you are going to make the ball drop to the floor. Select it in the _Hierarchy_. Then, in the _Inspector_ tab, select _Add Component_ and add a _Rigidbody_. Now press _Play_. The ball will have fallen to the floor, as in Figure 4.
 
 ![](./images/ballFallen.png)
 
