@@ -14,3 +14,5 @@ Rendering in Unity relies on a close relationship between meshes, materials, sha
 + [Textures](https://docs.unity3d.com/Manual/Textures.html) are [bitmap](https://en.wikipedia.org/wiki/Bitmap) images that define the fine detail of a material's surface; think of them as images that are printed on a rubber sheet and stretched and pinned onto a mesh.
 
 Each material specifies which shader to use. The shader expects one or more texture variables, each of which can be assigned different texture assets (image files). Textures are applied to meshes using materials.Hence, there's a close link between materals, shaders, textures and the meshes to which they're applied.
+
+[Lab video](https://youtu.be/nGjmEGplDio)
