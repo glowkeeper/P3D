@@ -7,6 +7,7 @@ Welcome to the Programming for 3D lab session.
 The lab focuses on:
 
 + Rigidbodies
-+ Colliders
 + Kinematics
++ Colliders
++ Physics Materials
 + Triggers
