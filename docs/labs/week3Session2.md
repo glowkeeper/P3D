@@ -19,21 +19,25 @@ _Figure 1: Unity's physics properties_
 
 ### Rigidbodies
 
-Figure 2 shows that a _RigidBody_ is the main component that enables physical behaviour for a _GameObject_. A _RigidBody_ is a term borrowed from the realworld - it is an idealised object that does not deform under the influence of external forces; instead, it maintains its shape and size, making it ideal for analysing mechanical systems in physics and engineering, and also for modelling idealised physical systems in Unity. A unity _RigidBody_ also detects and resolves collisions between colliders (see below).
+Figure 2 shows that a _Rigidbody_ is the main component that enables physical behaviour for a _GameObject_. A _Rigidbody_ is a term borrowed from the realworld - it is an idealised object that does not deform under the influence of external forces; instead, it maintains its shape and size, making it ideal for analysing mechanical systems in physics and engineering (and also for modelling idealised physical systems in Unity!).
+
+A unity _Rigidbody_ also detects and resolves collisions between colliders (see below).
 
 Since a _Rigidbody_ component is responsible for the movement of the _GameObject_ to which it attached, you shouldn't try to move the _GameObject_ by changing its _Transform_ properties in a script (we'll look at scripting later in the module). Instead, you should [apply forces to push the GameObject](https://docs.unity3d.com/Manual/RigidbodiesOverview.html) and let the physics engine calculate the results.
 
 ![](./images/rigidBody.png)
 
-_Figure 2: RigidBody_
+_Figure 2: Rigidbody_
 
 ### Colliders
 
-_Colliders_ allow Unity to register when two objects interact. They define the [physical collision shape of a _GameObject_](https://docs.unity3d.com/Manual/CollidersOverview.html), such that, a _GameObject_ will react to incoming collisions if it has a _RigidBody_ component that is associated with one or more _Collider_ components. _Colliders_ are invisible and do not need to match the shape of their associated _GameObject_ mesh. The primitive _colliders_, _Box Collider_, _Sphere Collider_ and _Capsule Collider_ are the most straightforward and least processor-intensive.
+_Colliders_ allow Unity to register when two objects interact. They define the [physical collision shape of a _GameObject_](https://docs.unity3d.com/Manual/CollidersOverview.html), such that, a _GameObject_ will react to incoming collisions if it has a _Rigidbody_ component that is associated with one or more _Collider_ components. _Colliders_ are invisible and do not need to match the shape of their associated _GameObject_ mesh. The primitive _colliders_, _Box Collider_, _Sphere Collider_ and _Capsule Collider_ are the most straightforward and least processor-intensive.
 
 ### Kinematics
 
-When something is _Kinematic_ in Unity, the physics behaviour of its _RigidBody_ component is disabled, so it does not get affected by external forces; a _Kinematic RigidBody_ can still push another _RigidBody_, but it cannot be pushed. Importantly, A _Kinematic RigidBody_ still collides with other rigid bodies - that makes them ideal for platforms and elevators, because you want such things to maintain a path while still having the ability to transport that which they've collided (such as a player controller).
+Kinematic is the branch of mechanics that deals with bodies’ movement. It describes their motion without getting into the causes of motion, such as gravitational force, and torque.
+
+that is why When something is _Kinematic_ in Unity, the physics behaviour of its _Rigidbody_ component is disabled, so it does not get affected by external forces; a _Kinematic Rigidbody_ can still push another _Rigidbody_, but it cannot be pushed. Importantly, A _Kinematic Rigidbody_ still collides with other rigid bodies - that makes them ideal for platforms and elevators, because you want such things to maintain a path while still having the ability to transport that which they've collided (such as a player controller).
 
 ### Triggers
 
@@ -73,7 +77,7 @@ Press _Play_, and watch what happens.
 
 Notice how the balls behave when they hit the walls. See if you can change that behaviour by adding another _Physic Material_. To do so, go to the _Physics Materials_ folder, _Create_, _Physic Material_ and call it _Container_. Play with the settings - for instance, try changing both its _Friction_ parameters to 0.05 and _Bounciness_ to 0.1 (shipping containers aren't very bouncy). Once you're done, drag it to the _Material_ for the _Mesh Collider_ of each of your walls, floor and ceiling.
 
-Now press _Play_, and watch the behaviour of the balls. It should be a little more realistic, but can you do better? That is left as an exercise - try playing with some of the settings of the _RigidBody_ of the _Ball_ _GameObject_ and _Physics Material_ parameters to see how they affect behaviour. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
+Now press _Play_, and watch the behaviour of the balls. It should be a little more realistic, but can you do better? That is left as an exercise - try playing with some of the settings of the _Rigidbody_ of the _Ball_ _GameObject_ and _Physics Material_ parameters to see how they affect behaviour. Gravity has a greater effect on objects with greater mass. [Drag](https://en.wikipedia.org/wiki/Drag_(physics)) dampens linear [velocity](https://en.wikipedia.org/wiki/Velocity), and angular drag affects the rotational force of [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)). [Friction](https://en.wikipedia.org/wiki/Friction) is a resistive force.
 
 You may have also noticed how the balls interact with the lampstand - did you think that was realistic? If not, follow the same processes as above to change that behaviour.
 
@@ -99,7 +103,7 @@ Also make it so that a ball is able to knock over the lamp on the stand - you _m
 
 + [Physics](https://docs.unity3d.com/Manual/PhysicsSection.html)
 + [Built-in 3D Physics](https://docs.unity3d.com/Manual/PhysicsOverview.html)
-+ [RigidBody](https://docs.unity3d.com/Manual/class-Rigidbody.html)
++ [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html)
 + [Introduction to Rigidbody physics](https://docs.unity3d.com/Manual/RigidbodiesOverview.html)
 + [Colliders Overview](https://docs.unity3d.com/Manual/CollidersOverview.html)
 + [Intro' to the Unity Physics Engine](https://learn.unity.com/tutorial/intro-to-the-unity-physics-engine)
