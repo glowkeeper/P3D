@@ -5,6 +5,7 @@ The lab focuses on:
 + Rigidbodies
 + Kinematics
 + Colliders
++ Static and Dynamic Colliders
 + Physics Materials
 + Triggers
 
@@ -20,11 +21,11 @@ _Figure 1: Unity's physics properties_
 
 ### Rigidbodies
 
-Figure 2 shows that a _Rigidbody_ is the main component that enables physical behaviour for a _GameObject_. A _Rigidbody_ is a term borrowed from the realworld - it is an idealised object that does not deform under the influence of external forces; instead, it maintains its shape and size, making it ideal for analysing mechanical systems in physics and engineering (and also for modelling idealised physical systems in Unity!).
+Figure 2 shows that a rigidbody is the main component that enables physical behaviour for a game object. A rigidbody is a term borrowed from the realworld - it is an idealised object that does not deform under the influence of external forces; instead, it maintains its shape and size, making it ideal for analysing mechanical systems in physics and engineering (and also for modelling idealised physical systems in Unity!).
 
-A Unity _Rigidbody_ also detects and resolves collisions between colliders (see below).
+A Unity rigidbody also detects and resolves collisions between colliders (see below).
 
-Since a _Rigidbody_ component is responsible for the movement of the _GameObject_ to which it attached, you shouldn't try to move the _GameObject_ by changing its _Transform_ properties in a script (we'll look at scripting later in the module). Instead, you should [apply forces to push the GameObject](https://docs.unity3d.com/Manual/RigidbodiesOverview.html) and let the physics engine calculate the results.
+Since a rigidbody component is responsible for the movement of the game object to which it attached, you shouldn't try to move the game object by changing its _Transform_ properties in a script (we'll look at scripting later in the module). Instead, you should [apply forces to push the GameObject](https://docs.unity3d.com/Manual/RigidbodiesOverview.html) and let the physics engine calculate the results.
 
 ![](./images/rigidBody.png)
 
@@ -34,11 +35,17 @@ _Figure 2: Rigidbody_
 
 Kinematic is the branch of mechanics that deals with bodies’ movement. It describes their motion without getting into the causes of motion, such as gravitational force, and torque.
 
-That is why When something is _Kinematic_ in Unity, the physics behaviour of its _Rigidbody_ component is disabled, so it does not get affected by external forces; a _Kinematic Rigidbody_ can still push another _Rigidbody_, but it cannot be pushed. Importantly, A _Kinematic Rigidbody_ still collides with other rigid bodies - that makes them ideal for platforms and elevators, because you want such things to maintain a path while still having the ability to transport that which they've collided (such as a player controller).
+That is why When something is _Kinematic_ in Unity, the physics behaviour of its rigidbody component is disabled, so it does not get affected by external forces; a _Kinematic Rigidbody_ can still push another rigidbody, but it cannot be pushed. Importantly, A _Kinematic Rigidbody_ still collides with other rigid bodies - that makes them ideal for platforms and elevators, because you want such things to maintain a path while still having the ability to transport that which they've collided (such as a player controller).
 
 ### Colliders
 
-_Colliders_ allow Unity to register when two objects interact. They define the [physical collision shape of a _GameObject_](https://docs.unity3d.com/Manual/CollidersOverview.html), such that, a _GameObject_ will react to incoming collisions if it has a _Rigidbody_ component that is associated with one or more _Collider_ components. _Colliders_ are invisible and do not need to match the shape of their associated _GameObject_ mesh. The primitive _colliders_, _Box Collider_, _Sphere Collider_ and _Capsule Collider_ are the most straightforward and least processor-intensive.
+Colliders allow Unity to register when two objects interact. They define the [physical collision shape of a game object](https://docs.unity3d.com/Manual/CollidersOverview.html), such that, a game object will react to incoming collisions if it has a rigidbody component that is associated with one or more _Collider_ components. Colliders are invisible and do not need to match the shape of their associated game object mesh. The primitive _colliders_, _Box Collider_, _Sphere Collider_ and _Capsule Collider_ are the most straightforward and least processor-intensive.
+
+#### Static and Dynamic Colliders
+
+Game objects with colliders without a rigidbody are **static**, in that they won't move when they interact with other colliders; hence, they're useful for modelling motionless scene objects, such as walls and floors.
+
+A game object that has a rigidbody and a collider are known as dynamic.
 
 #### Physics Materials
 

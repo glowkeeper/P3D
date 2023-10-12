@@ -1,4 +1,4 @@
-# Week 2, Session 1
+# Week 3, Session 2
 
 Welcome to the Programming for 3D lab session.
 
@@ -9,5 +9,6 @@ The lab focuses on:
 + Rigidbodies
 + Kinematics
 + Colliders
++ Static and Dynamic Colliders
 + Physics Materials
 + Triggers
