@@ -23,3 +23,5 @@ Unity uses Realtime Global Illumination (GI) and Baked GI systems to model direc
 ## Volumes
 
 Volumes allow you to create different effects on the scene cameras - these could be post-processing effects (think of post-processing as something that happens _after_ everything else has been rendered), shadows, clouds, fog, lighting and many more. Volumes can be _Global_, whose settings are applied to all the scene cameras, no matter where they are, or _Local_, whose settings are applied only to those cameras that are within the local zone of influence.
+
+[Lab video](https://youtu.be/sdGONQPHJc8)
