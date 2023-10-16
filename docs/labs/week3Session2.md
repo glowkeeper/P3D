@@ -11,6 +11,10 @@ The lab focuses on:
 
 This lab demonstrates Unity's [built-in 3D Physics](https://docs.unity3d.com/Manual/PhysicsOverview.html), and not the recently-out-of-preview [Data-Oriented Technology Stack (DOTS)](https://unity.com/dots). Besides, DOTS is aimed at large, complex applications/games; for smaller applications (such as the ones we'll be building in the labs), Unity's built-in 3D physics platform remains the best choice. However, should you be using DOTS already, then you are welcome to use that for your coursework.
 
+![car physics](./images/carPhysics.webp)
+
+[_Making Custom Car Physics_](https://www.youtube.com/watch?v=CdPYlj5uZeI&t=2s)
+
 ## Overview
 
 In this setting, 3D physics refers to the properties of objects and how they respond to forces. Unity's built-in physics engine has a breadth of tools that ensure objects can interact with other objects by approximating natural forces, such as gravity, velocity, acceleration, and friction. Figure 1 shows the properties of Unity's 3D physics engine.
