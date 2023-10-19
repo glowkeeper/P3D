@@ -58,3 +58,5 @@ When colliders interact, their surfaces should simulate the properties of the ma
 ### Triggers
 
 _Triggers_ function similarly to _colliders_. However, when _triggers_ interact with _colliders_, they are ignored by the physics engine. Instead, they can execute scripts, which means they are useful for triggering all types of events; examples are some action when a _collider_ enters an area, tutorial messages or [cutscenes](https://en.wikipedia.org/wiki/Cutscene). You will take advantage of _triggers_ later in the module.
+
+[Lab video](https://youtu.be/iA2RNwS0Yxo)
