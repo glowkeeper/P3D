@@ -1,6 +1,9 @@
 # Lab - Week 4, Session 1 - Multimedia
 
-This lab introduces you to adding video and audio into your scenes.
+This lab introduces you to adding video and audio into your scenes. Thus, it focuses on:
+
++ Adding Audio
++ Adding videos
 
 ![audio waveform](images/audio.jpg)
 
@@ -8,8 +11,8 @@ This lab introduces you to adding video and audio into your scenes.
 
 ## Overview
 
-Multimedia plays a rich role in immersing your users into your scenes. For instance, sound is pivotal in the real world, so it has a vital role for any 3D application or video game since it helps create tension and add emotion into the virtual spaces you create. To put it simply, the virtual worlds you make would be incomplete without appropriate video and sound effects.
+Multimedia, in the form of audio and video, plays a rich role in immersing your users into your scenes. Sound is pivotal in the real world, so it is vital for any 3D application or game since it helps create tension and add emotion to the virtual spaces you create. Simply put, the virtual worlds you make would be incomplete without appropriate video and sound effects. Similarly, for video - clever use of moving images can add a natural sparkle to the scenes you produce.
 
-Unity uses a video player component to attach video files to game objects, which it plays on the object's texture.
+For sound, unity uses audio sources attached to game objects. An audio listener attached to another entity (such as the main camera) picks up those sounds. Unity can create attenuated 3D sounds whose volume increases and decreases with distance.
 
-For sound, unity uses audio sources attached to game objects. An audio listener attached to another object (often the main camera) then picks up those sounds. Unity can create attenuated 3D sounds whose volume increases and decreases with distance.
+Unity uses a video player component to attach video files to game objects, which it plays on the object's texture. The video player also has access to audio sources, which means it can leverage 3D sound capabilities, too.
