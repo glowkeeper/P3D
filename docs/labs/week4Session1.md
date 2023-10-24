@@ -16,3 +16,5 @@ Multimedia, in the form of audio and video, plays a rich role in immersing your 
 For sound, unity uses audio sources attached to game objects. An audio listener attached to another entity (such as the main camera) picks up those sounds. Unity can create attenuated 3D sounds whose volume increases and decreases with distance.
 
 Unity uses a video player component to attach video files to game objects, which it plays on the object's texture. The video player also has access to audio sources, which means it can leverage 3D sound capabilities, too.
+
+[Lab video](https://youtu.be/WzhirgJiuM0)
