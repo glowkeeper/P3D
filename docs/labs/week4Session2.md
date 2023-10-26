@@ -5,7 +5,7 @@ This lab focuses on:
 + Visual Effects Graphs
 + Particle Systems
 
-![Particle Systems](./images/particleSystems.jpeg]
+![Particle Systems](./images/particleSystems.jpeg)
 
 ## Overview
 
