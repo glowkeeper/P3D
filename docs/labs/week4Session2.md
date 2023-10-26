@@ -5,6 +5,8 @@ This lab focuses on:
 + Visual Effects Graphs
 + Particle Systems
 
+![Particle Systems](./images/particleSystems.jpeg]
+
 ## Overview
 
 This lab serves as an introduction to particle systems in Unity, using [Visual Effects Graphs](https://unity.com/visual-effect-graph).
