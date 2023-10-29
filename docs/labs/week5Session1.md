@@ -1,4 +1,4 @@
-# Lab for Week 4, Session 1 - Animations in Unity
+# Lab - Week 5, Session 1 - Animations in Unity
 
 This lab focuses on:
 
