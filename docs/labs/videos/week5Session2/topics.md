@@ -6,5 +6,5 @@ Welcome to the Programming for 3D lab session.
 
 The lab focuses on:
 
-+ C# Class Design
++ Class Design
 + Scripting
