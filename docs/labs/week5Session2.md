@@ -10,7 +10,7 @@ _Scripting_
 
 ## Overview
 
-Scripting is an essential ingredient to Unity applications because they allow you to do many things, such as create graphical effects, control physical gameplay behaviour or react to user input.
+Scripting is an essential ingredient to Unity applications and games because it allows you to do many things, such as create graphical effects, control physical gameplay behaviour or react to user input.
 
 Below is the basic script created by Unity whenever you _Create_, _C# Script_. It demonstrates a couple of important features.
 
