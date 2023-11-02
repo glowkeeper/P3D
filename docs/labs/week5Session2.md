@@ -52,3 +52,7 @@ Below is the [class design](https://www.visual-paradigm.com/guide/uml-unified-mo
 ![Lab game](./images/labGame.png)
 
 _Lab Game_
+
+[Lab video](https://youtu.be/M6SKSZVTD9k)
+
+[Lab game repo](https://github.com/glowkeeper/P3DUnity)
