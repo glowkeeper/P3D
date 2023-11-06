@@ -14,14 +14,25 @@ In other words (and somewhat ironically), creative thinking does not necessarily
 
 So, with all that in mind, are there creative tools that can help foster inspiration? Below is a curated compendium of ideas; I hope they inspire _you_!
 
-### General Ideas for Creative Inspiration
+### Ideas for Creative Inspiration
 
 Your [Module Convenor](https://glowkeeper.github.io/) suggests the following:
 
++ Use your imagination
 + Expand on your prior work
 + Get inspiration from elsewhere
++ Crits
 
 On both counts, be sure to reference! Remember, you can plagiarise yourself!
+
+And the Module Convenor's partner:
+
++ Mindfully play with the five senses:
+  + 5 you can see
+  + 4 you can hear
+  + 3 you can touch
+  + 2 you can smell
+  + 1 you can taste
 
 [17 Ways to Find Inspiration and Spark Creativity](https://www.skillshare.com/en/blog/17-ways-to-find-inspiration-and-spark-creativity/):
 
@@ -30,7 +41,6 @@ On both counts, be sure to reference! Remember, you can plagiarise yourself!
 + Doodle, draw or paint
 + Listen to and/or create music and go to gigs
 + Visit galleries and museums
-+ Try something unknown or new
 
 [How to inspire creativity: 10 ways to make the magic happen](https://business.talenthouse.com/post/how-to-be-creative-advice)
 
@@ -45,11 +55,10 @@ On both counts, be sure to reference! Remember, you can plagiarise yourself!
 [The creative state: how to find inspiration for art-making](https://www.artsymposia.com/article/inspiration-for-art)
 
 + Pause and reflect
-+ Create a vision board/mindmap
++ Create a vision board, whiteboard, mood board, mindmap
 + Go outside!
 + Exercise your brain
 + Create for the sake of creating
-+ Open up to new ideas
 
 [21 Ways to Inspire Creativity When You’re Out of Ideas](https://www.grammarly.com/blog/ways-to-inspire-creativity/)
 
@@ -57,7 +66,7 @@ On both counts, be sure to reference! Remember, you can plagiarise yourself!
 + Carry an idea notebook
 + Watch (and listen) to people
 + Talk to people!
-+ (Try a topic generator)
++ Try a topic generator, or AI Chatbot
 
 [How to get inspired: 15 ideas to help you reach your potential](https://www.betterup.com/blog/how-to-get-inspired/):
 
@@ -84,10 +93,10 @@ On both counts, be sure to reference! Remember, you can plagiarise yourself!
 + Daydream
 + Maintain perspective
 + Work hard (but don't overdo it)
-+ Sleep on it
-+ Minimise distractions
++ Sleep on it (because the idea might change or evolve when it's given space)
++ Minimise (or maximise) distractions
 + Sit alone with the light fading
-+ Create the environment for shallow sleep dreams
++ Create the environment for shallow sleep dreams (and write them down as soon as you're awake)
 + Observe everyday things with a critical eye
 + If a sentence catches your attention, note it down
 + Be open and inquisitive
@@ -102,6 +111,7 @@ On both counts, be sure to reference! Remember, you can plagiarise yourself!
 + Get inspiration from other creatives (copy, paste and tweak)
 + Have a creative, positive attitude!
 + Create a vision board/mindmap
++ Try a topic generator, or AI Chatbot
 + Daydream
 + Sleep on it
 + Embrace failure
