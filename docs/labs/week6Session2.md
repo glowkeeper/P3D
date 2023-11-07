@@ -18,10 +18,8 @@ So, with all that in mind, are there creative tools that can help foster inspira
 
 Your [Module Convenor](https://glowkeeper.github.io/) suggests the following:
 
-+ Use your imagination
-+ Expand on your prior work
++ Expand on prior work
 + Get inspiration from elsewhere
-+ Crits
 
 Be sure to reference! Remember, you can plagiarise yourself!
 
@@ -34,13 +32,24 @@ And the Module Convenor's partner:
   + 2 you can smell
   + 1 you can taste
 
+[5 WAYS TO COME UP WITH UNIQUE GAME IDEAS](https://www.juegostudio.com/blog/5-ways-to-come-up-with-unique-game-ideas)
+
++ Combine elements from two wildly different games
++ Draw inspiration from the real world
+
+[How to generate amazing ideas for games...](https://intogames.org/news/generating-great-game-ideas-guide/)
+
++ Adjective + Genre + Environment + Setting = Foundation of an idea
+  + Mindmap
+    + Goal, Space, Components, Mechanics, Rules
+  + Prototype
+
 [14 WAYS TO GENERATE S-TIER VIDEO GAME IDEAS](https://gamemaker.io/en/blog/video-game-ideas)
 
 + Play games!
 + Build your game around a genre/theme
 + Build your game around a character
 + SCAMPER
-+ Draw inspiration from the real-world
 + Draw inspiration from your own experiences
 + Use a game idea generator
 + Join a game jam
@@ -126,10 +135,13 @@ And the Module Convenor's partner:
 [The creative state: how to find inspiration for art-making](https://www.artsymposia.com/article/inspiration-for-art)
 
 + Expand on your prior work
++ Combine elements from other games
++ Ideaphoria aka ‘Game Idea Vomit’
++ Adjective + Genre + Environment + Setting = Foundation of an idea
++ Just start
++ Doodle, draw or paint
 + Get inspiration from other creatives (copy, paste and tweak)
 + Have a creative, positive attitude!
-+ Create a vision board/mindmap
-+ Try a topic generator, or AI Chatbot
++ Create a vision board, whiteboard, mood board, mindmap
++ Try a game ideas generator, topic generator, or AI Chatbot
 + Daydream
-+ Sleep on it
-+ Embrace failure
