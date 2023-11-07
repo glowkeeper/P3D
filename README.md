@@ -42,7 +42,7 @@ Links to P3D lab sessions will appear below.
 
 ## Assignment
 
-The assignment will be released sometime around Week 6 or Week 7.
+- [The Coursework](/docs/assignment/assignment.md)
 
 ## Background Material
 
