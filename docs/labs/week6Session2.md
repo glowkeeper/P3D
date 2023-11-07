@@ -23,7 +23,7 @@ Your [Module Convenor](https://glowkeeper.github.io/) suggests the following:
 + Get inspiration from elsewhere
 + Crits
 
-On both counts, be sure to reference! Remember, you can plagiarise yourself!
+Be sure to reference! Remember, you can plagiarise yourself!
 
 And the Module Convenor's partner:
 
@@ -33,6 +33,24 @@ And the Module Convenor's partner:
   + 3 you can touch
   + 2 you can smell
   + 1 you can taste
+
+[14 WAYS TO GENERATE S-TIER VIDEO GAME IDEAS](https://gamemaker.io/en/blog/video-game-ideas)
+
++ Play games!
++ Build your game around a genre/theme
++ Build your game around a character
++ SCAMPER
++ Draw inspiration from the real-world
++ Draw inspiration from your own experiences
++ Use a game idea generator
++ Join a game jam
++ Join a gaming community and get _their_ ideas about what they like/dislike
+
+[10 Ways to Find New Game Ideas](https://www.gamedesigning.org/gaming/game-ideas/)
+
++ Ideaphoria aka ‘Game Idea Vomit’
++ Use books
++ Just start
 
 [17 Ways to Find Inspiration and Spark Creativity](https://www.skillshare.com/en/blog/17-ways-to-find-inspiration-and-spark-creativity/):
 
@@ -72,7 +90,7 @@ And the Module Convenor's partner:
 
 + Create a creative routine
 + Play and laugh
-+ Consume other people’s creative works (read, watch films/shows, play games)
++ Consume other people’s creative works (read, watch films/shows)
 
 [20 Ways I Find Creative Inspiration](https://roomfortuesday.com/20-ways-i-find-creative-inspiration/):
 
