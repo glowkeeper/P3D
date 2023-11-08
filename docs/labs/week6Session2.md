@@ -19,7 +19,6 @@ So, with all that in mind, are there creative tools that can help foster inspira
 Your [Module Convenor](https://glowkeeper.github.io/) suggests the following:
 
 + Expand on prior work
-+ Get inspiration from elsewhere
 
 Be sure to reference! Remember, you can plagiarise yourself!
 
@@ -51,7 +50,7 @@ And the Module Convenor's partner:
 + Build your game around a character
 + SCAMPER
 + Draw inspiration from your own experiences
-+ Use a game idea generator
++ Use a game idea generator (or AI Chatbot)
 + Join a game jam
 + Join a gaming community and get _their_ ideas about what they like/dislike
 
@@ -81,23 +80,22 @@ And the Module Convenor's partner:
 
 [The creative state: how to find inspiration for art-making](https://www.artsymposia.com/article/inspiration-for-art)
 
-+ Pause and reflect
 + Create a vision board, whiteboard, mood board, mindmap
-+ Go outside!
 + Exercise your brain
++ Pause and reflect
++ Go outside!
 + Create for the sake of creating
 
 [21 Ways to Inspire Creativity When You’re Out of Ideas](https://www.grammarly.com/blog/ways-to-inspire-creativity/)
 
-+ Take a walk
 + Carry an idea notebook
-+ Watch (and listen) to people
-+ Talk to people!
-+ Try a topic generator, or AI Chatbot
++ Watch, listen and talk to people
++ Try a topic generator
 
 [How to get inspired: 15 ideas to help you reach your potential](https://www.betterup.com/blog/how-to-get-inspired/):
 
 + Create a creative routine
++ Exercise
 + Play and laugh
 + Consume other people’s creative works (read, watch films/shows)
 
@@ -112,13 +110,14 @@ And the Module Convenor's partner:
 [Low On Inspiration? 15 Tips To Get Your Creative Juices Flowing](https://www.forbes.com/sites/forbesbusinesscouncil/2023/03/17/low-on-inspiration-15-tips-to-get-your-creative-juices-flowing/)
 
 + Take a child's perspective
-+ Exercise
 + Embrace failure
 
 [Top artists reveal how to find creative inspiration](https://www.theguardian.com/culture/2012/jan/02/top-artists-creative-inspiration)
 
-+ Daydream
++ Just start
++ Take two disparate ideas and make them fit together
 + Maintain perspective
++ Daydream
 + Work hard (but don't overdo it)
 + Sleep on it (because the idea might change or evolve when it's given space)
 + Minimise (or maximise) distractions
@@ -130,7 +129,7 @@ And the Module Convenor's partner:
 + Even silly ideas can turn into something worthwhile
 + Art is everywhere (if you just look)
 
-### How to Have Ideas NOW!
+### How to Have Ideas NOW
 
 [The creative state: how to find inspiration for art-making](https://www.artsymposia.com/article/inspiration-for-art)
 
@@ -144,4 +143,5 @@ And the Module Convenor's partner:
 + Have a creative, positive attitude!
 + Create a vision board, whiteboard, mood board, mindmap
 + Try a game ideas generator, topic generator, or AI Chatbot
++ Take two disparate ideas and make them fit together
 + Daydream
