@@ -131,8 +131,6 @@ And the Module Convenor's partner:
 
 ### How to Have Ideas NOW
 
-[The creative state: how to find inspiration for art-making](https://www.artsymposia.com/article/inspiration-for-art)
-
 + Expand on your prior work
 + Combine elements from other games
 + Ideaphoria aka ‘Game Idea Vomit’
