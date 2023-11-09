@@ -143,3 +143,5 @@ And the Module Convenor's partner:
 + Try a game ideas generator, topic generator, or AI Chatbot
 + Take two disparate ideas and make them fit together
 + Daydream
+
+[Lab video](https://youtu.be/UNbuPPZgW6s)
