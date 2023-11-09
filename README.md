@@ -39,6 +39,7 @@ Links to P3D lab sessions will appear below.
 - [Week 4, Session 2 - Particle Systems](/docs/labs/week4Session2.md)
 - [Week 5, Session 1 - Animations and Simple Scripting](/docs/labs/week5Session1.md)
 - [Week 5, Session 2 - Scripting](/docs/labs/week5Session2.md)
+- [Week 6, Session 2 - Creative Thinking](/docs/labs/week6Session2.md)
 
 ## Assignment
 
