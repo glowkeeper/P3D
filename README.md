@@ -47,7 +47,7 @@ Additionally, your [Module Convenor](#maintainer) has collated some theoretical 
 
 - [Graphics Background](./docs/graphicsBackground.md)
 
-For those interested in the maths of a 3D space, there's a nice treatment available here: [The Nature of Code](https://natureofcode.com/), which uses a Javascript library called [p5.js](https://p5js.org/) to demonstrate its principles. However, don't panic if you're not familiar with javascript, as you do not necessarily need that familiarity to understand the concepts explained at [The Nature of Code](https://natureofcode.com/).
+For those interested in the maths of a 3D space, there's a nice treatment available here: [The Nature of Code](https://natureofcode.com/), which uses a Javascript library called [p5.js](https://p5js.org/) to demonstrate its principles. However, don't worry too much if you're not familiar with javascript, as you do not necessarily need that familiarity to understand the concepts.
 
 ## Module Resources
 
