@@ -16,6 +16,8 @@ This module supports the university's [staff and student charter and guiding pri
 
 ## Welcome to Programming for 3D
 
+P3D is an applied module where you use [Unity](https://unity.com/) to build a complex 3D environment. There, you will use [meshes](https://en.wikipedia.org/wiki/Polygon_mesh) that define the shape of objects in that environment and apply materials and lighting to them using [renderers](https://en.wikipedia.org/wiki/Rendering_(computer_graphics)). You will also simulate real-world forces, such as gravity and collisions, using physics components, such as [rigid bodies](https://en.wikipedia.org/wiki/Rigid_body) and colliders. You will introduce characters into that world and add sound and animations. And to make it all work, you will write some computer code.
+
 A link to the welcome lecture will appear here.
 
 ## Dependencies
@@ -35,7 +37,7 @@ A link to the P3D assignment will appear here.
 
 ## Background Material
 
-P3D is an practical module where you get to build a complex 3D environment, using [Unity](https://unity.com/) - some familiarity with 3D environments is useful, but not entirely necessary as the labs explain all the concepts required. However, as you immerse yourself in the 3D space, you may wish to deepen your knowledge by grasping some of the theretical underpinnings of the space. Indeed, the module used to be much more theoretical (and less practical), so some of the background material from then has been retained for reference:
+As you immerse yourself in the 3D programming space, you may wish to deepen your knowledge by grasping some of the theory underpinning the learning you've applied. Indeed, the module used to be much more theoretical (and less practical), so some of the background material from then has been retained for reference:
 
 - [Advanced Ray Tracing](./docs/advancedRayTracing.pdf)
 - [Light and Colour Perception](./docs/lightAndColourPerception.pdf)
