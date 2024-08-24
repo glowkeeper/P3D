@@ -16,7 +16,7 @@ This module supports the university's [staff and student charter and guiding pri
 
 ## Welcome to Programming for 3D
 
-P3D is an applied module where you use [Unity](https://unity.com/) to build a complex 3D environment. There, you will use [meshes](https://en.wikipedia.org/wiki/Polygon_mesh) that define the shape of objects in that environment, which you will [render](https://en.wikipedia.org/wiki/Rendering_(computer_graphics)) with [lighting](https://docs.unity3d.com/Manual/LightingOverview.html), [materials, textures, and shaders](https://docs.unity3d.com/530/Documentation/Manual/Shaders.html). You will also simulate real-world forces, such as gravity and collisions, using physics components, such as [rigid bodies](https://en.wikipedia.org/wiki/Rigid_body) and [colliders](https://docs.unity3d.com/Manual/CollidersOverview.html). You will introduce characters into that world and add sound and animations. And you will do some [scripting](https://docs.unity3d.com/Manual/ScriptingSection.html).
+P3D is an applied module where you use [Unity](https://unity.com/) to learn how to build complex, interactive 3D environments. There, you will use [meshes](https://en.wikipedia.org/wiki/Polygon_mesh) to define the shape of objects in that environment, which you will [render](https://en.wikipedia.org/wiki/Rendering_(computer_graphics)) with [lighting](https://docs.unity3d.com/Manual/LightingOverview.html), [materials, textures, and shaders](https://docs.unity3d.com/530/Documentation/Manual/Shaders.html). You will also simulate real-world forces, such as gravity and collisions, using physics components, such as [rigid bodies](https://en.wikipedia.org/wiki/Rigid_body) and [colliders](https://docs.unity3d.com/Manual/CollidersOverview.html). You will introduce characters into that world and add sound and animations. And you will do some [scripting](https://docs.unity3d.com/Manual/ScriptingSection.html).
 
 A link to the welcome lecture will appear here.
 
@@ -37,17 +37,18 @@ A link to the P3D assignment will appear here.
 
 ## Background Material
 
-As you immerse yourself in the 3D programming space, you may wish to deepen your knowledge by grasping some of the theory underpinning the learning you've applied. Indeed, the module used to be much more theoretical (and less practical), so some of the background material from then has been retained for reference:
-
-- [Advanced Ray Tracing](./docs/advancedRayTracing.pdf)
-- [Light and Colour Perception](./docs/lightAndColourPerception.pdf)
-- [Vectors](./docs/vectors.pdf).
-
-Additionally, your [Module Convenor](#maintainer) has collated some theoretical background to graphics, here:
+As you immerse yourself in the 3D programming space, you may wish to deepen your knowledge by grasping some of the theoretical background. Your [Module Convenor](#maintainer) has collated some theory to help get you started:
 
 - [Graphics Background](./docs/graphicsBackground.md)
+- [Vectors](./docs/vectors.md)
 
-For those interested in the maths of a 3D space, there's a nice treatment available here: [The Nature of Code](https://natureofcode.com/), which uses a Javascript library called [p5.js](https://p5js.org/) to demonstrate its principles (don't worry too much if you're not familiar with javascript, as you do not necessarily need that familiarity to understand the concepts).
+Much of the naterial for the documents above was collated from [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) and [The Nature of Code](https://natureofcode.com/) - if you're interested in the theory, then go investigate those sites in more depth. [The Nature of Code](https://natureofcode.com/) uses a Javascript library called [p5.js](https://p5js.org/) to demonstrate its principles, but don't worry too much if you're not familiar with javascript, as you do not necessarily need that familiarity to understand the concepts presented.
+
+In fact, P3D used to be much more theoretical (and far less practical). Some of the background material from then has been retained for reference:
+
+- [Advanced Ray Tracing](./docs/priorCourse/advancedRayTracing.pdf)
+- [Light and Colour Perception](./docs/priorCourse/lightAndColourPerception.pdf)
+- [Using 3D Space](./docs/priorCourse/using3DSpace.pdf).
 
 ## Module Resources
 
