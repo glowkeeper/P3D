@@ -48,9 +48,9 @@ Friction is the force that resists motion when two surfaces come into contact wi
 
 f = μN, where:
 
-- f is the friction force, in newtons
+- f is the friction force, in newtons, , equal to N = mg, i.e. mass m times gravity g
 - μ is the coefficient of friction, which establishes the strength of a friction force for a particular surface
-- N is the normal force, in newtons, equal to N = mg, i.e. mass m times gravity g. It is the force perpendicular to the object’s motion along a surface.
+- N is the normal force, in newtons. It is the force perpendicular to the object’s motion along a surface.
 
 Perhaps the best known force is gravitational attraction. Every object with mass exerts a gravitational force on every other object, and the gravitational force between two bodies is proportional to the mass of those bodies and inversely proportional to the square of the distance between them. The formula for calculating the strengths of those forces is given for reference below:
 
