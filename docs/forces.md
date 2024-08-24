@@ -50,7 +50,7 @@ f = μN, where:
 
 - f is the friction force, in newtons
 - μ is the coefficient of friction, which establishes the strength of a friction force for a particular surface
-- N is the normal force, in newtons. N is the force perpendicular to the object’s motion along a surface. It is calculated as N = mg, i.e. N is equal to mass m times gravity g.
+- N is the normal force, in newtons, equal to N = mg, i.e. mass m times gravity g. It is the force perpendicular to the object’s motion along a surface.
 
 Perhaps the best known force is gravitational attraction. Every object with mass exerts a gravitational force on every other object, and the gravitational force between two bodies is proportional to the mass of those bodies and inversely proportional to the square of the distance between them. The formula for calculating the strengths of those forces is given for reference below:
 
