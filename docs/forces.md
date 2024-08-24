@@ -42,15 +42,7 @@ If you were to climb a ladder and drop two balls of different masses, they would
 
 ## Modeling Forces
 
-Physics textbooks probably include many formulas describing various forces, such as gravity, electromagnetism, friction, tension, elasticity, and more.
-
-Friction is the force that resists motion when two surfaces come into contact with each other. If the two surfaces do not move with respect to one another it is called static friction. When the two surfaces move and slide against each other it is called kinetic friction. Hence, friction is a dissipative force because it causes the kinetic energy of an object to be converted into another form, giving the impression of loss, or dissipation. Here's the formula for friction:
-
-f = μN, where:
-
-- f is the friction force, in newtons, , equal to N = mg, i.e. mass m times gravity g
-- μ is the coefficient of friction, which establishes the strength of a friction force for a particular surface
-- N is the normal force, in newtons. It is the force perpendicular to the object’s motion along a surface.
+Physics textbooks probably include many formulas describing various forces, such as gravity, friction, electromagnetism, tension, elasticity, and more.
 
 Perhaps the best known force is gravitational attraction. Every object with mass exerts a gravitational force on every other object, and the gravitational force between two bodies is proportional to the mass of those bodies and inversely proportional to the square of the distance between them. The formula for calculating the strengths of those forces is given for reference below:
 
@@ -59,6 +51,14 @@ Perhaps the best known force is gravitational attraction. Every object with mass
 Where the numerator (the top half of the right-hand side of the equation) shows G, which is the universal [gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant), m1 and m2 are the masses of two objects and r is the unit vector pointing from object 1 to object 2. Because r is a unit vector, magnitude is ignored, so this shows direction alone (i.e. it's a direction vector), and it can be computed by subtracting the position of one object from the other. Finally, the denominator (the bottom half of the right-hand side of the equation) is the distance between the two objects squared.
 
 The formula shows that the larger the numerator, the bigger the force due to mass. However, for the denominator, the opposite is true: the bigger the value (the farther away the object), the weaker the force. Mathematically, the strength of the gravitational force is inversely proportional to the distance squared. This is known as the [inverse square law](https://en.wikipedia.org/wiki/Inverse-square_law).
+
+Friction is the force that resists motion when two surfaces come into contact with each other. If the two surfaces do not move with respect to one another it is called static friction. When the two surfaces move and slide against each other it is called kinetic friction. Hence, friction is a dissipative force because it causes the kinetic energy of an object to be converted into another form, giving the impression of loss, or dissipation. Here's the formula for friction:
+
+f = μN, where:
+
+- f is the friction force, in newtons, , equal to N = mg, i.e. mass m times gravity g
+- μ is the coefficient of friction, which establishes the strength of a friction force for a particular surface
+- N is the norma
 
 ## The n-Body Problem
 
