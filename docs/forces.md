@@ -40,9 +40,7 @@ Weight is the force of gravity on an object. From Newton’s second law, you can
 
 If you were to climb a ladder and drop two balls of different masses, they would hit the ground at the same time. Galileo made this discovery of simultaneous acceleration when he performed [a similar test in 1589](https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment). The reason is that everything cancels out; _gravity_ is calculated relative to an object’s mass—so that the bigger the object, the stronger the force—but then you divide by the _mass_ to determine the acceleration. Therefore, the acceleration of gravity for different objects is equal.
 
-## Modeling Forces
-
-Physics textbooks probably include many formulas describing various forces, such as gravity, friction, electromagnetism, tension, elasticity, and more.
+## Modelling Forces
 
 Perhaps the best known force is gravitational attraction. Every object with mass exerts a gravitational force on every other object, and the gravitational force between two bodies is proportional to the mass of those bodies and inversely proportional to the square of the distance between them. The formula for calculating the strengths of those forces is given for reference below:
 
