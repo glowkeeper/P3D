@@ -12,9 +12,9 @@ Acceleration doesn’t merely refer to speeding up or slowing down; instead, it 
 
 Our definitions of force come from [Sir Isaac Newton’s three laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion):
 
-1. A body remains at rest, or in motion at a constant speed in a straight line, except insofar as it is acted upon by a force.
-2. At any instant of time, the net force on a body is equal to the body's acceleration multiplied by its mass or, equivalently, the rate at which the body's momentum is changing with time.
-3. If two bodies exert forces on each other, these forces have the same magnitude but opposite directions.
+1. A body remains at rest, or in motion at a constant speed in a straight line, except insofar as it is acted upon by a force
+2. At any instant of time, the net force on a body is equal to the body's acceleration multiplied by its mass or, equivalently, the rate at which the body's momentum is changing with time
+3. If two bodies exert forces on each other, these forces have the same magnitude but opposite directions
 
 The first law is commonly stated as, "An object at rest stays at rest, and an object in motion stays in motion" (we could add, "...at a constant speed and direction unless acted upon by an unbalanced force"). As Newton established, in the absence of any forces, no force is required to keep an object moving. When a ball is tossed into the air, its velocity remains constant only in the absence of any forces or only if the forces that act on it cancel each other out, meaning the net force adds up to zero. This is often referred to as **equilibrium**. In reality, an object's velocity changes because of unseen forces such as air resistance and gravity; hence, the falling ball will reach a terminal velocity (which stays constant) once the force of air resistance equals the force of gravity. In other words, the first law could be restated as, "An object’s velocity vector will remain constant if it’s in a state of equilibrium".
 
@@ -54,9 +54,9 @@ Friction is the force that resists motion when two surfaces come into contact wi
 
 f = μN, where:
 
-- f is the friction force, in newtons, , equal to N = mg, i.e. mass m times gravity g
+- f is the friction force
 - μ is the coefficient of friction, which establishes the strength of a friction force for a particular surface
-- N is the norma
+- N is the normal force, in newtons, where N = mg, i.e. mass m times gravity g. It is the force perpendicular to the object’s motion along a surface
 
 ## The n-Body Problem
 
