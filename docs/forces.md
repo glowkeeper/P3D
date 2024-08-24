@@ -40,10 +40,6 @@ Weight is the force of gravity on an object. From Newton’s second law, you can
 
 If you were to climb a ladder and drop two balls of different masses, they would hit the ground at the same time. Galileo made this discovery of simultaneous acceleration when he performed [a similar test in 1589](https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment). The reason is that everything cancels out; _gravity_ is calculated relative to an object’s mass—so that the bigger the object, the stronger the force—but then you divide by the _mass_ to determine the acceleration. Therefore, the acceleration of gravity for different objects is equal.
 
-## Time
-
-Newton's second law states that forces are accumulated and applied at some point in time. 3D physics engines incorporate time as a variable called _delta time_, where _delta_ refers to the **change in time**; indeed, in [Unity](https://unity.com/), _Time.deltaTime_ is the interval in seconds from the last frame to the current one.
-
 ## Modeling Forces
 
 Physics textbooks probably include many formulas describing various forces, such as gravity, electromagnetism, friction, tension, elasticity, and more.
@@ -52,21 +48,22 @@ Friction is the force that resists motion when two surfaces come into contact wi
 
 f = μN, where:
 
-f is the friction force, in newtons
-μ is the coefficient of friction, which establishes the strength of a friction force for a particular surface
-N is the normal force, in newtons.
+- f is the friction force, in newtons
+- μ is the coefficient of friction, which establishes the strength of a friction force for a particular surface
+- N is the normal force, in newtons. N is the force perpendicular to the object’s motion along a surface. It is calculated as N = mg, i.e. N is equal to mass m times gravity g.
 
-N is the force perpendicular to the object’s motion along a surface. It is calculated as N = mg, i.e. N is equal to mass m times gravity g.
-
-The best known force is gravitational attraction. Every object with mass exerts a gravitational force on every other object, and the gravitational force between two bodies is proportional to the mass of those bodies and inversely proportional to the square of the distance between them. The formula for calculating the strengths of those forces is given for reference below:
+Perhaps the best known force is gravitational attraction. Every object with mass exerts a gravitational force on every other object, and the gravitational force between two bodies is proportional to the mass of those bodies and inversely proportional to the square of the distance between them. The formula for calculating the strengths of those forces is given for reference below:
 
 ![Gravity](./images/gravity.webp)
 
 Where G is the universal [gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant), m1 and m2 are the masses of two objects and r is the unit vector pointing from object 1 to object 2. Because r is a unit vector, magnitude is ignored, so this shows direction alone (i.e. it's a direction vector), and it can be computed by subtracting the position of one object from the other. Finally, r^2 is the distance between the two objects squared.
 
-The formula shows that the larger the numerator (the top half - mass), the bigger the force. However, for the bottom half (the denominator), the opposite is true: the bigger the value (the farther away the object), the weaker the force. Mathematically, the strength of the gravitational force is inversely proportional to the distance squared. This isknown as the [inverse square law](https://en.wikipedia.org/wiki/Inverse-square_law).
+The formula shows that the larger the numerator (the top half), the bigger the force duew to mass. However, for the bottom half (the denominator), the opposite is true: the bigger the value (the farther away the object), the weaker the force. Mathematically, the strength of the gravitational force is inversely proportional to the distance squared. This is known as the [inverse square law](https://en.wikipedia.org/wiki/Inverse-square_law).
 
 ## The n-Body Problem
 
-The n-body problem involves solving an equation for the motion of a group of objects that interact via gravitational forces. For two objects, the motions can be precisely computed. However, adding one more body turns the problem into a three-body problem, for which no formal solution exists.
+The n-body problem involves solving an equation for the motion of a group of objects that interact via gravitational forces. For two objects, the motions can be precisely computed. Adding one more body turns the problem into a three-body problem, for which no formal solution exists. However, that does not mean that it is impossible to model forces applied to n-bodies; for example, the paper [Classification of Symmetry Groups for Planar n-Body Choreographies](https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/classification-of-symmetry-groups-for-planar-nbody-choreographies/710D0EC787DED736B64A94D0E5CD01E1) by James Montaldi and Katrina Steckles, explores choreographic solutions to the n-body problem (defined as periodic motions of bodies following one another at regular intervals).
 
+## A Note on Time and Physics Engines
+
+Newton's second law states that forces are accumulated and applied at some point in time. 3D physics engines incorporate time as a variable called _delta time_, where _delta_ refers to the **change in time**; indeed, in [Unity](https://unity.com/), _Time.deltaTime_ is the interval in seconds from the last frame to the current one.
