@@ -10,23 +10,23 @@ Acceleration doesn’t merely refer to speeding up or slowing down; instead, it 
 
 ## Force
 
-The definition of force we're interested comes from [Sir Isaac Newton’s three laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion):
+Our definitions of force come from [Sir Isaac Newton’s three laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion):
 
 1. A body remains at rest, or in motion at a constant speed in a straight line, except insofar as it is acted upon by a force.
 2. At any instant of time, the net force on a body is equal to the body's acceleration multiplied by its mass or, equivalently, the rate at which the body's momentum is changing with time.
 3. If two bodies exert forces on each other, these forces have the same magnitude but opposite directions.
 
-The first law is  is commonly stated as, "An object at rest stays at rest, and an object in motion stays in motion". You might add, "...at a constant speed and direction unless acted upon by an unbalanced force". As Newton established, in the absence of any forces, no force is required to keep an object moving. Fore example, when a ball is tossed into ythe air, its velocity changes because of unseen forces such as air resistance and gravity. The ball’s velocity will remain constant only in the absence of any forces or only if the forces that act on it cancel each other out, meaning the net force adds up to zero. This is often referred to as **equilibrium**. The falling ball will reach a terminal velocity (which stays constant) once the force of air resistance equals the force of gravity. In other words, the first law could be restated as, "An object’s velocity vector will remain constant if it’s in a state of equilibrium".
+The first law is  is commonly stated as, "An object at rest stays at rest, and an object in motion stays in motion" (we could add, "...at a constant speed and direction unless acted upon by an unbalanced force"). As Newton established, in the absence of any forces, no force is required to keep an object moving. When a ball is tossed into the air, its velocity remains constant only in the absence of any forces or only if the forces that act on it cancel each other out, meaning the net force adds up to zero. This is often referred to as **equilibrium**. In reality, the velocity changes because of unseen forces such as air resistance and gravity and the falling ball will reach a terminal velocity (which stays constant) once the force of air resistance equals the force of gravity. In other words, the first law could be restated as, "An object’s velocity vector will remain constant if it’s in a state of equilibrium".
 
-Newton’s second law is the most important for us 3D programmers, and it's commonly stated as, "Force equals mass times acceleration", or, mathematically:
+Newton’s second law is commonly stated as, "Force equals mass times acceleration", or, mathematically:
 
 F = ma
 
 In other words, acceleration is directly proportional to force and inversely proportional to mass. Putting this into base terms - the harder you’re pushed, the faster you’ll fall. That is, unless you're large, in which case the push will be less effective.
 
-The third law is more commonly stated as, "For every action, there is an equal and opposite reaction". A more useful understanding mnight be, "Forces always occur in pairs. The two forces are of equal strength but in opposite directions". This sounds as though these forces cancel each other out. This isn’t the case because the forces act on different objects. And just because the two forces are equal doesn’t mean that the objects’ movements are equal (or that the objects will stop moving).
+The third law is more commonly described as, "For every action, there is an equal and opposite reaction". This could be refactored to, "Forces always occur in pairs. The two forces are of equal strength but in opposite directions". These forces do not cancel each other out because the forces act on different objects. And just because the two forces are equal doesn’t mean that the objects’ movements are equal (or that the objects will stop moving).
 
-In terms of programming 3D spaces, we can summarise Newton's three laws as:
+We can summarise Newton's three laws as:
 
 **A force is a vector that causes an object with mass to accelerate**.
 
