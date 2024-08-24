@@ -60,7 +60,7 @@ f = μN, where:
 
 ## The n-Body Problem
 
-The n-body problem involves solving an equation for the motion of a group of objects that interact via gravitational forces. For two objects, the motions can be precisely computed. Adding one more body turns the problem into a three-body problem, for which no formal solution exists. However, that does not mean that it is impossible to model forces applied to n-bodies; for example, the paper [Classification of Symmetry Groups for Planar n-Body Choreographies](https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/classification-of-symmetry-groups-for-planar-nbody-choreographies/710D0EC787DED736B64A94D0E5CD01E1) by James Montaldi and Katrina Steckles, explores choreographic solutions to the n-body problem (defined as periodic motions of bodies following one another at regular intervals).
+The n-body problem involves solving an equation for the motion of a group of objects that interact via gravitational forces. For two objects, the motions can be precisely computed. Adding one more body turns the problem into a three-body problem, for which no formal solution exists. However, that does not mean that it is impossible to model gravity applied to n-bodies; for example, the paper [Classification of Symmetry Groups for Planar n-Body Choreographies](https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/classification-of-symmetry-groups-for-planar-nbody-choreographies/710D0EC787DED736B64A94D0E5CD01E1) by James Montaldi and Katrina Steckles, explores choreographic solutions to the n-body problem (defined as periodic motions of bodies following one another at regular intervals).
 
 ## A Note on Time and Physics Engines
 
