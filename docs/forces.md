@@ -56,9 +56,9 @@ Perhaps the best known force is gravitational attraction. Every object with mass
 
 ![Gravity](./images/gravity.webp)
 
-Where G is the universal [gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant), m1 and m2 are the masses of two objects and r is the unit vector pointing from object 1 to object 2. Because r is a unit vector, magnitude is ignored, so this shows direction alone (i.e. it's a direction vector), and it can be computed by subtracting the position of one object from the other. Finally, r^2 is the distance between the two objects squared.
+Where the numerator (the top half of the right-hand side of the equation) shows G, which is the universal [gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant), m1 and m2 are the masses of two objects and r is the unit vector pointing from object 1 to object 2. Because r is a unit vector, magnitude is ignored, so this shows direction alone (i.e. it's a direction vector), and it can be computed by subtracting the position of one object from the other. Finally, the denominator (the bottom half of the right-hand side of the equation) is the distance between the two objects squared.
 
-The formula shows that the larger the numerator (the top half), the bigger the force duew to mass. However, for the bottom half (the denominator), the opposite is true: the bigger the value (the farther away the object), the weaker the force. Mathematically, the strength of the gravitational force is inversely proportional to the distance squared. This is known as the [inverse square law](https://en.wikipedia.org/wiki/Inverse-square_law).
+The formula shows that the larger the numerator, the bigger the force due to mass. However, for the denominator, the opposite is true: the bigger the value (the farther away the object), the weaker the force. Mathematically, the strength of the gravitational force is inversely proportional to the distance squared. This is known as the [inverse square law](https://en.wikipedia.org/wiki/Inverse-square_law).
 
 ## The n-Body Problem
 
