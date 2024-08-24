@@ -1,16 +1,18 @@
 # Vectors
 
-A Euclidean vector (named after the Greek mathematician Euclid) can be represented as an arrow. 
+A Euclidean vector (named after the Greek mathematician Euclid) can be represented as an arrow that describes a movement from one point to another.
 
 ![vector](./images/vector.png)
 
 The beauty of such a representation is that it imparts much information because it shows how to travel between points. The size of the arrow shows the vector's magnitude (or how far you have to travel), and where the arrow points shows the vector's direction (or the path the traveller must take).
 
-Vectors are useful for programming motion as they can represent the difference between two points. Imagine every frame of a running program (a single cycle through a render loop) during which, an object must be repositioned. The instructions to do so will have a magnitude (how far to travel) and a direction (which way to go); in other words, it will be a vector that represents the object's velocity (defined as the rate of change of the object's position with respect to time). For every frame, this velocity vector determines the object's new position according to a basic algorithm for motion, whereby the new position of the object is equal to the result of applying the velocity vector to the object's current position.
+Vectors are useful for programming motion as they can represent the difference between two points. Imagine every frame of a running program (a single cycle through a [render loop](https://gameprogrammingpatterns.com/game-loop.html)) during which, an object must be repositioned. The instructions to do so will have a magnitude (how far to travel) and a direction (which way to go); in other words, it will be a vector that represents the object's velocity (defined as the rate of change of the object's position with respect to time). For every frame, this velocity vector determines the object's new position according to a basic algorithm for motion, whereby the new position of the object is equal to the result of applying the velocity vector to the object's current position.
 
-However, Vectors are not limited to simply representing motion. They can also describe absolute positions, adding to their versatility because a vector can define a path from the origin ((0, 0, 0) in a 3D space) to any other point. The vector showned above is just such a vector. Hence, vectors are a fantastic tool for programming a 3D space.
+However, Vectors are not limited to simply representing motion. They can also describe absolute positions, adding to their versatility because a vector can define a path from a point of origin (the absolute origin in a 3D space is defined as the vector (0, 0, 0)) to any other point.
 
-Below describes some basic operations you can apply to vectors.
+The ability of vectors to describe motion and position makes them a fantastic tool for programming a 3D space.
+
+Below describes some vector operations.
 
 ## Vector Addition and Subtraction
 
@@ -82,4 +84,4 @@ The image below shows multiplication (by a scalar), addition, subtraction, the d
 
 ![Vector Operations](./images/vectorOperations.png)
 
-Applications of those operations may be useful as they can help determine how objects move or behave in a 3D space. For example, dot products are useful because, for any two vectors, 𝐴 and 𝐵, the operation will return a scalar, whereby, if the number is greater than zero, both vectors are in the same direction. However, if the number is less than zero, both vectors are in opposite directions. And if the number is zero, the vectors are perpendicular. So, dot products between two vectors ,ight help you ascertain if any two entities are looking towards the same side, opposite sides, or just looking 90 degrees away from each other.
+Applications of those operations may be useful as they can help determine how objects move or behave in a 3D space. For example, suppose you have 𝐴 and 𝐵 (where 𝐴 and 𝐵 are the motions of the player and the enemy, respectively), and you want player 𝐵 to move away from the enemy 𝐴. Then 𝐵 = 𝐵 - 𝐴 will do the trick. Dot products are useful because, for any two vectors, 𝐴 and 𝐵, the operation will return a scalar, whereby, if the number is greater than zero, both vectors are in the same direction. However, if the number is less than zero, both vectors are in opposite directions. And if the number is zero, the vectors are perpendicular. So, dot products between two vectors ,ight help you ascertain if any two entities are looking towards the same side, opposite sides, or just looking 90 degrees away from each other.
