@@ -41,6 +41,7 @@ As you immerse yourself in the 3D programming space, you may wish to deepen your
 
 - [Graphics Background](./docs/graphicsBackground.md)
 - [Vectors](./docs/vectors.md)
+- [Forces](./docs/forces.md)
 
 Much of the naterial for the documents above was collated from [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) and [The Nature of Code](https://natureofcode.com/) - if you're interested in the theory, then go investigate those sites in more depth. [The Nature of Code](https://natureofcode.com/) uses a Javascript library called [p5.js](https://p5js.org/) to demonstrate its principles, but don't worry too much if you're not familiar with javascript, as you do not necessarily need that familiarity to understand the concepts presented.
 
