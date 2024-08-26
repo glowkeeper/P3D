@@ -4,7 +4,7 @@ Trigonometry is the mathematics of triangles. It forms the mathematical basis of
 
 ## Angles
 
-An angle is formed by the space between two intersecting lines that join at a point.
+An angle (θ - the Greek symbol theta) is formed by the space between two intersecting lines that join at a point.
 
 ![angle](./images/angle.png)
 
@@ -36,9 +36,9 @@ Since any triangle can be split into right-angled triangles whose opposite and a
 
 The three main trigonometric functions are Sine, Cosine and Tangent, which are used to find an unknown side or angle of a triangle when two pieces of information are known (such as the length of two sides or the length of one side and an angle).  Sine, Cosine and Tangent are described by the mnemonic **SohCahToa** - take one of the non-right angles in the triangle - the adjacent side is the one touching that angle, the opposite side is the one not touching that angle, and the hypotenuse is the side opposite the right angle.
 
-- **Soh**: sine(angle) = opposite/hypotenuse
-- **Cah**: cosine(angle) = adjacent/hypotenuse
-- **Toa**: tangent(angle) = opposite/adjacent
+- **Soh**: sine(θ) = opposite/hypotenuse
+- **Cah**: cosine(θ) = adjacent/hypotenuse
+- **Toa**: tangent(θ) = opposite/adjacent
 
 If **Soh** is used, then take sine of the unknown angle set equal to the opposite side divided by the hypotenuse.
 
@@ -59,6 +59,14 @@ sin(40) = x/8, giving:
 8 * 0.6428 = 5.1424.
 
 So the length of _x_ is ~5.1424. Similarly, we could work out the length of the remaining side - that is left as an exercise.
+
+Sometimes, it is the angle that is unknown. In such situations, the inverse functions are useful - we have the inverse tangent (or arctangent (arctan or atan)), the inverse sine (or arcsine (arcsin or asin)) and inverse cosine (or arccos (arccos or acos)).
+
+Using the example above, we have:
+
+sin(θ) = ~5.1424 / 8 = ~0.6428, so:
+
+θ = arcsin(0.64278760968) = 40 degrees, as expected.
 
 ## Vectors and Trigonometry
 
