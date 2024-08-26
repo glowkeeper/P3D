@@ -1,10 +1,10 @@
 # Trigonometry
 
-Trigonometry is the mathematics of triangles, and it forms the mathematical basis of many behaviours of objects, including the description of shapes, motion, angular velocity, rotations and transformations. At the heart of trigonometry are angles.
+Trigonometry is the mathematics of triangles. It forms the mathematical basis of many behaviours of objects, including the description of shapes, motion, angular velocity, rotations and transformations; hence, a basic understanding of trigonometry is essential if you want to work with circles, arcs, or lines and figure out the relationship between objects in a 3D spac, perhaps calculating the distances between them. At the heart of trigonometry are angles.
 
 ## Angles
 
-An angle is formed by the space between two intersecting lines, or planes, that join at a point.
+An angle is formed by the space between two intersecting lines that join at a point.
 
 ![angle](./images/angle.png)
 
@@ -28,7 +28,7 @@ Although to many (at least in the UK) radians may not be as familiar as degrees,
 
 ## Trigonometric Functions
 
-Trigonometry is based on the unit circle, which is a circle with the center at the origin ( 0,0 in a 2D space, and 0,0,0 in 3D) with the radius equal to 1.
+Trigonometry is based on the unit circle, which is a circle with the center at the origin (0,0 in a 2D space, and 0,0,0 in 3D) with the radius equal to 1.
 
 ![Trigonometric functions](./images/trigFunctions.png)
 
@@ -40,17 +40,17 @@ The three main trigonometric functions are Sine, Cosine and Tangent, which are u
 - **Cah**: cosine(angle) = adjacent/hypotenuse
 - **Toa**: tangent(angle) = opposite/adjacent
 
-For example, if **Soh** is used, then take sine of the unknown angle set equal to the opposite side divided by the hypotenuse
+If **Soh** is used, then take sine of the unknown angle set equal to the opposite side divided by the hypotenuse.
 
 - **Soh**: when the opposite side and the hypotenuse are known
 - **Cah**: when the adjacent side and the hypotenuse are known
 - **Toa**: when the opposite side and adjacent sides are known
 
-For example, given the right-angled triangle below, how can we work out the length of the side labelled x?
+For example, given the right-angled triangle below, how can we work out the length of the side labelled _x_?
 
 ![Sine example](./images/sinExample.png)
 
-Since x is opposite the hypotenuse, we need the Sine function, and we have:
+Since _x_ is opposite the hypotenuse, we need the Sine function, and we have:
 
 sin(40) = x/8, giving:
 
@@ -58,15 +58,15 @@ sin(40) = x/8, giving:
 
 8 * 0.6428 = 5.1424.
 
-So the length of x is ~5.1424. Similarly, we could work out the length of the remaining side - that is left as an exercise.
+So the length of _x_ is ~5.1424. Similarly, we could work out the length of the remaining side - that is left as an exercise.
 
 ## Vectors and Trigonometry
 
 Below describes a right-angled triangle in terms of a vector, v.
 
-![Vectos and Trigonometry](docs/images/vectorsAndTrigonometry.webp)
+![Vectors and Trigonometry](docs/images/vectorsAndTrigonometry.webp)
 
-The vector, v is the hypotenuse, and the components of the vector (x and y) are the opposite and adjacent sides of the triangle. Hence, the angle is an additional means for specifying the vector’s direction, because you move x steps right and y steps up. Viewed in this way, the trigonometric functions establish a relationship between the components of a vector and its direction and magnitude. 
+The vector, v is the hypotenuse, and the components of the vector (x and y) are the opposite and adjacent sides of the triangle. Hence, the angle is an additional means for specifying the vector’s direction, because you move x steps right and y steps up. Viewed in this way, the trigonometric functions establish a relationship between the components of a vector and its direction and magnitude.
 
 ## Rotation
 
