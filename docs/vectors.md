@@ -38,7 +38,7 @@ A unit vector is a vector with a magnitude equal to 1.
 
 ## Normalising Vectors
 
-Normalisation is the process of making something standard (or normal). The convention is that a normalised vector, called a unit vector, has a length of 1. Therefore, when we normalise a vector, we set its length to 1 but leave its direction unchanged; a unit vector describes a vector's direction without regard to its magnitude.
+Normalisation is the process of making something standard (or normal). The convention is that a normalised vector has a length of 1. Therefore, a normalised vector is a _unit vector_. Because a normalised vector has its length set to 1 but its direction remains unchanged, a normalised (unit) vector describes a vector's direction without regard to its magnitude.
 
 Normalisation is done by dividing a vector's x, y and z components by its magnitude.  
 
