@@ -70,32 +70,6 @@ The following describes a right-angled triangle in terms of a vector, v.
 
 The vector, v is the hypotenuse, and the components of the vector (x and y) are the opposite and adjacent sides of the triangle. Hence, the angle is another way to specify the vector's direction because you move x steps right and y steps up. Therefore, the trigonometric functions establish a relationship between the components of a vector and its direction and magnitude.
 
-## Polar Coordinates
-
-When talking about the position of an object in a programming environment, you are _probably_ (if you are from the UK) more familiar with referring to that position in terms of its x, y and z coordinates. These are Cartesian coordinates, named after René Descartes, the French mathematician who developed the ideas behind Cartesian space.
-
-However, polar coordinates are another system for referring to points in space, e.g. (r,θ). The polar coordinate system refers to those points using distances and angles. And in fact, you probably use them more often than you realise. For instance, the author of this piece on polar coordinates lives near Brighton, in England, about 60 miles south of London. In other words, they've given an origin (London), a distance (60 miles), and an angle (south). In short, polar coordinates often arise because people naturally think about locations in terms of distance and direction. Therefore, the polar coordinate system is useful whenever we need to think in terms of distance and angle.
-
-When working in two dimensions, polar coordinates take the form (r,θ), where, by convention, r (for radius - the value is referred to as the radial line) represents the distance, and θ gives the polar angle from the origin.
-
-![2D Polar Coordinates](./images/2dPolar.png)
-
-With three dimensions, there are two choices for polar coordinate systems. The first is cylindrical coordinates, denoted by (r,θ,z), where z is a third axis perpendicular to the 2D plane created by (r,θ). To locate the point described by the cylindrical coordinates (r,θ,z), you start by finding the point (r,θ) in the 2D polar coordinate space and then move up or down according to the sign of the z coordinate.
-
-![Cylindrical coordinates](./images/cylindricalCoordinates.png)
-
-The second choice of polar coordinate system in three dimensions is the spherical coordinate system. The third value in the system is denoted φ, which is the angle of rotation about the meridian plane, which is the axis perpendicular to the 2D plane created by (r,θ). Hence, spherical polar coordinates take the form (r,θ,φ).
-
-![Spherical Coordinates](./images/sphericalCoordinates.png)
-
-Sometimes, you may see spherical coordinates referred to using the more intuitive (r,h,p), where h refers to heading (similar to compass heading (north, south, etc.), borrowed from an aviation context), and p refers to pitch, which measures how much something is looking up or down.
-
-Finally, to convert a point from Cartesian coordinates to spherical coordinates, use the following:
-
-- x = rsinφcosθ
-- y = rsinφsinθ
-- z = rcosφ
-
 ## Rotation
 
 Rotation, or angular motion, is a movement about an angle with respect to time, and just as linear motion uses velocity to show the rate at which an object's position changes over time, angular motion uses angular velocity to show the rate at which an object's angle changes over time. By extension, angular acceleration describes changes in an object's angular velocity.

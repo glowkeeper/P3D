@@ -82,7 +82,7 @@ And
 
 The cross product of vectors returns a vector that is perpendicular to the plane containing 𝐴 and 𝐵. That's shown using the right-hand thumb rule, whereby the index finger of your right hand is pointed in the direction of 𝐴, and the middle finger is pointed in the direction of 𝐵. The thumb then points up in the direction of 𝐴 × 𝐵.
 
-![Right Hand Rul](./images/rightHandRule.jpg)
+![Right Hand Rule](./images/rightHandRule.jpg)
 
 Formally:
 

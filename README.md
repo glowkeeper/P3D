@@ -40,6 +40,7 @@ A link to the P3D assignment will appear here.
 As you immerse yourself in the 3D programming space, you may wish to deepen your knowledge by grasping some of the theoretical background underpinning the work you do. To help get you started, your [Module Convenor](#maintainer) has collated some theory:
 
 - [Graphics Background](./docs/graphicsBackground.md)
+- [Coordinate Systems](./docs/coordinateSystems.md)
 - [Vectors](./docs/vectors.md)
 - [Trigonometry](./docs/trigonometry.md)
 - [Forces](./docs/forces.md)
