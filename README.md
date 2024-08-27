@@ -37,19 +37,22 @@ A link to the P3D assignment will appear here.
 
 ## Background Material
 
-As you immerse yourself in the 3D programming space, you may wish to deepen your knowledge by grasping some of the theoretical background. Your [Module Convenor](#maintainer) has collated some theory to help get you started:
+As you immerse yourself in the 3D programming space, you may wish to deepen your knowledge by grasping some of the theoretical background underpinning the work you do. To help get you started, your [Module Convenor](#maintainer) has collated some theory:
 
 - [Graphics Background](./docs/graphicsBackground.md)
 - [Vectors](./docs/vectors.md)
+- [Trigonometry](./docs/trigonometry.md)
 - [Forces](./docs/forces.md)
 
-Much of the naterial for the documents above was collated from [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) and [The Nature of Code](https://natureofcode.com/) - if you're interested in the theory, then go investigate those sites in more depth. [The Nature of Code](https://natureofcode.com/) uses a Javascript library called [p5.js](https://p5js.org/) to demonstrate its principles, but don't worry too much if you're not familiar with javascript, as you do not necessarily need that familiarity to understand the concepts presented.
+Much of the naterial for the documents above was collated from [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), the [3D Maths Primer for Graphics and Game Development](https://gamemath.com/), and [The Nature of Code](https://natureofcode.com/) - if you're interested in grasping more of the theory, then go investigate those sites. [The Nature of Code](https://natureofcode.com/) uses a Javascript library called [p5.js](https://p5js.org/) to demonstrate its principles, but don't worry too much if you're not familiar with javascript, as you do not necessarily need that familiarity to understand the concepts presented.
 
 In fact, P3D used to be much more theoretical (and far less practical). Some of the background material from then has been retained for reference:
 
 - [Advanced Ray Tracing](./docs/priorCourse/advancedRayTracing.pdf)
 - [Light and Colour Perception](./docs/priorCourse/lightAndColourPerception.pdf)
 - [Using 3D Space](./docs/priorCourse/using3DSpace.pdf).
+
+Obviously, the material above lacks the context (the lectures supporting the material), but those resources remain useful.
 
 ## Module Resources
 
