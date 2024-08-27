@@ -90,11 +90,10 @@ Formally:
 
 Where:
 
-C – New vector resulting from doing the cross product
-𝐴 – First vector
-𝐵 – Second vector
-θ – Angle between 𝐴 and 𝐵
-n – Unit vector perpendicular to 𝐴 and 𝐵
+- 𝐴 is the first vector
+- 𝐵 is the second vector
+- θ is the angle between 𝐴 and 𝐵
+- n is the unit vector perpendicular to 𝐴 and 𝐵
 
 The cross product can also be found using the determinant of a 3x3 matrix, but that is (currently) beyond the scope of this module.
 
@@ -118,7 +117,7 @@ Furthermore:
 
 𝐴x𝐴 = 0
 
-Finally, any two parallel vectors must have a cross product of 0 since they have an angle of zero between them, and sin0 is 0 and multiplication by 0 yields 0.
+Finally, any two parallel vectors must have a cross product of 0 since they have an angle of zero between them, and the sine of 0 is 0 and multiplication by 0 yields 0.
 
 ## The Application of Vector Operations
 
