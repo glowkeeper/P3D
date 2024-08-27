@@ -14,11 +14,11 @@ A unit of measurement of angles is _degrees_. The amount of degrees formed by an
 
 A full rotation is 360°. A half-circle is 180°. A quarter-circle, or right angle, is 90°. Below is a square rotated 45°, using its centre as its pivot point.
 
-![Square Rotated](./images/docs/images/square45.webp)
+![Square Rotated](./images/squareRotated.webp)
 
 Radians are another unit of trigonometric measurement. They are defined by the ratio of the length of the arc of a circle (a segment of the circle's circumference) to the radius of that circle. One radian is the length at which that ratio equals 1.
 
-![Radian](./images/docs/images/radian.png)
+![Radian](./images/radian.png)
 
 Radians have a strong relationship to Pi (π), which is an irrational number defined as the ratio of a circle's circumference (the distance around the outside of the circle) to its diameter (a straight line that passes through the circle's centre). A full circle (360°) is equivalent to 2π radians. Hence, 180° is π radians, and 90° is π/2 radians. The formula to convert from degrees to radians is as follows:
 
@@ -130,7 +130,7 @@ Negating the angular velocity is equivalent to changing the direction of rotatio
 
 ## Simple Harmonic Motion
 
-Below is the graph of a sine wave. The graph shows the relationship of the sine wave to the radians discussed above, where 2π radians represent a circle or a complete revolution of the sine cycle.
+Below is the graph of the sine wave _y = sin x_. The graph shows the relationship of the sine wave to the radians discussed above, where 2π radians represent a circle or a complete revolution of the sine cycle.
 
 ![Sine Wave](./images/sinewave.png)
 
