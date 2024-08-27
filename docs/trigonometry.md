@@ -24,7 +24,7 @@ Radians have a strong relationship to Pi (π), which is an irrational number def
 
 radians = (2π x degrees) / 360
 
-Although to many (at least in the UK), radians may not be as familiar as degrees. However, radians are often useful as they relate angle to length, making some calculations much more straightforward. For example, to find the speed of a vehicle in metres per second, you can multiply the radius of one of its wheels by the number of radians it turns per second. So if the wheel has a radius of two metres and turns at six radians per second, the speed is 12 metres per second. Additionally, their association with Pi (π) makes radians a somewhat more intuitive unit for graphing, performing calculus and modelling some spherical geometry.
+Although to many (at least in the UK), radians may not be as familiar as degrees, they are often useful as they relate angle to length, making some calculations much more straightforward. For example, to find the speed of a vehicle in metres per second, you can multiply the radius of one of its wheels by the number of radians it turns per second. So if the wheel has a radius of two metres and turns at six radians per second, the speed is 12 metres per second. Additionally, their association with Pi (π) makes radians a somewhat more intuitive unit for graphing, performing calculus and modelling some spherical geometry.
 
 ## Trigonometric Functions
 
@@ -34,17 +34,11 @@ Trigonometry is based on the unit circle, a circle with the centre at the origin
 
 Since any triangle can be split into right-angled triangles whose opposite and adjacent sides form the axis of a graph, we can then use the functions found in trigonometry to understand ratios, symmetry, transformations, rotations and much more besides.
 
-The three main trigonometric functions are Sine, Cosine and Tangent, which are used to find an unknown side or angle of a triangle when two pieces of information are known (such as the length of two sides or the length of one side and an angle). Sine, Cosine and Tangent are described by the mnemonic **SohCahToa** - take one of the non-right angles in the triangle - the adjacent side is the one touching that angle, the opposite side is the one not touching that angle, and the hypotenuse is the side opposite the right angle.
+The three main trigonometric functions are Sine, Cosine and Tangent. They are used to find an unknown side or angle of a triangle when two pieces of information are known (such as the length of two sides or the length of one side and an angle). Sine, Cosine and Tangent are described by the mnemonic **SohCahToa** - take one of the non-right angles in the triangle - the adjacent side is the one touching that angle, the opposite side is the one not touching that angle, and the hypotenuse is the side opposite the right angle.
 
-- **Soh**: sine(θ) = opposite/hypotenuse
-- **Cah**: cosine(θ) = adjacent/hypotenuse
-- **Toa**: tangent(θ) = opposite/adjacent
-
-If **Soh** is used, take the sine of the unknown angle set equal to the opposite side divided by the hypotenuse.
-
-- **Soh**: when the opposite side and the hypotenuse are known
-- **Cah**: when the adjacent side and the hypotenuse are known
-- **Toa**: when the opposite side and adjacent sides are known
+- **Soh**: sine(θ) = opposite/hypotenuse. Used when the opposite side and the hypotenuse are known
+- **Cah**: cosine(θ) = adjacent/hypotenuse. Used when the adjacent side and the hypotenuse are known
+- **Toa**: tangent(θ) = opposite/adjacent. Used when the opposite side and adjacent sides are known
 
 For example, given the right-angled triangle below, how can we work out the length of the side labelled _x_?
 
@@ -72,7 +66,7 @@ sin(θ) = ~5.1424 / 8 = ~0.6428, so:
 
 The following describes a right-angled triangle in terms of a vector, v.
 
-![Vectors and Trigonometry](docs/images/vectorsAndTrigonometry.webp)
+![Vectors and Trigonometry](./images/vectorsAndTrigonometry.webp)
 
 The vector, v is the hypotenuse, and the components of the vector (x and y) are the opposite and adjacent sides of the triangle. Hence, the angle is another way to specify the vector's direction because you move x steps right and y steps up. Therefore, the trigonometric functions establish a relationship between the components of a vector and its direction and magnitude.
 
@@ -80,7 +74,7 @@ The vector, v is the hypotenuse, and the components of the vector (x and y) are 
 
 When talking about the position of an object in a programming environment, you are _probably_ (if you are from the UK) more familiar with referring to that position in terms of its x, y and z coordinates. These are Cartesian coordinates, named after René Descartes, the French mathematician who developed the ideas behind Cartesian space.
 
-However, polar coordinates are another system for referring to points in space, e.g. (r,θ). The polar coordinate system refers to those points using distances and angles. And in fact, you probably use them more often than you realise. For instance, the author of this piece on polar coordinates lives near Brighton, in England, about 60 miles south of London. In other words, they've given an origin (London), a distance (60 miles), and an angle (south)· In short, polar coordinates often arise because people naturally think about locations in terms of distance and direction. Therefore, the polar coordinate system is useful whenever we need to think in terms of distance and angle.
+However, polar coordinates are another system for referring to points in space, e.g. (r,θ). The polar coordinate system refers to those points using distances and angles. And in fact, you probably use them more often than you realise. For instance, the author of this piece on polar coordinates lives near Brighton, in England, about 60 miles south of London. In other words, they've given an origin (London), a distance (60 miles), and an angle (south). In short, polar coordinates often arise because people naturally think about locations in terms of distance and direction. Therefore, the polar coordinate system is useful whenever we need to think in terms of distance and angle.
 
 When working in two dimensions, polar coordinates take the form (r,θ), where, by convention, r (for radius - the value is referred to as the radial line) represents the distance, and θ gives the polar angle from the origin.
 
@@ -98,9 +92,9 @@ Sometimes, you may see spherical coordinates referred to using the more intuitiv
 
 Finally, to convert a point from Cartesian coordinates to spherical coordinates, use the following:
 
-x=rsinφcosθ
-y=rsinφsinθ
-z=rcosφ
+- x = rsinφcosθ
+- y = rsinφsinθ
+- z = rcosφ
 
 ## Rotation
 
