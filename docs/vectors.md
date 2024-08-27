@@ -44,7 +44,7 @@ Normalisation is done by dividing a vector's x, y and z components by its magnit
 
 ## Multiplying a Vector
 
-To multiply any vector by a scalar, multiply each vector component by that scalar. Hence:
+To multiply any vector by a scalar number, multiply each vector component by that scalar. Hence:
 
 If 𝐴=(𝑥,𝑦,𝑧), then 𝑘𝐴=(𝑘𝑥,𝑘𝑦,𝑘𝑧) for all real constants 𝑘.
 
@@ -80,9 +80,9 @@ And
 
 ## Cross Product
 
-The cross product of vectors returns a vector that is perpendicular to the plane containing 𝐴 and 𝐵. That is shown using the right-hand thumb rule, whereby the index finger of your right hand is pointed in the direction of 𝐴, and the middle finger is pointed in the direction of 𝐵. The thumb then points up in the direction of 𝐴 × 𝐵.
+The cross product of vectors returns a vector that is perpendicular to the plane containing 𝐴 and 𝐵. That's shown using the right-hand thumb rule, whereby the index finger of your right hand is pointed in the direction of 𝐴, and the middle finger is pointed in the direction of 𝐵. The thumb then points up in the direction of 𝐴 × 𝐵.
 
-![Right Hand Rul]e(./images/rightHandRule.jpg)
+![Right Hand Rul](./images/rightHandRule.jpg)
 
 Formally:
 
