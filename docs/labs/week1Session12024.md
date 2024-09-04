@@ -1,6 +1,6 @@
 # Week 1, Session 1 - Installing Unity and Integrating with GitHub
 
-This session's goal is to get your environment set up so you can complete the rest of the Programming for 3D (P3D) module.
+The goal of this session is to get your environment set up so you can complete the rest of the Programming for 3D (P3D) module.
 
 ## GitHub and Version Control
 
