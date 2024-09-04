@@ -16,6 +16,12 @@ _Figure 1: A visualisation of git branching and merging_
 
 This module will not explore the intricacies of branching and merging, but you can investigate and use such mechanisms.
 
+## Unity Game Engine
+
+The [Unity](https://unity.com/) game engine and editor framework that gives you a system for designing and building interactive 2D and 3D applications and games. Unity allows you to create such environments using code and/or visual components you create in the editor, and you can export them to every major platform, including mobile and VR.
+
+During Programming for 3D, you will create a game.
+
 ## Exercise
 
 This session requires you to set up a [GitHub](https://github.com/) account (if you do not have one already) and create a GitHub repository to store the rest of your work on this module. You will also install [Unity](https://unity3d.com/unity/qa/lts-releases) and make the Unity project that you will use for your work on this module. Finally, you will integrate that Unity project with GitHub.
@@ -36,7 +42,7 @@ Once you have your credentials set up, you should _clone_ your repository to you
 
 ### Unity
 
-If you are new to Unity, you should apply for a [Unity Student Plan](https://unity.com/products/unity-student). Then, you should install the Unity Hub. Once you have that, use the Hub to install the latest version of [Unity with long-term support](https://unity3d.com/unity/qa/lts-releases); you will need [Visual Studio](https://visualstudio.microsoft.com/) for the scripting part of the course, so if you do not have that installed, you should add Visual Studio as a module when you install Unity.
+If you are new to [Unity](https://unity.com/), you should apply for a [Unity Student Plan](https://unity.com/products/unity-student). Then, you should install the Unity Hub. Once you have that, use the Hub to install the latest version of [Unity with long-term support](https://unity3d.com/unity/qa/lts-releases); you will need [Visual Studio](https://visualstudio.microsoft.com/) for the scripting part of the course, so if you do not have that installed, you should add Visual Studio as a module when you install Unity.
 
 #### Integrating a Unity Project with GitHub
 
@@ -47,3 +53,14 @@ To do so, open Unity Hub, create a new project, and choose the 3D Sample Scene (
 **Before you push your work back up to GitHub**, you should fetch [P3D's _.gitignore_](https://github.com/glowkeeper/P3D/blob/main/src/unity/.gitignore) and put it in _src/yourProjectName_ - this excludes the many files in the Unity project that will never change between machines, so they do not need to go under version control. You will know if you've done this correctly because you should only have hundreds of files to push up to GitHub (and not thousands); if that's the case (and only if that's the case), you can [add](https://github.com/git-guides/git-add), [commit](https://github.com/git-guides/git-commit) and [push](https://github.com/git-guides/git-push) the changes in your local repository up to GitHub.
 
 Congratulations - you are now all set for the rest of the module!
+
+## Links
+
+- [git](https://git-scm.com/)
+- [What is GitHub?](https://kinsta.com/knowledgebase/what-is-github/)
+- [What is Version Control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
+- [git add](https://github.com/git-guides/git-add)
+- [git commit](https://github.com/git-guides/git-commit)
+- [git push](https://github.com/git-guides/git-push)
+- [Unity](https://unity.com/)
+- [Old but still worth a read - Developing Your First Game with Unity](https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/august/unity-developing-your-first-game-with-unity-and-csharp)
