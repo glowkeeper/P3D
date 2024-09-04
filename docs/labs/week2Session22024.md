@@ -27,7 +27,7 @@ However, please note that it is beyond the scope of this module to support exter
 
 ## World-building in the Unity Editor
 
-ProBuilder is a world-building tool that you can add to Unity. It is a hybrid 3D modelling and level design tool, allowing you to create complex geometry within the Unity Editor. That means you do not necessarily need to use a tool like Blender to create your 3D models; instead, you can use ProBuilder to design structures and complex terrain features or to make custom collision geometry and triggers (we will look at those features in this module).
+[ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder)  is a world-building tool you can add to Unity. It is a hybrid 3D modelling and level design tool, allowing you to create, edit and texture complex geometry within the Unity Editor. That means you do not necessarily need to use a tool like Blender to create your 3D models; instead, you can use ProBuilder to design structures and complex terrain features or to make custom collision geometry and triggers (we will look at those features in this module).
 
 ## Exercise
 
