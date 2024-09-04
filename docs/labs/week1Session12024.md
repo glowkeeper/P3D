@@ -1,6 +1,6 @@
-# Lab - Week 1, Session 1 - Installing Unity and Integrating with GitHub
+# Week 1, Session 1 - Installing Unity and Integrating with GitHub
 
-This lab's primary aim is to set up your environment so you can complete the rest of the Programming for 3D (P3D)module.
+This lab aims to get your environment set up so you can complete the rest of the Programming for 3D (P3D) module.
 
 ## GitHub and Version Control
 
