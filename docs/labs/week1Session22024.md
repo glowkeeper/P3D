@@ -12,7 +12,9 @@ The document should communicate the ideas in a manner that works for you or your
 
 ## Exercise
 
-Create your GDD! That will form the basis of the following lab (and the rest of the module), where you will pitch the ideas in your GDD to the moderator and begin planning to bring those ideas into being.  
+Create your GDD! That will form the basis of the following lab (and the rest of the module), where you will pitch the ideas in your GDD to the moderator and begin planning to bring those ideas into being.
+
+**Important**: Your GDD must include the modeling of some kind of building.
 
 ## Links
 
