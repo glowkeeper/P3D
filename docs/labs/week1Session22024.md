@@ -18,7 +18,6 @@ Create your GDD! That will form the basis of the following lab (and the rest of 
 
 ## Links
 
-
 [Here is the GDD template](./docs/GameDesignDocumentTemplate.md) your moderator used to create ideas for the game he intends to build during P3D. And here is the [first draft of their GDD](./docs/GameDesignDocument.md). However, that template is not the only way to do it, so you should research and create something that works for you.
 
 Here are some links to some GDDs used in some of the more famous games ever made:
