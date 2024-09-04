@@ -24,7 +24,7 @@ The intended audience is all ages and genres who are fans of sports games.
 
 ### ​Game Influences
 
-_Rocket League_, _EA Sports FC (FiFa)_, _Pro Evo_ or _This is Football_.
+[Rocket League](https://www.rocketleague.com/en), [EA Sports FC (FiFa)](https://www.ea.com/en-gb/games/ea-sports-fc), [eFootball (Pro Evo)](https://www.konami.com/efootball/en/) or [This is Football](https://en.wikipedia.org/wiki/This_Is_Football).
 
 ### ​Player Objectives
 
