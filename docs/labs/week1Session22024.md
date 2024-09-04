@@ -1,6 +1,6 @@
 # Week 1 Session 2 - Creating a Game Design Document
 
-The goal of this session is to record some ideas about the game you will create during this module (which will form the basis for your coursework) in a game design document.
+The goal of this session is to record in a in a game design document (GDD) some ideas about the game you will create during this module. This will form the basis for your lab sessions and coursework.
 
 ## A Game Design Document
 
