@@ -4,7 +4,7 @@ The goal of this session is to record in a in a game design document (GDD) some 
 
 ## A Game Design Document
 
-A game design document (GDD) is a guiding vision that communicates ideas and becomes part of the software development process. It is descriptive, dynamic and live (kept up-to-date and iterated). If you're working in a team, it's collaboratively created, edited and updated by core development team members, including lead designers, artists and programmers. This collaborative effort forms the basis for bringing the game into reality.
+A GDD is a guiding vision that communicates ideas and becomes part of the software development process. It is descriptive, dynamic and live (kept up-to-date and iterated). If you're working in a team, it's collaboratively created, edited and updated by core development team members, including lead designers, artists and programmers. This collaborative effort forms the basis for bringing the game into reality.
 
 A GDD might also become part of a publishing agreement. When a game publisher commissions a game following a successful pitch, a GDD is often attached to the agreement, whereby the development team has to adhere to the document during the game development process.
 
