@@ -14,23 +14,23 @@ If you have not used GitHub before, then there is a [Panopto recording](https://
 
 _Figure 1: A visualisation of git branching and merging_
 
-This module will not go into the intracacies of branching and merging but you are free to investigate and use such mechanisms, should you so wish.
+This module will not explore the intricacies of branching and merging, but you can investigate and use such mechanisms.
 
 ## Exercise
 
-This session requires you to set up a [GitHub](https://github.com/) account (if you do not have one already) and create a GitHub repository to store the rest of your work on this module. You will also install [Unity](https://unity3d.com/unity/qa/lts-releases) and make the Unity project that you will use for your work on this module. Finally, you will integrata that Unity project with GitHub.
+This session requires you to set up a [GitHub](https://github.com/) account (if you do not have one already) and create a GitHub repository to store the rest of your work on this module. You will also install [Unity](https://unity3d.com/unity/qa/lts-releases) and make the Unity project that you will use for your work on this module. Finally, you will integrate that Unity project with GitHub.
 
 ### GitHub
 
 If you still need a [GitHub](https://github.com/) account, create one. It may also be beneficial (although not for this module) to access the [GitHub Student Developer Pack](https://education.github.com/pack), as it gives you free access to lots of resources and tools.
 
-Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). You should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module. Eventually, you'll publish your coursework there so that the Module Convenor can access it when they mark your work.
+Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). You should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module. Eventually, you'll publish your coursework there so the Module Convenor can access it when they mark your work.
 
 #### Clone the Repository
 
-Before you _clone_ your GitHub repository locally, you will need to setup your GitHub username and credentials on your local machine.
+Before you _clone_ your GitHub repository locally, you must set up your GitHub username and credentials on your local machine.
 
-GitHub has some really good online documentation for [Setting your username in Git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) and [Caching your GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git) - for the latter, you have a couple of options - choose one!
+GitHub has some excellent online documentation for [Setting your username in Git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) and [Caching your GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git) - for the latter, you have a couple of options - choose one!
 
 Once you have your credentials set up, you should _clone_ your repository to your local hard drive. Below, you will create a Unity project in that repository and push your work back to GitHub.
 
@@ -40,9 +40,9 @@ If you are new to Unity, you should apply for a [Unity Student Plan](https://uni
 
 #### Integrating a Unity Project with GitHub
 
-Now, you will create a Unity project and save that project on GitHub.
+Now, you will create a Unity project and save it on GitHub.
 
-To do so, open Unity Hub, create a new project and choose either the 3D Sample Scene (HDRP) or the 3D Sample Scene (UDRP), which are the High Definition Render Pipeline and the Universal Render Pipeline respectively. Store the project in a directory in your cloned repository - this could be any directory, but a good choice might be _src/yourProjectName_; you can name the project however you choose, but this project will form the basis of the rest of your work on this module, so choose the name wisely!
+To do so, open Unity Hub, create a new project, and choose the 3D Sample Scene (HDRP) or the 3D Sample Scene (UDRP), which are the High Definition Render Pipeline and the Universal Render Pipeline, respectively. Store the project in a directory in your cloned repository - this could be any directory, but a good choice might be _src/yourProjectName_; you can name the project however you choose, but this project will form the basis of the rest of your work on this module, so choose the name wisely!
 
 **Before you push your work back up to GitHub**, you should fetch [P3D's _.gitignore_](https://github.com/glowkeeper/P3D/blob/main/src/unity/.gitignore) and put it in _src/yourProjectName_ - this excludes the many files in the Unity project that will never change between machines, so they do not need to go under version control. You will know if you've done this correctly because you should only have hundreds of files to push up to GitHub (and not thousands); if that's the case (and only if that's the case), you can [add](https://github.com/git-guides/git-add), [commit](https://github.com/git-guides/git-commit) and [push](https://github.com/git-guides/git-push) the changes in your local repository up to GitHub.
 
