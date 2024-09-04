@@ -1,0 +1,34 @@
+# Week 2, Session 2 - Modelling
+
+The goal of this session is to get you to model some of your ideas in your GDD, beginning with your building.
+
+## 3D Modelling
+
+[GameObjects](https://docs.unity3d.com/Manual/class-GameObject.html) are pivotal to 3D modelling in Unity. They are fundamental objects in Unity and represent characters, props, scenery, and more. Every object in your game will be a GameObject.
+
+GameObjects live in 3D environments called scenes. Scenes are primarily game levels, but they can also represent a menu, credits at the end of the game, cutscenes, or, in fact, anything!
+
+GameObjects can be composed of many other GameObjects. And each GameObject can have one or more components. The following components are fundamental for 3D scenes in Unity:
+
+- [Transform](https://docs.unity3d.com/Manual/class-Transform.html): the Transform component determines the Position, Rotation, and Scale of each GameObject in the scene. Every GameObject has a Transform component
+- [Mesh Filter](https://docs.unity3d.com/Manual/class-MeshFilter.html): this component defines the shape of a 3D GameObject
+- [Mesh Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html): this component defines how the 3D shape defined by the Mesh Filter looks on screen
+- [Cameras](https://docs.unity3d.com/Manual/class-Camera.html): specially configured GameObjects that capture and display the world to the player
+- [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html): Rigidbodies allow GameObjects to interact with the Physics system, including gravity and collisions
+- [Colliders](https://docs.unity3d.com/Manual/CollidersOverview.html): this component defines the shape of a 3D GameObject when colliding with other GameObjects containing collider components
+
+We will look at each of these components throughout Programming for 3D.
+
+## Importing 3D Models from Other Software
+
+If you create some 3D models in a tool like [Blender](https://www.blender.org/), you should export them in the Filmbox (.fbx) file model format since that's the format Unity supports directly. You can also use other model formats, but under the hood, Unity will convert them to .fbx (and not always get everything correct), so .fbx is often the best choice. To import your third-party exported models, copy them into your Assets folder in your Unity project.
+
+However, please note that it is beyond the scope of this module to support external tools like Blender.  
+
+## World-building in the Unity Editor
+
+ProBuilder is a world-building tool that you can add to Unity. It is a hybrid 3D modelling and level design tool, allowing you to create complex geometry within the Unity Editor. That means you do not necessarily need to use a tool like Blender to create your 3D models; instead, you can use ProBuilder to design structures and complex terrain features or to make custom collision geometry and triggers (we will look at those features in this module).
+
+## Exercise
+
+Use ProBuilder to start bringing some of the ideas in your GDD to life! Start with the one absolute necessity specified for the GDD - your building.
