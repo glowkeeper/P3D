@@ -28,10 +28,10 @@ However, be careful turning on baked lighting until you get near to releasing yo
 
 Unity has different types of light components that you can apply to GameObjects:
 
-Point Light: A light that's located at a point in the scene and emits light in all directions equally, making them useful for simulating lamps and other local sources of light
-Spot Light: A light that's located at a point in the scene and emits light in a cone shape, making them useful for artificial light sources such as flashlights, car headlights and torches 
-Directional Light: A light that's located infinitely far away and emits light in one direction only, making them useful for representing large, distant sources of light, such as the sun or the moon
-Area Light: A light that's defined by a rectangle or disc and emits light in all directions uniformly across its surface area but only from one side of the rectangle or disc, making them useful for creating a realistic street light 
+- Point Light: A light that's located at a point in the scene and emits light in all directions equally, making them useful for simulating lamps and other local sources of light
+- Spot Light: A light that's located at a point in the scene and emits light in a cone shape, making them useful for artificial light sources such as flashlights, car headlights and torches 
+- Directional Light: A light that's located infinitely far away and emits light in one direction only, making them useful for representing large, distant sources of light, such as the sun or the moon
+- Area Light: A light that's defined by a rectangle or disc and emits light in all directions uniformly across its surface area but only from one side of the rectangle or disc, making them useful for creating a realistic street light
 
 ## Volumes
 
