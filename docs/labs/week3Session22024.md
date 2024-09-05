@@ -43,10 +43,10 @@ Add lighting to your scene! You could play around with a directional light so th
 
 ## Links
 
-+ [Unity Lighting](https://docs.unity3d.com/Manual/Lighting.html)
-+ [Graphics in Unity](https://docs.unity3d.com/Manual/Graphics.html)
-+ [3D Graphics](../graphicsBackground.md)
-+ [Realtime Global Illumination (GI)](https://docs.unity3d.com/Manual/realtime-gi-using-enlighten.html)
-+ [Baked Lighting](https://docs.unity3d.com/Manual/LightMode-Baked.html)
-+ [Volumes](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@10.6/manual/Volumes.html)
-+ [Ambient Occlusion](https://docs.unity3d.com/Manual/LightingBakedAmbientOcclusion.html)
+- [Unity Lighting](https://docs.unity3d.com/Manual/Lighting.html)
+- [Graphics in Unity](https://docs.unity3d.com/Manual/Graphics.html)
+- [3D Graphics](../graphicsBackground.md)
+- [Realtime Global Illumination (GI)](https://docs.unity3d.com/Manual/realtime-gi-using-enlighten.html)
+- [Baked Lighting](https://docs.unity3d.com/Manual/LightMode-Baked.html)
+- [Volumes](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@10.6/manual/Volumes.html)
+- [Ambient Occlusion](https://docs.unity3d.com/Manual/LightingBakedAmbientOcclusion.html)
