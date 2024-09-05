@@ -7,6 +7,10 @@ The goal of this session is to add some physics to your scene, including:
 + Kinematics
 + Triggers
 
+![car physics](./images/carPhysics.webp)
+
+[_Figure 1: Making Custom Car Physics_](https://www.youtube.com/watch?v=CdPYlj5uZeI&t=2s)
+
 ## 3D Physics
 
 In this setting, 3D physics refers to the properties of objects and how they respond to [forces](../forces.md). Unity's built-in physics engine has a breadth of tools that ensure objects can interact with other objects by approximating natural forces, such as gravity, velocity, acceleration, and friction. Figure 1 shows the properties of Unity's 3D physics engine.
