@@ -1,4 +1,4 @@
-# Week 3, Session 1 - Materials, Textures  and Shaders
+# Week 3, Session 1 - Materials, Textures and Shaders
 
 The goal of this session is to add some materials to the modelling you did in the last lab.
 
