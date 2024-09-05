@@ -6,16 +6,7 @@ The goal of this session is to get you to model some of your ideas in your GDD, 
 
 [Models](https://docs.unity3d.com/Manual/models.html) are files that contain data about the shape and appearance of objects used in your scenes; hence, such models could include characters, buildings, furniture, terrain, or any 3D object you could name.
 
-Model files can contain various data, including meshes, materials and textures (they can also include animation data).
-
-+ [Meshes](https://docs.unity3d.com/Manual/mesh.html) are a graphics primitive that defines the shape of an object
-+ [Materials](https://docs.unity3d.com/Manual/Materials.html) define the properties of the surface of an object. They include references to textures and specify how those textures are tiled and coloured
-+ [Shaders](https://docs.unity3d.com/Manual/Shaders.html) are small scripts that contain the algorithms for calculating the colour of each pixel
-+ [Textures](https://docs.unity3d.com/Manual/Textures.html) are [bitmap](https://en.wikipedia.org/wiki/Bitmap) images that define the fine detail of a material's surface; think of them as images that are printed on a rubber sheet and stretched and pinned onto a mesh
-
-[Rendering](https://docs.unity3d.com/Manual/render-pipelines.html) is the process by which models get displayed on a screen (two common rendering techniques are [raytracing and rasterisation](https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/) - an in-depth look at those techniques is beyond the scope of this module. Still, you can investigate them further, should you so wish).
-
-Rendering relies on a close relationship between meshes, materials, shaders, and textures. Textures are applied to objects using materials, and materials use specialised graphics programs called shaders to render a texture onto the surface of the mesh. Unity's [standard shader](https://docs.unity3d.com/Manual/shader-StandardShader.html) is often a good choice as it is highly customisable and can render many surface types. However, there may be occasions where a custom [Shader Graph](https://docs.unity3d.com/Manual/shader-graph.html) or a [custom written shader](https://docs.unity3d.com/Manual/shader-writing.html) may be appropriate; examples could be if you are creating liquids or some highly-specialised artistic special effects. We will look at shader graphs in this module.
+Model files can contain various data, including meshes, materials and textures (they can also include animation data). [Meshes](https://docs.unity3d.com/Manual/mesh.html) are a graphics primitive that defines the shape of an object. We will look at materials and textures more closely in the next lab.
 
 ## Modelling and GameObjects
 
@@ -25,12 +16,12 @@ GameObjects live in 3D environments called scenes. Scenes are primarily game le
 
 GameObjects can be composed of many other GameObjects. And each GameObject can have one or more components. The following components are fundamental for 3D scenes in Unity:
 
-+ [Transform](https://docs.unity3d.com/Manual/class-Transform.html): the Transform component determines the Position, Rotation, and Scale of each GameObject in the scene. Every GameObject has a Transform component
-+ [Mesh Filter](https://docs.unity3d.com/Manual/class-MeshFilter.html): this component defines the shape of a 3D GameObject
-+ [Mesh Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html): this component defines how the 3D shape defined by the Mesh Filter looks on screen
-+ [Cameras](https://docs.unity3d.com/Manual/class-Camera.html): specially configured GameObjects that capture and display the world to the player
-+ [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html): Rigidbodies allow GameObjects to interact with the Physics system, including gravity and collisions
-+ [Colliders](https://docs.unity3d.com/Manual/CollidersOverview.html): this component defines the shape of a 3D GameObject when colliding with other GameObjects containing collider components
+- [Transform](https://docs.unity3d.com/Manual/class-Transform.html): the Transform component determines the Position, Rotation, and Scale of each GameObject in the scene. Every GameObject has a Transform component
+- [Mesh Filter](https://docs.unity3d.com/Manual/class-MeshFilter.html): this component defines the shape of a 3D GameObject
+- [Mesh Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html): this component defines how the 3D shape defined by the Mesh Filter looks on screen
+- [Cameras](https://docs.unity3d.com/Manual/class-Camera.html): specially configured GameObjects that capture and display the world to the player
+- [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html): Rigidbodies allow GameObjects to interact with the Physics system, including gravity and collisions
+- [Colliders](https://docs.unity3d.com/Manual/CollidersOverview.html): this component defines the shape of a 3D GameObject when colliding with other GameObjects containing collider components
 
 We will look at each of these components throughout Programming for 3D.
 
@@ -50,16 +41,13 @@ Use ProBuilder (or a 3D modelling tool of your choice) to start bringing some of
 
 ## Links
 
-+ [Models](https://docs.unity3d.com/Manual/models.html)
-+ [Meshes](https://docs.unity3d.com/Manual/mesh.html)
-+ [Materials](https://docs.unity3d.com/Manual/Materials.html)
-+ [Shaders](https://docs.unity3d.com/Manual/Shaders.html)
-+ [Textures](https://docs.unity3d.com/Manual/Textures.html)
-+ [GameObjects](https://docs.unity3d.com/Manual/class-GameObject.html)
-+ [Transform](https://docs.unity3d.com/Manual/class-Transform.html)
-+ [Mesh Filter](https://docs.unity3d.com/Manual/class-MeshFilter.html)
-+ [Mesh Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)
-+ [Cameras](https://docs.unity3d.com/Manual/class-Camera.html)
-+ [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html)
-+ [Colliders](https://docs.unity3d.com/Manual/CollidersOverview.html)
-+ [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder)  
+- [Models](https://docs.unity3d.com/Manual/models.html)
+- [Meshes](https://docs.unity3d.com/Manual/mesh.html)
+- [GameObjects](https://docs.unity3d.com/Manual/class-GameObject.html)
+- [Transform](https://docs.unity3d.com/Manual/class-Transform.html)
+- [Mesh Filter](https://docs.unity3d.com/Manual/class-MeshFilter.html)
+- [Mesh Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)
+- [Cameras](https://docs.unity3d.com/Manual/class-Camera.html)
+- [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html)
+- [Colliders](https://docs.unity3d.com/Manual/CollidersOverview.html)
+- [ProBuilder](https://unity3d.com/unity/features/worldbuilding/probuilder)  
