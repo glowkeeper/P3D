@@ -8,6 +8,10 @@ The goal of this session is to get you to model some of your ideas in your GDD, 
 
 Model files can contain various data, including meshes, materials and textures (they can also include animation data). [Meshes](https://docs.unity3d.com/Manual/mesh.html) are a graphics primitive that defines the shape of an object. We will look at materials and textures more closely in the next lab.
 
+![Dolphin Mesh](./images/dolphinMesh.png)
+
+_Figure 1: A low poly triangle mesh representing a dolphin_
+
 ## Modelling and GameObjects
 
 [GameObjects](https://docs.unity3d.com/Manual/class-GameObject.html) are pivotal to 3D modelling in Unity. They are fundamental objects in Unity and represent characters, props, scenery, and more. Every object in your game will be a GameObject.
