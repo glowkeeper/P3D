@@ -12,6 +12,7 @@ In the last session, we looked at [Models](https://docs.unity3d.com/Manual/model
 + [Textures](https://docs.unity3d.com/Manual/Textures.html) are [bitmap](https://en.wikipedia.org/wiki/Bitmap) images that define the fine detail of a material's surface; think of them as images that are printed on a rubber sheet and stretched and pinned onto a mesh
 
 ![Mesh and Material](./images/meshAndMaterials.png)
+
 _Figure 1: Left: a 3D polygon mesh of a player character. Right: the player mesh rendered with materials_
 
 [Rendering](https://docs.unity3d.com/Manual/render-pipelines.html) is the process by which models get displayed on a screen (two common rendering techniques are [raytracing and rasterisation](https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/) + an in-depth look at those techniques is beyond the scope of this module. Still, you can investigate them further, should you so wish).
@@ -32,12 +33,14 @@ Sometimes, the ranges of u and v can go beyond (0,1). In such cases, "textur
 Many types of textures are mapped onto models. They are used for different purposes. Below are some of the more common maps and their uses.
 
 ![Maps](./images/maps.png)
+
 _Figure 2: Different types of maps_
 
 + Diffuse/Colour/Albedo maps: The standard texture that adds colour to a model
 + Normal maps: Instead of colour, normal maps represent shape by adding extra detail to a low-detail version of a model so that it simulates the same reflections as the high-detail (and computationally expensive) version. Hence, normal maps store data about how light reflects from a surface, where each pixel represents the light's direction
 
 ![Normal Map](./images/normalMap.jpg)
+
 _Figure 3: A normal mapped model (left), the mesh without the map (centre), and the normal map alone (right). Image courtesy of [PolyCount](http://wiki.polycount.com/wiki/Normal_map)_
 
 + Height maps: Height mapping (parallax mapping) is similar (but more complex and less performant) to normal mapping. Heightmaps define surfaces where the texture maps are responsible for rendering large bumps and protrusions.
