@@ -11,7 +11,7 @@ In the last session, we looked at [Models](https://docs.unity3d.com/Manual/model
 + [Shaders](https://docs.unity3d.com/Manual/Shaders.html) are small scripts that contain the algorithms for calculating the colour of each pixel
 + [Textures](https://docs.unity3d.com/Manual/Textures.html) are [bitmap](https://en.wikipedia.org/wiki/Bitmap) images that define the fine detail of a material's surface; think of them as images that are printed on a rubber sheet and stretched and pinned onto a mesh
 
-![Mesh and Material](docs/labs/images/meshAndMaterials.png)
+![Mesh and Material](./images/meshAndMaterials.png)
 _Figure 1: Left: a 3D polygon mesh of a player character. Right: the player mesh rendered with materials_
 
 [Rendering](https://docs.unity3d.com/Manual/render-pipelines.html) is the process by which models get displayed on a screen (two common rendering techniques are [raytracing and rasterisation](https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/) + an in-depth look at those techniques is beyond the scope of this module. Still, you can investigate them further, should you so wish).
