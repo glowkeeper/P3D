@@ -45,7 +45,7 @@ _Figure 3: A normal mapped model (left), the mesh without the map (centre), and 
 
 + Height maps: Height mapping (parallax mapping) is similar (but more complex and less performant) to normal mapping. Heightmaps define surfaces where the texture maps are responsible for rendering large bumps and protrusions.
 + Ambient Occlusion/AO map: These add extra shadow details to the model to simulate real-life shadowing more efficiently than computing the shadowing in real-time
-+ Metalness map: These maps store how shiny a surface is. They are used with physically based rendering (PBR) techniques to simulate realistic lighting scenarios more accurately
++ Metalness map: These maps store how shiny a surface is. They are used with [physically based rendering (PBR)](https://pbr-book.org/) techniques to simulate realistic lighting scenarios more accurately
 + Roughness/Gloss map: These add the look of 'roughness' to a texture, and they are also used in PBR scenarios
 
 ## Exercise
@@ -60,4 +60,5 @@ Apply materials to the modelling you did in the last lab.
 + [Normal Map](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html)
 + [Vertices](https://en.wikipedia.org/wiki/Vertex_(computer_graphics))
 + [Raytracing and Rasterisation](https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/)
++ [Physically based rendering (PBR)](https://pbr-book.org/)
 + [Coordinate Systems](../coordinateSystems.md)
