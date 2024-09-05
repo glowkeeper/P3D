@@ -48,9 +48,19 @@ _Figure 3: A normal mapped model (left), the mesh without the map (centre), and 
 + Metalness map: These maps store how shiny a surface is. They are used with [physically based rendering (PBR)](https://pbr-book.org/) techniques to simulate realistic lighting scenarios more accurately
 + Roughness/Gloss map: These add the look of 'roughness' to a texture, and they are also used in PBR scenarios
 
+## Skyboxes
+
+A skybox is another texture map. Technically, it is a [cube map](https://en.wikipedia.org/wiki/Cube_mapping).
+
+![Cube map](./images/skyboxExample.png)
+
+_Figure 4: a Skybox cube map_
+
+A skybox is a method of creating backgrounds that appear larger than they are. It does so by enclosing the scene in a cuboid, such that, for example, the sky, distant mountains, distant buildings, and other unreachable objects are projected onto the cube's faces, thus creating the illusion of distant 3D surroundings. 
+
 ## Exercise
 
-Apply materials to the modelling you did in the last lab.
+Apply a skybox and materials to the scene and models you created in the last lab.
 
 ## Links
 
@@ -58,6 +68,8 @@ Apply materials to the modelling you did in the last lab.
 + [Textures](https://docs.unity3d.com/Manual/Textures.html)
 + [Shaders](https://docs.unity3d.com/Manual/Shaders.html)
 + [Normal Map](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html)
++ [Cube Map](https://en.wikipedia.org/wiki/Cube_mapping)
++ [Using Skyboxes](https://docs.unity3d.com/Manual/skyboxes-using.html)
 + [Vertices](https://en.wikipedia.org/wiki/Vertex_(computer_graphics))
 + [Raytracing and Rasterisation](https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/)
 + [Physically based rendering (PBR)](https://pbr-book.org/)
