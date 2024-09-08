@@ -4,8 +4,6 @@ The goal if this session is to get you to add some scripting capability to your 
 
 ![Scripting](./images/scriptingIntro.jpg)
 
-_Scripting_
-
 ## Scripting
 
 Scripts unlock a lot of the potential of the Unity engine because they enable you to perform actions such as create graphical effects, control physical gameplay behaviour or react to user input.
