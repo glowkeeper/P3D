@@ -18,17 +18,17 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
 
- // Start is called before the first frame update
+    // Start is called before the first frame update
     void Start()
- {
+    {
+        
+    }
 
- }
-
- // Update is called once per frame
+    // Update is called once per frame
     void Update()
- {
-
- }
+    {
+        
+    }
 }
 ```
 
@@ -53,30 +53,28 @@ using UnityEngine;
 
 public class SpawnObjects : MonoBehaviour
 {
- [SerializeField] private GameObject spawnObject;
- [SerializeField] private Transform spawnPoint;
- [SerializeField] private int maxObjects;
+    [SerializeField] private GameObject spawnObject;
+    [SerializeField] private Transform spawnPoint;
+    [SerializeField] private int maxObjects;
 
-    private int numObjects;
+    private int numObjects; 
 
- 
-
- // Update is called once per frame
+    // Update is called once per frame
     void Update()
- {
+    {
         if (numObjects < maxObjects)
- {
-                    Spawn(numObjects);
-                    numObjects++;
- }  
+        {
+            Spawn(numObjects);
+            numObjects++;
+        }  
 
- }
+    }
 
     void Spawn(int num)
- {
-            GameObject mObjectClone = Instantiate(spawnObject, spawnPoint.position, Quaternion.identity) as GameObject;
-            mObjectClone.SetActive(true);
- }
+    {
+        GameObject mObjectClone = Instantiate(spawnObject, spawnPoint.position, Quaternion.identity) as GameObject;
+        mObjectClone.SetActive(true);
+    }
 }
 ```
 
@@ -137,38 +135,38 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
- // The GameObject to instantiate.
+    // The GameObject to instantiate.
     public GameObject entityToSpawn;
 
- // An instance of the ScriptableObject defined above.
+    // An instance of the ScriptableObject defined above.
     public SpawnManagerScriptableObject spawnManagerValues;
 
- // This will be appended to the name of the created entities and increment when each is created.
+    // This will be appended to the name of the created entities and increment when each is created.
     int instanceNumber = 1;
 
     void Start()
- {
+    {
             SpawnEntities();
- }
+    }
 
     void SpawnEntities()
- {
-            int currentSpawnPointIndex = 0;
+    {
+        int currentSpawnPointIndex = 0;
 
-            for (int i = 0; i < spawnManagerValues.numberOfPrefabsToCreate; i++)
- {
- // Creates an instance of the prefab at the current spawn point.
-                    GameObject currentEntity = Instantiate(entityToSpawn, spawnManagerValues.spawnPoints[currentSpawnPointIndex], Quaternion.identity);
+        for (int i = 0; i < spawnManagerValues.numberOfPrefabsToCreate; i++)
+        {
+            // Creates an instance of the prefab at the current spawn point.
+            GameObject currentEntity = Instantiate(entityToSpawn, spawnManagerValues.spawnPoints[currentSpawnPointIndex], Quaternion.identity);
 
- // Sets the name of the instantiated entity as the string defined in the ScriptableObject and then appends it with a unique number. 
-                    currentEntity.name = spawnManagerValues.prefabName + instanceNumber;
+            // Sets the name of the instantiated entity as the string defined in the ScriptableObject and then appends it with a unique number. 
+            currentEntity.name = spawnManagerValues.prefabName + instanceNumber;
 
- // Moves to the next spawn point index. If it goes out of range, it wraps back to the start.
-                    currentSpawnPointIndex = (currentSpawnPointIndex + 1) % spawnManagerValues.spawnPoints.Length;
+            // Moves to the next spawn point index. If it goes out of range, it wraps back to the start.
+            currentSpawnPointIndex = (currentSpawnPointIndex + 1) % spawnManagerValues.spawnPoints.Length;
 
-                    instanceNumber++;
- }
- }
+            instanceNumber++;
+        }
+    }
 }
 ```
 
