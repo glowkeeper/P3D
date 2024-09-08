@@ -98,7 +98,7 @@ Diegetic sound emanates directly from the action within the game; hence, it's so
 
 ### Non-diegetic
 
-Non-diegetic sound is audio that does not emanate directly from the action. It is used to create exaggerated effects that add to the drama.
+Non-diegetic sound is audio that does not emanate directly from the action; in other words, it's the type of sound characters in a game would not hear, but we players can. Audio designers use non-diegetic sound to create exaggerated effects that add to the drama.
 
 ## ​Gameplay
 

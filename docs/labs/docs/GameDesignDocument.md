@@ -84,11 +84,11 @@ Below is a description of the main audio components used in the game.
 
 ### Diegetic
 
-Kick sounds, the ball bouncing off the walls or posts, and the general din of the crowd.
+Kick sounds, the ball bouncing off the walls or posts, the general din of the crowd and Goal celebrations.
 
 ### Non-diegetic
 
-Goal celebrations.
+Synth effect on the player's shots.
 
 ## ​Gameplay
 
