@@ -8,7 +8,7 @@ _Scripting_
 
 ## Scripting
 
-Scripting is essential to Unity applications because scripts allow you to do many things, such as create graphical effects, control physical gameplay behaviour or react to user input.
+Scripts unlock a lot of the potential of the Unity engine because they enable you to perform actions such as create graphical effects, control physical gameplay behaviour or react to user input.
 
 Below is the basic script created by Unity whenever you _Create_, _C# Script_. It demonstrates a couple of essential features.
 
@@ -91,12 +91,12 @@ However, to explore the full power of Unity's scripting, you will probably have 
 
 Game Programming Patterns describes six patterns that a programmer might apply to a game:
 
-Command
-Flyweight
-Observer
-Prototype
-Singleton
-State
+1. Command
+2. Flyweight
+3. Observer
+4. Prototype
+5. Singleton
+6. State
 
 Below is a brief discussion of one or two of those patterns, but if you want to enter the game's world as a programmer, you should visit Bob Nystrom's site and have a read for yourself. 
 
