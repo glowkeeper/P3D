@@ -32,7 +32,7 @@ public class NewBehaviourScript : MonoBehaviour
 }
 ```
 
-[C#](https://docs.microsoft.com/en-us/dotnet/csharp/) is an object-oriented language featuring classes that you instantiate as objects (as and when required). The class _NewBehaviourScript_, above, inherits from Unity's [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html), which is a base class from which every Unity script inherits its functionality. _NewBehaviourScript_ overrides the _MonoBehaviour_ methods _Start_ and _Update_ - _Start_ is called when the object is first created (and before the first frame), and _Update_ is called once every frame render.
+[C#](https://docs.microsoft.com/en-us/dotnet/csharp/) is an object-oriented language featuring classes that you instantiate as objects (as and when required). The class _NewBehaviourScript_, above, inherits from Unity's [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html), which is a base class from which every Unity script inherits its functionality. _NewBehaviourScript_ overrides the _MonoBehaviour_ methods _Start_ and _Update_ - _Start_ is called when the object is first created (and before the first frame - it is common practice to put any initialisation of member variables here), and _Update_ is called once every frame render.
 
 _MonoBehaviour_ defines other behaviour, too - the one you will likely see most frequently is _FixedUpdate_, which Unity's physics system calls at a rate independent from the main thread's (rendering) frame rate. For example, imagine the physics engine is running at fifty calls per second, and the frame rate is running at twenty-five frames per second (FPS) - then _FixedUpdate_ will be called twice per frame. Therefore, it is bad practice to put physics calculations in _Update_ - they should go in _FixedUpdate_, instead (similarly, user input should go in _Update_, and not _FixedUpdate_.). Figure 1, below, shows a flowchart for MonoBehaviour.
 
@@ -55,7 +55,9 @@ public class SpawnObjects : MonoBehaviour
 {
     [SerializeField] private GameObject spawnObject;
     [SerializeField] private Transform spawnPoint;
-    [SerializeField] private int maxObjects;
+
+    [Range(0, 1000)]
+    [SerializeField] private int maxObjects = 1;
 
     private int numObjects; 
 
@@ -78,7 +80,7 @@ public class SpawnObjects : MonoBehaviour
 }
 ```
 
-Drag the script onto a GameObject and call that object _SpawnManager_. Next,  create a _Cube GameObject_ and drag that into the script's _Spawn Object_ field. Finally, add an empty GameObject _Spawn Point_ into the scene and add that to the script's _Spawn Point_ field. Set the _Max Objects_ field to 10. Press _Play_ - you should have ten more cubes at the _Spawn Point_ - congratulations! You have created a scripted scene!
+Drag the script onto a GameObject and call that object _SpawnManager_. Next,  create a _Cube GameObject_ and drag that into the script's _Spawn Object_ field. Finally, add an empty GameObject _Spawn Point_ into the scene and add that to the script's _Spawn Point_ field. Set the _Max Objects_ slider to 10. Press _Play_ - you should have ten more cubes at the _Spawn Point_ - congratulations! You have created a scripted scene!
 
 ## Design Patterns
 
