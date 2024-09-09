@@ -2,7 +2,7 @@
 
 This session aims to implement a particle system using [Visual Effects Graphs](https://unity.com/visual-effect-graph) in your scene.
 
-![The Genesis Effect](../images/genesisEffect.webp)
+![The Genesis Effect](./images/genesisEffect.webp)
 
 _Figure 1: The Genesis Effect_
 
