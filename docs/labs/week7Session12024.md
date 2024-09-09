@@ -2,7 +2,7 @@
 
 This session aims to introduce you to the use of AI in games.
 
-![Ai in Games](./images/aiGames.jpg)
+![AI in Games](./images/aiGames.jpg)
 
 Games use AI in many ways. AI can help create intelligent characters, perform procedural generation of levels, achieve game player modelling, perform texture upscaling, conduct cheat detection, and do natural language processing (NLP) for text-to-speech applications. And more besides. Below is a discussion of such uses.
 
