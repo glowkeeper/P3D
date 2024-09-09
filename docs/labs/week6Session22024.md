@@ -2,6 +2,8 @@
 
 The goal of this session is to have you implement a cut scene in your project.
 
+![Space Invaders Cutscene](./images/spaceInvaders.webp)
+
 ## Cutscenes
 
 A cutscene is a non-interactive sequence during a game. Cutscenes serve many and varied purposes; they might show conversations between characters, set the tone and create emotional connections, reward the player, introduce gameplay elements, show the effects of a player's actions, improve pacing or foreshadow the future. Consequently, they are an integral part of many games.
