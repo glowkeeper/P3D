@@ -34,7 +34,7 @@ Game AI is a subset of Symbolic AI. Game AI is much more predominant than machin
 
 For the second use of generating in-game content, there are Generative AI systems that perform pseudo-random procedural content generation using heuristics and applied rules and processes, and Deep Learning Super-Sampling (DLSS) systems that perform real-time rendering to improve the overall graphical quality of the game by upscaling images on a GPU.
 
-Finally, for modelling users, deep-learning AI systems are used for player matchmaking in some multiplayer online battle arena games.
+Finally, for the third application, modelling properties, deep-learning AI systems are used for player matchmaking in some multiplayer online battle arena games.
 
 ## Exercise
 
