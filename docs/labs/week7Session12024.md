@@ -8,7 +8,7 @@ Games use AI in many ways. AI can help create intelligent characters, perform pr
 
 ## AI
 
-Since its inception in the 1950s, AI has been delineated into two schools:
+Since its inception in the 1950s, AI has delineated into two schools:
 
 1. Symbolic AI, whereby an algorithm searches through a series of states to solve a specific problem
 2. Machine Learning, whereby a solution is sought by searching through existing data about a given problem. The system _learns_ the optimal solution through subsequent iterative passes through the data
