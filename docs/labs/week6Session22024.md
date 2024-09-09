@@ -2,7 +2,7 @@
 
 The goal of this session is to have you implement a cut scene in your project.
 
-![Space Invaders Cutscene](./images/spaceInvaders.webp)
+![Space Invaders Cutscene](./images/spaceInvaders.png)
 
 ## Cutscenes
 
