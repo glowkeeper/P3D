@@ -30,13 +30,13 @@ This session requires you to set up a [GitHub](https://github.com/) account (if 
 
 If you still need a [GitHub](https://github.com/) account, create one. It may also be beneficial (although not for this module) to access the [GitHub Student Developer Pack](https://education.github.com/pack), as it gives you free access to lots of resources and tools.
 
-Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). When creating the repository, you should tick the checkbox that adds a _README_ file to the repository (this initialises the repository, so you don't need to do that yourself later) and add a Unity-specific _.gitignore_ - this is very important! The _.gitignore_ file excludes the many files in the Unity project that will never change between machines, so they do not need to go under version control.
+Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). When creating the repository, you should tick the checkbox that adds a _README_ file (this initialises the repository, so you don't need to do that yourself later) and add a Unity-specific _.gitignore_ - this is very important! The _.gitignore_ file excludes the many files in the Unity project that will never change between machines, so they do not need to go under version control.
 
 You should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module. Eventually, you'll publish your coursework there so the Module Convenor can access it when they mark your work.
 
 ### Install the GitHub Pull Requests and Issues extension in VS Code
 
-To get started with the GitHub in VS Code, you'll need to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), create a GitHub account (see above), and install the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github).
+To get started with the GitHub in VS Code, you'll need to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), create a GitHub account (see above), and install the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github). Once all that's done, you can sign into GitHub using the _Accounts_ button in the bottom-left corner of the VS Code Window.
 
 #### Clone the Repository
 
