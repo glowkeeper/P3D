@@ -1,6 +1,6 @@
 # Week 1, Session 1 - Installing Unity and Integrating with GitHub
 
-The goal of this session is to get your environment set up so you can complete the rest of the Programming for 3D (P3D) module.
+This session aims to set up your environment so you can complete the rest of the Programming for 3D (P3D) module.
 
 ## GitHub and Version Control
 
@@ -18,7 +18,7 @@ This module will not explore the intricacies of branching and merging, but you c
 
 ## Unity Game Engine
 
-The [Unity](https://unity.com/) game engine and editor framework that gives you a system for designing and building interactive 2D and 3D applications and games. Unity allows you to create such environments using code and/or visual components you create in the editor, and you can export them to every major platform, including mobile and VR.
+The [Unity](https://unity.com/) game engine and editor framework gives you a system for designing and building interactive 2D and 3D applications and games. Unity allows you to create such environments using code and/or visual components you make in the editor, and you can export them to every major platform, including mobile and VR.
 
 During Programming for 3D, you will create a game.
 
@@ -30,7 +30,13 @@ This session requires you to set up a [GitHub](https://github.com/) account (if 
 
 If you still need a [GitHub](https://github.com/) account, create one. It may also be beneficial (although not for this module) to access the [GitHub Student Developer Pack](https://education.github.com/pack), as it gives you free access to lots of resources and tools.
 
-Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). You should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module. Eventually, you'll publish your coursework there so the Module Convenor can access it when they mark your work.
+Once you have a GitHub account, create a _private_ repository for your P3D work (you may wish to make it public later so that the repository forms part of your portfolio that you can show to potential employers). When creating the repository, you should tick the checkbox that adds a _README_ file to the repository (this initialises the repository, so you don't need to do that yourself later) and add a Unity-specific _.gitignore_ - this is very important! The _.gitignore_ file excludes the many files in the Unity project that will never change between machines, so they do not need to go under version control. 
+
+You should add the [Module Convenor](https://github.com/glowkeeper/Programmingfor3D#maintainer) as a collaborator to that repository (GitHub username _glowkeeper_) so they can support you throughout the module. Eventually, you'll publish your coursework there so the Module Convenor can access it when they mark your work.
+
+### Install the GitHub Pull Requests and Issues extension in VS Code
+
+To get started with the GitHub in VS Code, you'll need to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), create a GitHub account (see above), and install the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github).
 
 #### Clone the Repository
 
@@ -38,7 +44,7 @@ Before you _clone_ your GitHub repository locally, you must set up your GitHub u
 
 GitHub has some excellent online documentation for [Setting your username in Git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) and [Caching your GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git) - for the latter, you have a couple of options - choose one!
 
-Once you have your credentials set up, you should _clone_ your repository to your local hard drive. Below, you will create a Unity project in that repository and push your work back to GitHub.
+Once your credentials are set up, you should _clone_ your repository to your local hard drive. Below, you will create a Unity project in that repository and push your work back to GitHub.
 
 ### Unity
 
@@ -50,7 +56,7 @@ Now, you will create a Unity project and save it on GitHub.
 
 To do so, open Unity Hub, create a new project, and choose the 3D Sample Scene (HDRP) or the 3D Sample Scene (UDRP), which are the High Definition Render Pipeline and the Universal Render Pipeline, respectively. Store the project in a directory in your cloned repository - this could be any directory, but a good choice might be _src/yourProjectName_; you can name the project however you choose, but this project will form the basis of the rest of your work on this module, so choose the name wisely!
 
-**Before you push your work back up to GitHub**, you should fetch [P3D's _.gitignore_](https://github.com/glowkeeper/P3D/blob/main/src/unity/.gitignore) and put it in _src/yourProjectName_ - this excludes the many files in the Unity project that will never change between machines, so they do not need to go under version control. You will know if you've done this correctly because you should only have hundreds of files to push up to GitHub (and not thousands); if that's the case (and only if that's the case), you can [add](https://github.com/git-guides/git-add), [commit](https://github.com/git-guides/git-commit) and [push](https://github.com/git-guides/git-push) the changes in your local repository up to GitHub.
+**Before you push your work back up to GitHub**, you should move the _.gitignore_ file you added to the repository when it was created to _src/yourProjectName_. You will know if you've done this correctly because you should only have hundreds of files to push up to GitHub (and not thousands); if that's the case (**and only if that's the case**), you can [add](https://github.com/git-guides/git-add), [commit](https://github.com/git-guides/git-commit) and [push](https://github.com/git-guides/git-push) the changes in your local repository up to GitHub. Only do this if you do not have many thousands of files to push up to GitHub (because undoing that push is problematic).
 
 Congratulations - you are now all set for the rest of the module!
 
