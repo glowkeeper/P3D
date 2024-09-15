@@ -8,7 +8,7 @@ Below is the game's one-line pitch, genre, graphical perspective, target audienc
 
 ### ​Pitch
 
-_One-player shootout_ is a fun indoor football simulation.
+_One player shootout_ is a fun football game simulation._
 
 ### ​Genre/Theme
 
