@@ -12,10 +12,9 @@ The document should communicate the ideas in a manner that works for you or your
 
 ## Exercise
 
-Create your GDD! That will form the basis of the following lab (and the rest of the module), where you will pitch the ideas in your GDD to the moderator and begin planning to bring those ideas into being.  
+Create your GDD! That will form the basis of the following lab (and the rest of the module), where you will pitch the ideas in your GDD to the moderator and support and begin planning to bring those ideas into being. You can imagine creating any game, but the pitch may reduce the idea's scope since the concept has to be achievable in the timeframe. Furthermore, you must intend to model some structure or building, which should form the basis of your game.
 
 ## Links
-
 
 [Here is the GDD template](./docs/GameDesignDocumentTemplate.md) your moderator used to create ideas for the game he intends to build during P3D. And here is the [first draft of their GDD](./docs/GameDesignDocument.md). However, that template is not the only way to do it, so you should research and create something that works for you.
 
