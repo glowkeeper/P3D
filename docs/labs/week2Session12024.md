@@ -1,6 +1,6 @@
 # Week 2, Session 1 - Agile Project Management
 
-The goal of this session is to create the project plan you will use to plan your work on Programming for 3D.
+The goal of this session is to create the project board that you can use to plan your work on Programming for 3D.
 
 ## Agile
 
@@ -14,10 +14,6 @@ For Programming for 3D, you will use a stripped-back version of Agile via Kanban
 
 You should visit the _Project_ tab on your GitHub repository and set up the Kanban board that you will use to plan your lab sessions and, ultimately, manage the development of your coursework.
 
-### Project Board
-
-Now, you will set up the Kanban board that you will use to manage the rest of your work on Programming for 3D.
-
 1. Open a browser and go to your GitHub account. From the **Projects** tab, click on _New project_. Select _Board_, and _Create_. Name it howsoever you choose
 2. Create two new columns: 1. _Backlog_, and 2. _In Review_ and order them as in Figure 1
 3. Now you can add items to the Backlog (you could use your Game Design Document for this)
@@ -26,6 +22,7 @@ Now, you will set up the Kanban board that you will use to manage the rest of yo
 ![Kanban board](./images/kanbanBoard.png)
 
 _Figure 1: Kanban board_
+
 
 ## Links
 
