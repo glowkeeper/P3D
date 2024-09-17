@@ -29,5 +29,4 @@ You should visit the _Project_ tab on your GitHub repository and set up the Kanb
 - [Epics](https://www.atlassian.com/agile/project-management/epics)
 - [Ceremonies](https://www.atlassian.com/agile/scrum/ceremonies)
 - [Standups](https://www.atlassian.com/agile/scrum/standups)
-....
 - [Project Management Process](https://getnave.com/blog/project-management-process/)
