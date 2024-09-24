@@ -32,6 +32,7 @@ P3D has some dependencies.
 Links to P3D lab sessions will appear below.
 
 - [Week 1, Session 1](./docs/labs/week1Session12024.md)
+- [Week 1, Session 2](./docs/labs/week1Session22024.md)
 
 ## Assignment
 
