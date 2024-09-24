@@ -65,7 +65,7 @@ Obviously, the material above lacks the context (the lectures supporting the mat
 
 ## Maintainer
 
-[Dr Steve Huckle](https://glowkeeper.github.io/).
+[Dr Steve Huckle](https://huckle.studio/).
 
 ## License
 
