@@ -18,7 +18,7 @@ This module supports the university's [staff and student charter and guiding pri
 
 P3D is an applied module where you use [Unity](https://unity.com/) to learn how to build complex, interactive 3D environments. There, you will use [meshes](https://en.wikipedia.org/wiki/Polygon_mesh) to define the shape of objects in that environment, which you will [render](https://en.wikipedia.org/wiki/Rendering_(computer_graphics)) with [lighting](https://docs.unity3d.com/Manual/LightingOverview.html), [materials, textures, and shaders](https://docs.unity3d.com/530/Documentation/Manual/Shaders.html). You will also simulate real-world forces, such as gravity and collisions, using physics components, such as [rigid bodies](https://en.wikipedia.org/wiki/Rigid_body) and [colliders](https://docs.unity3d.com/Manual/CollidersOverview.html). You will introduce characters into that world and add sound and animations. And you will do some [scripting](https://docs.unity3d.com/Manual/ScriptingSection.html).
 
-A link to the welcome lecture will appear here.
+- [The Welcome Lecture](./docs/presentation/welcome.md)
 
 ## Dependencies
 

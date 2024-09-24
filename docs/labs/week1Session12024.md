@@ -60,6 +60,10 @@ To do so, open Unity Hub, create a new project, and choose the 3D Sample Scene (
 
 Congratulations - you are now all set for the rest of the module!
 
+## Lab Video
+
+[Integrating Unity with GitHub](https://youtu.be/sDMHpWAa4Os)
+
 ## Links
 
 - [git](https://git-scm.com/)

@@ -101,7 +101,7 @@ In other words, your coursework exposes you to _agile_ project management using 
 
 - - -
 
-You will be split into two groups - The intention is for one group to come to one of Tuesday's labs and the other to one of Wednesday's. You _can_ come along on both days, but you probably won't need to if you engage properly with the agile process!
+You will be split into two groups. The intention is for one group to come to one of Tuesday's labs and the other to one of Wednesday's. You _can_ come along on both days, but you probably won't need to if you engage properly with the agile process!
 
 - - -
 
