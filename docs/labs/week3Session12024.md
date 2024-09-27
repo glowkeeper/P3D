@@ -15,7 +15,7 @@ In the last session, we looked at [Models](https://docs.unity3d.com/Manual/model
 
 _Figure 1: Left: a 3D polygon mesh of a player character. Right: the player mesh rendered with materials_
 
-[Rendering](https://docs.unity3d.com/Manual/render-pipelines.html) is the process by which models get displayed on a screen (two common rendering techniques are [raytracing and rasterisation](https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/) + an in-depth look at those techniques is beyond the scope of this module. Still, you can investigate them further, should you so wish).
+[Rendering](https://docs.unity3d.com/Manual/render-pipelines.html) is the process by which models get displayed on a screen (two common rendering techniques are [raytracing and rasterisation](https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/); an in-depth look at those techniques is beyond the scope of this module. Still, you can investigate them further, should you so wish).
 
 Rendering relies on a close relationship between meshes, materials, shaders, and textures. Textures are applied to objects using materials, and materials use specialised graphics programs called shaders to render a texture onto the surface of the mesh. Unity's [standard shader](https://docs.unity3d.com/Manual/shader-StandardShader.html) is often a good choice as it is highly customisable and can render many surface types. However, there may be occasions where a custom [Shader Graph](https://docs.unity3d.com/Manual/shader-graph.html) or a [custom written shader](https://docs.unity3d.com/Manual/shader-writing.html) may be appropriate; examples could be if you are creating liquids or some highly-specialised artistic special effects.
 
@@ -56,11 +56,11 @@ A skybox is another texture map. Technically, it is a [cube map](https://en.wiki
 
 _Figure 4: a Skybox cube map_
 
-A skybox is a method of creating backgrounds that appear larger than they are. It does so by enclosing the scene in a cuboid, such that, for example, the sky, distant mountains, distant buildings, and other unreachable objects are projected onto the cube's faces, thus creating the illusion of distant 3D surroundings. 
+A skybox is a method of creating backgrounds that appear larger than they are. It does so by enclosing the scene in a cuboid, such that, for example, the sky, distant mountains, distant buildings, and other unreachable objects are projected onto the cube's faces, thus creating the illusion of distant 3D surroundings.
 
 ## Exercise
 
-Apply a skybox and materials to the scene and models you created in the last lab.
+Apply materials to the scene and models you created in the last lab. Add a skybox, too.
 
 ## Links
 
