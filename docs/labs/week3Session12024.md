@@ -73,4 +73,5 @@ Apply materials to the scene and models you created in the last lab. Add a skybo
 + [Vertices](https://en.wikipedia.org/wiki/Vertex_(computer_graphics))
 + [Raytracing and Rasterisation](https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/)
 + [Physically based rendering (PBR)](https://pbr-book.org/)
++ [Graphics Background](../graphicsBackground.md)
 + [Coordinate Systems](../coordinateSystems.md)
