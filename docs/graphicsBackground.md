@@ -14,7 +14,7 @@ Ray tracing is a staple in films - indeed, in the [useful links](#useful-links) 
 
 ## Surface Normals and Anti-aliasing
 
-[Normals](https://en.wikipedia.org/wiki/Normal_(geometry)) are rays that are perpendicular to an object. In three dimensions, the figure below shows that a surface normal at point P is a vector perpendicular to the tangent plane of the surface at point P. A normal is used in 3D graphics for shading, as it determines a surface's orientation towards a light source.
+[Normals](https://en.wikipedia.org/wiki/Normal_(geometry)) are rays that are perpendicular to an object. In three dimensions, the figure below shows that a surface normal at point P is a [vector](./vectors.md) perpendicular to the tangent plane of the surface at point P. A normal is used in 3D graphics for shading, as it determines a surface's orientation towards a light source.
 
 ![](./images/normal.png)
 
@@ -68,18 +68,17 @@ The sphere above is dark because it has not been [gamma corrected](https://en.wi
 
 For example, the rejection algorithm, described above, produces random points in the unit sphere that are offset along the surface normal. That produces a probability function that favours rays whose directions are close to the normal. The outcome is that light which arrives at shallow angles and which spreads over a larger area contributes less to the final colour. However, [true Lambertian reflection](https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials/truelambertianreflection) maintains a uniform distribution for high probability rays that are scattered close to the normal. Hence, true Lambertian reflection is achieved by normalising points inside a diffuse material.
 
-![](./images/lambertianSphere.png)
+![Lambertian Sphere](./images/lambertianSphere.png)
 
 ## Useful Links
 
 + [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
-+ [Vectors](../vectors.pdf)
 + [Rendering 101](https://www.khanacademy.org/computing/pixar/rendering/rendering1/a/start-here-rendering)
-+ [Introduction to Animation](https://www.khanacademy.org/computing/pixar/animate/ball/a/start-here-animation)
 + [What is ray tracing? The games, the graphics cards and everything else you need to know](https://www.techradar.com/uk/news/ray-tracing)
-+ [Advanced Ray Tracing](../advancedRayTracing.pdf)
 + [Basic Antialiasing in RSL](https://renderman.pixar.com/resources/RenderMan_20/basicAntialiasing.html)
 + [Anti Aliasing using OpenGL](https://learnopengl.com/Advanced-OpenGL/Anti-Aliasing)
 + [Light, Colour, Colour Spaces and Images](../lightAndColourPerception.pdf)
 + [Materials - Diffuse, Reflection, Transparency](https://www.suplugins.com/podium/help/materials-drt.php)
 + [Ray Tracing - Diffuse Materials](https://viclw17.github.io/2018/07/20/raytracing-diffuse-materials/)
++ [Advanced Ray Tracing](./priorCourse/advancedRayTracing.pdf)
++ [Vectors](./vectors.pdf)
