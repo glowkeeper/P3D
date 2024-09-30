@@ -4,7 +4,7 @@ The goal of this session is to create the project board that you can use to plan
 
 ![Kanban board](./images/kanbanBoard.png)
 
-_Figure 1: Kanban board_
+_Figure 1: Project Kanban board for [mark.education](https://mark.education/)_
 
 ## Agile
 
