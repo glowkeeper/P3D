@@ -45,8 +45,8 @@ Use ProBuilder (or a 3D modelling tool of your choice) to start bringing some of
 
 ## Lab Video
 
-[3D Modelling](https://youtu.be/5IA02lihG4U?feature=shared)
-[Bonus Extra - Terrain](https://youtu.be/5IA02lihG4U?feature=shared)
+- [3D Modelling](https://youtu.be/5IA02lihG4U?feature=shared)
+- [Bonus Extra - Terrain](https://youtu.be/5IA02lihG4U?feature=shared)
 
 ## Links
 
