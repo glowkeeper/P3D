@@ -43,6 +43,10 @@ However, please note that it is beyond the scope of this module to support exter
 
 Use ProBuilder (or a 3D modelling tool of your choice) to start bringing some of the ideas in your GDD to life! Start with the one absolute necessity specified for the GDD - your building.
 
+## Lab Video
+
+[3D Modelling](https://youtu.be/5IA02lihG4U?feature=shared)
+
 ## Links
 
 - [Models](https://docs.unity3d.com/Manual/models.html)
