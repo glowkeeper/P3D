@@ -23,6 +23,10 @@ You should visit the _Project_ tab on your GitHub repository and set up the Kanb
 3. Next, you should link the P3D GitHub repository that you created in the first lab to this Project. To do so, open the repository, click on the _Project_ tab, and _Link Project_. After the repositoy and project are linked, you will be able to _Convert to Issue_ your tasks.
 4. When you decide (with your Project Manager- the Module Convenor) that you plan on working on the item in the current sprint, you will move that item into the _Ready_ column. Once you start working on the item, it moves into the _In progress_ column. Once you feel it's done, move it into the _In review_ column - you will review that item in the weekly sprint review that you have with your Project Manager; if they agree the item is done, it will move into the _Done_ column; otherwise, it will move back into the _Backlog_ or _Ready_ column. In that sprint review meeting, you will also decide on the items you will work on during the next sprint. This process will continue week-by-week until you have completed your (hopefully excellent!) coursework
 
+## Lab Video
+
+[Agile Project Management](https://youtu.be/hAYuZlimhOw?feature=shared)
+
 ## Links
 
 - [Agile project management](https://www.atlassian.com/agile/project-management)
