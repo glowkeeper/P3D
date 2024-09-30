@@ -2,7 +2,7 @@
 
 The goal of this session is to create the project board that you can use to plan your work on Programming for 3D.
 
-![Kanban board](./images/kanbanBoard.png)
+![Kanban board](./images/markKanbanBoard.png)
 
 _Figure 1: Project Kanban board for [mark.education](https://mark.education/)_
 
