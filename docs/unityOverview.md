@@ -1,8 +1,8 @@
 # Getting to know the Unity 3D Editor
 
-![The Editor Window](./images/unityOverviewImage1.png)
-
 The organisation of the main windows might be slightly different, but you should have several key windows:
+
+![The Editor Window](./images/unityOverviewImage1.png)
 
 The _Scene_ View is your interactive view into the world you are creating.
 
