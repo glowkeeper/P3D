@@ -6,7 +6,7 @@ The organisation of the main windows might be slightly different, but you should
 
 The _Scene_ View is your interactive view into the world you are creating.
 
-The _Game_ View is rendered from the Camera(s) in your game **if you make changes in Game view these won’t be saved!**.
+The _Game_ View is rendered from the Camera(s) in your game. _Note of caution_: **if you make changes in the Game view these won’t be saved!**
 
 The _Hierarchy_ window contains a list of every GameObject in the current Scene.
 
