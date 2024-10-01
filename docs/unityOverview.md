@@ -1,6 +1,6 @@
 # Getting to know the Unity 3D Editor
 
-![The Editor Window](./images/unityOverviewimage2.png)
+![The Editor Window](./images/unityOverviewImage2.png)
 
 The organisation of the main windows might be slightly different, but you should have several key windows:
 
