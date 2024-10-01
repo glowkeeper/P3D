@@ -70,4 +70,4 @@ You should have something like this (the objects have been coloured to make them
 
 ![Apply Material](./images/unityOverviewimage10.png)
 
-You might wish to complete lessons 1.1 to 1.4 of [Unity 1 - Player controlLinks to an external site.](https://learn.unity.com/project/unit-1-driving-simulation?missionId=5f71fe63edbc2a00200e9de0&pathwayId=5f7e17e1edbc2a5ec21a20af&contentId=5f7229b2edbc2a001f834db7).
+You might wish to complete lessons 1.1 to 1.4 of [Unity 1 - Player control](https://learn.unity.com/project/unit-1-driving-simulation?missionId=5f71fe63edbc2a00200e9de0&pathwayId=5f7e17e1edbc2a5ec21a20af&contentId=5f7229b2edbc2a001f834db7).
