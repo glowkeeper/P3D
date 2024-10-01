@@ -66,7 +66,7 @@ Now push play and the cube will drop under the influence of gravity till it hits
 
 4. Try adding a cube that the sphere will hit to deflect its movement. Note you can change the dimension of the cube to make it easier to hit.
 
-You should have something like this (I've coloured the objects to make them easier to see).
+You should have something like this (the objects have been coloured to make them easier to see).
 
 ![Apply Material](./images/unityOverviewimage10.png)
 
