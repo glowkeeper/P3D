@@ -68,7 +68,7 @@ We have added the Debug command here to check if the Jump action is working. Thi
 
 Save the script and run the project. When you push the space bar you should get the following in the Console window:
 
-![Console](./images/unityFundamentalsimage9.png)
+![Console](./images/unityFundamentalsimage10.png)
 
 Ultimately we are going to get the ball to jump, but let's do something simpler first. Below the Debug line add the code: 
 
@@ -123,7 +123,7 @@ public class myBall : MonoBehaviour
 
 Save the script and then play the scene and the ball should turn blue and jump when you press the space bar. 
 
-![Play the Scene](./images/unityFundamentalsimage10.png)
+![Play the Scene](./images/unityFundamentalsimage11.png)
 
 What we have done here is very simple, but hopefully you get the idea of applying a force to a _RigidBody_ to move it. You can play around with the Z value, but it is never ideal to hard code values like this and you will notice if you repeatedly hit the spacebar the ball carries on going up. Also we would want to do something with the x and y values in a real game.  
 
