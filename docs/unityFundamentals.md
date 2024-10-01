@@ -2,43 +2,43 @@
 
 Create a new project called "JumpUp". Add a plane and call it "ground" and add a sphere and call it "ball".
 
-![Ball and Plane](docs/images/unityFundamentalsimage1.png)
+![Ball and Plane](./images/unityFundamentalsimage1.png)
 
 Add a _RigidBody_ to your ball. When you press play the ball should drop on to the ground and stop.
 
 Now we will use the Unity Input System to make the ball do something. Click menu: Window > Package Manager then Select "Packages: Unity Registry" and then "Input System" package from the list. Click Install (top right) and then "Yes" on the warning message. Your Unity project will close and restart.
 
-![Input System](docs/images/unityFundamentalsimage2.png)
+![Input System](./images/unityFundamentalsimage2.png)
 
 Create an empty folder in your Assets folder and call it "Input".
 
-![Input Folder](docs/images/unityFundamentalsimage3.png)
+![Input Folder](./images/unityFundamentalsimage3.png)
 
 By default the icon is an outline as the folder is currently empty. Double click the folder and then use the Project create Menu to create an "Input Actions" and call this myControl.
 
-![Input Action](docs/images/unityFundamentalsimage4.png)
+![Input Action](./images/unityFundamentalsimage4.png)
 
 Double click on the myControl icon to open the input actions dialog.
 
-![Input Actions Dialogue](docs/images/unityFundamentalsimage5.png)
+![Input Actions Dialogue](./images/unityFundamentalsimage5.png)
 
 Click on the + next to Action Maps to create a new map and then rename the Action to "Jump".
 
-![Actions Map](docs/images/unityFundamentalsimage6.png)
+![Actions Map](./images/unityFundamentalsimage6.png)
 
 This is the Jump action, but we need to assign it to some kind of control input action - let's use the spacebar. Click on the small down arrow next to the + sign for Jump and select "add binding". Then click on the triangle to the right of Path and select "Keyboard".
 
-![Control Action](docs/images/unityFundamentalsimage7.png)
+![Control Action](./images/unityFundamentalsimage7.png)
 
 If you now click on the "Listen" button Unity will listen for an input. Hit the space bar.
 
-![Spacebar Action](docs/images/unityFundamentalsimage8.png)
+![Spacebar Action](./images/unityFundamentalsimage8.png)
 
 Click on "Space [Keyboard]" and then save the asset by clicking the "Save Asset" tab (above where you have named the action Jump in the window).
 
 That is the input system set up, we now need to add it to the ball. Select the ball in the Hierarchy so that it appears in the inspector window and "add component". Select "Input" then "PlayerInput". Now drag the myControl action asset on to the Actions box in the Player Input component. 
 
-![player Input](docs/images/unityFundamentalsimage9.png)
+![player Input](./images/unityFundamentalsimage9.png)
 
 We now need to create a script to do something.  Before creating a script launch VisualStudio from the software hub on the desktop.  
 
@@ -68,7 +68,7 @@ We have added the Debug command here to check if the Jump action is working. Thi
 
 Save the script and run the project. When you push the space bar you should get the following in the Console window:
 
-![Console](docs/images/unityFundamentalsimage9.png)
+![Console](./images/unityFundamentalsimage9.png)
 
 Ultimately we are going to get the ball to jump, but let's do something simpler first. Below the Debug line add the code: 
 
@@ -123,7 +123,7 @@ public class myBall : MonoBehaviour
 
 Save the script and then play the scene and the ball should turn blue and jump when you press the space bar. 
 
-![Play the Scene](docs/images/unityFundamentalsimage10.png)
+![Play the Scene](./images/unityFundamentalsimage10.png)
 
 What we have done here is very simple, but hopefully you get the idea of applying a force to a _RigidBody_ to move it. You can play around with the Z value, but it is never ideal to hard code values like this and you will notice if you repeatedly hit the spacebar the ball carries on going up. Also we would want to do something with the x and y values in a real game.  
 
