@@ -1,12 +1,12 @@
 # Unity 3D Fundamentals
 
-Create a new project called "JumpUp". Add a plane and call it "ground" and add a sphere and call it "ball".
+Create a new project called "JumpUp". Add a plane and call it "ground", and add a sphere and call it "ball".
 
 ![Ball and Plane](./images/unityFundamentalsimage1.png)
 
 Add a _RigidBody_ to your ball. When you press play the ball should drop on to the ground and stop.
 
-Now we will use the Unity Input System to make the ball do something. Click menu: Window > Package Manager then Select "Packages: Unity Registry" and then "Input System" package from the list. Click Install (top right) and then "Yes" on the warning message. Your Unity project will close and restart.
+Now use the Unity Input System to make the ball do something. Click menu: Window > Package Manager then Select "Packages: Unity Registry" and then "Input System" package from the list. Click Install (top right) and then "Yes" on the warning message. Your Unity project will close and restart.
 
 ![Input System](./images/unityFundamentalsimage2.png)
 
@@ -36,19 +36,19 @@ If you now click on the "Listen" button Unity will listen for an input. Hit the 
 
 Click on "Space [Keyboard]" and then save the asset by clicking the "Save Asset" tab (above where you have named the action Jump in the window).
 
-That is the input system set up, we now need to add it to the ball. Select the ball in the Hierarchy so that it appears in the inspector window and "add component". Select "Input" then "PlayerInput". Now drag the myControl action asset on to the Actions box in the Player Input component. 
+That is the input system set up. You now need to add it to the ball. Select the ball in the Hierarchy so that it appears in the inspector window and "add component". Select "Input" then "PlayerInput". Now drag the myControl action asset on to the Actions box in the Player Input component.
 
 ![player Input](./images/unityFundamentalsimage9.png)
 
-We now need to create a script to do something.  Before creating a script launch VisualStudio from the software hub on the desktop.  
+You now need to create a script to make the ball do something. You should launch Visual Studio Code so that you're ready to write the script.  
 
-Now go back to Unity and create a new script using the add component button on the Ball object and call it "myBall". Open the script by double clicking on the script in the assets folder and selecting to launch it in VisualStudio.  
+Now go back to Unity and create a new script using the add component button on the Ball object and call it "myBall". Open the script by double clicking on the script in the assets folder. It should load in Visual Studio Code.  
 
-Add the Input System by adding the following line at the top of your script: 
+Add the Input System by adding the following line at the top of your script:
 
 `using UnityEngine.InputSystem;`
 
-By default you have already created a method that is called when we hit the space bar called OnJump(). You associated this method with the Jump action by using this pattern to name it: 
+By default you have already created a method that is called when we hit the space bar called `OnJump()`. You associated this method with the Jump action by using this pattern to name it:
 
 `public void On[Action Name Goes Here]().`
 
@@ -64,7 +64,7 @@ void OnJump()
 } 
 ```
 
-We have added the Debug command here to check if the Jump action is working. This outputs the words "Jump Pressed" to the Console window. 
+You have added the Debug command here to check if the Jump action is working. This outputs the words "Jump Pressed" to the Console window.
 
 Save the script and run the project. When you push the space bar you should get the following in the Console window:
 
@@ -76,15 +76,15 @@ Ultimately we are going to get the ball to jump, but let's do something simpler 
 
 Save the script and play. This line assigns the colour blue to the _GameObject_ to which the script is attached. So your ball should turn blue. 
 
-OK so now we need to make the ball actually jump. In the [Unity 1 - Player control](https://learn.unity.com/project/unit-1-driving-simulation?missionId=5f71fe63edbc2a00200e9de0&pathwayId=5f7e17e1edbc2a5ec21a20af&contentId=5f7229b2edbc2a001f834db7) tutorial, a `transform.Translate` and `transform.Rotate` wer used to move the _GameObject_. This is straightforward, but not always ideal - instead, you should use _forces_. In Unity, you apply forces to a _RigidBody_. We already have a _RigidBody_ added to our ball, so let's add a reference to that in the script. Add the following line after the opening { for the myBall class. 
+OK so now you need to make the ball actually jump. In the [Unity 1 - Player control](https://learn.unity.com/project/unit-1-driving-simulation?missionId=5f71fe63edbc2a00200e9de0&pathwayId=5f7e17e1edbc2a5ec21a20af&contentId=5f7229b2edbc2a001f834db7) tutorial, a `transform.Translate` and `transform.Rotate` were used to move the _GameObject_. This is straightforward, but not always ideal - instead, you should use _forces_ so that you deploy the Unity physics engine. In Unity, you apply forces to a _RigidBody_. We already have a _RigidBody_ added to our ball, so let's add a reference to that in the script. Add the following line after the opening `{` for the myBall class:
 
 `private Rigidbody rb;`
 
-Now we need to assign the rb variable. In the Start() method add the following: 
+Now you need to assign the `rb` variable. In the `Start()` method add the following:
 
 `rb = GetComponent<Rigidbody>();`
 
-_rb_ is now associated with the _RigidBody_ of the ball GameObject. We can now apply a force to it to get it to move. Add the following code to your OnJump() method: 
+`rb` is now associated with the _RigidBody_ of the ball _GameObject_. You can now apply a force to it to get it to move. Add the following code to your OnJump() method:
 
 `rb.AddForce(0.0f, 300.0f, 0.0f);`
 
@@ -125,6 +125,6 @@ Save the script and then play the scene and the ball should turn blue and jump w
 
 ![Play the Scene](./images/unityFundamentalsimage11.png)
 
-What we have done here is very simple, but hopefully you get the idea of applying a force to a _RigidBody_ to move it. You can play around with the Z value, but it is never ideal to hard code values like this and you will notice if you repeatedly hit the spacebar the ball carries on going up. Also we would want to do something with the x and y values in a real game.  
+What you have done here is very simple, but hopefully you get the idea of applying a force to a _RigidBody_ to move it. You can play around with the Z value, but it is never ideal to hard code values like this and you will notice if you repeatedly hit the spacebar the ball carries on going up. Also, you would want to do something with the x and y values in a real game.  
 
-The [Unity Roll-a-ball tutorial](https://learn.unity.com/tutorial/setting-up-the-game?uv=2020.2&projectId=5f158f1bedbc2a0020e51f0d) is a nice introduction in how to move rigidbodies in a simple game.  Create a 3D Core project and call it  "Rollaball" like you did with "JumpUp" above and save it in your GameDev folder. Now follow the Roll-a-Ball tutorial.
+The [Unity Roll-a-ball tutorial](https://learn.unity.com/tutorial/setting-up-the-game?uv=2020.2&projectId=5f158f1bedbc2a0020e51f0d) is a nice introduction in how to move rigidbodies in a simple game. If you want to do that, create a 3D Core project and call it  "Rollaball" like you did with "JumpUp" above. Now follow the Roll-a-Ball tutorial.
