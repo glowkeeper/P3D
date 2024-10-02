@@ -42,6 +42,11 @@ A link to the P3D assignment will appear here.
 
 ## Background Material
 
+Below are a couple of useful tutorials that will help those new to Unity get started:
+
+- [Getting to know the Unity 3D Editor](./docs/unityOverview.md)
+- [Unity 3D Fundamentals](./docs/unityFundamentals.md)
+
 As you immerse yourself in the 3D programming space, you may wish to deepen your knowledge by grasping some of the theoretical background underpinning the work you do. To help get you started, your [Module Convenor](#maintainer) has collated some theory:
 
 - [Graphics Background](./docs/graphicsBackground.md)
