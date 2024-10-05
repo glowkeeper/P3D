@@ -18,7 +18,7 @@ Unity models direct and indirect light - to get realistic effects, you must comb
 
 You've already been introduced to ambient occlusion maps, which are textures that add extra shadow details to models. You can also apply ambient occlusion while lighting, enabling you to simulate the soft shadows on nearby surfaces. These surfaces occlude (block out) ambient light, so they appear darker.
 
-## Modelling Light
+## Computing Light
 
 Unity uses [realtime global illumination](https://docs.unity3d.com/Manual/realtime-gi-using-enlighten.html) and [baked lighting](https://docs.unity3d.com/Manual/LightMode-Baked.html) to model direct and indirect light.
 
@@ -38,11 +38,7 @@ The Lighting Mode determines the behavior of any scene lighting that uses the [L
 
 ### Light Mapping
 
-Lightmapping is the process of pre-calculating the brightness of an object's surface and storing the result in a texture called a lightmap. Lightmaps can include both direct and indirect light, and the shader of an object's material can combine them with other surface maps, such as albedo (colour) and normals (perpendicular rays).
-
-### Volumes
-
-Volumes allow you to create different effects on the scene cameras - these could be post-processing effects (think of post-processing as something that happens _after_ everything else has been rendered), shadows, clouds, fog, lighting and many more. Volumes can be _Global_, whose settings are applied to all the scene cameras, no matter where they are, or _Local_, whose settings are applied only to the cameras within the local zone of influence.
+Lightmapping is the process of pre-calculating the brightness of an object's surface and storing the result in a texture called a _lightmap_. Lightmaps can include both direct and indirect light, and the shader of an object's material can combine them with other surface maps, such as albedo (colour) and normals (perpendicular rays).
 
 ## Types of Lights
 
@@ -52,6 +48,10 @@ Unity has different types of light components that you can apply to GameObjects:
 - Spot Light: A light that's located at a point in the scene and emits light in a cone shape, making them useful for artificial light sources such as flashlights, car headlights and torches 
 - Directional Light: A light that's located infinitely far away and emits light in one direction only, making them useful for representing large, distant sources of light, such as the sun or the moon
 - Area Light: A light that's defined by a rectangle or disc and emits light in all directions uniformly across its surface area but only from one side of the rectangle or disc, making them useful for creating a realistic street light
+
+## Volumes
+
+Volumes allow you to create different effects on the scene cameras - these could be post-processing effects (think of post-processing as something that happens _after_ everything else has been rendered), shadows, clouds, fog, lighting and many more. Volumes can be _Global_, whose settings are applied to all the scene cameras, no matter where they are, or _Local_, whose settings are applied only to the cameras within the local zone of influence.
 
 ## Exercise
 
