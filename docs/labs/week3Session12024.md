@@ -4,7 +4,7 @@ The goal of this session is to add some materials to the modelling you did in th
 
 ## Materials, Textures and Shaders
 
-In the last session, we looked at [Models](https://docs.unity3d.com/Manual/models.html), which are files that contain various data, including meshes, materials and textures.
+In the last session, we looked at [Models](https://docs.unity3d.com/Manual/models.html), which are files that contain various data, including meshes, materials and textures.
 
 + [Meshes](https://docs.unity3d.com/Manual/mesh.html) are a graphics primitive that defines the shape of an object
 + [Materials](https://docs.unity3d.com/Manual/Materials.html) define the properties of the surface of an object. They include references to textures and specify how those textures are tiled and coloured
@@ -21,12 +21,12 @@ Rendering relies on a close relationship between meshes, materials, shaders, and
 
 ## UV Mapping
 
-The process of applying textures to meshes is known as "UV Mapping", where "UV" refers to the texture coordinates, called [texels](https://en.wikipedia.org/wiki/Texel_(graphics)), which use the coordinates (u, v) in 2D texture space and are named u and v to avoid naming collisions with the axis of a 3D world space: x,y,z. To know more about such coordinates, please refer to [coordinate systems](../coordinateSystems.md).
+The process of applying textures to meshes is known as "UV Mapping", where "UV" refers to the texture coordinates, called [texels](https://en.wikipedia.org/wiki/Texel_(graphics)), which use the coordinates (u, v) in 2D texture space and are named u and v to avoid naming collisions with the axis of a 3D world space: x,y,z. To know more about such coordinates, please refer to [coordinate systems](../coordinateSystems.md).
 
-When a textured model is rendered, the u,v coordinates of the texture are mapped to the [vertices](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)) of the model.
-By convention, (u,v) of (0,0) corresponds to the bottom-left corner of the texture, and (u,v) of (1,1) – to the top-right.
+When a textured model is rendered, the u,v coordinates of the texture are mapped to the [vertices](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)) of the model.
+By convention, (u,v) of (0,0) corresponds to the bottom-left corner of the texture, and (u,v) of (1,1) – to the top-right.
 
-Sometimes, the ranges of u and v can go beyond (0,1). In such cases, "texture addressing mode" is applied, which describes how to extend the texture beyond its original size. Well-known modes are "wrap", "mirror", "clamp", and "border colour".
+Sometimes, the ranges of u and v can go beyond (0,1). In such cases, "texture addressing mode" is applied, which describes how to extend the texture beyond its original size. Well-known modes are "wrap", "mirror", "clamp", and "border colour".
 
 ## Texture Mapping Types
 
@@ -43,7 +43,7 @@ _Figure 2: Different types of maps_
 
 _Figure 3: A normal mapped model (left), the mesh without the map (centre), and the normal map alone (right). Image courtesy of [PolyCount](http://wiki.polycount.com/wiki/Normal_map)_
 
-+ Height maps: Height mapping (parallax mapping) is similar (but more complex and less performant) to normal mapping. Heightmaps define surfaces where the texture maps are responsible for rendering large bumps and protrusions.
++ Height maps: Height mapping (parallax mapping) is similar (but more complex and less performant) to normal mapping. Heightmaps define surfaces where the texture maps are responsible for rendering large bumps and protrusions.
 + Ambient Occlusion/AO map: These add extra shadow details to the model to simulate real-life shadowing more efficiently than computing the shadowing in real-time
 + Metalness map: These maps store how shiny a surface is. They are used with [physically based rendering (PBR)](https://pbr-book.org/) techniques to simulate realistic lighting scenarios more accurately
 + Roughness/Gloss map: These add the look of 'roughness' to a texture, and they are also used in PBR scenarios
@@ -56,7 +56,7 @@ A skybox is another texture map. Technically, it is a [cube map](https://en.wiki
 
 _Figure 4: a Skybox cube map_
 
-A skybox is a method of creating backgrounds that appear larger than they are. It does so by enclosing the scene in a cuboid, such that, for example, the sky, distant mountains, distant buildings, and other unreachable objects are projected onto the cube's faces, thus creating the illusion of distant 3D surroundings.
+A skybox is a method of creating backgrounds that appear larger than they are. It does so by enclosing the scene in a cuboid, such that, for example, the sky, distant mountains, distant buildings, and other unreachable objects are projected onto the cube's faces, thus creating the illusion of distant 3D surroundings.
 
 ## Exercise
 
