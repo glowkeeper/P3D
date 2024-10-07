@@ -64,7 +64,7 @@ Apply materials to the scene and models you created in the last lab. Add a skybo
 
 ## Lab Video
 
-+ [Materials](https://youtu.be/zgkMr_bnTAY)
++ [Materials, Textures and Shaders](https://youtu.be/zgkMr_bnTAY)
 + [Bonus Extra - Shader Graphs](https://youtu.be/KlZujd4Z4Xs)
 
 ## Links
