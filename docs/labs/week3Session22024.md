@@ -57,6 +57,10 @@ Volumes allow you to create different effects on the scene cameras - these could
 
 Add lighting to your scene! You could add some global volumes that affect the lighting of your whole scene, and play around with a directional light so that your building's shadows appear cast by moonlight or brightly lit by a sun that's directly overhead. Also, add local volumes to create different effects in different parts of your scenes.
 
+## Lab Video
+
+[Lighting](https://youtu.be/dGB9zAX0jCg)
+
 ## Links
 
 - [Unity Lighting](https://docs.unity3d.com/Manual/Lighting.html)

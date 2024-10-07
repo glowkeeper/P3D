@@ -62,6 +62,11 @@ A skybox is a method of creating backgrounds that appear larger than they are. I
 
 Apply materials to the scene and models you created in the last lab. Add a skybox, too.
 
+## Lab Video
+
++ [Materials](https://youtu.be/zgkMr_bnTAY)
++ [Bonus Extra - Shader Graphs](https://youtu.be/KlZujd4Z4Xs)
+
 ## Links
 
 + [Materials](https://docs.unity3d.com/Manual/Materials.html)
