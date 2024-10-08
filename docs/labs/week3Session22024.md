@@ -33,7 +33,7 @@ However, be careful turning on baked lighting until you get near to releasing yo
 The Lighting Mode determines the behavior of any scene lighting that uses the [Lighting Settings Asset](https://docs.unity3d.com/Manual/class-LightingSettings.html). The available modes are:
 
 - _Shadowmask_ combines real-time direct lighting with baked indirect lighting. It supports baked shadows for distant GameObjects (with Shadow masks) and blends them automatically with real-time shadows (Shadow maps). _Shadowmask_ is the most realistic. It is the most resource-intensive mode.
- _Baked Indirect_ combines real-time direct lighting with baked indirect lighting. This mode provides real-time shadowing and offers realistic lighting and reasonable shadow fidelity
+- _Baked Indirect_ combines real-time direct lighting with baked indirect lighting. This mode provides real-time shadowing and offers realistic lighting and reasonable shadow fidelity
 - _Subtractive_ provides baked direct and indirect lighting. It renders direct real-time shadows for one Directional Light only. The results aren't particularly realistic, but that might be the styling you're after! It is the most performant
 
 ### Light Mapping
