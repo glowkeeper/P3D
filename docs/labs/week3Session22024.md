@@ -59,7 +59,7 @@ Add lighting to your scene! You could add some global volumes that affect the li
 
 ## Lab Video
 
-[Lighting](https://youtu.be/dGB9zAX0jCg)
+[Lighting](https://youtu.be/xGSVlCrbbHw)
 
 ## Links
 
