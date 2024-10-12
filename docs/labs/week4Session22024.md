@@ -1,4 +1,4 @@
-# Week 5, Session 1 - Scripting
+# Week 4, Session 2 - Scripting
 
 The goal of this session is to get you to add some scripting capability to your scene.
 
@@ -44,7 +44,7 @@ Unity defaults to a _Time_ _Fixed Timestep_ of 0.02, which translates to _FixedU
 
 ## A Simple Script
 
-You can write some very simple scripts and still do interesting things in Unity (so don't worry if you do not have much/any programming experience). For example, here's a simple script that spawns objects into a scene: 
+You can write some very simple scripts and still do interesting things in Unity (so don't worry if you do not have much/any programming experience). For example, here's a simple script that spawns objects into a scene:
 
 ```csharp
 using System.Collections;
@@ -109,7 +109,7 @@ _Figure 2: Singleton_
 
 ### Observer
 
-The Observer pattern is an event-driven _Model-View-Controller_ (MVC) architecture that's as pervasive (if not more so) as the Singleton pattern. It lets one piece of code announce an event without caring who receives that event or what actions they take. That leads to software designs featuring [low coupling and high cohesion](https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/), which, in general, is considered a good thing. 
+The Observer pattern is an event-driven _Model-View-Controller_ (MVC) architecture that's as pervasive (if not more so) as the Singleton pattern. It lets one piece of code announce an event without caring who receives that event or what actions they take. That leads to software designs featuring [low coupling and high cohesion](https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/), which, in general, is considered a good thing.
 
 #### Scriptable Objects as Observers
 
