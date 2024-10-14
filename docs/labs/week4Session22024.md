@@ -180,6 +180,10 @@ However, [ScriptableObjects can do many more things](https://unity.com/blog/engi
 
 Add some scripting to your scene, perhaps by using a script to spawn some [prefab](https://docs.unity3d.com/Manual/Prefabs.html) particular to your game (however, you may have other ideas as to how scripting could enhance your project).
 
+## Lab Video
+
+[Scripting](https://youtu.be/1zthXhw36VM)
+
 ## Links
 
 - [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
