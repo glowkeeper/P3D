@@ -1,6 +1,6 @@
 # Forces
 
-This document describes the concept of a force and its relationship to acceleration. 
+This document describes the concept of a force and its relationship to acceleration.
 
 ## Acceleration
 
@@ -75,7 +75,6 @@ Newton's second law, F = ma, can express how the displacement of the bob changes
 A pendulum is similar to a spring as it is a body suspended by a thread fixed to a pivot point so that it can swing back and forth under the influence of gravity. Pendulums are used to regulate the movement of clocks because the period for each complete oscillation remains constant. This constancy property was first noted in c.1583 by the Italian scientist Galileo, who compared the movement of a swinging lamp in a Pisa cathedral with his pulse rate. However, The Dutch mathematician and scientist Christiaan Huygens (c. 1656) solved the essential problem of making the period of a pendulum truly constant.
 
 The period of a pendulum can be increased by using a longer thread. The formula for the period T of a pendulum is _T = 2π √(L/g)_, where L is the length of the pendulum and g is the acceleration due to gravity. The force responsible for the motion is always directed toward the equilibrium position and is directly proportional to the distance from it. That is, F = −kx, Hooke's law. Indeed, a pendulum is a specialised form of spring because it is a bob hanging from an anchor connected by a spring with a fully rigid connection that can be neither compressed nor extended.
-
 
 ## A Note on Time and Physics Engines
 

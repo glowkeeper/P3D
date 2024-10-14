@@ -6,3 +6,4 @@
 - [Week 2, Session 2](./week2Session22024.md)
 - [Week 3, Session 1](./week3Session12024.md)
 - [Week 3, Session 2](./week3Session22024.md)
+- [Week 4, Session 1](./week4Session12024.md)
