@@ -66,6 +66,10 @@ _Triggers_ function similarly to _colliders_. However, when _triggers_ interact 
 
 Add physical properties to GameObjects in your scene.
 
+## Lab Video
+
+[3D Physics](https://youtu.be/8WpegjTbV6Y)
+
 ## Links
 
 + [Physics](https://docs.unity3d.com/Manual/PhysicsSection.html)
