@@ -182,7 +182,8 @@ Add some scripting to your scene, perhaps by using a script to spawn some [prefa
 
 ## Lab Video
 
-[Scripting](https://youtu.be/1zthXhw36VM)
++ [Scripting](https://youtu.be/1zthXhw36VM)
++ [Bonus Extra - Unity Events via Scriptable Objects](https://youtu.be/aIN9eIFo_Ks)
 
 ## Links
 
