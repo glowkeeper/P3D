@@ -39,6 +39,8 @@ Since a _Rigidbody_ component is responsible for the movement of the _GameObject
 
 ### Kinematics
 
+Kinematics is the study of the motion of mechanical points, bodies and systems without consideration of their associated physical properties and the forces acting on them.
+
 When something is _Kinematic_ in Unity, the physics behaviour of its _RigidBody_ component is disabled, so it does not get affected by external forces; a _Kinematic RigidBody_ can still push another _RigidBody_, but it cannot be pushed.
 
 You will not be able to manipulate a _kinematic RigidBody_ by using _rigidbody.AddForce_ or _rigidbody.velocity_ in a script (we'll look at scripting later). The only 2 ways to move a _kinematic Rigidbody_ are:
