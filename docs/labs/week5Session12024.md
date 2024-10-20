@@ -19,6 +19,18 @@ Diegetic sound emanates directly from the action; hence, it's sometimes called '
 
 Non-diegetic sound is audio that does not emanate directly from the action; in other words, it's the type of sound characters in a game would not hear, but we players can. Audio designers use non-diegetic sound to create exaggerated effects that add to the drama.
 
+## Unity Audio
+
+Unity supports audio files in AIFF, WAV, MP3, and Ogg formats. To simulate positional 3D audio, Unity requires sounds to originate from _AudioSources_ attached to _GameObjects_. An _AudioListener_ (more often than not, the main player camera) then picks up the emitted sounds.
+
+### Mixer
+
+Unity's Audio Mixer allows you to master and apply effects to various audio sources.
+
+![Audio Mixer](../images/audioMixer.png)
+
+_Figure 2: Unity's Audio Mixer_
+
 ## Video
 
 Clever use of moving images can add a natural sparkle to the scenes you produce.
@@ -35,5 +47,6 @@ Add appropriate audio to your scene. And if you can find a suitable place to inc
 + [Audio Overview](https://docs.unity3d.com/Manual/AudioOverview.html)
 + [freesound](https://freesound.org/)
 + [Eight essential ways to use sound in video games](https://www.gamesindustry.biz/eight-ways-to-use-sound-in-video-games)
++ [Sound Effects 101: Ambient vs. Foley](https://lwks.com/blog/sound-effects-101-ambient-vs.-foley#:~:text=Understanding%20Sound%20Effects%20and%20Their%20Place%20in%20a%20Production&text=They%20set%20the%20scene%20and,or%20the%20rustling%20of%20clothing.)
 + [What is Non-diegetic Sound?](https://www.studiobinder.com/blog/what-is-non-diegetic-sound/)
 + [Tomb Raider Retrospective: Nathan McCree Interview](https://www.youtube.com/watch?v=AZOPXzgbw2s)
