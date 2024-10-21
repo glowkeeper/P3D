@@ -10,6 +10,10 @@ With Unity [animations](https://docs.unity3d.com/Manual/AnimationSection.html), 
 
 Animate something in your scene - perhaps some GameObject growing and then shrinking, or some other GameObject moving from one place to another - whatever makes sense in your scene.
 
+## Lab Video
+
+[Animations](https://youtu.be/wWF3URwAx_A)
+
 ## Links
 
 + [Unity Animations](https://docs.unity3d.com/Manual/AnimationSection.html)
