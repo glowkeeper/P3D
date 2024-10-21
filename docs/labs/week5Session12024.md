@@ -41,6 +41,10 @@ Unity uses a video player component to attach video files to game objects, which
 
 Add appropriate audio to your scene. And if you can find a suitable place to include some video, do that, too.
 
+## Lab Video
+
+[Multimedia](https://youtu.be/ski1dcvVeHM)
+
 ## Links
 
 + [Unity Audio](https://docs.unity3d.com/Manual/Audio.html)
