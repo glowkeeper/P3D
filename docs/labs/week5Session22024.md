@@ -12,7 +12,8 @@ Animate something in your scene - perhaps some GameObject growing and then shrin
 
 ## Lab Video
 
-[Animations](https://youtu.be/wWF3URwAx_A)
++ [Animations](https://youtu.be/wWF3URwAx_A)
++ [Bonus Extra - Character Rigging](https://youtu.be/IY0NIGsHq10)
 
 ## Links
 
