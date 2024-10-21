@@ -27,7 +27,7 @@ Unity supports audio files in AIFF, WAV, MP3, and Ogg formats. To simulate posit
 
 Unity's Audio Mixer allows you to master and apply effects to various audio sources.
 
-![Audio Mixer](../images/audioMixer.png)
+![Audio Mixer](images/audioMixer.png)
 
 _Figure 2: Unity's Audio Mixer_
 
