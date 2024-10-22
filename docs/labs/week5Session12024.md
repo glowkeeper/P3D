@@ -37,7 +37,7 @@ Clever use of moving images can add a natural sparkle to the scenes you produce.
 
 ### Render Textures
 
-A [render texture](https://docs.unity3d.com/Manual/render-texture-landing.html) is a type of [texture](https://docs.unity3d.com/Manual/Textures-landing.html) that Unity creates and updates at run time. You can use render textures for to stream the contents of cameras and show that content in-game.
+A [render texture](https://docs.unity3d.com/Manual/render-texture-landing.html) is a type of [texture](https://docs.unity3d.com/Manual/Textures-landing.html) that Unity creates and updates at run time. You can use render textures to stream the output of cameras that then behave like in-game video.
 
 ### Video Players
 
