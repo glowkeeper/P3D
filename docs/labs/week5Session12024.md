@@ -35,6 +35,12 @@ _Figure 2: Unity's Audio Mixer_
 
 Clever use of moving images can add a natural sparkle to the scenes you produce.
 
+### Render Textures
+
+A [render texture](https://docs.unity3d.com/Manual/render-texture-landing.html) is a type of [texture](https://docs.unity3d.com/Manual/Textures-landing.html) that Unity creates and updates at run time. You can use render textures for to stream the contents of cameras and show that content in-game.
+
+### Video Players
+
 Unity uses a video player component to attach video files to game objects, which it plays on the object's texture. The video player also has access to audio sources, which means it can leverage 3D sound capabilities, too.
 
 ## Exercise
