@@ -31,16 +31,16 @@ P3D has some dependencies.
 
 Links to P3D lab sessions will appear below.
 
-- [Week 1, Session 1](./docs/labs/week1Session12024.md) - Installing Unity and Integrating with GitHub
-- [Week 1, Session 2](./docs/labs/week1Session22024.md) - Creating a Game Design Document
-- [Week 2, Session 1](./docs/labs/week2Session12024.md) - Agile Project Management
-- [Week 2, session 2](./docs/labs/week2Session22024.md) - Modelling
-- [Week 3, Session 1](./docs/labs/week3Session12024.md) - Materials, Textures and Shaders
-- [Week 3, Session 2](./docs/labs/week3Session22024.md) - Lighting
-- [Week 4, Session 1](./docs/labs/week4Session12024.md) - 3D Physics
-- [Week 4, Session 2](./docs/labs/week4Session22024.md) - Scripting
-- [Week 5, Session 1](./docs/labs/week5Session12024.md) - Multimedia
-- [Week 5, Session 2](./docs/labs/week5Session22024.md) - Animations
+- [Week 1, Session 1 - Installing Unity and Integrating with GitHub](./docs/labs/week1Session12024.md)
+- [Week 1, Session 2 - Creating a Game Design Document](./docs/labs/week1Session22024.md)
+- [Week 2, Session 1 - Agile Project Management](./docs/labs/week2Session12024.md)
+- [Week 2, session 2 - Modelling](./docs/labs/week2Session22024.md)
+- [Week 3, Session 1 - Materials, Textures and Shaders](./docs/labs/week3Session12024.md)
+- [Week 3, Session 2 - Lighting](./docs/labs/week3Session22024.md)
+- [Week 4, Session 1 - 3D Physics](./docs/labs/week4Session12024.md)
+- [Week 4, Session 2 - Scripting](./docs/labs/week4Session22024.md)
+- [Week 5, Session 1 - Multimedia](./docs/labs/week5Session12024.md)
+- [Week 5, Session 2 - Animations](./docs/labs/week5Session22024.md)
 
 ## Assignment
 
