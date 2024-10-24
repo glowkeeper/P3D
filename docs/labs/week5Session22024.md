@@ -1,4 +1,4 @@
-# Animations
+# Week 5, Session 2 - Animations
 
 This session aims to get you to use [keyframe animations](https://en.wikipedia.org/wiki/Key_frame) in your scenes.
 
