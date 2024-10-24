@@ -67,9 +67,9 @@ In fact, P3D used to be much more theoretical (and far less practical). Some of 
 
 - [Advanced Ray Tracing](./docs/priorCourse/advancedRayTracing.pdf)
 - [Light and Colour Perception](./docs/priorCourse/lightAndColourPerception.pdf)
-- [Using 3D Space](./docs/priorCourse/using3DSpace.pdf).
+- [Using 3D Space](./docs/priorCourse/using3DSpace.pdf)
 
-Obviously, the material above lacks the context (the lectures supporting the material), but those resources remain useful.
+The material above lacks the context (the lectures), but those resources remain useful.
 
 ## Module Resources
 
