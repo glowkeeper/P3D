@@ -16,6 +16,10 @@ You can create particle systems in Unity in several ways; VFX graphs are the mos
 
 Create a particle system that makes sense for your scene - perhaps a smoking fire or boiling water.
 
+## Lab Video
+
+[VFX Particle Systems](https://youtu.be/Jz34UlfFuTI)
+
 ## Links
 
 + [VFX Graphs](https://unity.com/visual-effect-graph)
