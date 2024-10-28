@@ -31,6 +31,10 @@ Clever use of those Timeline tracks allows you to create great-looking cutscenes
 
 Create a cutscene in your game. Perhaps show the scene you've created or introduce some storyline using text (much like Star Wars).
 
+## Lab video
+
+[Cutscenes](https://youtu.be/2MLnibgCgCc)
+
 ## Links
 
 + [Cutscenes and Trailers with Timeline and Cinemachine](https://learn.unity.com/project/cutscenes-and-trailers-with-timeline-and-cinemachine)
