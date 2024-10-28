@@ -12,6 +12,19 @@ The most common cutscene form uses in-game graphics and animated sequences. Howe
 
 Cutscenes have a long history in computer games. The Sumerian Game is an early mainframe game from 1966 that introduced its gameplay setting using a slideshow and audio. Space Invaders, in 1979, introduced a comic-book-style intermission between levels. 1981's Donkey Kong was the first to use a cutscene that helped advance its storyline. 1983's Bega's Battle introduced animated FMV cutscenes with voice acting. And circa 1983, the games Bugaboo (The Flea) and Karateka helped take the cutscene concept out of the arcade and onto early home computers, such as the ZX Spectrum. Today, cutscenes are ubiquitous.
 
+## Unity Timeline
+
+Using keyframe animation techniques, you can deploy Unity's Timeline Editor to create feature-rich cutscenes containing complex cinematic gameplay sequences.  
+
+The cutscenes you create with the Timeline Editor have Timeline assets including an animator component that you instance via Scene _GameObjects_.
+
+The timeline has many different types of tracks, including:
+
++ _Activation tracks_ that control when to activate tracks on the timeline
++ _Animation tracks_ for animation clips
++ _Audio tracks for playing audio clips
++ _Cinamachine_ tracks for controlling Cinamachine cameras
+
 ## Exercise
 
 Create a cutscene in your game. Perhaps show the scene you've created or introduce some storyline using text (much like Star Wars).
