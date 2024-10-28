@@ -41,6 +41,7 @@ Links to P3D lab sessions will appear below.
 - [Week 4, Session 2 - Scripting](./docs/labs/week4Session22024.md)
 - [Week 5, Session 1 - Multimedia](./docs/labs/week5Session12024.md)
 - [Week 5, Session 2 - Animations](./docs/labs/week5Session22024.md)
+- [Week 6, Session 1 - Particle Systems with Visual Effects (VFX) Graphs](./week6Session12024.md)
 
 ## Assignment
 
