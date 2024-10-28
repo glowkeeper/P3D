@@ -25,6 +25,8 @@ The timeline has many different types of tracks, including:
 + _Audio tracks_ for playing audio clips
 + _Cinamachine_ tracks for controlling Cinamachine cameras
 
+Clever use of those Timeline tracks allows you to create great-looking cutscenes for your games.
+
 ## Exercise
 
 Create a cutscene in your game. Perhaps show the scene you've created or introduce some storyline using text (much like Star Wars).
