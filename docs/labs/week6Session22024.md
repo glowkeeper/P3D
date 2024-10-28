@@ -14,7 +14,7 @@ Cutscenes have a long history in computer games. The Sumerian Game is an early m
 
 ## Unity Timeline
 
-Using keyframe animation techniques, you can deploy Unity's Timeline Editor to create feature-rich cutscenes containing complex cinematic gameplay sequences.  
+Using keyframe animation techniques, you can use Unity's Timeline Editor to create feature-rich cutscenes containing complex cinematic gameplay sequences.  
 
 The cutscenes you create with the Timeline Editor have Timeline assets including an animator component that you instance via Scene _GameObjects_.
 
@@ -22,7 +22,7 @@ The timeline has many different types of tracks, including:
 
 + _Activation tracks_ that control when to activate tracks on the timeline
 + _Animation tracks_ for animation clips
-+ _Audio tracks for playing audio clips
++ _Audio tracks_ for playing audio clips
 + _Cinamachine_ tracks for controlling Cinamachine cameras
 
 ## Exercise
