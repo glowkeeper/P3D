@@ -1,6 +1,6 @@
 # Week 7, Session 2 - Creative Thinking
 
-This session aims to give you some tools to generate ideas.
+The goal of this lab is to give you some tools to generate ideas.
 
 ![Creative Thinking](./images/creativityThinking.jpg)
 
@@ -16,7 +16,7 @@ So, with all that in mind, are there creative tools that can help foster inspira
 
 ## Ideas for Creative Inspiration
 
-Your [Module Convenor](https://glowkeeper.github.io/) suggests the following:
+Your [Module Convenor](https://huckle.studio/) suggests the following:
 
 + Expand on prior work
 + Use AI creatively
