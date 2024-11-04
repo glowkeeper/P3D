@@ -40,6 +40,10 @@ Finally, for modelling properties (the third application), deep-learning AI syst
 
 Introduce some 'enemies' into your scene!
 
+## Lab Video
+
+[AI in Games](https://youtu.be/Ek_9yPepJoc)
+
 ## Links
 
 [How is AI Used in Video Games](https://youtu.be/j3LW5no-5Ao?feature=shared)

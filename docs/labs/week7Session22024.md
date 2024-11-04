@@ -14,6 +14,10 @@ In other words (and somewhat ironically), creative thinking does not necessarily
 
 So, with all that in mind, are there creative tools that can help foster inspiration? Below is a curated compendium of ideas; I hope they inspire _you_!
 
+## Lab Video
+
+[Creative Thinking](https://youtu.be/UNbuPPZgW6s)
+
 ## Ideas for Creative Inspiration
 
 Your [Module Convenor](https://huckle.studio/) suggests the following:
