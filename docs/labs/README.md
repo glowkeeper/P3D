@@ -13,4 +13,4 @@
 - [Week 6, Session 1 - Particle Systems with Visual Effects (VFX) Graphs](./week6Session12024.md)
 - [Week 6, Session 2 - Cutscenes](./week6Session22024.md)
 - [Week 7, Session 1 - Artifical Intelligence (AI) in Games](./week7Session12024.md)
-- [Week 7, Session 2](./week7Session22024.md)
+- [Week 7, Session 2 - Creatiuve Thinking](./week7Session22024.md)
