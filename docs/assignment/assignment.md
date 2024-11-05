@@ -55,7 +55,7 @@ Your report should document the work you have done. It should be between two and
 9. Future work. A short description of how your scene and game could progress beyond this coursework
 10. Appendices. Including, at the very minimum:
  A. Your GDD
- B. A link to your GitHub repository
+ B. A link to your source-code repository
  C. Your scripts
  D. References to any assets you used
  F. Report References

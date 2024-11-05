@@ -27,7 +27,7 @@ There are 100 marks available - 55 for the Unity scene, and 45 for the report.
 | Highlights | 5 | Shows where you went above and beyond the material taught in the labs. This section should include how you used that element in your scene, thus making it unique |
 | Summary | 4 | A thoughtful critique of your work |
 | Future Work | 4 | A considered section describing how your scene and game might progress beyond the coursework |
-| Appendices | 5 | Proper appendices containing a link to your GDD, your GitHub repo', your scripts, asset references and report references |
+| Appendices | 5 | Proper appendices containing a link to your GDD, your source code repo', your scripts, asset references and report references |
 
 ## General Marking Criteria
 

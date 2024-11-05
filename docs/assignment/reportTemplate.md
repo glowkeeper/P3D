@@ -46,7 +46,7 @@ Your GDD.
 
 ## Appendix B
 
-A link to your GitHub repository.
+A link to your source code repository.
 
 ## Appendix C
 
