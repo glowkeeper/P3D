@@ -44,7 +44,7 @@ Links to P3D lab sessions will appear below.
 - [Week 6, Session 1 - Particle Systems with Visual Effects (VFX) Graphs](./docs/labs/week6Session12024.md)
 - [Week 6, Session 2 - Cutscenes](./docs/labs/week6Session22024.md)
 - [Week 7, Session 1 - Artifical Intelligence (AI) in Games](./docs/labs/week7Session12024.md)
-- [Week 7, Session 2 - Creatiuve Thinking](./docs/labs/week7Session22024.md)
+- [Week 7, Session 2 - Creative Thinking](./docs/labs/week7Session22024.md)
 
 ## Assignment
 
