@@ -10,7 +10,7 @@ You must commit and push your final scene up to the _main_ branch of your GitHub
 
 You should submit, via [Canvas](https://canvas.sussex.ac.uk/courses/32069), a [video](#the-video) of between two and three minutes that showcases your game and a [report](#the-report) of between two and three thousand words that describe what you've done. Your video must include a cutscene that features the model you began in [week 2](../labs/week2Session22024.md).
 
-Please take note of the [marking criteria](../labs/markingCriteria.md) for the assignment.
+Please take note of the [marking criteria](./markingCriteria.md) for the assignment.
 
 ## The Assignment
 
@@ -45,7 +45,7 @@ Your video should be between two and three minutes long, and it should feature y
 Your report should document the work you have done. It should be between two and three thousand words, and ideally, it will include the following:
 
 1. An introduction that describes a storyline/narrative that sets the foundation for the scene you've created and the game your TPC plays. You should use your GDD as inspiration here
-2. A project planning section. That will include the Kanban boards you will create when employing the [Agile Project Management](../docs/week2Session12024.md) to deliver your coursework
+2. A project planning section. That will include the Kanban boards you will create when employing the [Agile Project Management](../labs/week2Session12024.md) to deliver your coursework
 3. A modelling section, which describes the structure you built, including any textures and lighting
 4. Some description of how you used 3D physics in your scene
 5. A snippet of a script you used in your game, alongside an explanation of that script and how it was used
@@ -60,4 +60,4 @@ Your report should document the work you have done. It should be between two and
  D. References to any assets you used
  F. Report References
 
-To get started, you can use the [report template](../labs/reportTemplate.md).
+To get started, you can use the [report template](./reportTemplate.md).
