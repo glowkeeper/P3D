@@ -48,7 +48,7 @@ Links to P3D lab sessions will appear below.
 
 ## Assignment
 
-A link to the P3D assignment will appear here.
+[Coursework Assignment](docs/assignment/assignment.md)
 
 ## Background Material
 
